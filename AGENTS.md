@@ -207,6 +207,38 @@ Think of it like a human reviewing their journal and updating their mental model
 
 The goal: Be helpful without being annoying. Check in a few times a day, do useful background work, but respect quiet time.
 
+## Context & Memory Management
+
+### Context Guards
+- **50% context**: Stop accepting multi-step tasks. Flush memory, commit git.
+- **70% context**: Actively compress — summarize and write to daily log, drop old tool results.
+- **85% context**: Request /new session. Do NOT keep working.
+
+### Daily Logs (memory/YYYY-MM-DD.md)
+- **Max 60 lines.** Standup format: What happened, decisions made, blockers.
+- No full email bodies, no raw research dumps, no repeated info from MEMORY.md.
+- If a topic needs detail, link to a separate file.
+
+### Sub-Agent Rules
+- **When to spawn:** Any task taking >30 seconds (research, email drafting, multi-step file ops).
+- **Always set:** `runTimeoutSeconds: 90`, explicit deliverable in task prompt.
+- **Task prompt must include:** "Do X. Output Y. Then stop." No open-ended exploration.
+- **Max 3 searches** per research sub-agent unless explicitly told otherwise.
+- **If sub-agent fails:** Do it yourself in main session. Don't retry with another sub-agent.
+- **Never block main session** waiting for sub-agent results.
+
+### 1-3-1 Problem Solving (Dan Martell)
+When presenting problems to Knut:
+1. **One** clear problem
+2. **Three** viable solutions considered
+3. **One** recommended action
+
+### Git Discipline
+- Commit after completing any meaningful work
+- `git commit -m "checkpoint: before X"` before risky operations
+- One logical change = one commit
+- Never commit secrets, node_modules, or transient state
+
 ## Make It Yours
 
 This is a starting point. Add your own conventions, style, and rules as you figure out what works.
