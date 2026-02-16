@@ -1,0 +1,997 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TakstHjem — Pitch Deck 2026 (Print)</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+:root {
+  --navy: #0B1D3A;
+  --navy-light: #132B52;
+  --navy-mid: #1A3A6B;
+  --white: #FFFFFF;
+  --off-white: #F0F2F5;
+  --accent: #00D4AA;
+  --accent-dim: rgba(0,212,170,0.15);
+  --accent-glow: rgba(0,212,170,0.3);
+  --coral: #FF6B6B;
+  --gold: #FFD93D;
+  --blue-light: #4EA8DE;
+  --text-muted: rgba(255,255,255,0.6);
+  --text-semi: rgba(255,255,255,0.85);
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: 'Inter', -apple-system, sans-serif;
+  background: var(--navy);
+  color: var(--white);
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Navigation */
+nav {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 1.2rem 3rem;
+  background: rgba(11,29,58,0.85);
+  backdrop-filter: blur(20px);
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+}
+.logo {
+  font-weight: 800; font-size: 1.3rem; letter-spacing: -0.5px;
+}
+.logo span { color: var(--accent); }
+.nav-dots {
+  display: flex; gap: 8px;
+}
+.nav-dot {
+  width: 10px; height: 10px; border-radius: 50%;
+  background: rgba(255,255,255,0.15);
+  cursor: pointer; transition: all 0.3s;
+  border: none; outline: none;
+}
+.nav-dot.active, .nav-dot:hover {
+  background: var(--accent);
+  box-shadow: 0 0 12px var(--accent-glow);
+}
+.slide-counter {
+  font-size: 0.8rem; color: var(--text-muted);
+  font-variant-numeric: tabular-nums;
+}
+
+/* Slides */
+.slide {
+  min-height: 100vh;
+  display: flex; align-items: center; justify-content: center;
+  padding: 6rem 3rem 4rem;
+  position: relative;
+  overflow: hidden;
+}
+.slide-inner {
+  max-width: 1100px; width: 100%; position: relative; z-index: 2;
+}
+
+/* Decorative elements */
+.slide::before {
+  content: '';
+  position: absolute; width: 600px; height: 600px;
+  border-radius: 50%;
+  background: radial-gradient(circle, var(--accent-dim) 0%, transparent 70%);
+  pointer-events: none; z-index: 0;
+}
+.slide:nth-child(odd)::before { top: -200px; right: -200px; }
+.slide:nth-child(even)::before { bottom: -200px; left: -200px; }
+
+.slide:nth-child(even) { background: var(--navy-light); }
+
+/* Typography */
+.tag {
+  display: inline-block;
+  font-size: 0.7rem; font-weight: 700;
+  letter-spacing: 3px; text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 1.2rem;
+  padding: 6px 14px;
+  background: var(--accent-dim);
+  border-radius: 100px;
+}
+h1 {
+  font-size: clamp(2.8rem, 5.5vw, 4.5rem);
+  font-weight: 900; line-height: 1.05;
+  letter-spacing: -2px;
+  margin-bottom: 1.5rem;
+}
+h2 {
+  font-size: clamp(2rem, 4vw, 3.2rem);
+  font-weight: 800; line-height: 1.1;
+  letter-spacing: -1.5px;
+  margin-bottom: 1.5rem;
+}
+h2 .highlight { color: var(--accent); }
+h3 {
+  font-size: 1.1rem; font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+p.lead {
+  font-size: 1.25rem; line-height: 1.7;
+  color: var(--text-semi); max-width: 600px;
+}
+p.sub {
+  font-size: 1rem; line-height: 1.7;
+  color: var(--text-muted);
+}
+
+/* Grid layouts */
+.grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: center; }
+.grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; }
+.grid-4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.5rem; }
+
+/* Cards */
+.card {
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 16px;
+  padding: 2rem;
+  transition: all 0.3s;
+}
+.card:hover {
+  background: rgba(255,255,255,0.07);
+  border-color: var(--accent-glow);
+  transform: translateY(-2px);
+}
+.card-icon {
+  width: 48px; height: 48px;
+  background: var(--accent-dim);
+  border-radius: 12px;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 1.4rem; margin-bottom: 1.2rem;
+}
+
+/* Stats */
+.stat { text-align: center; }
+.stat-value {
+  font-size: 3.5rem; font-weight: 900;
+  letter-spacing: -2px;
+  background: linear-gradient(135deg, var(--accent), var(--blue-light));
+  -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.stat-label {
+  font-size: 0.85rem; color: var(--text-muted);
+  margin-top: 0.3rem; font-weight: 500;
+}
+
+/* Chart styles */
+.bar-chart {
+  display: flex; align-items: flex-end; gap: 1rem;
+  height: 220px; padding-top: 1rem;
+}
+.bar-group { flex: 1; display: flex; flex-direction: column; align-items: center; gap: 0.5rem; height: 100%; justify-content: flex-end; }
+.bar {
+  width: 100%; border-radius: 8px 8px 4px 4px;
+  position: relative;
+  transition: all 0.5s;
+  min-height: 10px;
+}
+.bar-label {
+  font-size: 0.7rem; color: var(--text-muted);
+  text-align: center; font-weight: 600;
+}
+.bar-value {
+  font-size: 0.75rem; font-weight: 700;
+  text-align: center; margin-bottom: 4px;
+}
+
+/* Comparison table */
+.compare-table {
+  width: 100%; border-collapse: collapse;
+  font-size: 0.95rem;
+}
+.compare-table th {
+  padding: 1rem; text-align: left;
+  border-bottom: 2px solid rgba(255,255,255,0.1);
+  font-weight: 700; font-size: 0.85rem;
+  text-transform: uppercase; letter-spacing: 1px;
+  color: var(--text-muted);
+}
+.compare-table th:nth-child(3) { color: var(--accent); }
+.compare-table td {
+  padding: 1rem;
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+  color: var(--text-semi);
+}
+.compare-table tr:hover td { background: rgba(255,255,255,0.02); }
+.compare-table td:first-child { font-weight: 600; color: var(--white); }
+.check { color: var(--accent); font-weight: 700; }
+.cross { color: var(--coral); opacity: 0.7; }
+
+/* Team grid */
+.team-card {
+  text-align: center;
+}
+.team-avatar {
+  width: 100px; height: 100px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--navy-mid), var(--accent-dim));
+  margin: 0 auto 1rem;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 2rem; font-weight: 800;
+  border: 2px solid rgba(255,255,255,0.1);
+}
+.team-name { font-weight: 700; margin-bottom: 0.2rem; }
+.team-role { font-size: 0.85rem; color: var(--accent); font-weight: 500; }
+.team-bio { font-size: 0.8rem; color: var(--text-muted); margin-top: 0.5rem; line-height: 1.5; }
+
+/* CTA / Ask slide */
+.ask-box {
+  background: linear-gradient(135deg, var(--navy-mid), var(--navy-light));
+  border: 2px solid var(--accent);
+  border-radius: 20px;
+  padding: 3rem;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+.ask-box::after {
+  content: '';
+  position: absolute; inset: 0;
+  background: radial-gradient(ellipse at center, var(--accent-dim), transparent 70%);
+  pointer-events: none;
+}
+.ask-amount {
+  font-size: 4rem; font-weight: 900;
+  background: linear-gradient(135deg, var(--accent), var(--gold));
+  -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+  background-clip: text;
+  position: relative; z-index: 1;
+}
+
+/* Donut chart */
+.donut-wrap { display: flex; align-items: center; justify-content: center; gap: 2rem; }
+.donut {
+  width: 180px; height: 180px; position: relative;
+}
+.donut svg { transform: rotate(-90deg); }
+.donut-center {
+  position: absolute; inset: 0;
+  display: flex; flex-direction: column;
+  align-items: center; justify-content: center;
+  font-weight: 800; font-size: 1.8rem;
+}
+.donut-center small { font-size: 0.7rem; color: var(--text-muted); font-weight: 500; }
+.donut-legend { display: flex; flex-direction: column; gap: 0.8rem; }
+.legend-item { display: flex; align-items: center; gap: 0.6rem; font-size: 0.85rem; }
+.legend-dot { width: 12px; height: 12px; border-radius: 3px; }
+
+/* Timeline / Process */
+.process-steps {
+  display: flex; gap: 0; position: relative;
+}
+.process-step {
+  flex: 1; text-align: center; padding: 1.5rem 1rem;
+  position: relative;
+}
+.process-step::after {
+  content: '→'; position: absolute; right: -8px; top: 50%;
+  transform: translateY(-50%); color: var(--accent); font-size: 1.5rem; font-weight: 300;
+}
+.process-step:last-child::after { display: none; }
+.step-num {
+  width: 40px; height: 40px; border-radius: 50%;
+  background: var(--accent); color: var(--navy);
+  display: flex; align-items: center; justify-content: center;
+  font-weight: 800; font-size: 1rem;
+  margin: 0 auto 0.8rem;
+}
+.step-title { font-weight: 700; font-size: 0.9rem; margin-bottom: 0.3rem; }
+.step-desc { font-size: 0.78rem; color: var(--text-muted); line-height: 1.5; }
+
+/* Pill / badge */
+.pill {
+  display: inline-block; padding: 4px 12px;
+  background: var(--accent-dim); color: var(--accent);
+  border-radius: 100px; font-size: 0.75rem; font-weight: 700;
+}
+
+/* Animations */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.animate { opacity: 0; }
+.animate.visible {
+  animation: fadeUp 0.7s ease forwards;
+}
+.animate.visible:nth-child(2) { animation-delay: 0.1s; }
+.animate.visible:nth-child(3) { animation-delay: 0.2s; }
+.animate.visible:nth-child(4) { animation-delay: 0.3s; }
+
+/* Responsive */
+@media (max-width: 900px) {
+  .grid-2, .grid-3, .grid-4 { grid-template-columns: 1fr; }
+  .slide { padding: 5rem 1.5rem 3rem; }
+  nav { padding: 1rem 1.5rem; }
+  .process-steps { flex-direction: column; }
+  .process-step::after { display: none; }
+  .bar-chart { height: 160px; }
+}
+
+/* Keyboard nav hint */
+.key-hint {
+  position: fixed; bottom: 1.5rem; right: 1.5rem;
+  font-size: 0.7rem; color: var(--text-muted);
+  display: flex; align-items: center; gap: 0.5rem; z-index: 100;
+}
+.key { padding: 3px 8px; border: 1px solid rgba(255,255,255,0.15); border-radius: 4px; font-family: monospace; }
+
+/* === PRINT-FRIENDLY OVERRIDES (default + print) === */
+@page {
+  size: A4 landscape;
+  margin: 0;
+}
+
+nav,
+.nav-dots,
+.key-hint {
+  display: none !important;
+}
+
+.animate {
+  opacity: 1 !important;
+  animation: none !important;
+  transform: none !important;
+}
+
+body {
+  overflow: visible !important;
+  background: var(--navy) !important;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+.slide {
+  min-height: 0 !important;
+  height: 210mm;
+  max-height: 210mm;
+  width: 297mm;
+  max-width: 100%;
+  page-break-after: always;
+  page-break-inside: avoid;
+  break-after: page;
+  break-inside: avoid;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  padding: 10mm 15mm !important;
+  overflow: hidden;
+  position: relative;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+/* Force page break before slides 2-9 */
+.slide ~ .slide {
+  break-before: page;
+  page-break-before: always;
+}
+
+.slide:last-of-type {
+  page-break-after: auto;
+  break-after: auto;
+}
+
+.slide-inner {
+  transform: scale(0.72);
+  transform-origin: center center;
+  max-height: 190mm;
+  overflow: hidden;
+}
+
+.slide::before {
+  display: none !important;
+}
+
+.card:hover {
+  transform: none !important;
+}
+
+/* Reduce spacing for print */
+h1 { font-size: 2.8rem !important; margin-bottom: 1rem !important; }
+h2 { font-size: 2rem !important; margin-bottom: 1rem !important; }
+h3 { font-size: 0.95rem !important; }
+p.lead { font-size: 1rem !important; line-height: 1.5 !important; }
+p.sub { font-size: 0.8rem !important; line-height: 1.4 !important; }
+
+.grid-2 { gap: 1.5rem !important; }
+.grid-3 { gap: 1rem !important; }
+.grid-4 { gap: 1rem !important; }
+
+.card { padding: 1.2rem !important; border-radius: 12px !important; }
+.card-icon { width: 36px !important; height: 36px !important; margin-bottom: 0.8rem !important; }
+
+.stat-value { font-size: 2.5rem !important; }
+.stat-label { font-size: 0.75rem !important; }
+
+.bar-chart { height: 150px !important; }
+.donut { width: 140px !important; height: 140px !important; }
+.donut svg { width: 140px !important; height: 140px !important; }
+.donut-center { font-size: 1.4rem !important; }
+
+.compare-table { font-size: 0.78rem !important; }
+.compare-table th { padding: 0.5rem 0.6rem !important; font-size: 0.72rem !important; }
+.compare-table td { padding: 0.4rem 0.6rem !important; }
+
+.team-avatar { width: 70px !important; height: 70px !important; font-size: 1.5rem !important; }
+.team-bio { font-size: 0.7rem !important; }
+
+.ask-box { padding: 1.5rem !important; }
+.ask-amount { font-size: 3rem !important; }
+
+.process-step { padding: 1rem 0.8rem !important; }
+.step-num { width: 32px !important; height: 32px !important; font-size: 0.85rem !important; }
+.step-desc { font-size: 0.7rem !important; }
+
+@media print {
+  nav, .nav-dots, .key-hint { display: none !important; }
+  .animate { opacity: 1 !important; animation: none !important; transform: none !important; }
+  body { background: var(--navy) !important; }
+  .slide::before { display: none !important; }
+  .slide {
+    height: 100vh !important;
+    max-height: 100vh !important;
+    width: 100vw !important;
+    page-break-after: always;
+    break-after: page;
+    overflow: hidden !important;
+  }
+  .slide:last-of-type { page-break-after: auto; break-after: auto; }
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="logo">Takst<span>Hjem</span></div>
+  <div class="nav-dots" id="navDots"></div>
+  <div class="slide-counter" id="slideCounter">01 / 09</div>
+</nav>
+
+<!-- SLIDE 1: Title -->
+<section class="slide" data-slide="0">
+  <div class="slide-inner" style="text-align: center;">
+    <div class="tag animate">Pre-Seed · Q1 2026</div>
+    <h1 class="animate" style="max-width: 800px; margin: 0 auto 1.5rem;">
+      Norges første<br><span style="color: var(--accent);">digitale e-takst</span><br>for forbrukere
+    </h1>
+    <p class="lead animate" style="margin: 0 auto 2.5rem; text-align: center;">
+      Vi gjør sertifisert boligtakst tilgjengelig for alle — uten mellommann, uten ventetid, uten overpris.
+    </p>
+    <div class="animate" style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+      <div class="pill">🏠 E-Takst Online</div>
+      <div class="pill">⚡ Resultat på 24 timer</div>
+      <div class="pill">💰 Fra kr 2.490</div>
+    </div>
+  </div>
+</section>
+
+<!-- SLIDE 2: Problem -->
+<section class="slide" data-slide="1">
+  <div class="slide-inner">
+    <div class="grid-2">
+      <div>
+        <div class="tag animate">Problemet</div>
+        <h2 class="animate">Boligtakst er <span class="highlight">dyrt, tregt</span> og designet for bransjen — ikke deg</h2>
+        <p class="lead animate">
+          Norske boligeiere betaler 8.000–15.000 kr for en e-takst. Ventetiden er 1–3 uker. Hele prosessen er bygget for meglere og banker — ikke vanlige folk.
+        </p>
+        <p class="sub animate" style="margin-top: 1rem;">
+          Boligverdi.no tilbyr gratis estimater, men disse er <strong style="color: var(--coral);">ikke sertifiserte</strong> — de kan ikke brukes til refinansiering, skilsmisse, arv eller salg.
+        </p>
+      </div>
+      <div>
+        <div class="grid-2" style="gap: 1.2rem;">
+          <div class="card animate">
+            <div style="font-size: 2.5rem; margin-bottom: 0.5rem;">💸</div>
+            <h3>kr 12.000</h3>
+            <p class="sub">Gjennomsnittlig pris for e-takst i dag</p>
+          </div>
+          <div class="card animate">
+            <div style="font-size: 2.5rem; margin-bottom: 0.5rem;">⏳</div>
+            <h3>10–14 dager</h3>
+            <p class="sub">Typisk ventetid for takstrapport</p>
+          </div>
+          <div class="card animate">
+            <div style="font-size: 2.5rem; margin-bottom: 0.5rem;">🚫</div>
+            <h3>0 digitale</h3>
+            <p class="sub">Ingen heldigitale løsninger for forbrukere</p>
+          </div>
+          <div class="card animate">
+            <div style="font-size: 2.5rem; margin-bottom: 0.5rem;">😤</div>
+            <h3>B2B-fokus</h3>
+            <p class="sub">Bransjen ignorerer sluttbrukeren</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SLIDE 3: Solution -->
+<section class="slide" data-slide="2">
+  <div class="slide-inner" style="text-align: center;">
+    <div class="tag animate">Løsningen</div>
+    <h2 class="animate" style="max-width: 700px; margin: 0 auto 2rem;">Sertifisert e-takst.<br><span class="highlight">100% digitalt. Levert på 24 timer.</span></h2>
+    <p class="lead animate" style="margin: 0 auto 3rem; text-align: center;">
+      TakstHjem kombinerer AI-drevet verdivurdering med sertifiserte takstmenn som verifiserer digitalt — ingen fysisk befaring nødvendig for de fleste boliger.
+    </p>
+    <div class="process-steps animate" style="margin-top: 1rem;">
+      <div class="process-step">
+        <div class="step-num">1</div>
+        <div class="step-title">Last opp</div>
+        <div class="step-desc">Boligdata, bilder og dokumenter via appen</div>
+      </div>
+      <div class="process-step">
+        <div class="step-num">2</div>
+        <div class="step-title">AI-analyse</div>
+        <div class="step-desc">Vår modell beregner markedsverdi basert på 50+ variabler</div>
+      </div>
+      <div class="process-step">
+        <div class="step-num">3</div>
+        <div class="step-title">Takstmann</div>
+        <div class="step-desc">Sertifisert takstmann verifiserer og signerer digitalt</div>
+      </div>
+      <div class="process-step">
+        <div class="step-num">4</div>
+        <div class="step-title">E-takst klar</div>
+        <div class="step-desc">Gyldig, sertifisert rapport levert i appen innen 24t</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SLIDE 4: Market -->
+<section class="slide" data-slide="3">
+  <div class="slide-inner">
+    <div class="tag animate">Markedet</div>
+    <h2 class="animate">Et enormt marked som <span class="highlight">venter på disrupsjon</span></h2>
+    <div class="grid-4 animate" style="margin: 2.5rem 0;">
+      <div class="stat">
+        <div class="stat-value">2.7M</div>
+        <div class="stat-label">Boliger i Norge</div>
+      </div>
+      <div class="stat">
+        <div class="stat-value">98k</div>
+        <div class="stat-label">Transaksjoner/år</div>
+      </div>
+      <div class="stat">
+        <div class="stat-value">12mrd</div>
+        <div class="stat-label">NOK total takstmarked</div>
+      </div>
+      <div class="stat">
+        <div class="stat-value">~0</div>
+        <div class="stat-label">Digitale aktører i dag</div>
+      </div>
+    </div>
+    <div class="grid-2" style="margin-top: 2rem;">
+      <div class="card animate">
+        <h3 style="margin-bottom: 1.2rem;">Markedssegmenter</h3>
+        <div class="bar-chart">
+          <div class="bar-group">
+            <div class="bar-value">5.2mrd</div>
+            <div class="bar" style="height: 75%; background: linear-gradient(to top, var(--accent), var(--blue-light));"></div>
+            <div class="bar-label">Boligsalg</div>
+          </div>
+          <div class="bar-group">
+            <div class="bar-value">3.1mrd</div>
+            <div class="bar" style="height: 45%; background: linear-gradient(to top, var(--accent), var(--blue-light));"></div>
+            <div class="bar-label">Refinansiering</div>
+          </div>
+          <div class="bar-group">
+            <div class="bar-value">1.8mrd</div>
+            <div class="bar" style="height: 27%; background: linear-gradient(to top, var(--accent), var(--blue-light));"></div>
+            <div class="bar-label">Arv/skifte</div>
+          </div>
+          <div class="bar-group">
+            <div class="bar-value">1.1mrd</div>
+            <div class="bar" style="height: 16%; background: linear-gradient(to top, var(--accent), var(--blue-light));"></div>
+            <div class="bar-label">Forsikring</div>
+          </div>
+          <div class="bar-group">
+            <div class="bar-value">0.8mrd</div>
+            <div class="bar" style="height: 12%; background: linear-gradient(to top, var(--accent), var(--blue-light));"></div>
+            <div class="bar-label">Annet</div>
+          </div>
+        </div>
+      </div>
+      <div class="card animate">
+        <h3 style="margin-bottom: 1rem;">Vår ambisjon: 5-års plan</h3>
+        <div class="donut-wrap">
+          <div class="donut">
+            <svg width="180" height="180" viewBox="0 0 180 180">
+              <circle cx="90" cy="90" r="70" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="20"/>
+              <circle cx="90" cy="90" r="70" fill="none" stroke="var(--accent)" stroke-width="20"
+                stroke-dasharray="44 396" stroke-linecap="round"/>
+              <circle cx="90" cy="90" r="70" fill="none" stroke="var(--blue-light)" stroke-width="20"
+                stroke-dasharray="88 352" stroke-dashoffset="-44" stroke-linecap="round" opacity="0.5"/>
+            </svg>
+            <div class="donut-center">
+              10%
+              <small>Markedsandel</small>
+            </div>
+          </div>
+          <div class="donut-legend">
+            <div class="legend-item">
+              <div class="legend-dot" style="background: var(--accent);"></div>
+              År 5: 10% andel
+            </div>
+            <div class="legend-item">
+              <div class="legend-dot" style="background: var(--blue-light);"></div>
+              År 3: 5% andel
+            </div>
+            <div class="legend-item">
+              <div class="legend-dot" style="background: rgba(255,255,255,0.15);"></div>
+              Resterende marked
+            </div>
+          </div>
+        </div>
+        <p class="sub" style="margin-top: 1.2rem; font-size: 0.85rem;">
+          10% markedsandel = ca. 1,2 mrd NOK ARR innen 2031
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SLIDE 5: Product -->
+<section class="slide" data-slide="4">
+  <div class="slide-inner">
+    <div class="grid-2">
+      <div>
+        <div class="tag animate">Produktet</div>
+        <h2 class="animate">E-takst som en <span class="highlight">digital opplevelse</span></h2>
+        <p class="lead animate">
+          Ikke bare en PDF i innboksen. En komplett plattform for alt som handler om boligens verdi.
+        </p>
+        <div style="margin-top: 2rem; display: flex; flex-direction: column; gap: 1rem;" class="animate">
+          <div style="display: flex; align-items: flex-start; gap: 1rem;">
+            <span style="color: var(--accent); font-size: 1.2rem;">✦</span>
+            <div><strong>Digital e-takst</strong><br><span class="sub">Sertifisert rapport godkjent av banker og forsikringsselskaper</span></div>
+          </div>
+          <div style="display: flex; align-items: flex-start; gap: 1rem;">
+            <span style="color: var(--accent); font-size: 1.2rem;">✦</span>
+            <div><strong>Verdisporing</strong><br><span class="sub">Følg boligens verdiutvikling over tid med live oppdateringer</span></div>
+          </div>
+          <div style="display: flex; align-items: flex-start; gap: 1rem;">
+            <span style="color: var(--accent); font-size: 1.2rem;">✦</span>
+            <div><strong>Nabolagsanalyse</strong><br><span class="sub">Sammenlign med salg i nærområdet, pristrend og potensial</span></div>
+          </div>
+          <div style="display: flex; align-items: flex-start; gap: 1rem;">
+            <span style="color: var(--accent); font-size: 1.2rem;">✦</span>
+            <div><strong>Refinansierings-kalkulator</strong><br><span class="sub">Se hvor mye du kan spare med oppdatert takst</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="animate">
+        <!-- Mock product UI -->
+        <div style="background: var(--navy); border: 1px solid rgba(255,255,255,0.1); border-radius: 20px; padding: 2rem; position: relative;">
+          <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 1.5rem;">
+            <div>
+              <div style="font-size: 0.75rem; color: var(--text-muted);">Din bolig</div>
+              <div style="font-weight: 700;">Kirkegata 12, Oslo</div>
+            </div>
+            <div class="pill">E-takst klar ✓</div>
+          </div>
+          <div style="text-align: center; padding: 1.5rem 0;">
+            <div style="font-size: 0.8rem; color: var(--text-muted); margin-bottom: 0.3rem;">Sertifisert verdi</div>
+            <div style="font-size: 3rem; font-weight: 900; background: linear-gradient(135deg, var(--accent), var(--blue-light)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">
+              kr 6.450.000
+            </div>
+            <div style="color: var(--accent); font-size: 0.85rem; margin-top: 0.3rem;">↑ 4.2% siste 12 mnd</div>
+          </div>
+          <div style="display: flex; gap: 0.5rem; margin-top: 1rem;">
+            <div style="flex: 1; background: rgba(255,255,255,0.04); border-radius: 10px; padding: 0.8rem; text-align: center;">
+              <div style="font-size: 0.7rem; color: var(--text-muted);">Pris/m²</div>
+              <div style="font-weight: 700; font-size: 1.1rem;">kr 78.600</div>
+            </div>
+            <div style="flex: 1; background: rgba(255,255,255,0.04); border-radius: 10px; padding: 0.8rem; text-align: center;">
+              <div style="font-size: 0.7rem; color: var(--text-muted);">BRA</div>
+              <div style="font-weight: 700; font-size: 1.1rem;">82 m²</div>
+            </div>
+            <div style="flex: 1; background: rgba(255,255,255,0.04); border-radius: 10px; padding: 0.8rem; text-align: center;">
+              <div style="font-size: 0.7rem; color: var(--text-muted);">Byggeår</div>
+              <div style="font-weight: 700; font-size: 1.1rem;">1998</div>
+            </div>
+          </div>
+          <!-- Mini chart -->
+          <div style="margin-top: 1.2rem; padding: 1rem; background: rgba(255,255,255,0.03); border-radius: 10px;">
+            <div style="font-size: 0.75rem; color: var(--text-muted); margin-bottom: 0.8rem;">Verdiutvikling 12 mnd</div>
+            <svg width="100%" height="60" viewBox="0 0 300 60" preserveAspectRatio="none">
+              <polyline points="0,50 30,48 60,45 90,42 120,44 150,38 180,35 210,30 240,25 270,20 300,15"
+                fill="none" stroke="var(--accent)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <linearGradient id="g1" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="var(--accent)" stop-opacity="0.3"/>
+                <stop offset="100%" stop-color="var(--accent)" stop-opacity="0"/>
+              </linearGradient>
+              <polygon points="0,50 30,48 60,45 90,42 120,44 150,38 180,35 210,30 240,25 270,20 300,15 300,60 0,60"
+                fill="url(#g1)"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SLIDE 6: Business model -->
+<section class="slide" data-slide="5">
+  <div class="slide-inner">
+    <div class="tag animate">Forretningsmodell</div>
+    <h2 class="animate">To inntektsstrømmer. <span class="highlight">Høy margin.</span></h2>
+    <div class="grid-2" style="margin-top: 2rem;">
+      <div class="card animate" style="border-color: var(--accent-glow);">
+        <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 1.5rem;">
+          <div>
+            <div class="pill" style="margin-bottom: 0.5rem;">Hovedprodukt</div>
+            <h3 style="font-size: 1.3rem;">E-Takst per bestilling</h3>
+          </div>
+          <div style="font-size: 2.5rem;">📋</div>
+        </div>
+        <div style="font-size: 2.5rem; font-weight: 900; color: var(--accent); margin-bottom: 0.5rem;">kr 2.490 – 4.990</div>
+        <p class="sub">Sertifisert digital e-takst. Pris avhenger av boligtype og kompleksitet. 70% billigere enn tradisjonell takst.</p>
+        <div style="margin-top: 1.5rem; padding-top: 1rem; border-top: 1px solid rgba(255,255,255,0.08);">
+          <div style="display: flex; justify-content: space-between; font-size: 0.85rem; margin-bottom: 0.5rem;">
+            <span style="color: var(--text-muted);">Bruttomargin</span>
+            <span style="font-weight: 700; color: var(--accent);">~65%</span>
+          </div>
+          <div style="display: flex; justify-content: space-between; font-size: 0.85rem;">
+            <span style="color: var(--text-muted);">CAC tilbakebetaling</span>
+            <span style="font-weight: 700;">Umiddelbart</span>
+          </div>
+        </div>
+      </div>
+      <div class="card animate">
+        <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 1.5rem;">
+          <div>
+            <div class="pill">Abonnement</div>
+            <h3 style="font-size: 1.3rem;">TakstHjem+</h3>
+          </div>
+          <div style="font-size: 2.5rem;">🔄</div>
+        </div>
+        <div style="font-size: 2.5rem; font-weight: 900; color: var(--accent); margin-bottom: 0.5rem;">kr 99/mnd</div>
+        <p class="sub">Verdisporing, nabolagsdata, prisvarsler og 1 gratis mini-vurdering per år. Bygger recurring revenue.</p>
+        <div style="margin-top: 1.5rem; padding-top: 1rem; border-top: 1px solid rgba(255,255,255,0.08);">
+          <div style="display: flex; justify-content: space-between; font-size: 0.85rem; margin-bottom: 0.5rem;">
+            <span style="color: var(--text-muted);">Bruttomargin</span>
+            <span style="font-weight: 700; color: var(--accent);">~85%</span>
+          </div>
+          <div style="display: flex; justify-content: space-between; font-size: 0.85rem;">
+            <span style="color: var(--text-muted);">Target churn</span>
+            <span style="font-weight: 700;">&lt;5% / mnd</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Revenue projection -->
+    <div class="card animate" style="margin-top: 2rem;">
+      <h3 style="margin-bottom: 1.2rem;">Inntektsprognose (MNOK)</h3>
+      <div class="bar-chart" style="height: 160px;">
+        <div class="bar-group">
+          <div class="bar-value" style="color: var(--text-muted);">4</div>
+          <div class="bar" style="height: 8%; background: var(--accent);"></div>
+          <div class="bar-label">2026</div>
+        </div>
+        <div class="bar-group">
+          <div class="bar-value" style="color: var(--text-muted);">28</div>
+          <div class="bar" style="height: 20%; background: var(--accent);"></div>
+          <div class="bar-label">2027</div>
+        </div>
+        <div class="bar-group">
+          <div class="bar-value">95</div>
+          <div class="bar" style="height: 42%; background: linear-gradient(to top, var(--accent), var(--blue-light));"></div>
+          <div class="bar-label">2028</div>
+        </div>
+        <div class="bar-group">
+          <div class="bar-value">240</div>
+          <div class="bar" style="height: 68%; background: linear-gradient(to top, var(--accent), var(--blue-light));"></div>
+          <div class="bar-label">2029</div>
+        </div>
+        <div class="bar-group">
+          <div class="bar-value" style="color: var(--accent);">480</div>
+          <div class="bar" style="height: 95%; background: linear-gradient(to top, var(--accent), var(--gold));"></div>
+          <div class="bar-label">2030</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SLIDE 7: Competitive advantage -->
+<section class="slide" data-slide="6">
+  <div class="slide-inner">
+    <div class="tag animate">Konkurransefortrinn</div>
+    <h2 class="animate">TakstHjem vs. <span class="highlight">status quo</span></h2>
+    <div class="card animate" style="margin-top: 2rem; overflow-x: auto;">
+      <table class="compare-table">
+        <thead>
+          <tr>
+            <th></th>
+            <th>Tradisjonell takst</th>
+            <th>TakstHjem ⚡</th>
+            <th>Boligverdi.no</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Sertifisert e-takst</td>
+            <td><span class="check">✓</span></td>
+            <td><span class="check">✓</span></td>
+            <td><span class="cross">✗</span> Kun estimat</td>
+          </tr>
+          <tr>
+            <td>Pris</td>
+            <td>kr 8.000–15.000</td>
+            <td><strong style="color: var(--accent);">kr 2.490–4.990</strong></td>
+            <td>Gratis (estimat)</td>
+          </tr>
+          <tr>
+            <td>Leveringstid</td>
+            <td>1–3 uker</td>
+            <td><strong style="color: var(--accent);">24 timer</strong></td>
+            <td>Umiddelbart (estimat)</td>
+          </tr>
+          <tr>
+            <td>100% digitalt</td>
+            <td><span class="cross">✗</span></td>
+            <td><span class="check">✓</span></td>
+            <td><span class="check">✓</span></td>
+          </tr>
+          <tr>
+            <td>Godkjent av banker</td>
+            <td><span class="check">✓</span></td>
+            <td><span class="check">✓</span></td>
+            <td><span class="cross">✗</span></td>
+          </tr>
+          <tr>
+            <td>B2C-fokus</td>
+            <td><span class="cross">✗</span> Via megler</td>
+            <td><span class="check">✓</span> Direkte</td>
+            <td>Delvis (B2B-drevet)</td>
+          </tr>
+          <tr>
+            <td>Verdisporing</td>
+            <td><span class="cross">✗</span></td>
+            <td><span class="check">✓</span></td>
+            <td><span class="check">✓</span> Begrenset</td>
+          </tr>
+          <tr>
+            <td>Brukeropplevelse</td>
+            <td>📞 Telefon + befaring</td>
+            <td><strong style="color: var(--accent);">📱 App</strong></td>
+            <td>🌐 Nettside</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="grid-3 animate" style="margin-top: 2rem;">
+      <div class="card" style="text-align: center;">
+        <div style="font-size: 2rem; margin-bottom: 0.5rem;">🛡️</div>
+        <h3>Moat: Data</h3>
+        <p class="sub" style="font-size: 0.85rem;">Hver takst forbedrer AI-modellen. Nettverkseffekt over tid.</p>
+      </div>
+      <div class="card" style="text-align: center;">
+        <div style="font-size: 2rem; margin-bottom: 0.5rem;">🤝</div>
+        <h3>Moat: Takstmenn</h3>
+        <p class="sub" style="font-size: 0.85rem;">Eksklusivt nettverk av sertifiserte digitale takstmenn.</p>
+      </div>
+      <div class="card" style="text-align: center;">
+        <div style="font-size: 2rem; margin-bottom: 0.5rem;">❤️</div>
+        <h3>Moat: Merkevare</h3>
+        <p class="sub" style="font-size: 0.85rem;">Første consumer brand for boligtakst i Norden.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SLIDE 8: Team -->
+<section class="slide" data-slide="7">
+  <div class="slide-inner" style="text-align: center;">
+    <div class="tag animate">Teamet</div>
+    <h2 class="animate">Bygget av folk som <span class="highlight">kjenner bransjen</span></h2>
+    <div class="grid-4 animate" style="margin-top: 3rem;">
+      <div class="team-card">
+        <div class="team-avatar">👤</div>
+        <div class="team-name">[Navn]</div>
+        <div class="team-role">CEO / Grunnlegger</div>
+        <div class="team-bio">10+ år proptech. Tidl. [selskap]. Seriegründer.</div>
+      </div>
+      <div class="team-card">
+        <div class="team-avatar">👤</div>
+        <div class="team-name">[Navn]</div>
+        <div class="team-role">CTO</div>
+        <div class="team-bio">ML/AI-ekspert. Tidl. tech lead [selskap]. PhD maskinlæring.</div>
+      </div>
+      <div class="team-card">
+        <div class="team-avatar">👤</div>
+        <div class="team-name">[Navn]</div>
+        <div class="team-role">Head of Product</div>
+        <div class="team-bio">UX-design & fintech. Tidl. [selskap]. Bygget 0→1-produkter.</div>
+      </div>
+      <div class="team-card">
+        <div class="team-avatar">👤</div>
+        <div class="team-name">[Navn]</div>
+        <div class="team-role">Head of Valuation</div>
+        <div class="team-bio">Sertifisert takstmann. 15 år bransjeerfaring. NITO-medlem.</div>
+      </div>
+    </div>
+    <div class="card animate" style="margin-top: 2.5rem; display: inline-block; padding: 1.5rem 2.5rem;">
+      <p class="sub" style="font-size: 0.9rem;">
+        🎯 Rådgivere fra <strong style="color: var(--white);">Eiendom Norge</strong>, <strong style="color: var(--white);">DNB Eiendom</strong> og <strong style="color: var(--white);">NTNU</strong>
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- SLIDE 9: Ask -->
+<section class="slide" data-slide="8">
+  <div class="slide-inner" style="text-align: center;">
+    <div class="tag animate">Investeringsrunde</div>
+    <h2 class="animate" style="max-width: 700px; margin: 0 auto 2rem;">Vi søker partnere for å <span class="highlight">demokratisere boligtakst</span></h2>
+    <div class="ask-box animate" style="max-width: 600px; margin: 0 auto;">
+      <div style="position: relative; z-index: 1;">
+        <div style="font-size: 0.9rem; color: var(--text-muted); margin-bottom: 0.3rem;">Pre-seed runde</div>
+        <div class="ask-amount">MNOK 8</div>
+        <div style="font-size: 0.9rem; color: var(--text-semi); margin-top: 0.5rem;">Verdsettelse: MNOK 30 pre-money</div>
+      </div>
+    </div>
+    <div class="grid-3 animate" style="margin-top: 2.5rem; max-width: 800px; margin-left: auto; margin-right: auto;">
+      <div class="card" style="text-align: center;">
+        <div style="font-size: 1.8rem; font-weight: 800; color: var(--accent);">40%</div>
+        <p class="sub" style="font-size: 0.85rem; margin-top: 0.3rem;">Produktutvikling & AI</p>
+      </div>
+      <div class="card" style="text-align: center;">
+        <div style="font-size: 1.8rem; font-weight: 800; color: var(--accent);">35%</div>
+        <p class="sub" style="font-size: 0.85rem; margin-top: 0.3rem;">Go-to-market & vekst</p>
+      </div>
+      <div class="card" style="text-align: center;">
+        <div style="font-size: 1.8rem; font-weight: 800; color: var(--accent);">25%</div>
+        <p class="sub" style="font-size: 0.85rem; margin-top: 0.3rem;">Team & drift</p>
+      </div>
+    </div>
+    <div class="animate" style="margin-top: 2.5rem;">
+      <div class="grid-3" style="max-width: 700px; margin: 0 auto; gap: 1rem;">
+        <div style="text-align: center;">
+          <div style="font-weight: 700;">📅 Q2 2026</div>
+          <div class="sub" style="font-size: 0.8rem;">Beta-lansering Oslo</div>
+        </div>
+        <div style="text-align: center;">
+          <div style="font-weight: 700;">📅 Q4 2026</div>
+          <div class="sub" style="font-size: 0.8rem;">Full lansering Norge</div>
+        </div>
+        <div style="text-align: center;">
+          <div style="font-weight: 700;">📅 Q2 2027</div>
+          <div class="sub" style="font-size: 0.8rem;">Sverige & Danmark</div>
+        </div>
+      </div>
+    </div>
+    <div class="animate" style="margin-top: 3rem;">
+      <p style="font-size: 1.3rem; font-weight: 600; color: var(--text-semi);">
+        La oss snakke. <span style="color: var(--accent);">hei@taksthjem.no</span>
+      </p>
+    </div>
+  </div>
+</section>
+
+<div class="key-hint">
+  <span class="key">↑</span><span class="key">↓</span> eller scroll for å navigere
+</div>
+
+<!-- JS removed for print version -->
+</body>
+</html>

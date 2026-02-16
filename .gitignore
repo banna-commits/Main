@@ -1,0 +1,10 @@
+# Secrets
+*.key
+*.crt
+
+# Transient
+memory/heartbeat-state.json
+
+# Node
+node_modules/
+.expo/

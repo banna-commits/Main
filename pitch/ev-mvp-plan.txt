@@ -1,0 +1,101 @@
+Hi Andre,
+
+Thanks for the conversation about TakstHjem. I've been thinking about how to approach this realistically — given that everyone's working full-time with no funding. Here's a concrete, step-by-step plan to go from zero to revenue with minimal risk.
+
+The core idea: don't build anything until you've proven people will pay.
+
+
+## PHASE 0: VALIDATE DEMAND (Week 1-2 | Cost: ~1,500 NOK)
+
+Before writing a single line of code, answer one question: will homeowners pay 990 NOK for a digital property valuation?
+
+- Set up a landing page on Carrd.co (199 NOK/yr) with a clear value prop: "Få en digital verdivurdering av boligen din på 24 timer — fra 990 kr"
+- Add an email signup / waitlist form
+- Register a domain (takstHjem.no or similar, ~200 NOK/yr)
+- Run a small Facebook/Instagram ad campaign targeting homeowners in ONE city — Bergen or Stavanger are good candidates. Budget: 500-1,000 NOK
+- Target: 50+ email signups in 2 weeks
+
+If you get 50+ signups, you have signal. If you get 10, rethink the positioning. If you get 0, you just saved yourself months of wasted evenings. Total cost to find out: ~1,500 NOK.
+
+
+## PHASE 1: CONCIERGE MVP (Month 1-2 | Cost: ~5,000 NOK)
+
+Now you have interested people. Serve them — manually. No tech, no app, no automation.
+
+How it works:
+- Customer fills out a Google Form or Typeform (free tier) with property details + photos
+- Payment via Vipps business (free to set up) or Stripe — charge 990 NOK upfront
+- Behind the scenes, YOU do the valuation manually using free data sources:
+  - Kartverket (Eiendomsregisteret — grunnbok + matrikkel data)
+  - FINN.no for comparable sales in the area (manual search)
+  - SSB area statistics and price indices
+  - Your own analysis and judgment
+- Deliver a professional-looking PDF report (create a template in Canva or Google Docs)
+- Target delivery within 24 hours
+
+Goal: 10-20 paying customers. This teaches you:
+- What customers actually care about in the report
+- Which data sources matter most
+- How long each valuation takes (your unit economics)
+- What questions/complaints come up
+
+This is the most important phase. Every minute spent here saves you 10 hours of building the wrong thing later.
+
+
+## PHASE 2: SEMI-AUTOMATED (Month 3-6 | Cost: ~15,000-20,000 NOK)
+
+Once you've done 20+ manual valuations and understand the workflow, start automating the painful parts.
+
+- Build a simple web app (Next.js on Vercel — free hosting)
+- Integrate free APIs: Kartverket API for property data, SSB for statistics
+- Scrape or integrate FINN comparable sales data
+- Auto-generate a basic report draft, then human review before delivery
+- Add Vipps checkout for seamless payment
+- Start basic SEO + Google Ads targeting "verdivurdering bolig", "boligverdi", "hva er boligen min verdt"
+
+Goal: 50+ customers/month with proven unit economics. At 990 NOK × 50 = ~50,000 NOK/month revenue, you have a real business.
+
+
+## PHASE 3: SCALE (Month 6-12)
+
+Only if Phase 2 proves the economics:
+- Partner with certified takstmenn to offer official e-takst
+- Build an AVM (Automated Valuation Model) from your accumulated data
+- Consider pre-seed funding — with real revenue and traction, fundraising is 10x easier
+- Mobile app if demand justifies it
+
+
+## KEY PRINCIPLES
+
+- Don't build tech until you've validated with manual work — code is expensive, forms are free
+- Charge from day 1 — if people won't pay 990 NOK, the business doesn't work, and you need to know that NOW
+- One city first — nail Bergen before thinking about Oslo
+- Evenings and weekends — this plan is designed for full-time employed founders doing 5-10 hrs/week
+- Revenue before funding — investors love traction, not slide decks
+
+
+## BUDGET SUMMARY
+
+| Phase | Cost | Timeline |
+|-------|------|----------|
+| Validate (landing page + ads) | ~1,500 NOK | Week 1-2 |
+| Concierge MVP (manual service) | ~5,000 NOK | Month 1-2 |
+| Semi-automated platform | ~15,000-20,000 NOK | Month 3-6 |
+| Scale | Revenue-funded | Month 6-12 |
+
+Total to go from idea to first paying customer: under 5,000 NOK.
+
+
+## NEXT STEPS
+
+1. Pick a city (I'd suggest Bergen — good size, tech-savvy, not Oslo-competitive)
+2. Set up the landing page this weekend
+3. Launch a 1,000 NOK ad test next week
+4. See what happens
+
+This is 100% doable as a side project. Airbnb started with air mattresses and a website. Zappos started by buying shoes at the store and shipping them manually. The pattern is always the same: prove demand with manual work, then automate what works.
+
+I'm happy to help with the landing page setup and the technical architecture when you get to Phase 2. Let's jump on a call if you want to hash out the details.
+
+Best,
+Knut

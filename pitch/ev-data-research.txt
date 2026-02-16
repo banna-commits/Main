@@ -1,0 +1,85 @@
+Hi Andre,
+
+Following up on your questions about Eiendomsverdi's data supply chain — I've done a thorough deep dive into where they source their data, who owns it, and what they pay for. Here's what I've found.
+
+
+## 1. WHERE DOES EIENDOMSVERDI GET THEIR DATA?
+
+Their data pipeline draws from seven distinct source categories, spanning government registries, industry partnerships, commercial providers, and their own proprietary accumulation over 30+ years.
+
+### Government & Public Registries
+
+**Kartverket (Norwegian Mapping Authority)** is the foundational layer. They operate two critical systems: Matrikkelen (the official property cadastre — boundaries, addresses, building information, land use) and Grunnboka (the land registry — ownership records, mortgages, easements). This data is publicly accessible through Eiendomsregisteret, though bulk and API access requires formal agreements.
+
+**SSB (Statistics Norway)** provides the macroeconomic and demographic context — population data, income levels, construction permits, housing stock statistics, and regional economic indicators. All publicly available.
+
+**Energy Performance Certificates (Energimerking)** from Enova/NVE provide energy ratings for buildings, which Eiendomsverdi uses in their newer "green building" and PCAF compliance framework.
+
+### Industry Partnerships (The Crown Jewel)
+
+**Eiendom Norge (Real Estate Norway)** — this is arguably their most strategically important data relationship. Eiendomsverdi holds "fagansvar" (technical responsibility) for producing Norway's official housing price statistics, published under the Eiendom Norge banner. This role gives them direct, privileged access to transaction data from all member real estate agencies across the country — actual sale prices, transaction dates, and detailed property attributes. This is not data you can simply buy on the open market. They earned this position by being the trusted statistical engine, and it creates a powerful feedback loop: they produce the statistics, which gives them access to the data, which makes their models better, which reinforces their position as the official producer.
+
+**FINN.no** is cited alongside Eiendom Norge and Eiendomsverdi as a co-source for housing statistics. FINN (owned by Schibsted) is Norway's dominant property marketplace, and Eiendomsverdi almost certainly receives listing data from them — asking prices, property descriptions, time on market, and potentially listing photos. This is likely a commercial arrangement.
+
+### Municipal & Aggregated Data
+
+**Ambita (formerly Norsk Eiendomsinformasjon)** operates Infoland, Norway's largest portal for property information aggregated from all 356 municipalities. Through Ambita, Eiendomsverdi can access building permits, zoning data, municipal regulations, and tinglysing (registration) records. Ambita is a commercial company, so this is paid access.
+
+**Municipalities directly** also provide building permits, zoning plans, and local property condition data — either accessed through Ambita or through direct municipal channels.
+
+### Proprietary Data (Their Moat)
+
+Finally, and critically: **Eiendomsverdi's own accumulated dataset spanning 30+ years.** This includes their proprietary Automated Valuation Models (AVMs), historical transaction databases they've structured and enriched over decades, derived analytics, price indices, and neighbourhood-level insights. This accumulated, curated dataset — not raw data, but structured intelligence — is their true competitive moat.
+
+
+## 2. WHO OWNS THE DATA THEY USE?
+
+The ownership breaks down into three tiers:
+
+**Government-owned (public data):** Kartverket owns Matrikkelen and Grunnboka on behalf of the state. SSB data is government-owned. Energy certificates are a government programme. Municipal data belongs to the municipalities. All of this is, in principle, accessible to anyone.
+
+**Industry-owned (privileged access):** The transaction data flowing through Eiendom Norge is technically owned by the member real estate agencies who report it. Eiendom Norge aggregates it, and Eiendomsverdi processes it under their official statistics mandate. FINN listing data is owned by Schibsted/FINN.
+
+**Eiendomsverdi-owned (proprietary):** Their 30-year accumulated database, AVM algorithms, derived analytics, price indices, and PCAF classifications. This is entirely theirs.
+
+
+## 3. WHO PROVIDES THEM WITH DETAILED INFORMATION?
+
+The key providers, in order of strategic importance:
+
+1. **Eiendom Norge's member agencies** — transaction-level data (privileged partnership)
+2. **Kartverket** — property registry and cadastre data (government)
+3. **FINN.no** — listing and marketplace data (commercial)
+4. **Ambita** — municipal aggregated data (commercial)
+5. **SSB** — demographic and economic statistics (public)
+6. **Municipalities** — permits, zoning, local data (public/semi-public)
+7. **Enova/NVE** — energy performance data (public)
+
+
+## 4. IS ANY OF THE DATA PAID FOR?
+
+Yes, but it's a mix:
+
+- **Government data (Kartverket, SSB):** Basic access is free or low-cost, but bulk access and API integrations with Kartverket require paid agreements. SSB is free.
+- **FINN data:** Almost certainly paid. Schibsted is a commercial company and doesn't provide data access for free. This is likely a significant commercial contract.
+- **Eiendom Norge data:** Likely a reciprocal arrangement rather than a straight cash payment. Eiendomsverdi produces the official statistics (providing value to the industry) in exchange for privileged data access. A barter of services for data.
+- **Ambita/municipal data:** Paid. Ambita is a commercial entity and charges for access to their aggregated municipal data through Infoland.
+- **Their own data:** Self-generated over 30+ years. The cost here is the decades of investment in collection, structuring, and model development — their largest sunk cost and biggest asset.
+
+
+## WHAT THIS MEANS FOR US
+
+This analysis strengthens our positioning significantly. Here's why:
+
+The foundational data layer — government registries, public statistics, energy data — is accessible to anyone willing to build the integrations. There is no lock on that door.
+
+The FINN data is commercially available if we're prepared to pay for it. It's not exclusive to Eiendomsverdi.
+
+The Eiendom Norge relationship is the hardest piece to replicate — but it's also not unassailable. It's an institutional relationship, not a legal monopoly.
+
+And here's the critical insight: **consumer-contributed data** — interior photos, renovation history, actual property condition, owner-reported upgrades — is a data category Eiendomsverdi fundamentally lacks. Their models estimate from the outside in. TakstHjem can build from the inside out. That's a genuinely new data source in this market, and it's one we can own.
+
+I'd love to discuss this further and map out how we leverage these insights in our go-to-market strategy. Let me know when works for a call.
+
+Best,
+Knut
