@@ -1,0 +1,225 @@
+{
+  "lastUpdated": "2026-02-20T21:57:00+01:00",
+  "columns": [
+    "backlog",
+    "in-progress",
+    "blocked",
+    "done"
+  ],
+  "tasks": [
+    {
+      "id": "t1",
+      "title": "WWI.OL deep-dive analysis",
+      "description": "Wallenius Wilhelmsen — PE 5.1, ROE 22.5%, 52% margin. Shipping/logistics physical moat.",
+      "status": "backlog",
+      "assignee": "anna",
+      "priority": "high",
+      "tags": [
+        "investing"
+      ],
+      "created": "2026-02-18"
+    },
+    {
+      "id": "t2",
+      "title": "yf CLI: finish trends command",
+      "description": "Historical financials view — revenue, margins, EPS over ~4 years via yfinance .financials/.balance_sheet/.cashflow",
+      "status": "in-progress",
+      "assignee": "anna",
+      "priority": "medium",
+      "tags": [
+        "tooling"
+      ],
+      "created": "2026-02-18"
+    },
+    {
+      "id": "t3",
+      "title": "Analyze more screener hits",
+      "description": "DNB, Yara, Evolution, Pandora — write investment notes for promising candidates",
+      "status": "backlog",
+      "assignee": "anna",
+      "priority": "medium",
+      "tags": [
+        "investing"
+      ],
+      "created": "2026-02-18"
+    },
+    {
+      "id": "t4",
+      "title": "Google Workspace domain setup",
+      "description": "bottenanna.no + banna@bottenanna.no on Google Workspace Business Standard",
+      "status": "done",
+      "assignee": "knut",
+      "priority": "medium",
+      "tags": [
+        "infra"
+      ],
+      "created": "2026-02-18",
+      "completed": "2026-02-20"
+    },
+    {
+      "id": "t5",
+      "title": "sudo pmset autorestart + powernap",
+      "description": "Run: sudo pmset -a autorestart 1 powernap 0",
+      "status": "blocked",
+      "assignee": "knut",
+      "priority": "low",
+      "tags": [
+        "infra"
+      ],
+      "blockedReason": "Needs sudo in Terminal"
+    },
+    {
+      "id": "t6",
+      "title": "TakstHjem: wait for Dag/Andre response",
+      "description": "Minimum viable moat discussion — awaiting reply on devil's advocate critique",
+      "status": "blocked",
+      "assignee": "knut",
+      "priority": "high",
+      "tags": [
+        "taksthjem"
+      ],
+      "blockedReason": "Waiting on email reply"
+    },
+    {
+      "id": "t7",
+      "title": "Screener: US market support",
+      "description": "Add 101 US stocks to screener with --market us and --market all",
+      "status": "done",
+      "assignee": "anna",
+      "priority": "medium",
+      "tags": [
+        "tooling"
+      ],
+      "created": "2026-02-18",
+      "completed": "2026-02-18"
+    },
+    {
+      "id": "t8",
+      "title": "Finnhub insider data integration",
+      "description": "Added insider, sentiment, holders commands to yf CLI. Free tier = US only.",
+      "status": "done",
+      "assignee": "anna",
+      "priority": "medium",
+      "tags": [
+        "tooling"
+      ],
+      "created": "2026-02-18",
+      "completed": "2026-02-18"
+    },
+    {
+      "id": "t9",
+      "title": "Eloise Lavvo calendar events",
+      "description": "58 all-day events for Midi weeks (minus holidays) in AutoCalendar",
+      "status": "done",
+      "assignee": "anna",
+      "priority": "high",
+      "tags": [
+        "calendar"
+      ],
+      "created": "2026-02-18",
+      "completed": "2026-02-18"
+    },
+    {
+      "id": "t10",
+      "title": "Full Disk Access for OpenClaw",
+      "description": "Granted FDA to /usr/local/bin/openclaw — no more permission popups",
+      "status": "done",
+      "assignee": "knut",
+      "priority": "high",
+      "tags": [
+        "infra"
+      ],
+      "created": "2026-02-18",
+      "completed": "2026-02-18"
+    },
+    {
+      "id": "t12",
+      "title": "Move age secret key to password manager",
+      "description": "Secret key is in ~/citadel-backups/key.txt (plaintext). Move to 1Password/Bitwarden, then delete key.txt. Public key is baked into backup script — leave that.",
+      "status": "backlog",
+      "assignee": "knut",
+      "priority": "high",
+      "tags": [
+        "infra",
+        "security"
+      ],
+      "created": "2026-02-19"
+    },
+    {
+      "id": "t13",
+      "title": "Google Chat: download SA JSON key",
+      "description": "GCP → Service Accounts → New JSON key → save as ~/.openclaw/googlechat-sa.json. Then ping Anna to finish config.",
+      "status": "done",
+      "assignee": "knut",
+      "priority": "medium",
+      "tags": [
+        "infra"
+      ],
+      "created": "2026-02-20",
+      "completed": "2026-02-20"
+    },
+    {
+      "id": "t14",
+      "title": "Install Claude Code",
+      "description": "Terminal: sudo npm install -g @anthropic-ai/claude-code",
+      "status": "done",
+      "assignee": "knut",
+      "priority": "medium",
+      "tags": [
+        "tooling"
+      ],
+      "created": "2026-02-20",
+      "completed": "2026-02-20"
+    },
+    {
+      "id": "t11",
+      "title": "Facilities mgmt sector analysis",
+      "description": "Coor.ST, ISS.CO — low-margin FM companies, AI cost-cut candidates",
+      "status": "backlog",
+      "assignee": "anna",
+      "priority": "medium",
+      "tags": [
+        "investing"
+      ],
+      "created": "2026-02-18"
+    },
+    {
+      "id": "t15",
+      "title": "gog auth for banna@bottenanna.no",
+      "description": "Terminal: gog auth add banna@bottenanna.no --services gmail,calendar,drive,contacts,docs,sheets\nÅpner browser for OAuth-samtykke. Ping Anna etterpå.",
+      "status": "done",
+      "assignee": "knut",
+      "priority": "medium",
+      "tags": [
+        "infra"
+      ],
+      "created": "2026-02-20",
+      "completed": "2026-02-20"
+    },
+    {
+      "id": "t16",
+      "title": "1881 API: hent API-nøkkel",
+      "description": "Logg inn på api1881.no (banna@bottenanna.no), hent API-nøkkel fra profil/produkter. Gi nøkkel til Anna for å berike ringelisten.",
+      "status": "blocked",
+      "assignee": "knut",
+      "priority": "medium",
+      "tags": [
+        "infra"
+      ],
+      "blockedReason": "Trenger passord-reset + login på api1881.no",
+      "created": "2026-02-20"
+    },
+    {
+      "id": "t17",
+      "title": "Workspace: vurder ekstra bruker for knutgreiner",
+      "description": "Alternativ A: Legg til knut@bottenanna.no i Workspace (admin.google.com → Directory → Users → Add). Koster ekstra lisens ~$12/mnd.\nAlternativ B: Bare bruk banna@bottenanna.no i en annen browser-profil.",
+      "status": "backlog",
+      "assignee": "knut",
+      "priority": "low",
+      "tags": [
+        "infra"
+      ],
+      "created": "2026-02-20"
+    }
+  ]
+}

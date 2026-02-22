@@ -1,0 +1,76 @@
+{
+  "lastUpdated": "2026-02-18T21:30:00+01:00",
+  "jobs": [
+    {
+      "id": "morning-briefing",
+      "name": "Morning Briefing",
+      "schedule": "08:00 daily",
+      "cron": "0 8 * * *",
+      "assignee": "anna",
+      "model": "opus",
+      "status": "ok",
+      "description": "Email, calendar, weather, TakstHjem, MACD scan (15 assets), Crypto Pulse. Delivered to Telegram.",
+      "lastRun": "2026-02-18T08:00:00+01:00",
+      "nextRun": "2026-02-19T08:00:00+01:00"
+    },
+    {
+      "id": "email-calendar-check",
+      "name": "Email & Calendar Check",
+      "schedule": "08:00, 12:00, 16:00, 20:00 daily",
+      "cron": "0 8,12,16,20 * * *",
+      "assignee": "anna",
+      "model": "sonnet",
+      "status": "ok",
+      "description": "Quick check for unread emails and upcoming events. Alerts only if something needs attention.",
+      "lastRun": "2026-02-18T20:00:00+01:00",
+      "nextRun": "2026-02-19T08:00:00+01:00"
+    },
+    {
+      "id": "log-rotation",
+      "name": "Log Rotation",
+      "schedule": "04:00 daily",
+      "cron": "0 4 * * *",
+      "assignee": "anna",
+      "status": "ok",
+      "description": "Rotates logs >500KB, gzips old ones, keeps 7 days.",
+      "lastRun": "2026-02-18T04:00:00+01:00",
+      "nextRun": "2026-02-19T04:00:00+01:00"
+    },
+    {
+      "id": "crypto-macd-monitor",
+      "name": "Crypto MACD Monitor",
+      "schedule": "09:00, 17:00 daily",
+      "cron": "0 9,17 * * *",
+      "assignee": "anna",
+      "model": "sonnet",
+      "status": "ok",
+      "description": "Monitors ZEC, BTC, NYM, ATOM, COTI, XMR for bullish MACD crossover. Only alerts on crossover/convergence.",
+      "lastRun": null,
+      "nextRun": "2026-02-19T09:00:00+01:00"
+    },
+    {
+      "id": "stock-macd-monitor",
+      "name": "Stock MACD Monitor",
+      "schedule": "09:30, 17:30 weekdays",
+      "cron": "30 9,17 * * 1-5",
+      "assignee": "anna",
+      "model": "sonnet",
+      "status": "ok",
+      "description": "Monitors Novo, Sampo, Betsson, Hilbert, OKEA, Evolution, IDEX, URNM, Vend for MACD crossover.",
+      "lastRun": null,
+      "nextRun": "2026-02-19T09:30:00+01:00"
+    }
+  ],
+  "upcoming": [
+    { "date": "2026-02-19", "time": "04:00", "name": "Log Rotation", "type": "cron" },
+    { "date": "2026-02-19", "time": "08:00", "name": "Morning Briefing", "type": "cron" },
+    { "date": "2026-02-19", "time": "08:00", "name": "Email & Calendar Check", "type": "cron" },
+    { "date": "2026-02-19", "time": "09:00", "name": "Crypto MACD Monitor", "type": "cron" },
+    { "date": "2026-02-19", "time": "09:30", "name": "Stock MACD Monitor", "type": "cron" },
+    { "date": "2026-02-19", "time": "12:00", "name": "Email & Calendar Check", "type": "cron" },
+    { "date": "2026-02-19", "time": "16:00", "name": "Email & Calendar Check", "type": "cron" },
+    { "date": "2026-02-19", "time": "17:00", "name": "Crypto MACD Monitor", "type": "cron" },
+    { "date": "2026-02-19", "time": "17:30", "name": "Stock MACD Monitor", "type": "cron" },
+    { "date": "2026-02-19", "time": "20:00", "name": "Email & Calendar Check", "type": "cron" }
+  ]
+}

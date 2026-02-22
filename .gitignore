@@ -8,3 +8,6 @@ memory/heartbeat-state.json
 # Node
 node_modules/
 .expo/
+*.png
+.mc-token
+.openclaw/

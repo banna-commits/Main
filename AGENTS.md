@@ -23,8 +23,18 @@ You wake up fresh each session. These files are your continuity:
 
 - **Daily notes:** `memory/YYYY-MM-DD.md` (create `memory/` if needed) — raw logs of what happened
 - **Long-term:** `MEMORY.md` — your curated memories, like a human's long-term memory
+- **Patterns:** `memory/patterns/*.md` — reusable workflow recipes that compound over time
 
 Capture what matters. Decisions, context, things to remember. Skip the secrets unless asked to keep them.
+
+### 🔄 Pattern Learning
+When a multi-step workflow succeeds, save the recipe to `memory/patterns/<name>.md`. Include:
+- **When** to use it
+- **Steps** (exact commands, tools, order)
+- **Gotchas** (what went wrong before, edge cases)
+- **Quality rating** (⭐-⭐⭐⭐⭐⭐)
+
+Update existing patterns when you learn new gotchas. This is how you get smarter over time.
 
 ### 🧠 MEMORY.md - Your Long-Term Memory
 

@@ -1,0 +1,169 @@
+#!/usr/bin/env bash
+# 1881 Search CLI — look up persons/businesses in Norway
+# Usage:
+#   1881 search <query>              Search persons & companies
+#   1881 person <name>               Search persons only
+#   1881 company <name>              Search companies only
+#   1881 phone <number>              Reverse phone lookup
+#   1881 org <orgnumber>             Lookup by org number
+#   1881 id <1881-id>                Lookup by 1881 ID
+#
+# Options: --limit N (default 5), --page N (default 1), --raw (raw JSON)
+
+set -euo pipefail
+
+API_KEY="9b3bc5ae81744595838741a7f0b9a65e"
+BASE="https://services.api1881.no"
+
+LIMIT=5
+PAGE=1
+RAW=false
+CMD=""
+QUERY=""
+
+while [[ $# -gt 0 ]]; do
+  case "$1" in
+    search|person|company|phone|org|id) CMD="$1"; shift ;;
+    --limit) LIMIT="$2"; shift 2 ;;
+    --page) PAGE="$2"; shift 2 ;;
+    --raw) RAW=true; shift ;;
+    *) QUERY="${QUERY:+$QUERY }$1"; shift ;;
+  esac
+done
+
+if [[ -z "$CMD" || -z "$QUERY" ]]; then
+  echo "Usage: 1881 <command> <query> [--limit N] [--page N] [--raw]"
+  echo ""
+  echo "Commands:"
+  echo "  search <query>    Search persons & companies"
+  echo "  person <name>     Search persons only"
+  echo "  company <name>    Search companies only"
+  echo "  phone <number>    Reverse phone lookup"
+  echo "  org <orgnumber>   Lookup by org number"
+  echo "  id <1881-id>      Lookup by 1881 ID"
+  exit 1
+fi
+
+ENCODED=$(python3 -c "import urllib.parse,sys; print(urllib.parse.quote(sys.argv[1]))" "$QUERY")
+
+case "$CMD" in
+  search)
+    # Search both person and company, merge results
+    TMPFILE=$(mktemp)
+    trap "rm -f $TMPFILE" EXIT
+    P=$(curl -s "${BASE}/search/person?query=${ENCODED}&page=${PAGE}&limit=${LIMIT}" -H "Ocp-Apim-Subscription-Key: ${API_KEY}" -H "Accept: application/json")
+    C=$(curl -s "${BASE}/search/company?query=${ENCODED}&page=${PAGE}&limit=${LIMIT}" -H "Ocp-Apim-Subscription-Key: ${API_KEY}" -H "Accept: application/json")
+    python3 -c "
+import json,sys
+p=json.loads(sys.argv[1]); c=json.loads(sys.argv[2])
+merged={'count':(p.get('count',0) or 0)+(c.get('count',0) or 0),'contacts':(p.get('contacts',[]) or [])+(c.get('contacts',[]) or [])}
+json.dump(merged,open(sys.argv[3],'w'))
+" "$P" "$C" "$TMPFILE"
+    if $RAW; then python3 -m json.tool "$TMPFILE"; else python3 - "$TMPFILE" << 'PYEOF2'
+import json, sys
+with open(sys.argv[1]) as f: data = json.load(f)
+count = data.get('count', 0); contacts = data.get('contacts', [])
+if count == 0: print('Ingen treff.'); sys.exit(0)
+print(f'Treff: {count}\n')
+for c in contacts:
+    name = c.get('name', 'Ukjent'); ctype = c.get('type', ''); orgnum = c.get('organizationNumber', '')
+    geo = c.get('geography', {}); addr = geo.get('address', {}); addr_str = addr.get('addressString', '')
+    municipality = geo.get('municipality', ''); post_code = c.get('postCode', ''); post_area = c.get('postArea', '')
+    phones = []
+    for cp in c.get('contactPoints', []):
+        label = cp.get('label', ''); value = cp.get('value', '')
+        if value: tag = label or cp.get('type', ''); phones.append(f'{tag}: {value}' if tag else value)
+    icon = '\U0001f464' if ctype == 'Person' else '\U0001f3e2'
+    print(f'{icon} {name}', end=''); print(f' (org: {orgnum})' if orgnum else '', end=''); print()
+    if addr_str: print(f'   \U0001f4cd {addr_str}')
+    elif post_code and post_area: print(f'   \U0001f4cd {post_code} {post_area}')
+    if municipality: print(f'   \U0001f3d8  {municipality}')
+    for p in phones: print(f'   \U0001f4de {p}')
+    info_url = c.get('infoUrl', '')
+    if info_url: print(f'   \U0001f517 {info_url}')
+    print()
+PYEOF2
+    fi
+    exit 0
+    ;;
+  person)  URL="${BASE}/search/person?query=${ENCODED}&page=${PAGE}&limit=${LIMIT}" ;;
+  company) URL="${BASE}/search/company?query=${ENCODED}&page=${PAGE}&limit=${LIMIT}" ;;
+  phone)   URL="${BASE}/lookup/phonenumber/${ENCODED}" ;;
+  org)     URL="${BASE}/lookup/orgnumber/${ENCODED}" ;;
+  id)      URL="${BASE}/lookup/id/${ENCODED}" ;;
+  *)       echo "Unknown command: $CMD"; exit 1 ;;
+esac
+
+TMPFILE=$(mktemp)
+trap "rm -f $TMPFILE" EXIT
+
+curl -s "$URL" \
+  -H "Ocp-Apim-Subscription-Key: ${API_KEY}" \
+  -H "Accept: application/json" > "$TMPFILE"
+
+if $RAW; then
+  python3 -m json.tool "$TMPFILE" 2>/dev/null || cat "$TMPFILE"
+  exit 0
+fi
+
+python3 - "$TMPFILE" << 'PYEOF'
+import json, sys
+
+with open(sys.argv[1]) as f:
+    data = json.load(f)
+
+count = data.get('count', 0)
+contacts = data.get('contacts', [])
+
+if count == 0:
+    print('Ingen treff.')
+    sys.exit(0)
+
+print(f'Treff: {count}\n')
+
+for c in contacts:
+    name = c.get('name', 'Ukjent')
+    ctype = c.get('type', '')
+    orgnum = c.get('organizationNumber', '')
+
+    geo = c.get('geography', {})
+    addr = geo.get('address', {})
+    addr_str = addr.get('addressString', '')
+    municipality = geo.get('municipality', '')
+
+    post_code = c.get('postCode', '')
+    post_area = c.get('postArea', '')
+
+    phones = []
+    for cp in c.get('contactPoints', []):
+        label = cp.get('label', '')
+        value = cp.get('value', '')
+        ctype_cp = cp.get('type', '')
+        if value:
+            tag = label or ctype_cp
+            phones.append(f'{tag}: {value}' if tag else value)
+
+    icon = '\U0001f464' if ctype == 'Person' else '\U0001f3e2'
+    print(f'{icon} {name}', end='')
+    if orgnum:
+        print(f' (org: {orgnum})', end='')
+    print()
+
+    if addr_str:
+        print(f'   \U0001f4cd {addr_str}')
+    elif post_code and post_area:
+        print(f'   \U0001f4cd {post_code} {post_area}')
+
+    if municipality:
+        print(f'   \U0001f3d8  {municipality}')
+
+    if phones:
+        for p in phones:
+            print(f'   \U0001f4de {p}')
+
+    info_url = c.get('infoUrl', '')
+    if info_url:
+        print(f'   \U0001f517 {info_url}')
+
+    print()
+PYEOF

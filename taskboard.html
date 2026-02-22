@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<title>Mission Control — Banna & Knut</title>
+<style>
+  :root {
+    --bg: #0d1117; --surface: #161b22; --border: #30363d;
+    --text: #e6edf3; --text-dim: #8b949e; --accent: #58a6ff;
+    --green: #3fb950; --yellow: #d29922; --red: #f85149; --purple: #bc8cff;
+    --orange: #f0883e;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: var(--bg); color: var(--text); padding: 20px; }
+
+  .header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; }
+  .header h1 { font-size: 22px; font-weight: 600; }
+  .header h1 span { color: var(--accent); }
+  .header .meta { color: var(--text-dim); font-size: 12px; }
+
+  /* Tabs */
+  .tabs { display: flex; gap: 2px; margin-bottom: 20px; border-bottom: 1px solid var(--border); }
+  .tab { padding: 10px 20px; font-size: 14px; font-weight: 500; color: var(--text-dim); cursor: pointer; border-bottom: 2px solid transparent; transition: all 0.15s; }
+  .tab:hover { color: var(--text); }
+  .tab.active { color: var(--accent); border-bottom-color: var(--accent); }
+  .tab-content { display: none; }
+  .tab-content.active { display: block; }
+
+  /* Stats bar */
+  .stats { display: flex; gap: 12px; margin-bottom: 20px; flex-wrap: wrap; }
+  .stat { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 10px 14px; min-width: 90px; }
+  .stat .num { font-size: 22px; font-weight: 700; }
+  .stat .label { font-size: 11px; color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.5px; }
+
+  /* Board */
+  .board { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
+  .column { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 14px; min-height: 200px; }
+  .column-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px; padding-bottom: 10px; border-bottom: 1px solid var(--border); }
+  .column-title { font-size: 13px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; }
+  .column-count { background: var(--border); border-radius: 10px; padding: 2px 8px; font-size: 11px; color: var(--text-dim); }
+  .col-backlog .column-title { color: var(--text-dim); }
+  .col-in-progress .column-title { color: var(--accent); }
+  .col-blocked .column-title { color: var(--red); }
+  .col-done .column-title { color: var(--green); }
+
+  /* Cards */
+  .card { background: var(--bg); border: 1px solid var(--border); border-radius: 8px; padding: 11px; margin-bottom: 8px; transition: border-color 0.15s; }
+  .card:hover { border-color: var(--accent); }
+  .card-title { font-size: 13px; font-weight: 600; margin-bottom: 5px; line-height: 1.3; }
+  .card-desc { font-size: 11px; color: var(--text-dim); margin-bottom: 8px; line-height: 1.4; }
+  .card-footer { display: flex; justify-content: space-between; align-items: center; }
+  .card-tags { display: flex; gap: 4px; flex-wrap: wrap; }
+  .tag { font-size: 10px; padding: 2px 6px; border-radius: 4px; background: var(--border); color: var(--text-dim); }
+  .tag-investing { background: #1f3a1f; color: var(--green); }
+  .tag-tooling { background: #1a2a3f; color: var(--accent); }
+  .tag-infra { background: #2a1f3f; color: var(--purple); }
+  .tag-taksthjem { background: #3f2a1a; color: var(--yellow); }
+  .tag-calendar { background: #1f3a3a; color: #56d4d4; }
+  .assignee { font-size: 10px; font-weight: 600; padding: 2px 8px; border-radius: 10px; white-space: nowrap; }
+  .assignee-anna { background: #1a2a3f; color: var(--accent); }
+  .assignee-knut { background: #2a1f3f; color: var(--purple); }
+  .priority-high .card-title::before { content: "🔴 "; font-size: 9px; }
+  .priority-medium .card-title::before { content: "🟡 "; font-size: 9px; }
+  .priority-low .card-title::before { content: "🟢 "; font-size: 9px; }
+  .blocked-reason { font-size: 10px; color: var(--red); font-style: italic; margin-top: 5px; padding-top: 5px; border-top: 1px dashed var(--border); }
+  .blocked-reason::before { content: "⚠ "; }
+  .empty { color: var(--text-dim); font-size: 12px; font-style: italic; text-align: center; padding: 20px 0; }
+
+  /* Calendar */
+  .cal-grid { display: grid; grid-template-columns: repeat(7, 1fr); gap: 4px; margin-bottom: 24px; }
+  .cal-header { font-size: 11px; font-weight: 600; color: var(--text-dim); text-align: center; padding: 8px 0; text-transform: uppercase; }
+  .cal-day { background: var(--surface); border: 1px solid var(--border); border-radius: 6px; min-height: 80px; padding: 6px; font-size: 11px; }
+  .cal-day.today { border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent); }
+  .cal-day.other-month { opacity: 0.3; }
+  .cal-day-num { font-weight: 600; margin-bottom: 4px; font-size: 12px; }
+  .cal-event { font-size: 9px; padding: 2px 4px; border-radius: 3px; margin-bottom: 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .cal-event.cron { background: #1a2a3f; color: var(--accent); }
+  .cal-event.error { background: #3f1a1a; color: var(--red); }
+  .cal-nav { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; }
+  .cal-nav button { background: var(--surface); border: 1px solid var(--border); color: var(--text); padding: 6px 14px; border-radius: 6px; cursor: pointer; font-size: 13px; }
+  .cal-nav button:hover { border-color: var(--accent); }
+  .cal-nav h2 { font-size: 18px; font-weight: 600; }
+
+  /* Schedule */
+  .sched-section { margin-bottom: 24px; }
+  .sched-title { font-size: 15px; font-weight: 600; margin-bottom: 12px; }
+  .sched-card { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 14px; margin-bottom: 8px; display: flex; justify-content: space-between; align-items: center; }
+  .sched-card:hover { border-color: var(--accent); }
+  .sched-left { flex: 1; }
+  .sched-name { font-size: 14px; font-weight: 600; margin-bottom: 3px; }
+  .sched-desc { font-size: 11px; color: var(--text-dim); }
+  .sched-schedule { font-size: 11px; color: var(--accent); margin-top: 3px; }
+  .sched-right { text-align: right; min-width: 100px; }
+  .sched-status { font-size: 11px; font-weight: 600; padding: 3px 8px; border-radius: 10px; display: inline-block; }
+  .sched-status.ok { background: #1f3a1f; color: var(--green); }
+  .sched-status.error { background: #3f1a1a; color: var(--red); }
+  .sched-next { font-size: 10px; color: var(--text-dim); margin-top: 4px; }
+  .timeline { margin-top: 16px; }
+  .tl-day { margin-bottom: 16px; }
+  .tl-date { font-size: 13px; font-weight: 600; color: var(--accent); margin-bottom: 8px; padding-bottom: 4px; border-bottom: 1px solid var(--border); }
+  .tl-event { display: flex; align-items: center; gap: 10px; padding: 6px 0; font-size: 12px; }
+  .tl-time { color: var(--text-dim); font-weight: 600; min-width: 50px; font-family: monospace; }
+  .tl-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+  .tl-dot.cron { background: var(--accent); }
+
+  /* ─── INVESTMENTS ─── */
+  .inv-sentiment { display: flex; gap: 16px; margin-bottom: 20px; flex-wrap: wrap; }
+  .inv-sent-card { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 14px 18px; flex: 1; min-width: 160px; }
+  .inv-sent-label { font-size: 10px; color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 4px; }
+  .inv-sent-value { font-size: 24px; font-weight: 700; }
+  .inv-sent-sub { font-size: 11px; color: var(--text-dim); margin-top: 2px; }
+
+  .inv-section-title { font-size: 16px; font-weight: 700; margin: 20px 0 12px; }
+  .inv-section-title .emoji { margin-right: 6px; }
+
+  .inv-table { width: 100%; border-collapse: collapse; background: var(--surface); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; margin-bottom: 24px; }
+  .inv-table th { font-size: 10px; text-transform: uppercase; letter-spacing: 0.5px; color: var(--text-dim); padding: 10px 12px; text-align: left; border-bottom: 1px solid var(--border); background: var(--bg); }
+  .inv-table th.right { text-align: right; }
+  .inv-table td { font-size: 13px; padding: 10px 12px; border-bottom: 1px solid var(--border); }
+  .inv-table td.right { text-align: right; font-family: 'SF Mono', monospace; font-size: 12px; }
+  .inv-table tr:last-child td { border-bottom: none; }
+  .inv-table tr:hover { background: rgba(88, 166, 255, 0.05); }
+  .inv-table .ticker { font-weight: 700; color: var(--accent); }
+  .inv-table .name { color: var(--text-dim); font-size: 11px; }
+  .inv-status { font-size: 10px; font-weight: 700; padding: 3px 8px; border-radius: 10px; white-space: nowrap; }
+  .inv-status.crossover { background: #1f3a1f; color: var(--green); }
+  .inv-status.converging { background: #3f3a1a; color: var(--yellow); }
+  .inv-status.bullish { background: #1a3f2a; color: var(--green); }
+  .inv-status.recovering { background: #2a2a1a; color: var(--orange); }
+  .inv-status.bearish { background: #3f1a1a; color: var(--red); }
+  .pos { color: var(--green); }
+  .neg { color: var(--red); }
+  .inv-macd-bar { display: inline-block; height: 6px; border-radius: 3px; vertical-align: middle; margin-left: 4px; min-width: 2px; max-width: 60px; }
+  .inv-macd-bar.pos { background: var(--green); }
+  .inv-macd-bar.neg { background: var(--red); }
+
+  .fng-meter { width: 100%; height: 8px; background: var(--border); border-radius: 4px; margin-top: 6px; position: relative; overflow: hidden; }
+  .fng-fill { height: 100%; border-radius: 4px; transition: width 0.5s; }
+  .fng-extreme-fear { background: var(--red); }
+  .fng-fear { background: var(--orange); }
+  .fng-neutral { background: var(--yellow); }
+  .fng-greed { background: var(--green); }
+  .fng-extreme-greed { background: var(--accent); }
+
+  /* ─── MEMORY ─── */
+  .mem-layout { display: grid; grid-template-columns: 300px 1fr; gap: 20px; min-height: 70vh; }
+  .mem-sidebar { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 16px; overflow-y: auto; max-height: 80vh; }
+  .mem-main { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 24px; overflow-y: auto; max-height: 80vh; }
+
+  .mem-search { width: 100%; padding: 10px 14px; background: var(--bg); border: 1px solid var(--border); border-radius: 8px; color: var(--text); font-size: 13px; margin-bottom: 16px; outline: none; transition: border-color 0.15s; }
+  .mem-search:focus { border-color: var(--accent); }
+  .mem-search::placeholder { color: var(--text-dim); }
+
+  .mem-group-label { font-size: 10px; font-weight: 700; color: var(--text-dim); text-transform: uppercase; letter-spacing: 1px; margin: 16px 0 8px; }
+  .mem-group-label:first-child { margin-top: 0; }
+
+  .mem-item { padding: 10px 12px; border-radius: 6px; cursor: pointer; margin-bottom: 2px; transition: background 0.1s; }
+  .mem-item:hover { background: var(--bg); }
+  .mem-item.active { background: var(--bg); border-left: 3px solid var(--accent); }
+  .mem-item-name { font-size: 13px; font-weight: 600; margin-bottom: 2px; }
+  .mem-item-meta { font-size: 10px; color: var(--text-dim); }
+  .mem-item-sections { font-size: 10px; color: var(--accent); margin-top: 3px; }
+
+  .mem-doc-title { font-size: 20px; font-weight: 700; margin-bottom: 4px; }
+  .mem-doc-meta { font-size: 12px; color: var(--text-dim); margin-bottom: 20px; padding-bottom: 12px; border-bottom: 1px solid var(--border); }
+  .mem-doc-body { font-size: 14px; line-height: 1.7; }
+  .mem-doc-body h1 { font-size: 20px; margin: 24px 0 12px; color: var(--accent); }
+  .mem-doc-body h2 { font-size: 17px; margin: 20px 0 10px; color: var(--accent); border-bottom: 1px solid var(--border); padding-bottom: 6px; }
+  .mem-doc-body h3 { font-size: 15px; margin: 16px 0 8px; color: var(--purple); }
+  .mem-doc-body p { margin-bottom: 10px; }
+  .mem-doc-body ul, .mem-doc-body ol { margin: 8px 0 12px 20px; }
+  .mem-doc-body li { margin-bottom: 4px; line-height: 1.5; }
+  .mem-doc-body code { background: var(--bg); padding: 2px 6px; border-radius: 3px; font-size: 12px; color: var(--orange); }
+  .mem-doc-body pre { background: var(--bg); padding: 14px; border-radius: 8px; overflow-x: auto; margin: 10px 0; border: 1px solid var(--border); }
+  .mem-doc-body pre code { padding: 0; background: none; }
+  .mem-doc-body strong { color: var(--text); }
+  .mem-doc-body em { color: var(--text-dim); }
+  .mem-doc-body blockquote { border-left: 3px solid var(--accent); padding-left: 14px; color: var(--text-dim); margin: 10px 0; }
+  .mem-doc-body a { color: var(--accent); text-decoration: none; }
+  .mem-doc-body a:hover { text-decoration: underline; }
+  .mem-doc-body hr { border: none; border-top: 1px solid var(--border); margin: 16px 0; }
+
+  .mem-highlight { background: var(--yellow); color: var(--bg); padding: 1px 2px; border-radius: 2px; }
+
+  .mem-empty { text-align: center; padding: 60px 20px; color: var(--text-dim); }
+  .mem-empty-icon { font-size: 48px; margin-bottom: 12px; }
+  .mem-empty-text { font-size: 14px; }
+
+  .mem-search-results { margin-bottom: 12px; font-size: 11px; color: var(--text-dim); }
+
+  .mem-type-badge { font-size: 9px; padding: 1px 5px; border-radius: 3px; margin-left: 6px; vertical-align: middle; }
+  .mem-type-longterm { background: #3f2a1a; color: var(--yellow); }
+  .mem-type-daily { background: #1a2a3f; color: var(--accent); }
+  .mem-type-reference { background: #2a1f3f; color: var(--purple); }
+
+  @media (max-width: 900px) {
+    .board { grid-template-columns: repeat(2, 1fr); }
+    .mem-layout { grid-template-columns: 1fr; }
+    .mem-sidebar { max-height: 40vh; }
+  }
+  @media (max-width: 500px) { .board { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>⚡ Mission Control — <span>Banna & Knut</span></h1>
+  <div class="meta" id="updated"></div>
+</div>
+
+<div class="tabs">
+  <div class="tab active" data-tab="tasks">📋 Tasks</div>
+  <div class="tab" data-tab="schedule">📅 Schedule</div>
+  <div class="tab" data-tab="calendar">🗓 Calendar</div>
+  <div class="tab" data-tab="investments">📈 Investments</div>
+  <div class="tab" data-tab="action">⚡ Trenger Knut</div>
+  <div class="tab" data-tab="memory">🧠 Memory</div>
+</div>
+
+<!-- ACTION REQUIRED TAB -->
+<div class="tab-content" id="tab-action">
+  <div style="margin-bottom:16px;color:var(--text-dim);font-size:13px;">Oppgaver som er blokkert og venter på deg. Gjør disse og ping Anna ⚡</div>
+  <div id="action-list"></div>
+</div>
+
+<!-- TASKS TAB -->
+<div class="tab-content active" id="tab-tasks">
+  <div class="stats" id="stats"></div>
+  <div class="board" id="board"></div>
+</div>
+
+<!-- SCHEDULE TAB -->
+<div class="tab-content" id="tab-schedule">
+  <div class="sched-section">
+    <div class="sched-title">⏰ Cron Jobs</div>
+    <div id="cron-jobs"></div>
+  </div>
+  <div class="sched-section">
+    <div class="sched-title">📌 Upcoming (Next 48h)</div>
+    <div class="timeline" id="timeline"></div>
+  </div>
+</div>
+
+<!-- CALENDAR TAB -->
+<div class="tab-content" id="tab-calendar">
+  <div class="cal-nav">
+    <button id="cal-prev">← Prev</button>
+    <h2 id="cal-month-label"></h2>
+    <button id="cal-next">Next →</button>
+  </div>
+  <div class="cal-grid" id="cal-grid"></div>
+</div>
+
+<!-- INVESTMENTS TAB -->
+<div class="tab-content" id="tab-investments">
+  <div class="inv-sentiment" id="inv-sentiment"></div>
+  <div id="inv-tables"></div>
+</div>
+
+<!-- MEMORY TAB -->
+<div class="tab-content" id="tab-memory">
+  <div class="mem-layout">
+    <div class="mem-sidebar">
+      <input type="text" class="mem-search" id="mem-search" placeholder="🔍 Search memories..." autocomplete="off">
+      <div class="mem-search-results" id="mem-search-results"></div>
+      <div id="mem-list"></div>
+    </div>
+    <div class="mem-main" id="mem-main">
+      <div class="mem-empty">
+        <div class="mem-empty-icon">🧠</div>
+        <div class="mem-empty-text">Select a memory to view</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+// ─── TAB SWITCHING ───
+document.querySelectorAll('.tab').forEach(tab => {
+  tab.addEventListener('click', () => {
+    document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+    document.querySelectorAll('.tab-content').forEach(t => t.classList.remove('active'));
+    tab.classList.add('active');
+    document.getElementById('tab-' + tab.dataset.tab).classList.add('active');
+  });
+});
+
+const COLUMNS = [
+  { id: "backlog", label: "Backlog" },
+  { id: "in-progress", label: "In Progress" },
+  { id: "blocked", label: "Blocked" },
+  { id: "done", label: "Done" },
+];
+
+let tasksData = null, schedData = null, memData = null;
+let calMonth = new Date().getMonth(), calYear = new Date().getFullYear();
+
+async function loadJSON(url) {
+  const r = await fetch(url + '?' + Date.now());
+  if (!r.ok) throw new Error(`${url}: ${r.status}`);
+  return r.json();
+}
+
+// ─── MARKDOWN RENDERER ───
+function renderMd(md) {
+  let html = md
+    // Code blocks first
+    .replace(/```(\w*)\n([\s\S]*?)```/g, (_, lang, code) => `<pre><code>${esc(code.trim())}</code></pre>`)
+    // Inline code
+    .replace(/`([^`]+)`/g, '<code>$1</code>')
+    // Headers
+    .replace(/^### (.+)$/gm, '<h3>$1</h3>')
+    .replace(/^## (.+)$/gm, '<h2>$1</h2>')
+    .replace(/^# (.+)$/gm, '<h1>$1</h1>')
+    // Bold & italic
+    .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+    .replace(/\*(.+?)\*/g, '<em>$1</em>')
+    // Links
+    .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank">$1</a>')
+    // Obsidian wikilinks
+    .replace(/\[\[([^\]|]+)\|([^\]]+)\]\]/g, '<strong>$2</strong>')
+    .replace(/\[\[([^\]]+)\]\]/g, '<strong>$1</strong>')
+    // Blockquotes
+    .replace(/^> (.+)$/gm, '<blockquote>$1</blockquote>')
+    // HR
+    .replace(/^---$/gm, '<hr>')
+    // Lists (simple)
+    .replace(/^- (.+)$/gm, '<li>$1</li>')
+    .replace(/^(\d+)\. (.+)$/gm, '<li>$2</li>')
+    // Tags
+    .replace(/#(\w+)/g, '<code>#$1</code>')
+    // Paragraphs (lines not already wrapped)
+    .replace(/^(?!<[hlupob]|<li|<hr|<pre|<block)(.+)$/gm, '<p>$1</p>');
+
+  // Wrap consecutive <li> in <ul>
+  html = html.replace(/((?:<li>.*?<\/li>\s*)+)/g, '<ul>$1</ul>');
+  return html;
+}
+
+function esc(s) { return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+
+// ─── TASKS ───
+function renderTasks(data) {
+  const statsEl = document.getElementById('stats');
+  const counts = {}; COLUMNS.forEach(c => counts[c.id] = 0);
+  data.tasks.forEach(t => counts[t.status] = (counts[t.status] || 0) + 1);
+  statsEl.innerHTML = [
+    { n: data.tasks.length, l: "Total" },
+    { n: counts["in-progress"], l: "Active" },
+    { n: counts["blocked"], l: "Blocked" },
+    { n: counts["done"], l: "Done" },
+  ].map(s => `<div class="stat"><div class="num">${s.n}</div><div class="label">${s.l}</div></div>`).join('');
+
+  const board = document.getElementById('board'); board.innerHTML = '';
+  COLUMNS.forEach(col => {
+    const div = document.createElement('div');
+    div.className = `column col-${col.id}`;
+    const tasks = data.tasks.filter(t => t.status === col.id);
+    div.innerHTML = `<div class="column-header"><span class="column-title">${col.label}</span><span class="column-count">${tasks.length}</span></div>`;
+    if (!tasks.length) div.innerHTML += '<div class="empty">No tasks</div>';
+    else tasks.forEach(t => {
+      const c = document.createElement('div'); c.className = `card priority-${t.priority||'medium'}`;
+      let h = `<div class="card-title">${t.title}</div>`;
+      if (t.description) h += `<div class="card-desc">${t.description}</div>`;
+      h += `<div class="card-footer"><div class="card-tags">`;
+      (t.tags||[]).forEach(tg => h += `<span class="tag tag-${tg}">${tg}</span>`);
+      h += `</div><span class="assignee assignee-${t.assignee}">${t.assignee}</span></div>`;
+      if (t.blockedReason) h += `<div class="blocked-reason">${t.blockedReason}</div>`;
+      c.innerHTML = h; div.appendChild(c);
+    });
+    board.appendChild(div);
+  });
+}
+
+// ─── ACTION REQUIRED ───
+function renderActionRequired(data) {
+  const el = document.getElementById('action-list');
+  const tasks = (data.tasks||[]).filter(t => t.assignee === 'knut' && t.status === 'blocked');
+  if (!tasks.length) {
+    el.innerHTML = '<div class="empty">✅ Ingen oppgaver venter på deg!</div>';
+    return;
+  }
+  el.innerHTML = tasks.map((t,i) => `
+    <div class="card priority-${t.priority||'medium'}" style="margin-bottom:10px;max-width:600px;">
+      <div class="card-title">${t.title}</div>
+      <div class="card-desc">${t.description||''}</div>
+      ${t.blockedReason ? `<div class="blocked-reason">${t.blockedReason}</div>` : ''}
+      <div class="card-footer" style="margin-top:8px;">
+        <div class="card-tags">${(t.tags||[]).map(tg => `<span class="tag tag-${tg}">${tg}</span>`).join('')}</div>
+        <span style="font-size:10px;color:var(--text-dim);">${t.id}</span>
+      </div>
+    </div>`).join('');
+}
+
+// ─── SCHEDULE ───
+function renderSchedule(data) {
+  document.getElementById('cron-jobs').innerHTML = data.jobs.map(j => `
+    <div class="sched-card">
+      <div class="sched-left">
+        <div class="sched-name">${j.name}</div>
+        <div class="sched-desc">${j.description}</div>
+        <div class="sched-schedule">🕐 ${j.schedule}${j.model?' · model: '+j.model:''}</div>
+      </div>
+      <div class="sched-right">
+        <div class="sched-status ${j.status}">${j.status==='ok'?'✅ OK':'❌ Error'}</div>
+        ${j.statusNote?`<div style="font-size:10px;color:var(--red);margin-top:2px">${j.statusNote}</div>`:''}
+        <div class="sched-next">Next: ${new Date(j.nextRun).toLocaleString('no-NO',{weekday:'short',hour:'2-digit',minute:'2-digit'})}</div>
+      </div>
+    </div>`).join('');
+
+  const tlEl = document.getElementById('timeline');
+  const byDay = {};
+  data.upcoming.forEach(e => { (byDay[e.date]=byDay[e.date]||[]).push(e); });
+  tlEl.innerHTML = Object.entries(byDay).map(([date,events]) => `
+    <div class="tl-day">
+      <div class="tl-date">${new Date(date+'T12:00:00').toLocaleDateString('no-NO',{weekday:'long',day:'numeric',month:'long'})}</div>
+      ${events.map(e=>`<div class="tl-event"><span class="tl-time">${e.time}</span><span class="tl-dot cron"></span><span>${e.name}</span></div>`).join('')}
+    </div>`).join('');
+}
+
+// ─── CALENDAR ───
+function renderCalendar(sched) {
+  const label = document.getElementById('cal-month-label');
+  const grid = document.getElementById('cal-grid');
+  const months = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+  label.textContent = `${months[calMonth]} ${calYear}`;
+  const today = new Date(); today.setHours(0,0,0,0);
+  const daysInMonth = new Date(calYear, calMonth+1, 0).getDate();
+  const startDay = (new Date(calYear, calMonth, 1).getDay()+6)%7;
+
+  const events = {};
+  if (sched?.jobs) sched.jobs.forEach(job => {
+    const parts = job.cron.split(' ');
+    const mins = parts[0], hours = parts[1].split(',');
+    for (let d=1; d<=daysInMonth; d++) {
+      const date = new Date(calYear, calMonth, d);
+      const ds = date.toISOString().slice(0,10);
+      hours.forEach(h => {
+        (events[ds]=events[ds]||[]).push({ time: h.padStart(2,'0')+':'+mins.padStart(2,'0'), name: job.name, type: job.status==='error'?'error':'cron' });
+      });
+    }
+  });
+
+  let html = ['Mon','Tue','Wed','Thu','Fri','Sat','Sun'].map(d=>`<div class="cal-header">${d}</div>`).join('');
+  for (let i=0;i<startDay;i++) html += '<div class="cal-day other-month"></div>';
+  for (let d=1;d<=daysInMonth;d++) {
+    const date = new Date(calYear,calMonth,d);
+    const ds = date.toISOString().slice(0,10);
+    const isToday = date.getTime()===today.getTime();
+    const de = events[ds]||[];
+    html += `<div class="cal-day ${isToday?'today':''}"><div class="cal-day-num">${d}</div>`;
+    de.slice(0,4).forEach(e => html += `<div class="cal-event ${e.type}" title="${e.time} ${e.name}">${e.time} ${e.name}</div>`);
+    if (de.length>4) html += `<div class="cal-event cron">+${de.length-4} more</div>`;
+    html += '</div>';
+  }
+  grid.innerHTML = html;
+}
+
+document.getElementById('cal-prev').addEventListener('click', () => { calMonth--; if(calMonth<0){calMonth=11;calYear--;} renderCalendar(schedData); });
+document.getElementById('cal-next').addEventListener('click', () => { calMonth++; if(calMonth>11){calMonth=0;calYear++;} renderCalendar(schedData); });
+
+// ─── MEMORY ───
+let activeMemFile = null;
+let searchQuery = '';
+
+function renderMemList(data, query) {
+  const list = document.getElementById('mem-list');
+  const resultsEl = document.getElementById('mem-search-results');
+  let files = data.files;
+
+  if (query) {
+    const q = query.toLowerCase();
+    files = files.filter(f =>
+      f.content.toLowerCase().includes(q) ||
+      f.name.toLowerCase().includes(q) ||
+      (f.sections||[]).some(s => s.toLowerCase().includes(q))
+    );
+    // Sort by relevance (count of matches)
+    files.sort((a,b) => {
+      const ca = (a.content.toLowerCase().match(new RegExp(q.replace(/[.*+?^${}()|[\]\\]/g,'\\$&'), 'gi'))||[]).length;
+      const cb = (b.content.toLowerCase().match(new RegExp(q.replace(/[.*+?^${}()|[\]\\]/g,'\\$&'), 'gi'))||[]).length;
+      return cb - ca;
+    });
+    resultsEl.textContent = `${files.length} result${files.length!==1?'s':''} for "${query}"`;
+  } else {
+    resultsEl.textContent = `${files.length} memory files · ${(data.totalSize/1024).toFixed(1)} KB`;
+  }
+
+  // Group by type
+  const groups = { longterm: [], daily: [], reference: [] };
+  files.forEach(f => (groups[f.type]||groups.daily).push(f));
+
+  const labels = { longterm: '🧠 Long-Term Memory', daily: '📝 Daily Logs', reference: '📄 Reference' };
+  let html = '';
+
+  for (const [type, items] of Object.entries(groups)) {
+    if (!items.length) continue;
+    html += `<div class="mem-group-label">${labels[type]}</div>`;
+    items.forEach(f => {
+      const isActive = activeMemFile === f.path;
+      const secs = (f.sections||[]).slice(0,4).join(' · ');
+      html += `
+        <div class="mem-item ${isActive?'active':''}" data-path="${f.path}">
+          <div class="mem-item-name">${f.name} <span class="mem-type-badge mem-type-${type}">${type}</span></div>
+          <div class="mem-item-meta">${f.date} · ${(f.size/1024).toFixed(1)} KB</div>
+          ${secs ? `<div class="mem-item-sections">${secs}</div>` : ''}
+        </div>`;
+    });
+  }
+
+  list.innerHTML = html;
+
+  // Click handlers
+  list.querySelectorAll('.mem-item').forEach(el => {
+    el.addEventListener('click', () => {
+      activeMemFile = el.dataset.path;
+      renderMemList(memData, searchQuery);
+      renderMemDoc(memData, el.dataset.path);
+    });
+  });
+}
+
+function renderMemDoc(data, path) {
+  const main = document.getElementById('mem-main');
+  const file = data.files.find(f => f.path === path);
+  if (!file) return;
+
+  let body = renderMd(file.content);
+
+  // Highlight search matches
+  if (searchQuery) {
+    const q = searchQuery.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    body = body.replace(new RegExp(`(${q})`, 'gi'), '<span class="mem-highlight">$1</span>');
+  }
+
+  main.innerHTML = `
+    <div class="mem-doc-title">${file.name} <span class="mem-type-badge mem-type-${file.type}">${file.type}</span></div>
+    <div class="mem-doc-meta">📁 ${file.path} · Modified: ${new Date(file.modified).toLocaleString('no-NO')} · ${(file.size/1024).toFixed(1)} KB</div>
+    <div class="mem-doc-body">${body}</div>
+  `;
+
+  // Scroll to first highlight if searching
+  if (searchQuery) {
+    const first = main.querySelector('.mem-highlight');
+    if (first) first.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  }
+}
+
+// Search handler with debounce
+let searchTimer = null;
+document.getElementById('mem-search').addEventListener('input', (e) => {
+  clearTimeout(searchTimer);
+  searchTimer = setTimeout(() => {
+    searchQuery = e.target.value.trim();
+    if (memData) renderMemList(memData, searchQuery);
+  }, 200);
+});
+
+// ─── INVESTMENTS ───
+let invData = null;
+
+function fmtCap(v) {
+  if (!v) return 'N/A';
+  if (v >= 1e12) return '$' + (v/1e12).toFixed(1) + 'T';
+  if (v >= 1e9) return '$' + (v/1e9).toFixed(1) + 'B';
+  if (v >= 1e6) return '$' + (v/1e6).toFixed(0) + 'M';
+  return '$' + v.toLocaleString();
+}
+
+function fmtChg(v) {
+  if (v === null || v === undefined) return '<span style="color:var(--text-dim)">N/A</span>';
+  return v >= 0 ? `<span class="pos">+${v.toFixed(1)}%</span>` : `<span class="neg">${v.toFixed(1)}%</span>`;
+}
+
+function renderInvestments(data) {
+  if (!data) return;
+  const sentEl = document.getElementById('inv-sentiment');
+  const tablesEl = document.getElementById('inv-tables');
+
+  // Sentiment cards
+  let sentHtml = '';
+  if (data.sentiment) {
+    const s = data.sentiment;
+    const dir = s.current > s.previous ? '↑' : s.current < s.previous ? '↓' : '→';
+    const fngClass = s.current < 10 ? 'extreme-fear' : s.current < 25 ? 'fear' : s.current < 50 ? 'neutral' : s.current < 75 ? 'greed' : 'extreme-greed';
+    const fngColor = s.current < 10 ? 'var(--red)' : s.current < 25 ? 'var(--orange)' : s.current < 50 ? 'var(--yellow)' : 'var(--green)';
+    sentHtml += `
+      <div class="inv-sent-card">
+        <div class="inv-sent-label">Fear & Greed</div>
+        <div class="inv-sent-value" style="color:${fngColor}">${s.current} ${dir}</div>
+        <div class="inv-sent-sub">${s.label} (prev: ${s.previous})</div>
+        <div class="fng-meter"><div class="fng-fill fng-${fngClass}" style="width:${s.current}%"></div></div>
+      </div>`;
+  }
+  if (data.globalData) {
+    const g = data.globalData;
+    sentHtml += `
+      <div class="inv-sent-card">
+        <div class="inv-sent-label">BTC Dominance</div>
+        <div class="inv-sent-value">${g.btcDominance}%</div>
+        <div class="inv-sent-sub">of total crypto market</div>
+      </div>
+      <div class="inv-sent-card">
+        <div class="inv-sent-label">Crypto Market Cap</div>
+        <div class="inv-sent-value">${fmtCap(g.totalMarketCap)}</div>
+        <div class="inv-sent-sub">${fmtChg(g.marketCapChange24h)} 24h</div>
+      </div>
+      <div class="inv-sent-card">
+        <div class="inv-sent-label">24h Volume</div>
+        <div class="inv-sent-value">${fmtCap(g.totalVolume)}</div>
+      </div>`;
+  }
+  sentEl.innerHTML = sentHtml;
+
+  // Tables
+  const cats = { crypto: { title: '🪙 Crypto', assets: [] }, stocks: { title: '📊 Stocks', assets: [] } };
+  data.assets.forEach(a => { if (cats[a.category]) cats[a.category].assets.push(a); });
+
+  let tHtml = '';
+  for (const [key, cat] of Object.entries(cats)) {
+    if (!cat.assets.length) continue;
+    tHtml += `<div class="inv-section-title">${cat.title}</div>`;
+    tHtml += `<table class="inv-table">
+      <thead><tr>
+        <th>Asset</th><th class="right">Price</th><th class="right">MACD</th><th class="right">Signal</th>
+        <th class="right">Hist</th><th>Status</th><th class="right">RSI</th>
+        <th class="right">7d</th><th class="right">30d</th>
+        ${key === 'stocks' ? '<th class="right">PE</th>' : ''}
+        <th class="right">Cap</th>
+      </tr></thead><tbody>`;
+
+    // Sort: crossover first, then converging, then bullish, then bearish
+    const order = { crossover: 0, converging: 1, bullish: 2, bearish: 3 };
+    cat.assets.sort((a, b) => (order[a.status] ?? 9) - (order[b.status] ?? 9));
+
+    cat.assets.forEach(a => {
+      if (a.error) {
+        tHtml += `<tr><td><span class="ticker">${a.symbol}</span><br><span class="name">${a.name}</span></td><td colspan="9" style="color:var(--text-dim)">${a.error}</td></tr>`;
+        return;
+      }
+
+      const statusLabels = { crossover: '🟢 CROSS', converging: '🟡 CONV', bullish: '🟢 BULL', recovering: '🟠 RECV', bearish: '🔴 BEAR' };
+      const histAbs = Math.abs(a.histogram);
+      const histMax = Math.max(...cat.assets.filter(x=>!x.error).map(x=>Math.abs(x.histogram||0)), 0.001);
+      const barW = Math.max(2, (histAbs / histMax) * 60);
+      const barClass = a.histogram >= 0 ? 'pos' : 'neg';
+
+      const rsiColor = a.rsi < 30 ? 'var(--green)' : a.rsi > 70 ? 'var(--red)' : 'var(--text)';
+
+      tHtml += `<tr>
+        <td><span class="ticker">${a.symbol.replace('-USD','')}</span><br><span class="name">${a.name}</span></td>
+        <td class="right">${a.price.toLocaleString(undefined, {minimumFractionDigits: 2})}</td>
+        <td class="right">${a.macd.toFixed(3)}</td>
+        <td class="right">${a.signal.toFixed(3)}</td>
+        <td class="right">${a.histogram >= 0 ? '+' : ''}${a.histogram.toFixed(3)} <span class="inv-macd-bar ${barClass}" style="width:${barW}px"></span></td>
+        <td><span class="inv-status ${a.status}">${statusLabels[a.status] || a.status}</span></td>
+        <td class="right" style="color:${rsiColor}">${a.rsi ?? 'N/A'}</td>
+        <td class="right">${fmtChg(a.change7d)}</td>
+        <td class="right">${fmtChg(a.change30d)}</td>
+        ${key === 'stocks' ? `<td class="right">${a.pe ? a.pe.toFixed(1) : 'N/A'}</td>` : ''}
+        <td class="right">${fmtCap(a.marketCap)}</td>
+      </tr>`;
+    });
+
+    tHtml += '</tbody></table>';
+  }
+
+  tHtml += `<div style="font-size:11px;color:var(--text-dim);margin-top:8px">Last updated: ${new Date(data.lastUpdated).toLocaleString('no-NO')}</div>`;
+  tablesEl.innerHTML = tHtml;
+}
+
+// ─── LOAD & REFRESH ───
+async function refresh() {
+  try {
+    tasksData = await loadJSON('tasks.json');
+    schedData = await loadJSON('schedule.json');
+    memData = await loadJSON('memory-index.json');
+    try { invData = await loadJSON('investments.json'); } catch(e) {}
+    document.getElementById('updated').textContent = 'Updated: ' + new Date().toLocaleString('no-NO');
+    renderTasks(tasksData);
+    renderActionRequired(tasksData);
+    renderSchedule(schedData);
+    renderCalendar(schedData);
+    renderInvestments(invData);
+    renderMemList(memData, searchQuery);
+    if (activeMemFile) renderMemDoc(memData, activeMemFile);
+  } catch(e) {
+    console.error(e);
+    document.getElementById('updated').textContent = 'Error: ' + e.message;
+  }
+}
+
+refresh();
+setInterval(refresh, 30000);
+</script>
+</body>
+</html>

@@ -1,0 +1,74 @@
+#!/usr/bin/env bash
+# Batch 1881 company lookup — search each line as a company, extract phone numbers
+# Usage: 1881-batch < names.txt > results.txt
+# Input: one company name per line
+# Output: Name | Phone(s) | Address | 1881-URL
+
+set -euo pipefail
+
+API_KEY="9b3bc5ae81744595838741a7f0b9a65e"
+BASE="https://services.api1881.no"
+COUNT=0
+
+while IFS= read -r NAME; do
+  [[ -z "$NAME" ]] && continue
+  COUNT=$((COUNT + 1))
+  
+  ENCODED=$(python3 -c "import urllib.parse,sys; print(urllib.parse.quote(sys.argv[1]))" "$NAME")
+  
+  # Search as company, limit 1
+  RESULT=$(curl -s "${BASE}/search/company?query=${ENCODED}&limit=1" \
+    -H "Ocp-Apim-Subscription-Key: ${API_KEY}" \
+    -H "Accept: application/json")
+  
+  # If we got a result, do a detailed lookup by ID
+  ID=$(echo "$RESULT" | python3 -c "
+import json,sys
+d=json.load(sys.stdin)
+contacts=d.get('contacts',[])
+if contacts:
+    print(contacts[0].get('id',''))
+else:
+    print('')
+" 2>/dev/null)
+  
+  if [[ -n "$ID" ]]; then
+    COUNT=$((COUNT + 1))
+    DETAIL=$(curl -s "${BASE}/lookup/id/${ID}" \
+      -H "Ocp-Apim-Subscription-Key: ${API_KEY}" \
+      -H "Accept: application/json")
+    
+    python3 -c "
+import json,sys
+d=json.loads(sys.argv[1])
+contacts=d.get('contacts',[])
+if not contacts:
+    print(f'${NAME} | NO DETAIL | |')
+    sys.exit(0)
+c=contacts[0]
+name=c.get('name','')
+phones=[]
+for cp in c.get('contactPoints',[]):
+    t=cp.get('type','')
+    v=cp.get('value','')
+    l=cp.get('label','')
+    if v and t in ('Phone','MobilePhone'):
+        phones.append(f'{l}: {v}' if l else v)
+emails=[]
+for cp in c.get('contactPoints',[]):
+    if cp.get('type')=='Email' and cp.get('value'):
+        emails.append(cp['value'])
+geo=c.get('geography',{})
+addr=geo.get('address',{}).get('addressString','')
+url=c.get('infoUrl','')
+print(f'{name} | {\" / \".join(phones) if phones else \"—\"} | {\" / \".join(emails) if emails else \"—\"} | {addr} | {url}')
+" "$DETAIL"
+  else
+    echo "${NAME} | INGEN TREFF | | |"
+  fi
+  
+  # Rate limit
+  sleep 0.5
+done
+
+echo "# API-kall brukt: $COUNT" >&2
