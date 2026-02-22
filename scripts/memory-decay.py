@@ -44,6 +44,14 @@ def read_files(filenames: list[str]) -> dict[str, str]:
     return result
 
 
+def load_importance_scores() -> dict:
+    """Load importance scores to prioritize what survives decay."""
+    scores_file = MEMORY_DIR / "importance-scores.json"
+    if scores_file.exists():
+        return json.loads(scores_file.read_text()).get("scores", {})
+    return {}
+
+
 def consolidate_week(week: str, filenames: list[str], dry_run: bool = False):
     """Consolidate daily files into a weekly digest."""
     outfile = WEEKLY_DIR / f"{week}.md"
@@ -56,6 +64,14 @@ def consolidate_week(week: str, filenames: list[str], dry_run: bool = False):
         print(f"  ⚠  No files found for {week}")
         return
 
+    # Load importance scores to guide summarization
+    scores = load_importance_scores()
+    high_importance = []
+    for fn in sorted(contents):
+        for key, data in scores.items():
+            if key.startswith(fn) and data.get("score", 0) >= 7:
+                high_importance.append(f"[IMPORTANT] {key}: {data.get('reason', '')}")
+
     combined = "\n\n---\n\n".join(
         f"## {fn}\n{text}" for fn, text in sorted(contents.items())
     )
@@ -65,11 +81,15 @@ def consolidate_week(week: str, filenames: list[str], dry_run: bool = False):
         for fn in sorted(contents): print(f"     - {fn}")
         return
 
+    importance_hint = ""
+    if high_importance:
+        importance_hint = "\n\nHigh-importance sections to preserve:\n" + "\n".join(high_importance[:10])
+
     prompt = f"""/no_think
 Summarize these daily memory logs into a concise weekly digest.
 Focus on: key decisions, important events, lessons learned, people/projects mentioned, unresolved items.
 Use markdown. Be concise — max 40 lines. Skip routine/repetitive entries.
-Week: {week}
+Week: {week}{importance_hint}
 
 {combined}"""
 
