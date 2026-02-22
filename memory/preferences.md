@@ -34,6 +34,7 @@ Systematisk log over Knuts preferanser — oppdateres når han korrigerer meg.
 
 ## Corrections Log
 <!-- Add new corrections here with date -->
+- 2026-02-22: **WRITE-THROUGH MEMORY** — Knut har korrigert dette FLERE GANGER. Når noe settes opp (cron, tjeneste, config, credential) → skriv til memory FØR du svarer "done". Ingen unnskyldninger.
 - 2026-02-22: "del oppgavene fint opp" — don't try to do everything in one massive turn
 - 2026-02-21: Prefetch pattern — don't waste paid tokens on CLI work
 - 2026-02-20: Read back saved content as confirmation
