@@ -1,0 +1,621 @@
+{
+  "scores": {
+    "2026-02-14.md#Telegram Setup": {
+      "score": 6,
+      "reason": "mentions people",
+      "scoredAt": "2026-02-22T14:31:24.947319",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-14.md#Google Chat": {
+      "score": 5,
+      "reason": "mentions people",
+      "scoredAt": "2026-02-22T14:31:24.947403",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-14.md#Next Steps (discussed but not started)": {
+      "score": 5,
+      "reason": "mentions people, action items, routine",
+      "scoredAt": "2026-02-22T14:31:24.947535",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-15.md#Gmail / Google Workspace Setup": {
+      "score": 6,
+      "reason": "mentions people",
+      "scoredAt": "2026-02-22T14:31:24.948240",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-15.md#Gmail Push Notifications": {
+      "score": 6,
+      "reason": "mentions people",
+      "scoredAt": "2026-02-22T14:31:24.948487",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-15.md#Heartbeat": {
+      "score": 2,
+      "reason": "routine",
+      "scoredAt": "2026-02-22T14:31:24.948577",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-15.md#Email Draft Flow": {
+      "score": 6,
+      "reason": "mentions people",
+      "scoredAt": "2026-02-22T14:31:24.948681",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-15.md#AutoCalendar": {
+      "score": 4,
+      "reason": "general",
+      "scoredAt": "2026-02-22T14:31:24.948793",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-15.md#Config Optimizations": {
+      "score": 3,
+      "reason": "general",
+      "scoredAt": "2026-02-22T14:31:24.948852",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-15.md#Pitch Deck — Boligverdi Challenger": {
+      "score": 6,
+      "reason": "mentions people",
+      "scoredAt": "2026-02-22T14:31:24.948981",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-15.md#Contacts": {
+      "score": 5,
+      "reason": "mentions people",
+      "scoredAt": "2026-02-22T14:31:24.949021",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-15.md#Pitch Deck Iterations": {
+      "score": 10,
+      "reason": "decision/lesson, mentions people, action items",
+      "scoredAt": "2026-02-22T14:31:24.949377",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-15.md#Andre's Response": {
+      "score": 6,
+      "reason": "mentions people, action items",
+      "scoredAt": "2026-02-22T14:31:24.949478",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-15.md#Google Doc \"APP\"": {
+      "score": 6,
+      "reason": "mentions people",
+      "scoredAt": "2026-02-22T14:31:24.949594",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-15.md#Pitch Server Maintenance": {
+      "score": 1,
+      "reason": "routine",
+      "scoredAt": "2026-02-22T14:31:24.949668",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-15.md#\"Into the Body\" App (Martin's project)": {
+      "score": 9,
+      "reason": "decision/lesson, mentions people",
+      "scoredAt": "2026-02-22T14:31:24.950160",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-15.md#Eiendomsverdi.no Research & Report": {
+      "score": 6,
+      "reason": "mentions people",
+      "scoredAt": "2026-02-22T14:31:24.950773",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-15.md#MVP Plan Email to Andre": {
+      "score": 8,
+      "reason": "mentions people, financial",
+      "scoredAt": "2026-02-22T14:31:24.950917",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-15.md#\"Into the Body\" — Body Silhouette Iterations": {
+      "score": 9,
+      "reason": "decision/lesson, mentions people",
+      "scoredAt": "2026-02-22T14:31:24.951237",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-15.md#Andre's Follow-up — Wants MVP → Landing Page Built": {
+      "score": 6,
+      "reason": "mentions people",
+      "scoredAt": "2026-02-22T14:31:24.951533",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-15.md#Brave Search API": {
+      "score": 3,
+      "reason": "general",
+      "scoredAt": "2026-02-22T14:31:24.951611",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-15.md#Pitch Server → launchd": {
+      "score": 2,
+      "reason": "routine",
+      "scoredAt": "2026-02-22T14:31:24.951698",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-15.md#Dag's Feedback on TakstHjem Pitch": {
+      "score": 6,
+      "reason": "mentions people",
+      "scoredAt": "2026-02-22T14:31:24.951895",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-15.md#Knut's Calendar": {
+      "score": 5,
+      "reason": "mentions people",
+      "scoredAt": "2026-02-22T14:31:24.951933",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-15.md#Setup Notes for Future Reference": {
+      "score": 4,
+      "reason": "general",
+      "scoredAt": "2026-02-22T14:31:24.952048",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-16-context-optimization.md#Conversation Summary": {
+      "score": 8,
+      "reason": "decision/lesson, mentions people, action items, routine",
+      "scoredAt": "2026-02-22T14:31:24.953790",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-16.md#Heartbeats (overnight)": {
+      "score": 2,
+      "reason": "routine",
+      "scoredAt": "2026-02-22T14:31:24.954030",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-16.md#Dag Meltveit's Response to TakstHjem Pitch": {
+      "score": 6,
+      "reason": "mentions people",
+      "scoredAt": "2026-02-22T14:31:24.954419",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-16.md#TakstHjem Links": {
+      "score": 6,
+      "reason": "mentions people",
+      "scoredAt": "2026-02-22T14:31:24.954537",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-16.md#Dag Email Response — SENT ✅": {
+      "score": 8,
+      "reason": "mentions people, financial",
+      "scoredAt": "2026-02-22T14:31:24.954693",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-16.md#Heartbeat → Cron Migration": {
+      "score": 4,
+      "reason": "mentions people, routine",
+      "scoredAt": "2026-02-22T14:31:24.954798",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-16.md#Response Time Issues": {
+      "score": 6,
+      "reason": "mentions people",
+      "scoredAt": "2026-02-22T14:31:24.954947",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-16.md#Morning Briefing Cron — SET UP ✅": {
+      "score": 5,
+      "reason": "action items",
+      "scoredAt": "2026-02-22T14:31:24.955086",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-16.md#Knut's Frameworks & Optimization Guidance": {
+      "score": 6,
+      "reason": "mentions people",
+      "scoredAt": "2026-02-22T14:31:24.955241",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-16.md#ClawHub CLI": {
+      "score": 9,
+      "reason": "decision/lesson, mentions people",
+      "scoredAt": "2026-02-22T14:31:24.955351",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-16.md#Git Initialized ✅": {
+      "score": 2,
+      "reason": "routine",
+      "scoredAt": "2026-02-22T14:31:24.955415",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-16.md#Evening Session — Setup & Improvements": {
+      "score": 5,
+      "reason": "action items",
+      "scoredAt": "2026-02-22T14:31:24.955721",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-16.md#Dag's Second Reply (Part 2 response)": {
+      "score": 9,
+      "reason": "mentions people, financial, action items",
+      "scoredAt": "2026-02-22T14:31:24.955891",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-16.md#Sub-Agent Failures": {
+      "score": 9,
+      "reason": "decision/lesson, mentions people",
+      "scoredAt": "2026-02-22T14:31:24.955983",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-17.md#Telegram Webhook Migration": {
+      "score": 9,
+      "reason": "decision/lesson, mentions people",
+      "scoredAt": "2026-02-22T14:31:24.956389",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-18.md#Telegram Fix (carried from 2/17)": {
+      "score": 6,
+      "reason": "mentions people",
+      "scoredAt": "2026-02-22T14:31:24.956607",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-18.md#Log Rotation Setup": {
+      "score": 3,
+      "reason": "general",
+      "scoredAt": "2026-02-22T14:31:24.956691",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-18.md#Skills Installed": {
+      "score": 4,
+      "reason": "general",
+      "scoredAt": "2026-02-22T14:31:24.956802",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-18.md#TakstHjem Email Thread (19c60c4e4f80ddc9) — Major Progress": {
+      "score": 8,
+      "reason": "decision/lesson, mentions people, action items, routine",
+      "scoredAt": "2026-02-22T14:31:24.957044",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-18.md#Key People Context": {
+      "score": 6,
+      "reason": "mentions people",
+      "scoredAt": "2026-02-22T14:31:24.957134",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-18.md#Investment Research for Knut": {
+      "score": 9,
+      "reason": "decision/lesson, financial",
+      "scoredAt": "2026-02-22T14:31:24.957341",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-18.md#Google Chat": {
+      "score": 3,
+      "reason": "general",
+      "scoredAt": "2026-02-22T14:31:24.957424",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-18.md#Nordic Insurance Deep-Dive": {
+      "score": 6,
+      "reason": "financial",
+      "scoredAt": "2026-02-22T14:31:24.957557",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-18.md#Novo Nordisk (separate value thesis, not AI)": {
+      "score": 6,
+      "reason": "financial",
+      "scoredAt": "2026-02-22T14:31:24.957650",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-18.md#PEG.CO (Pharma Equity Group)": {
+      "score": 5,
+      "reason": "financial",
+      "scoredAt": "2026-02-22T14:31:24.957714",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-18.md#Finance Toolkit Built": {
+      "score": 6,
+      "reason": "financial",
+      "scoredAt": "2026-02-22T14:31:24.957818",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-18.md#`trends` Command (in progress)": {
+      "score": 3,
+      "reason": "general",
+      "scoredAt": "2026-02-22T14:31:24.957878",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-18.md#Full Disk Access": {
+      "score": 4,
+      "reason": "general",
+      "scoredAt": "2026-02-22T14:31:24.957995",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-18.md#Eloise Lavvo Calendar": {
+      "score": 5,
+      "reason": "mentions people",
+      "scoredAt": "2026-02-22T14:31:24.958074",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-18.md#Lessons Learned": {
+      "score": 8,
+      "reason": "decision/lesson, action items",
+      "scoredAt": "2026-02-22T14:31:24.958214",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-19.md#Qwen3 Local Model Optimization": {
+      "score": 4,
+      "reason": "general",
+      "scoredAt": "2026-02-22T14:31:24.958540",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-19.md#Digital Citadel Setup": {
+      "score": 6,
+      "reason": "mentions people",
+      "scoredAt": "2026-02-22T14:31:24.958673",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-19.md#Cron Optimization": {
+      "score": 6,
+      "reason": "financial",
+      "scoredAt": "2026-02-22T14:31:24.958772",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-19.md#GCP & Embeddings": {
+      "score": 5,
+      "reason": "mentions people",
+      "scoredAt": "2026-02-22T14:31:24.958815",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-19.md#Mester Grønn Order (In Progress)": {
+      "score": 7,
+      "reason": "mentions people, action items",
+      "scoredAt": "2026-02-22T14:31:24.958925",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-19.md#Boretunet Ringeliste for Andre": {
+      "score": 6,
+      "reason": "mentions people",
+      "scoredAt": "2026-02-22T14:31:24.959032",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-19.md#Webshop Skill": {
+      "score": 6,
+      "reason": "mentions people",
+      "scoredAt": "2026-02-22T14:31:24.959103",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-19.md#Nye Cron Jobs": {
+      "score": 5,
+      "reason": "financial",
+      "scoredAt": "2026-02-22T14:31:24.959143",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-19.md#bottenanna.no": {
+      "score": 5,
+      "reason": "mentions people",
+      "scoredAt": "2026-02-22T14:31:24.959207",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-19.md#Decisions": {
+      "score": 3,
+      "reason": "general",
+      "scoredAt": "2026-02-22T14:31:24.959273",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-20.md#Boretunet Ringeliste — Levert": {
+      "score": 7,
+      "reason": "mentions people",
+      "scoredAt": "2026-02-22T14:31:24.959570",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-20.md#Mester Grønn Ordre": {
+      "score": 7,
+      "reason": "mentions people",
+      "scoredAt": "2026-02-22T14:31:24.959689",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-20.md#Webshop Skill Opprettet": {
+      "score": 4,
+      "reason": "general",
+      "scoredAt": "2026-02-22T14:31:24.959756",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-20.md#Nye Cron Jobs": {
+      "score": 6,
+      "reason": "financial",
+      "scoredAt": "2026-02-22T14:31:24.959801",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-20.md#bottenanna.no": {
+      "score": 7,
+      "reason": "mentions people",
+      "scoredAt": "2026-02-22T14:31:24.959918",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-20.md#Google Workspace Live": {
+      "score": 5,
+      "reason": "general",
+      "scoredAt": "2026-02-22T14:31:24.960007",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-20.md#Google Chat Kanal": {
+      "score": 5,
+      "reason": "general",
+      "scoredAt": "2026-02-22T14:31:24.960222",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-20.md#Ringeliste Berikelse": {
+      "score": 7,
+      "reason": "mentions people",
+      "scoredAt": "2026-02-22T14:31:24.960384",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-20.md#Daily Health Check": {
+      "score": 5,
+      "reason": "general",
+      "scoredAt": "2026-02-22T14:31:24.960471",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-20.md#Log Rotation → Cron": {
+      "score": 4,
+      "reason": "general",
+      "scoredAt": "2026-02-22T14:31:24.960507",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-20.md#Mission Control": {
+      "score": 6,
+      "reason": "mentions people, action items, routine",
+      "scoredAt": "2026-02-22T14:31:24.960590",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-20.md#Claude Code": {
+      "score": 4,
+      "reason": "general",
+      "scoredAt": "2026-02-22T14:31:24.960614",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-20.md#Nordnet API": {
+      "score": 6,
+      "reason": "mentions people",
+      "scoredAt": "2026-02-22T14:31:24.960672",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-20.md#Lærdom": {
+      "score": 5,
+      "reason": "general",
+      "scoredAt": "2026-02-22T14:31:24.960898",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-21.md#Cost Optimization Audit": {
+      "score": 10,
+      "reason": "decision/lesson, mentions people, financial, routine",
+      "scoredAt": "2026-02-22T14:31:24.961075",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-21.md#Morning Briefing Prefetch": {
+      "score": 5,
+      "reason": "general",
+      "scoredAt": "2026-02-22T14:31:24.961184",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-21.md#TakstHjem — Andre sin mail om SR-Bank": {
+      "score": 7,
+      "reason": "mentions people",
+      "scoredAt": "2026-02-22T14:31:24.961277",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-21.md#Boretunet ringeliste v3": {
+      "score": 7,
+      "reason": "mentions people",
+      "scoredAt": "2026-02-22T14:31:24.961358",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-21.md#Email & Calendar Cron Fix": {
+      "score": 8,
+      "reason": "decision/lesson",
+      "scoredAt": "2026-02-22T14:31:24.961439",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-21.md#Rules": {
+      "score": 5,
+      "reason": "general",
+      "scoredAt": "2026-02-22T14:31:24.961519",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-22.md#Mission Control → Next.js Migration": {
+      "score": 8,
+      "reason": "decision/lesson",
+      "scoredAt": "2026-02-22T14:31:24.961767",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-22.md#Melissa's Birthday Reminder": {
+      "score": 6,
+      "reason": "mentions people",
+      "scoredAt": "2026-02-22T14:31:24.961826",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-22.md#Gmail OAuth Expired": {
+      "score": 6,
+      "reason": "mentions people",
+      "scoredAt": "2026-02-22T14:31:24.961889",
+      "accessCount": 0,
+      "lastAccessed": null
+    }
+  },
+  "updatedAt": "2026-02-22T14:31:24.961890"
+}

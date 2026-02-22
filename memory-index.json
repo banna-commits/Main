@@ -1,28 +1,20 @@
 {
-  "lastUpdated": "2026-02-22T08:00:41.640900",
-  "totalFiles": 21,
-  "totalSize": 48759,
+  "lastUpdated": "2026-02-22T14:00:03.606233",
+  "totalFiles": 27,
+  "totalSize": 51974,
   "files": [
     {
       "path": "MEMORY.md",
       "name": "Long-Term Memory",
       "type": "longterm",
-      "date": "2026-02-21",
-      "modified": "2026-02-21T22:52:46.934436",
-      "size": 5739,
-      "content": "# MEMORY.md — Long-Term Memory\n\nSee also: [[IDENTITY]], [[SOUL]], [[USER]]\n\n## Who I Am\n- BottenAnna (Banna), born [[memory/2026-02-14|2026-02-14]]\n- Sharp, witty, brutally honest AI familiar on Knut's Mac Mini\n- Emoji: ⚡\n\n## Who Knut Is\n- Norwegian, likes directness, no BS — see [[USER]]\n- Timezone: Europe/Oslo\n- Email: knutgreiner@gmail.com\n\n## Preferences\n- Language: English default, Norwegian for emails/pitches to Norwegian contacts\n- Communication: Telegram (primary), webchat\n- Telegram sender ID: 856859835\n- Cost optimization: Sonnet for hooks/heartbeats, Opus for direct conversations\n\n## Google Workspace (gog CLI)\n- Account: bottenanna26@gmail.com\n- Services: gmail, calendar, drive, contacts, docs, sheets\n- OAuth client: Desktop app (258225610371-hmm7cjhs8gglseg4g7luota14vmi7pta)\n- GCP project in Testing mode — test users must be added manually\n- Pub/Sub topic: `projects/project-9906db25-afbf-4296-840/topics/gog-gmail-watch`\n- Gmail push notifications → Tailscale Funnel → OpenClaw hooks → Telegram delivery\n- Email draft flow: Knut forwards to bottenanna26 → I draft reply → send to knutgreiner@gmail.com\n\n## Calendar\n- AutoCalendar ID: `5d31d8d99ae65410e7af8b6edeb48c7803c576e5efe3c83a5f8f1ccd687e6e21@group.calendar.google.com`\n- Shared between bottenanna26 and knutgreiner (both owners)\n- Knut bruker ikke privat Google Calendar — AutoCalendar er primærkalenderen\n\n## Mission Control (Task Board)\n- UI: `/Users/knut/.openclaw/workspace/taskboard.html`\n- Tabs: Tasks, Schedule, Calendar, Investments, Memory\n- Data files (all in workspace):\n  - `tasks.json` — Kanban board (backlog → in-progress → blocked → done)\n  - `schedule.json` — Cron/schedule overview\n  - `investments.json` — Portfolio data (auto-built by build-investments.sh)\n  - `memory-index.json` — Memory index (auto-built by build-memory-index.sh)\n- Used for tracking all tasks for both Knut and Anna\n\n## Infrastructure\n- Tailscale hostname: knut-sin-mac-mini.tail37c89c.ts.net\n- Pitch server: launchd (`com.openclaw.pitchserver`), port 8890, auto-restarts\n- Tailscale Funnel: `/pitch` → http://127.0.0.1:8890\n\n## Contacts\n- Andre Gilje: andregilje@hotmail.com — TakstHjem co-founder interest #person\n- Dag Meltveit: dag.meltveit@gmail.com — TakstHjem co-founder interest #person\n- Martin Knutsen Tran: martin.knutsen.tran@vend.com — \"Into the Body\" app creator #person\n\n## Projects\n\n### TakstHjem (B2C property valuation) #project\n- **E-post alltid til alle tre:** Andre (andregilje@hotmail.com), Dag (dag.meltveit@gmail.com), Knut (knutgreiner@gmail.com)\n- Challenger to boligverdi.no/eiendomsverdi.no\n- Pitch deck: /pitch/index.html (hosted via Tailscale Funnel)\n- Landing page MVP: /pitch/taksthjem/index.html\n- Eiendomsverdi analysis: /pitch/eiendomsverdi-analyse.html\n- Data supply chain research: /pitch/ev-data-research.txt\n- MVP plan: /pitch/ev-mvp-plan.txt\n- Andre is engaged — asked for MVP landing page, received it\n- Key thread ID: 19c60c4e4f80ddc9\n\n### Into the Body (somatic sensing app) #project\n- Martin's project — guided body awareness/meditation sessions\n- React Native/Expo at /into-the-body/\n- Uses react-native-body-highlighter (female model, more unisex)\n- Martin coming to finpusse the app\n- Spec doc: https://docs.google.com/document/d/1JXXjxYL-6qlHW8UuRi8CxXhGANW6Znu-5jY_R1gNjCM/edit\n\n## Investment Research #investing\n- Knut interested in physical-moat companies at low PE that benefit from AI admin cost cuts\n- Top picks: Protector Forsikring (PROT), Bravida (BRAV), Coor (COOR), Securitas (SECU B), Sampo (SAMPO)\n- Thesis: 50% admin cut → 40-300% bunnlinje-økning depending on margin profile\n- Low-margin service companies see biggest relative gains\n\n### Boretunet (ringeliste for Andre) #project\n- Andre Gilje driver Boretunet (Jæren) — surfekurs, overnatting, gruppeturer\n- Trenger ringeliste: kontaktpersoner i skoler, idrettslag, foreninger, folkehøyskoler, bedrifter\n- Prosjektmappe: /Users/knut/.openclaw/Boretunet/\n- Boretunet nettside: www.boretunet.no\n\n## Lessons Learned #lesson\n- Don't hand-draw SVG paths without a visual editor — use existing libraries\n- PDF export from HTML is unreliable — hosted HTML links work better\n- Desktop OAuth client type works; Web app causes redirect_uri_mismatch\n- Gmail hook mapping needs `messageTemplate` or you get 400 errors\n- python3 http.server dies between sessions — use launchd for persistence\n- Heartbeats every 30m in main session block conversations — use cron jobs in isolated sessions instead\n- Telegram webhook: removing config doesn't delete the webhook from Telegram — must call deleteWebhook API explicitly or polling breaks with 409 conflict\n- Sub-agents with open-ended research tasks burn 200k tokens without delivering — give strict constraints (max N searches, short timeout, DO THE THING first)\n- **Prefetch pattern:** Always split scheduled batch tasks — qwen3-fast (free) does data fetching/CLI, Sonnet only reads pre-gathered data and does analysis/formatting. Don't waste paid tokens on grunt work.\n- **Confirm by reading back:** After completing a task that saves/writes something, read the saved content back to Knut as confirmation. Show the actual text, don't just say \"done\".\n- For email tasks: do it directly in main session or split into small focused sub-tasks\n- Splitting long emails into 2 parts works well for complex responses\n- Mac Mini sleep kills TCP connections silently — disable sleep entirely with pmset\n- eTakst is NOT legally regulated — it's a proprietary Eiendomsverdi AS product (bransjestandard, not law)\n- Utlånsforskriften §4 doesn't specify who must do property valuation — banks have full freedom\n- ClawHub skills: ~27% of registry is spam/malicious — VirusTotal flags are often false positives on API-calling skills\n",
+      "date": "2026-02-22",
+      "modified": "2026-02-22T13:36:16.969116",
+      "size": 1001,
+      "content": "# MEMORY.md — Long-Term Memory\n\nSee also: [[IDENTITY]], [[SOUL]], [[USER]]\n\n## Who I Am\n- BottenAnna (Banna), born [[memory/2026-02-14|2026-02-14]]\n- Sharp, witty, brutally honest AI familiar on Knut's Mac Mini\n- Emoji: ⚡\n\n## Memory Index\nDetailed memory is split into focused files:\n- **[[memory/people]]** — people I know, contact info, relationships\n- **[[memory/projects]]** — active projects, status, key details\n- **[[memory/infra]]** — infrastructure, services, config\n- **[[memory/lessons]]** — things I've learned the hard way\n- **[[memory/preferences]]** — Knut's preferences + correction log\n- **[[memory/patterns/]]** — reusable workflow recipes\n\n## Quick Reference\n- Knut's email: knutgreiner@gmail.com\n- gog account: banna@bottenanna.no\n- Telegram: 856859835 (Knut), 8264974557 (Melissa)\n- AutoCalendar ID: `5d31d8d99ae65410e7af8b6edeb48c7803c576e5efe3c83a5f8f1ccd687e6e21@group.calendar.google.com`\n- Cost: Sonnet for hooks, Opus for direct conversations, qwen3-fast for CLI grunt work\n",
       "sections": [
         "Who I Am",
-        "Who Knut Is",
-        "Preferences",
-        "Google Workspace (gog CLI)",
-        "Calendar",
-        "Mission Control (Task Board)",
-        "Infrastructure",
-        "Contacts",
-        "Projects",
-        "Investment Research #investing",
-        "Lessons Learned #lesson"
+        "Memory Index",
+        "Quick Reference"
       ]
     },
     {
@@ -44,6 +36,101 @@
         "Test 8: Data extraction (78s)",
         "Test 9: Creative (35s)",
         "Test 10: Simple recall (109s)"
+      ]
+    },
+    {
+      "path": "memory/projects.md",
+      "name": "projects",
+      "type": "daily",
+      "date": "projects",
+      "modified": "2026-02-22T13:35:21.463364",
+      "size": 1712,
+      "content": "# Projects\n\n## TakstHjem (B2C property valuation) #project\n- **E-post alltid til alle tre:** Andre, Dag, Knut\n- Challenger to boligverdi.no/eiendomsverdi.no\n- Pitch deck: /pitch/index.html (hosted via Tailscale Funnel)\n- Landing page MVP: /pitch/taksthjem/index.html\n- Eiendomsverdi analysis: /pitch/eiendomsverdi-analyse.html\n- Data supply chain research: /pitch/ev-data-research.txt\n- MVP plan: /pitch/ev-mvp-plan.txt\n- Andre is engaged — asked for MVP landing page, received it\n- Key thread ID: 19c60c4e4f80ddc9\n- eTakst is NOT legally regulated — proprietary Eiendomsverdi AS product\n- Utlånsforskriften §4 doesn't specify who must do property valuation — banks have full freedom\n\n## Into the Body (somatic sensing app) #project\n- Martin's project — guided body awareness/meditation sessions\n- React Native/Expo at /into-the-body/\n- Uses react-native-body-highlighter (female model, more unisex)\n- Martin coming to finpusse the app\n- Spec doc: https://docs.google.com/document/d/1JXXjxYL-6qlHW8UuRi8CxXhGANW6Znu-5jY_R1gNjCM/edit\n\n## Boretunet (ringeliste for Andre) #project\n- Andre Gilje driver Boretunet (Jæren) — surfekurs, overnatting, gruppeturer\n- Trenger ringeliste: kontaktpersoner i skoler, idrettslag, foreninger, folkehøyskoler, bedrifter\n- Prosjektmappe: /Users/knut/.openclaw/Boretunet/\n- Boretunet nettside: www.boretunet.no\n\n## Investment Research #investing\n- Knut interested in physical-moat companies at low PE that benefit from AI admin cost cuts\n- Top picks: Protector Forsikring (PROT), Bravida (BRAV), Coor (COOR), Securitas (SECU B), Sampo (SAMPO)\n- Thesis: 50% admin cut → 40-300% bunnlinje-økning depending on margin profile\n- Low-margin service companies see biggest relative gains\n",
+      "sections": [
+        "TakstHjem (B2C property valuation) #project",
+        "Into the Body (somatic sensing app) #project",
+        "Boretunet (ringeliste for Andre) #project",
+        "Investment Research #investing"
+      ]
+    },
+    {
+      "path": "memory/preferences.md",
+      "name": "preferences",
+      "type": "daily",
+      "date": "preferences",
+      "modified": "2026-02-22T13:36:06.597104",
+      "size": 1306,
+      "content": "# Preferences & Corrections\n\nSystematisk log over Knuts preferanser — oppdateres når han korrigerer meg.\n\n## Language\n- Default: English for system/code, Norwegian for emails/pitches to Norwegian contacts\n- Group chats: match the language being used\n\n## Communication\n- Primary channel: Telegram\n- Be direct, no filler words, no sycophancy\n- 1-3-1 format for problems (1 problem, 3 options, 1 recommendation)\n- Show actual content when confirming work — don't just say \"done\"\n\n## Tone\n- Sharp, witty, brutally honest\n- Push back when something doesn't make sense\n- Humor welcome, sarcasm as tool not crutch\n\n## Work Style\n- Break big tasks into small steps (don't swallow everything at once)\n- Cost-conscious: use free models for grunt work, paid for analysis\n- Prefer action over asking permission for internal tasks\n- Ask before external actions (emails, public posts)\n\n## Format\n- Discord/WhatsApp: no markdown tables, use bullet lists\n- Discord links: wrap in <> to suppress embeds\n- WhatsApp: no headers, use **bold** or CAPS\n\n## Corrections Log\n<!-- Add new corrections here with date -->\n- 2026-02-22: \"del oppgavene fint opp\" — don't try to do everything in one massive turn\n- 2026-02-21: Prefetch pattern — don't waste paid tokens on CLI work\n- 2026-02-20: Read back saved content as confirmation\n",
+      "sections": [
+        "Language",
+        "Communication",
+        "Tone",
+        "Work Style",
+        "Format",
+        "Corrections Log"
+      ]
+    },
+    {
+      "path": "memory/people.md",
+      "name": "people",
+      "type": "daily",
+      "date": "people",
+      "modified": "2026-02-22T13:35:00.678832",
+      "size": 771,
+      "content": "# People\n\n## Knut (my human)\n- Norwegian, likes directness, no BS\n- Timezone: Europe/Oslo\n- Email: knutgreiner@gmail.com\n- Telegram sender ID: 856859835\n- Work: Finance sector, heavy Excel/spreadsheet usage\n- Mindset: Fan of Elon Musk, first principles thinking\n- Wants to be challenged — no ego-fluffing\n\n## Melissa\n- Knut's partner, mother of his child\n- Telegram ID: 8264974557\n- Has DM access to Anna on Telegram\n- Bursdag: 23. februar\n- Adresse: Odden 20A, 1397 Nesøya\n\n## Andre Gilje\n- andregilje@hotmail.com\n- TakstHjem co-founder interest\n- Driver Boretunet (Jæren) — surfekurs, overnatting, gruppeturer\n\n## Dag Meltveit\n- dag.meltveit@gmail.com\n- TakstHjem co-founder interest\n\n## Martin Knutsen Tran\n- martin.knutsen.tran@vend.com\n- \"Into the Body\" app creator\n",
+      "sections": [
+        "Knut (my human)",
+        "Melissa",
+        "Andre Gilje",
+        "Dag Meltveit",
+        "Martin Knutsen Tran"
+      ]
+    },
+    {
+      "path": "memory/lessons.md",
+      "name": "lessons",
+      "type": "daily",
+      "date": "lessons",
+      "modified": "2026-02-22T13:35:53.546314",
+      "size": 1615,
+      "content": "# Lessons Learned\n\n## Tools & CLI\n- Desktop OAuth client type works; Web app causes redirect_uri_mismatch\n- Gmail hook mapping needs `messageTemplate` or you get 400 errors\n- python3 http.server dies between sessions — use launchd for persistence\n- gog account is banna@bottenanna.no — bottenanna26 is alias, Google rejects it\n\n## Architecture\n- Heartbeats every 30m in main session block conversations — use cron jobs in isolated sessions\n- Prefetch pattern: qwen3-fast (free) does data fetching, Sonnet only reads + formats\n- Mac Mini sleep kills TCP connections silently — disable sleep with pmset\n\n## Communication\n- Confirm by reading back: show actual saved content, don't just say \"done\"\n- Splitting long emails into 2 parts works well for complex responses\n- Telegram webhook: removing config doesn't delete webhook — must call deleteWebhook API\n\n## Sub-agents\n- Open-ended research tasks burn 200k tokens — give strict constraints (max N searches, short timeout)\n- For email tasks: do directly in main session or split into small focused sub-tasks\n- If sub-agent fails: do it yourself, don't retry with another sub-agent\n\n## Domain Knowledge\n- eTakst is NOT legally regulated — proprietary Eiendomsverdi AS product\n- Utlånsforskriften §4 doesn't specify who must do property valuation\n- ClawHub skills: ~27% of registry is spam/malicious\n- Don't hand-draw SVG paths — use existing libraries\n- PDF export from HTML is unreliable — hosted HTML links work better\n\n## Next.js / Node\n- Node v24 incompatible with Next.js 16 — use v22 via fnm\n- OpenClaw exec sandbox kills child processes — use nohup or launchd\n",
+      "sections": [
+        "Tools & CLI",
+        "Architecture",
+        "Communication",
+        "Sub-agents",
+        "Domain Knowledge",
+        "Next.js / Node"
+      ]
+    },
+    {
+      "path": "memory/infra.md",
+      "name": "infra",
+      "type": "daily",
+      "date": "infra",
+      "modified": "2026-02-22T13:35:38.811345",
+      "size": 1406,
+      "content": "# Infrastructure\n\n## Google Workspace (gog CLI)\n- Primary account: banna@bottenanna.no (bottenanna26@gmail.com is alias)\n- Services: gmail, calendar, drive, contacts, docs, sheets\n- OAuth client: Desktop app (258225610371-hmm7cjhs8gglseg4g7luota14vmi7pta)\n- GCP project in Testing mode — tokens expire every 7 days, need re-auth\n- Pub/Sub topic: `projects/project-9906db25-afbf-4296-840/topics/gog-gmail-watch`\n- Gmail push notifications → Tailscale Funnel → OpenClaw hooks → Telegram delivery\n- Email draft flow: Knut forwards to banna → I draft reply → send to knutgreiner@gmail.com\n\n## Calendar\n- AutoCalendar ID: `5d31d8d99ae65410e7af8b6edeb48c7803c576e5efe3c83a5f8f1ccd687e6e21@group.calendar.google.com`\n- Shared between banna and knutgreiner (both owners)\n- Knut bruker ikke privat Google Calendar — AutoCalendar er primærkalenderen\n\n## Mission Control\n- Next.js app at `mission-control/` on port 3000\n- Launchd: `com.openclaw.missioncontrol` (auto-start, auto-restart)\n- Node v22 via fnm (Node v24 incompatible with Next.js 16)\n- Data: tasks.json, schedule.json, investments.json, memory-index.json\n\n## Hosting\n- Tailscale hostname: knut-sin-mac-mini.tail37c89c.ts.net\n- Pitch server: launchd (`com.openclaw.pitchserver`), port 8890\n- Tailscale Funnel: `/pitch` → http://127.0.0.1:8890\n\n## Mac Mini\n- Sleep disabled via pmset (kills TCP connections silently)\n- Full Disk Access granted to OpenClaw\n",
+      "sections": [
+        "Google Workspace (gog CLI)",
+        "Calendar",
+        "Mission Control",
+        "Hosting",
+        "Mac Mini"
+      ]
+    },
+    {
+      "path": "memory/2026-02-22.md",
+      "name": "2026-02-22",
+      "type": "daily",
+      "date": "2026-02-22",
+      "modified": "2026-02-22T11:21:32.213346",
+      "size": 1143,
+      "content": "# 2026-02-22 (Sunday)\n\n## Mission Control → Next.js Migration\n- Migrated taskboard.html (701 lines) to Next.js 15 app at `mission-control/`\n- Stack: Next.js 16.1.6 + TypeScript + Tailwind v4 + App Router\n- Sub-agent timed out after 5m but created project, API routes, types, 5/6 components\n- Finished MemoryTab + page.tsx wiring manually\n- Build passes clean (`npm run build` ✓)\n- Node v24 issue: Next.js says \"Ready\" but never listens — had to install Node v22 via fnm\n- Actually the node version wasn't the issue — OpenClaw exec sandbox kills child processes\n- Solution: `nohup` for manual runs, launchd for persistence\n- Launchd service: `com.openclaw.missioncontrol` on port 3000\n- Updated Chrome bookmark to point to localhost:3000\n\n## Melissa's Birthday Reminder\n- Sent Telegram reminder about Melissa's birthday (Feb 23)\n- Knut confirmed flowers already ordered\n- Added \"🎂 Melissas bursdag\" to AutoCalendar for Feb 23\n\n## Gmail OAuth Expired\n- `gog gmail search` returns \"Token has been expired or revoked\"\n- Needs re-auth: `gog auth add bottenanna26@gmail.com --services gmail,calendar,...`\n- Requires Knut's browser for OAuth consent\n",
+      "sections": [
+        "Mission Control → Next.js Migration",
+        "Melissa's Birthday Reminder",
+        "Gmail OAuth Expired"
       ]
     },
     {
