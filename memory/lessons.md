@@ -34,6 +34,17 @@
 - Don't hand-draw SVG paths — use existing libraries
 - PDF export from HTML is unreliable — hosted HTML links work better
 
+## Ollama / Local LLM
+- **Cold start = 22s** — OLLAMA_KEEP_ALIVE=30m prevents this
+- **NUM_PARALLEL=2** — allows embedding + generation simultaneously
+- **qwen3-fast ignores /no_think** — uses thinking tokens anyway, wastes output budget
+- **stream:false hangs on large outputs** — Python urllib waits for all tokens, looks dead
+- **Context window vs RAM:** 32K ctx × Q8 KV-cache = trivial on 24GB. Could go 64K if needed.
+- **Warmup on boot is critical** — without it first cron job after reboot takes 22s+ extra
+- **Q4_K_M quantization** is the sweet spot for speed/quality on Apple Silicon
+- **8B models good for:** data fetching, heartbeats, simple formatting, running scripts
+- **8B models bad for:** complex reasoning, nuanced analysis, multi-step planning → use Sonnet/Opus
+
 ## Memory System
 - **Gemini embeddings hit 429 quota** — switched to local Ollama nomic-embed-text via OpenAI-compatible API
 - **OpenClaw has built-in hybrid search** (BM25 + vector) — just enable it in config, don't build your own

@@ -7,6 +7,17 @@
 - Mode: mention-only (@Bannabot) in allowlisted channels
 - DMs: pairing mode
 
+## Ollama Config (updated 2026-02-22)
+- **Hardware:** Mac Mini M4, 24GB RAM
+- **OLLAMA_NUM_PARALLEL=2** — concurrent embedding + generation
+- **OLLAMA_KEEP_ALIVE=30m** — avoids 22s cold start
+- **OLLAMA_FLASH_ATTENTION=1** — already enabled
+- **OLLAMA_KV_CACHE_TYPE=q8_0** — already enabled
+- **Models loaded:** qwen3-fast (32K ctx, 8K output), nomic-embed-text (768 dims)
+- **Warmup:** Boot plist loads nomic-embed-text + qwen3-fast on startup
+- **RAM usage:** ~5.5GB for both models, 18GB+ free for macOS
+- **Plist:** ~/Library/LaunchAgents/homebrew.mxcl.ollama.plist
+
 ## Memory System (updated 2026-02-22)
 - **Embeddings:** nomic-embed-text via Ollama (OpenAI-compat at localhost:11434/v1)
 - **Search:** Hybrid BM25 + vector (70/30 weighting)
