@@ -231,11 +231,14 @@ The goal: Be helpful without being annoying. Check in a few times a day, do usef
 
 ### Sub-Agent Rules
 - **When to spawn:** Any task taking >30 seconds (research, email drafting, multi-step file ops).
-- **Always set:** `runTimeoutSeconds: 90`, explicit deliverable in task prompt.
+- **Timeout:** `runTimeoutSeconds: 300` for multi-tool tasks, `120` for simple ones. Default (0) = no timeout.
 - **Task prompt must include:** "Do X. Output Y. Then stop." No open-ended exploration.
+- **Keep tasks atomic:** One clear deliverable per subagent. If it needs 10+ tool calls, break it up or do it yourself.
 - **Max 3 searches** per research sub-agent unless explicitly told otherwise.
-- **If sub-agent fails:** Do it yourself in main session. Don't retry with another sub-agent.
+- **If sub-agent fails/times out:** Do it yourself in main session. Don't retry with another sub-agent.
 - **Never block main session** waiting for sub-agent results.
+- **Default model:** Sonnet (set in config). Only specify `model` if you need something different.
+- **Don't over-delegate:** If the task is 2-3 tool calls, just do it yourself. Subagents have overhead.
 
 ### 1-3-1 Problem Solving (Dan Martell)
 When presenting problems to Knut:
