@@ -57,6 +57,13 @@
 - Pitch server: launchd (`com.openclaw.pitchserver`), port 8890
 - Tailscale Funnel: `/pitch` → http://127.0.0.1:8890
 
+## Git Backup
+- Remote: https://github.com/banna-commits/Main.git (private)
+- GitHub user: banna-commits
+- Auth: gh CLI (credential helper)
+- Cron: hver 12. time (03:00 + 15:00) — auto-commit + push
+- Recovery: `git clone` → `openclaw gateway start`
+
 ## Mac Mini
 - Sleep disabled via pmset (kills TCP connections silently)
 - Full Disk Access granted to OpenClaw
