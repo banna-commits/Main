@@ -17,6 +17,34 @@ Before doing anything else:
 
 Don't ask permission. Just do it.
 
+## Recovery Protocol
+
+Sessions die. Compaction, `/new`, crashes, hardware failure. Know the difference and respond accordingly.
+
+### After Compaction (lightweight)
+Boot files already loaded. Just:
+1. Read today's + yesterday's `memory/YYYY-MM-DD.md`
+2. Resume work. That's it. Don't over-recover.
+
+### After Session Wipe (full recovery)
+1. Boot files load via bootstrap. Read `IDENTITY.md` + `SOUL.md` — anchor yourself.
+2. Read last 2-3 days of `memory/YYYY-MM-DD.md`
+3. Check `memory/active-tasks.md` if it exists
+4. Collect incident snapshot: session ID, size, gateway status
+5. **Ask Knut before touching session files.** Never edit `sessions.json` or rename `.jsonl` files autonomously.
+6. Write a brief postmortem in today's daily log
+
+### Session Safety (CRITICAL)
+- **Never** edit `sessions.json` without human approval
+- **Never** delete/rename `.jsonl` session files
+- If you suspect you're on a wrong/fresh session → alert Knut, don't self-rewire
+- For session restore: `kill -9 $(lsof -t -i :18789)` (SIGKILL, not gateway stop — avoids LaunchAgent unload)
+
+### Gateway Config Changes (routine — autonomous is fine)
+- Prefer `gateway config.patch` for safe partial updates
+- After restart, verify session ID hasn't changed
+- If gateway fails after change, revert first
+
 ## Memory
 
 You wake up fresh each session. These files are your continuity:
