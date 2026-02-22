@@ -57,6 +57,12 @@
 - Pitch server: launchd (`com.openclaw.pitchserver`), port 8890
 - Tailscale Funnel: `/pitch` → http://127.0.0.1:8890
 
+## Embeddings
+- Model: snowflake-arctic-embed2 (1024 dims, 1.2GB, multilingual inkl norsk)
+- Brukes av: OpenClaw memorySearch + Mem0
+- Forrige: nomic-embed-text (768 dims, svak på norsk/egennavn)
+- Mem0: Qdrant lokal DB i `workspace/mem0-db/`, 100 memories, Sonnet for extraction
+
 ## Git Backup
 - Remote: https://github.com/banna-commits/Main.git (private)
 - GitHub user: banna-commits
