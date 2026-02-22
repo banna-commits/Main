@@ -1,0 +1,195 @@
+{
+  "entities": {
+    "knut": {
+      "type": "person",
+      "display_name": "Knut",
+      "aliases": [
+        "knutgreiner@gmail.com"
+      ]
+    },
+    "melissa": {
+      "type": "person",
+      "display_name": "Melissa",
+      "aliases": []
+    },
+    "andre-gilje": {
+      "type": "person",
+      "display_name": "Andre Gilje",
+      "aliases": [
+        "andregilje@hotmail.com"
+      ]
+    },
+    "dag-meltveit": {
+      "type": "person",
+      "display_name": "Dag Meltveit",
+      "aliases": [
+        "dag.meltveit@gmail.com"
+      ]
+    },
+    "martin-knutsen-tran": {
+      "type": "person",
+      "display_name": "Martin Knutsen Tran",
+      "aliases": [
+        "martin.knutsen.tran@vend.com"
+      ]
+    },
+    "taksthjem": {
+      "type": "project",
+      "display_name": "TakstHjem",
+      "aliases": []
+    },
+    "into-the-body": {
+      "type": "project",
+      "display_name": "Into the Body",
+      "aliases": []
+    },
+    "boretunet": {
+      "type": "project",
+      "display_name": "Boretunet",
+      "aliases": []
+    },
+    "google-workspace": {
+      "type": "tool",
+      "display_name": "Google Workspace",
+      "aliases": []
+    },
+    "calendar": {
+      "type": "tool",
+      "display_name": "Calendar",
+      "aliases": []
+    },
+    "mission-control": {
+      "type": "tool",
+      "display_name": "Mission Control",
+      "aliases": []
+    },
+    "hosting": {
+      "type": "tool",
+      "display_name": "Hosting",
+      "aliases": []
+    },
+    "mac-mini": {
+      "type": "tool",
+      "display_name": "Mac Mini",
+      "aliases": []
+    },
+    "novo": {
+      "type": "stock",
+      "ticker": "NOVO-B.CO",
+      "aliases": []
+    },
+    "coor": {
+      "type": "stock",
+      "ticker": "COOR.ST",
+      "aliases": []
+    },
+    "wwi": {
+      "type": "stock",
+      "ticker": "WWI.OL",
+      "aliases": []
+    },
+    "protector": {
+      "type": "stock",
+      "ticker": "PROT.OL",
+      "aliases": []
+    },
+    "bravida": {
+      "type": "stock",
+      "ticker": "BRAV.ST",
+      "aliases": []
+    },
+    "sampo": {
+      "type": "stock",
+      "ticker": "SAMPO.HE",
+      "aliases": []
+    },
+    "peg": {
+      "type": "stock",
+      "ticker": "PEG.CO",
+      "aliases": []
+    }
+  },
+  "edges": [
+    {
+      "from": "knut",
+      "to": "melissa",
+      "relation": "partner"
+    },
+    {
+      "from": "knut",
+      "to": "taksthjem",
+      "relation": "co-founder"
+    },
+    {
+      "from": "knut",
+      "to": "mission-control",
+      "relation": "owner"
+    },
+    {
+      "from": "andre-gilje",
+      "to": "taksthjem",
+      "relation": "co-founder"
+    },
+    {
+      "from": "dag-meltveit",
+      "to": "taksthjem",
+      "relation": "co-founder"
+    },
+    {
+      "from": "martin-knutsen-tran",
+      "to": "into-the-body",
+      "relation": "creator"
+    },
+    {
+      "from": "andre-gilje",
+      "to": "boretunet",
+      "relation": "owner"
+    },
+    {
+      "from": "mission-control",
+      "to": "google-workspace",
+      "relation": "uses"
+    },
+    {
+      "from": "google-workspace",
+      "to": "calendar",
+      "relation": "uses"
+    },
+    {
+      "from": "knut",
+      "to": "sampo",
+      "relation": "interested_in"
+    },
+    {
+      "from": "knut",
+      "to": "novo",
+      "relation": "interested_in"
+    },
+    {
+      "from": "knut",
+      "to": "protector",
+      "relation": "interested_in"
+    },
+    {
+      "from": "knut",
+      "to": "bravida",
+      "relation": "interested_in"
+    },
+    {
+      "from": "knut",
+      "to": "coor",
+      "relation": "interested_in"
+    }
+  ],
+  "updatedAt": "2026-02-22T13:57:23.161150",
+  "stats": {
+    "entity_count": 20,
+    "edge_count": 14,
+    "entity_types": {
+      "person": 5,
+      "project": 3,
+      "tool": 5,
+      "stock": 7
+    }
+  }
+}
