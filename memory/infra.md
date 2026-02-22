@@ -7,6 +7,11 @@
 - Mode: mention-only (@Bannabot) in allowlisted channels
 - DMs: pairing mode
 
+## Document Tools
+- **pdftotext** (poppler 26.02.0): `pdftotext file.pdf -` for text extraction
+- **pdfinfo**: `pdfinfo file.pdf` for metadata (pages, size, author)
+- Installed via brew, path: /opt/homebrew/bin/pdftotext
+
 ## Ollama Config (updated 2026-02-22)
 - **Hardware:** Mac Mini M4, 24GB RAM
 - **OLLAMA_NUM_PARALLEL=2** — concurrent embedding + generation

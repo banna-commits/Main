@@ -10,6 +10,7 @@ export default function CalendarTab({ data }: { data: ScheduleData | null }) {
   const now = new Date();
   const [month, setMonth] = useState(now.getMonth());
   const [year, setYear] = useState(now.getFullYear());
+  const [selectedDay, setSelectedDay] = useState<string | null>(null);
 
   const today = new Date(); today.setHours(0,0,0,0);
   const daysInMonth = new Date(year, month + 1, 0).getDate();
@@ -59,8 +60,8 @@ export default function CalendarTab({ data }: { data: ScheduleData | null }) {
           const isToday = date.getTime() === today.getTime();
           const de = events[ds] || [];
           return (
-            <div key={d} className={`bg-surface border rounded-md min-h-[80px] p-1.5 text-[11px] ${
-              isToday ? 'border-accent shadow-[0_0_0_1px_var(--color-accent)]' : 'border-border'
+            <div key={d} onClick={() => setSelectedDay(selectedDay === ds ? null : ds)} className={`bg-surface border rounded-md min-h-[80px] p-1.5 text-[11px] cursor-pointer hover:border-accent transition-colors ${
+              selectedDay === ds ? 'border-accent shadow-[0_0_0_2px_var(--color-accent)]' : isToday ? 'border-accent shadow-[0_0_0_1px_var(--color-accent)]' : 'border-border'
             }`}>
               <div className="font-semibold text-xs mb-1">{d}</div>
               {de.slice(0, 4).map((e, j) => (
@@ -77,6 +78,30 @@ export default function CalendarTab({ data }: { data: ScheduleData | null }) {
           );
         })}
       </div>
+
+      {selectedDay && (
+        <div className="mt-4 bg-surface border border-accent rounded-lg p-4">
+          <div className="flex justify-between items-center mb-3">
+            <h3 className="text-sm font-semibold">{new Date(selectedDay + 'T12:00:00').toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric', year: 'numeric' })}</h3>
+            <button onClick={() => setSelectedDay(null)} className="text-text-dim hover:text-text text-xs cursor-pointer">✕ Close</button>
+          </div>
+          {(events[selectedDay] || []).length === 0 ? (
+            <p className="text-text-dim text-xs">No events scheduled</p>
+          ) : (
+            <div className="space-y-2">
+              {(events[selectedDay] || []).map((e, j) => (
+                <div key={j} className={`flex items-center gap-3 px-3 py-2 rounded-md text-xs ${
+                  e.type === 'error' ? 'bg-[#3f1a1a] text-red' : 'bg-[#1a2a3f] text-accent'
+                }`}>
+                  <span className="font-mono font-semibold min-w-[40px]">{e.time}</span>
+                  <span>{e.name}</span>
+                  <span className="ml-auto text-[10px] opacity-60 uppercase">{e.type}</span>
+                </div>
+              ))}
+            </div>
+          )}
+        </div>
+      )}
     </div>
   );
 }
