@@ -1,5 +1,12 @@
 # Infrastructure
 
+## Discord
+- Bot name: @Bannabot
+- Server ID: 1475147053549228032
+- Channels: mainchat (1475149600133484614), mainforum (1475149673416097894)
+- Mode: mention-only (@Bannabot) in allowlisted channels
+- DMs: pairing mode
+
 ## Memory System (updated 2026-02-22)
 - **Embeddings:** nomic-embed-text via Ollama (OpenAI-compat at localhost:11434/v1)
 - **Search:** Hybrid BM25 + vector (70/30 weighting)

@@ -1,621 +1,299 @@
 {
   "scores": {
-    "2026-02-14.md#Telegram Setup": {
-      "score": 6,
-      "reason": "mentions people",
-      "scoredAt": "2026-02-22T14:31:24.947319",
-      "accessCount": 0,
-      "lastAccessed": null
-    },
-    "2026-02-14.md#Google Chat": {
-      "score": 5,
-      "reason": "mentions people",
-      "scoredAt": "2026-02-22T14:31:24.947403",
-      "accessCount": 0,
-      "lastAccessed": null
-    },
-    "2026-02-14.md#Next Steps (discussed but not started)": {
-      "score": 5,
-      "reason": "mentions people, action items, routine",
-      "scoredAt": "2026-02-22T14:31:24.947535",
-      "accessCount": 0,
-      "lastAccessed": null
-    },
-    "2026-02-15.md#Gmail / Google Workspace Setup": {
-      "score": 6,
-      "reason": "mentions people",
-      "scoredAt": "2026-02-22T14:31:24.948240",
-      "accessCount": 0,
-      "lastAccessed": null
-    },
-    "2026-02-15.md#Gmail Push Notifications": {
-      "score": 6,
-      "reason": "mentions people",
-      "scoredAt": "2026-02-22T14:31:24.948487",
-      "accessCount": 0,
-      "lastAccessed": null
-    },
-    "2026-02-15.md#Heartbeat": {
-      "score": 2,
-      "reason": "routine",
-      "scoredAt": "2026-02-22T14:31:24.948577",
-      "accessCount": 0,
-      "lastAccessed": null
-    },
-    "2026-02-15.md#Email Draft Flow": {
-      "score": 6,
-      "reason": "mentions people",
-      "scoredAt": "2026-02-22T14:31:24.948681",
-      "accessCount": 0,
-      "lastAccessed": null
-    },
-    "2026-02-15.md#AutoCalendar": {
-      "score": 4,
-      "reason": "general",
-      "scoredAt": "2026-02-22T14:31:24.948793",
-      "accessCount": 0,
-      "lastAccessed": null
-    },
-    "2026-02-15.md#Config Optimizations": {
-      "score": 3,
-      "reason": "general",
-      "scoredAt": "2026-02-22T14:31:24.948852",
-      "accessCount": 0,
-      "lastAccessed": null
-    },
-    "2026-02-15.md#Pitch Deck — Boligverdi Challenger": {
-      "score": 6,
-      "reason": "mentions people",
-      "scoredAt": "2026-02-22T14:31:24.948981",
-      "accessCount": 0,
-      "lastAccessed": null
-    },
-    "2026-02-15.md#Contacts": {
-      "score": 5,
-      "reason": "mentions people",
-      "scoredAt": "2026-02-22T14:31:24.949021",
-      "accessCount": 0,
-      "lastAccessed": null
-    },
-    "2026-02-15.md#Pitch Deck Iterations": {
-      "score": 10,
-      "reason": "decision/lesson, mentions people, action items",
-      "scoredAt": "2026-02-22T14:31:24.949377",
-      "accessCount": 0,
-      "lastAccessed": null
-    },
-    "2026-02-15.md#Andre's Response": {
-      "score": 6,
-      "reason": "mentions people, action items",
-      "scoredAt": "2026-02-22T14:31:24.949478",
-      "accessCount": 0,
-      "lastAccessed": null
-    },
-    "2026-02-15.md#Google Doc \"APP\"": {
-      "score": 6,
-      "reason": "mentions people",
-      "scoredAt": "2026-02-22T14:31:24.949594",
-      "accessCount": 0,
-      "lastAccessed": null
-    },
-    "2026-02-15.md#Pitch Server Maintenance": {
-      "score": 1,
-      "reason": "routine",
-      "scoredAt": "2026-02-22T14:31:24.949668",
-      "accessCount": 0,
-      "lastAccessed": null
-    },
-    "2026-02-15.md#\"Into the Body\" App (Martin's project)": {
-      "score": 9,
-      "reason": "decision/lesson, mentions people",
-      "scoredAt": "2026-02-22T14:31:24.950160",
-      "accessCount": 0,
-      "lastAccessed": null
-    },
-    "2026-02-15.md#Eiendomsverdi.no Research & Report": {
-      "score": 6,
-      "reason": "mentions people",
-      "scoredAt": "2026-02-22T14:31:24.950773",
-      "accessCount": 0,
-      "lastAccessed": null
-    },
-    "2026-02-15.md#MVP Plan Email to Andre": {
-      "score": 8,
-      "reason": "mentions people, financial",
-      "scoredAt": "2026-02-22T14:31:24.950917",
-      "accessCount": 0,
-      "lastAccessed": null
-    },
-    "2026-02-15.md#\"Into the Body\" — Body Silhouette Iterations": {
-      "score": 9,
-      "reason": "decision/lesson, mentions people",
-      "scoredAt": "2026-02-22T14:31:24.951237",
-      "accessCount": 0,
-      "lastAccessed": null
-    },
-    "2026-02-15.md#Andre's Follow-up — Wants MVP → Landing Page Built": {
-      "score": 6,
-      "reason": "mentions people",
-      "scoredAt": "2026-02-22T14:31:24.951533",
-      "accessCount": 0,
-      "lastAccessed": null
-    },
-    "2026-02-15.md#Brave Search API": {
-      "score": 3,
-      "reason": "general",
-      "scoredAt": "2026-02-22T14:31:24.951611",
-      "accessCount": 0,
-      "lastAccessed": null
-    },
-    "2026-02-15.md#Pitch Server → launchd": {
-      "score": 2,
-      "reason": "routine",
-      "scoredAt": "2026-02-22T14:31:24.951698",
-      "accessCount": 0,
-      "lastAccessed": null
-    },
-    "2026-02-15.md#Dag's Feedback on TakstHjem Pitch": {
-      "score": 6,
-      "reason": "mentions people",
-      "scoredAt": "2026-02-22T14:31:24.951895",
-      "accessCount": 0,
-      "lastAccessed": null
-    },
-    "2026-02-15.md#Knut's Calendar": {
-      "score": 5,
-      "reason": "mentions people",
-      "scoredAt": "2026-02-22T14:31:24.951933",
-      "accessCount": 0,
-      "lastAccessed": null
-    },
-    "2026-02-15.md#Setup Notes for Future Reference": {
-      "score": 4,
-      "reason": "general",
-      "scoredAt": "2026-02-22T14:31:24.952048",
-      "accessCount": 0,
-      "lastAccessed": null
-    },
-    "2026-02-16-context-optimization.md#Conversation Summary": {
-      "score": 8,
-      "reason": "decision/lesson, mentions people, action items, routine",
-      "scoredAt": "2026-02-22T14:31:24.953790",
-      "accessCount": 0,
-      "lastAccessed": null
-    },
-    "2026-02-16.md#Heartbeats (overnight)": {
-      "score": 2,
-      "reason": "routine",
-      "scoredAt": "2026-02-22T14:31:24.954030",
-      "accessCount": 0,
-      "lastAccessed": null
-    },
-    "2026-02-16.md#Dag Meltveit's Response to TakstHjem Pitch": {
-      "score": 6,
-      "reason": "mentions people",
-      "scoredAt": "2026-02-22T14:31:24.954419",
-      "accessCount": 0,
-      "lastAccessed": null
-    },
-    "2026-02-16.md#TakstHjem Links": {
-      "score": 6,
-      "reason": "mentions people",
-      "scoredAt": "2026-02-22T14:31:24.954537",
-      "accessCount": 0,
-      "lastAccessed": null
-    },
-    "2026-02-16.md#Dag Email Response — SENT ✅": {
-      "score": 8,
-      "reason": "mentions people, financial",
-      "scoredAt": "2026-02-22T14:31:24.954693",
-      "accessCount": 0,
-      "lastAccessed": null
-    },
-    "2026-02-16.md#Heartbeat → Cron Migration": {
-      "score": 4,
-      "reason": "mentions people, routine",
-      "scoredAt": "2026-02-22T14:31:24.954798",
-      "accessCount": 0,
-      "lastAccessed": null
-    },
-    "2026-02-16.md#Response Time Issues": {
-      "score": 6,
-      "reason": "mentions people",
-      "scoredAt": "2026-02-22T14:31:24.954947",
-      "accessCount": 0,
-      "lastAccessed": null
-    },
-    "2026-02-16.md#Morning Briefing Cron — SET UP ✅": {
-      "score": 5,
-      "reason": "action items",
-      "scoredAt": "2026-02-22T14:31:24.955086",
-      "accessCount": 0,
-      "lastAccessed": null
-    },
-    "2026-02-16.md#Knut's Frameworks & Optimization Guidance": {
-      "score": 6,
-      "reason": "mentions people",
-      "scoredAt": "2026-02-22T14:31:24.955241",
-      "accessCount": 0,
-      "lastAccessed": null
-    },
     "2026-02-16.md#ClawHub CLI": {
-      "score": 9,
-      "reason": "decision/lesson, mentions people",
-      "scoredAt": "2026-02-22T14:31:24.955351",
-      "accessCount": 0,
-      "lastAccessed": null
-    },
-    "2026-02-16.md#Git Initialized ✅": {
-      "score": 2,
-      "reason": "routine",
-      "scoredAt": "2026-02-22T14:31:24.955415",
-      "accessCount": 0,
-      "lastAccessed": null
-    },
-    "2026-02-16.md#Evening Session — Setup & Improvements": {
       "score": 5,
-      "reason": "action items",
-      "scoredAt": "2026-02-22T14:31:24.955721",
-      "accessCount": 0,
-      "lastAccessed": null
-    },
-    "2026-02-16.md#Dag's Second Reply (Part 2 response)": {
-      "score": 9,
-      "reason": "mentions people, financial, action items",
-      "scoredAt": "2026-02-22T14:31:24.955891",
-      "accessCount": 0,
-      "lastAccessed": null
-    },
-    "2026-02-16.md#Sub-Agent Failures": {
-      "score": 9,
-      "reason": "decision/lesson, mentions people",
-      "scoredAt": "2026-02-22T14:31:24.955983",
-      "accessCount": 0,
-      "lastAccessed": null
-    },
-    "2026-02-17.md#Telegram Webhook Migration": {
-      "score": 9,
-      "reason": "decision/lesson, mentions people",
-      "scoredAt": "2026-02-22T14:31:24.956389",
-      "accessCount": 0,
-      "lastAccessed": null
-    },
-    "2026-02-18.md#Telegram Fix (carried from 2/17)": {
-      "score": 6,
-      "reason": "mentions people",
-      "scoredAt": "2026-02-22T14:31:24.956607",
-      "accessCount": 0,
-      "lastAccessed": null
-    },
-    "2026-02-18.md#Log Rotation Setup": {
-      "score": 3,
-      "reason": "general",
-      "scoredAt": "2026-02-22T14:31:24.956691",
+      "reason": "Contains technical setup details and a security-related note, but lacks broader impact or long-term significance.",
+      "scoredAt": "2026-02-22T14:31:15.536107",
       "accessCount": 0,
       "lastAccessed": null
     },
     "2026-02-18.md#Skills Installed": {
-      "score": 4,
-      "reason": "general",
-      "scoredAt": "2026-02-22T14:31:24.956802",
+      "score": 5,
+      "reason": "Technical setup and security measures for tools, important for system management but not a key decision or major lesson.",
+      "scoredAt": "2026-02-22T14:35:07.621947",
       "accessCount": 0,
       "lastAccessed": null
     },
     "2026-02-18.md#TakstHjem Email Thread (19c60c4e4f80ddc9) — Major Progress": {
-      "score": 8,
-      "reason": "decision/lesson, mentions people, action items, routine",
-      "scoredAt": "2026-02-22T14:31:24.957044",
+      "score": 9,
+      "reason": "Strategic product direction, legal framework analysis, market differentiation, and key stakeholder discussions (Andre/Dag) shape critical business decisions and long-term value proposition.",
+      "scoredAt": "2026-02-22T14:35:29.179171",
       "accessCount": 0,
       "lastAccessed": null
     },
     "2026-02-18.md#Key People Context": {
-      "score": 6,
-      "reason": "mentions people",
-      "scoredAt": "2026-02-22T14:31:24.957134",
+      "score": 7,
+      "reason": "Provides key insights into team dynamics and individual strengths that influence strategic direction and collaboration, but isn't a decision or lesson itself.",
+      "scoredAt": "2026-02-22T14:35:57.022084",
       "accessCount": 0,
       "lastAccessed": null
     },
     "2026-02-18.md#Investment Research for Knut": {
       "score": 9,
-      "reason": "decision/lesson, financial",
-      "scoredAt": "2026-02-22T14:31:24.957341",
+      "reason": "This memory provides actionable insights into leveraging AI for cost reduction in low-margin service companies, highlighting significant financial impacts and strategic opportunities. The key insight about low-margin companies' leverage from AI cuts is a critical decision point for investment strategies.",
+      "scoredAt": "2026-02-22T14:36:21.144589",
       "accessCount": 0,
       "lastAccessed": null
     },
     "2026-02-18.md#Google Chat": {
-      "score": 3,
-      "reason": "general",
-      "scoredAt": "2026-02-22T14:31:24.957424",
+      "score": 8,
+      "reason": "Key decision about API setup requirements and a lesson about domain necessities for Chat API functionality.",
+      "scoredAt": "2026-02-22T14:36:39.925907",
       "accessCount": 0,
       "lastAccessed": null
     },
     "2026-02-18.md#Nordic Insurance Deep-Dive": {
-      "score": 6,
-      "reason": "financial",
-      "scoredAt": "2026-02-22T14:31:24.957557",
+      "score": 9,
+      "reason": "Key decision for investment prioritization based on detailed financial metrics and AI upside potential analysis.",
+      "scoredAt": "2026-02-22T14:37:00.374781",
       "accessCount": 0,
       "lastAccessed": null
     },
     "2026-02-18.md#Novo Nordisk (separate value thesis, not AI)": {
-      "score": 6,
-      "reason": "financial",
-      "scoredAt": "2026-02-22T14:31:24.957650",
+      "score": 8,
+      "reason": "Contains critical financial metrics, revenue guidance, and analyst target price relevant to investment decisions, but lacks broader strategic context beyond immediate valuation.",
+      "scoredAt": "2026-02-22T14:37:23.889758",
       "accessCount": 0,
       "lastAccessed": null
     },
     "2026-02-18.md#PEG.CO (Pharma Equity Group)": {
-      "score": 5,
-      "reason": "financial",
-      "scoredAt": "2026-02-22T14:31:24.957714",
+      "score": 7,
+      "reason": "This represents a high-risk investment decision with potential for significant reward but also massive dilution risk. While not a strategic business decision, it's a key financial opportunity assessment with long-term implications for capital allocation.",
+      "scoredAt": "2026-02-22T14:37:50.724676",
       "accessCount": 0,
       "lastAccessed": null
     },
     "2026-02-18.md#Finance Toolkit Built": {
-      "score": 6,
-      "reason": "financial",
-      "scoredAt": "2026-02-22T14:31:24.957818",
+      "score": 8,
+      "reason": "Custom tools for stock analysis and identified potential investment opportunities with specific financial metrics, indicating strategic value.",
+      "scoredAt": "2026-02-22T14:38:12.634041",
       "accessCount": 0,
       "lastAccessed": null
     },
     "2026-02-18.md#`trends` Command (in progress)": {
-      "score": 3,
-      "reason": "general",
-      "scoredAt": "2026-02-22T14:31:24.957878",
+      "score": 6,
+      "reason": "Adds useful financial data access but is a feature enhancement rather than a key decision or critical relationship insight.",
+      "scoredAt": "2026-02-22T14:38:39.705090",
       "accessCount": 0,
       "lastAccessed": null
     },
     "2026-02-18.md#Full Disk Access": {
-      "score": 4,
-      "reason": "general",
-      "scoredAt": "2026-02-22T14:31:24.957995",
+      "score": 7,
+      "reason": "Technical setup critical for OpenClaw functionality, involving system permissions and process hierarchy, but specific to a single application's configuration.",
+      "scoredAt": "2026-02-22T14:39:08.923646",
       "accessCount": 0,
       "lastAccessed": null
     },
     "2026-02-18.md#Eloise Lavvo Calendar": {
       "score": 5,
-      "reason": "mentions people",
-      "scoredAt": "2026-02-22T14:31:24.958074",
+      "reason": "Setting up a calendar with specific events and adjustments shows organizational planning, but it's more of a routine task than a key decision or lesson.",
+      "scoredAt": "2026-02-22T14:39:30.328851",
       "accessCount": 0,
       "lastAccessed": null
     },
     "2026-02-18.md#Lessons Learned": {
-      "score": 8,
-      "reason": "decision/lesson, action items",
-      "scoredAt": "2026-02-22T14:31:24.958214",
+      "score": 7,
+      "reason": "Contains legal/industry insights (eTakst regulation, Utlånsforskriften) and practical lessons (tool development, resource management), but lacks a singular key decision or relationship impact.",
+      "scoredAt": "2026-02-22T14:39:50.844744",
       "accessCount": 0,
       "lastAccessed": null
     },
     "2026-02-19.md#Qwen3 Local Model Optimization": {
-      "score": 4,
-      "reason": "general",
-      "scoredAt": "2026-02-22T14:31:24.958540",
+      "score": 8,
+      "reason": "This represents a significant technical achievement with performance improvements and a new model variant, which can impact productivity and efficiency.",
+      "scoredAt": "2026-02-22T14:39:53.253096",
       "accessCount": 0,
       "lastAccessed": null
     },
     "2026-02-19.md#Digital Citadel Setup": {
-      "score": 6,
-      "reason": "mentions people",
-      "scoredAt": "2026-02-22T14:31:24.958673",
+      "score": 9,
+      "reason": "Critical security measures (encryption, backups) and a lesson about key management risks, though the plaintext secret key is a significant oversight requiring immediate action.",
+      "scoredAt": "2026-02-22T14:40:13.832975",
       "accessCount": 0,
       "lastAccessed": null
     },
     "2026-02-19.md#Cron Optimization": {
-      "score": 6,
-      "reason": "financial",
-      "scoredAt": "2026-02-22T14:31:24.958772",
+      "score": 5,
+      "reason": "Routine operational setup for data workflows, not a key decision or lesson learned, but important for system maintenance.",
+      "scoredAt": "2026-02-22T14:40:38.483798",
       "accessCount": 0,
       "lastAccessed": null
     },
     "2026-02-19.md#GCP & Embeddings": {
-      "score": 5,
-      "reason": "mentions people",
-      "scoredAt": "2026-02-22T14:31:24.958815",
-      "accessCount": 0,
-      "lastAccessed": null
-    },
-    "2026-02-19.md#Mester Grønn Order (In Progress)": {
-      "score": 7,
-      "reason": "mentions people, action items",
-      "scoredAt": "2026-02-22T14:31:24.958925",
+      "score": 8,
+      "reason": "Involves a key decision (moving project to production), technical improvement (local fallback), and resolving a critical system issue (Gemini embeddings restored).",
+      "scoredAt": "2026-02-22T14:41:01.893102",
       "accessCount": 0,
       "lastAccessed": null
     },
     "2026-02-19.md#Boretunet Ringeliste for Andre": {
       "score": 6,
-      "reason": "mentions people",
-      "scoredAt": "2026-02-22T14:31:24.959032",
+      "reason": "The memory details a specific outreach project with strategic elements (contact list building, target achievement) but lacks major decision-making or long-term relationship significance. It's operational but not transformative.",
+      "scoredAt": "2026-02-22T14:41:57.130162",
       "accessCount": 0,
       "lastAccessed": null
     },
     "2026-02-19.md#Webshop Skill": {
-      "score": 6,
-      "reason": "mentions people",
-      "scoredAt": "2026-02-22T14:31:24.959103",
+      "score": 7,
+      "reason": "Key decision in launching a webshop, lesson in product branding, and relationship info with Melissa, but single transaction with limited long-term impact.",
+      "scoredAt": "2026-02-22T14:42:27.065306",
       "accessCount": 0,
       "lastAccessed": null
     },
     "2026-02-19.md#Nye Cron Jobs": {
-      "score": 5,
-      "reason": "financial",
-      "scoredAt": "2026-02-22T14:31:24.959143",
+      "score": 4,
+      "reason": "Routine financial check-in tasks with recurring schedules, important for consistency but not a key decision or lesson learned.",
+      "scoredAt": "2026-02-22T14:42:45.927937",
       "accessCount": 0,
       "lastAccessed": null
     },
     "2026-02-19.md#bottenanna.no": {
-      "score": 5,
-      "reason": "mentions people",
-      "scoredAt": "2026-02-22T14:31:24.959207",
+      "score": 7,
+      "reason": "Domain purchase and DNS setup are key technical decisions, while the Google Workspace issue highlights a problem being addressed. Overall, it's important for website management but not a major life lesson or relationship milestone.",
+      "scoredAt": "2026-02-22T14:43:04.374657",
       "accessCount": 0,
       "lastAccessed": null
     },
     "2026-02-19.md#Decisions": {
-      "score": 3,
-      "reason": "general",
-      "scoredAt": "2026-02-22T14:31:24.959273",
+      "score": 8,
+      "reason": "Key technical decision impacting resource allocation and API integration strategy",
+      "scoredAt": "2026-02-22T14:43:23.842640",
       "accessCount": 0,
       "lastAccessed": null
     },
     "2026-02-20.md#Boretunet Ringeliste — Levert": {
-      "score": 7,
-      "reason": "mentions people",
-      "scoredAt": "2026-02-22T14:31:24.959570",
-      "accessCount": 0,
-      "lastAccessed": null
-    },
-    "2026-02-20.md#Mester Grønn Ordre": {
-      "score": 7,
-      "reason": "mentions people",
-      "scoredAt": "2026-02-22T14:31:24.959689",
+      "score": 8,
+      "reason": "Contains actionable lessons about email outreach strategies (spam avoidance, inline text), operational insights on handling large tasks, and distribution data. While not a strategic decision, it provides valuable process improvements and referenceable data for future campaigns.",
+      "scoredAt": "2026-02-22T14:43:45.320346",
       "accessCount": 0,
       "lastAccessed": null
     },
     "2026-02-20.md#Webshop Skill Opprettet": {
-      "score": 4,
-      "reason": "general",
-      "scoredAt": "2026-02-22T14:31:24.959756",
+      "score": 7,
+      "reason": "Key decision for webshop setup with technical configuration and initial project concepts",
+      "scoredAt": "2026-02-22T14:44:29.124049",
       "accessCount": 0,
       "lastAccessed": null
     },
     "2026-02-20.md#Nye Cron Jobs": {
-      "score": 6,
-      "reason": "financial",
-      "scoredAt": "2026-02-22T14:31:24.959801",
+      "score": 3,
+      "reason": "Routine tasks without significant long-term impact or key decision-making",
+      "scoredAt": "2026-02-22T14:44:43.759570",
       "accessCount": 0,
       "lastAccessed": null
     },
     "2026-02-20.md#bottenanna.no": {
       "score": 7,
-      "reason": "mentions people",
-      "scoredAt": "2026-02-22T14:31:24.959918",
+      "reason": "Involves critical domain/DNS setup and email service configuration, but lacks strategic impact compared to major decisions or relationship milestones.",
+      "scoredAt": "2026-02-22T14:44:59.928209",
       "accessCount": 0,
       "lastAccessed": null
     },
     "2026-02-20.md#Google Workspace Live": {
-      "score": 5,
-      "reason": "general",
-      "scoredAt": "2026-02-22T14:31:24.960007",
-      "accessCount": 0,
-      "lastAccessed": null
-    },
-    "2026-02-20.md#Google Chat Kanal": {
-      "score": 5,
-      "reason": "general",
-      "scoredAt": "2026-02-22T14:31:24.960222",
-      "accessCount": 0,
-      "lastAccessed": null
-    },
-    "2026-02-20.md#Ringeliste Berikelse": {
       "score": 7,
-      "reason": "mentions people",
-      "scoredAt": "2026-02-22T14:31:24.960384",
+      "reason": "Establishing Google Workspace for business operations is foundational but not a strategic decision. It's important for daily functions but not a key decision or relationship milestone.",
+      "scoredAt": "2026-02-22T14:45:25.337430",
       "accessCount": 0,
       "lastAccessed": null
     },
     "2026-02-20.md#Daily Health Check": {
-      "score": 5,
-      "reason": "general",
-      "scoredAt": "2026-02-22T14:31:24.960471",
+      "score": 7,
+      "reason": "Setting up system monitoring (healthcheck script and cron job) is a key decision for maintaining system reliability, but the baseline metrics are more routine. It's important for long-term system health tracking.",
+      "scoredAt": "2026-02-22T14:46:50.656571",
       "accessCount": 0,
       "lastAccessed": null
     },
     "2026-02-20.md#Log Rotation → Cron": {
-      "score": 4,
-      "reason": "general",
-      "scoredAt": "2026-02-22T14:31:24.960507",
+      "score": 5,
+      "reason": "This is a technical task related to system maintenance, likely a routine cron job setup rather than a key decision or critical relationship info.",
+      "scoredAt": "2026-02-22T14:47:12.195712",
       "accessCount": 0,
       "lastAccessed": null
     },
     "2026-02-20.md#Mission Control": {
-      "score": 6,
-      "reason": "mentions people, action items, routine",
-      "scoredAt": "2026-02-22T14:31:24.960590",
+      "score": 5,
+      "reason": "Technical setup change affecting task management and server operations, but not a major strategic decision or relationship milestone.",
+      "scoredAt": "2026-02-22T14:47:29.620190",
       "accessCount": 0,
       "lastAccessed": null
     },
     "2026-02-20.md#Claude Code": {
       "score": 4,
-      "reason": "general",
-      "scoredAt": "2026-02-22T14:31:24.960614",
+      "reason": "Technical installation detail with specific version and path, potentially relevant for system configuration or troubleshooting, but lacks context on broader impact or decision-making significance.",
+      "scoredAt": "2026-02-22T14:47:49.085745",
       "accessCount": 0,
       "lastAccessed": null
     },
     "2026-02-20.md#Nordnet API": {
-      "score": 6,
-      "reason": "mentions people",
-      "scoredAt": "2026-02-22T14:31:24.960672",
+      "score": 7,
+      "reason": "Provides critical info about API availability and onboarding status, which impacts integration strategies. The direct outreach to Nordnet suggests potential for future changes, making it moderately important but not a pivotal decision.",
+      "scoredAt": "2026-02-22T14:48:06.797682",
       "accessCount": 0,
       "lastAccessed": null
     },
     "2026-02-20.md#Lærdom": {
-      "score": 5,
-      "reason": "general",
-      "scoredAt": "2026-02-22T14:31:24.960898",
-      "accessCount": 0,
-      "lastAccessed": null
-    },
-    "2026-02-21.md#Cost Optimization Audit": {
-      "score": 10,
-      "reason": "decision/lesson, mentions people, financial, routine",
-      "scoredAt": "2026-02-22T14:31:24.961075",
+      "score": 8,
+      "reason": "Contains critical technical workarounds for avoiding spam, DNS limitations, API issues, and tool conflicts, which are important for efficient workflows and system reliability but not overarching life lessons or strategic decisions.",
+      "scoredAt": "2026-02-22T14:48:28.800524",
       "accessCount": 0,
       "lastAccessed": null
     },
     "2026-02-21.md#Morning Briefing Prefetch": {
-      "score": 5,
-      "reason": "general",
-      "scoredAt": "2026-02-22T14:31:24.961184",
+      "score": 9,
+      "reason": "Key decision improving system efficiency by optimizing data handling and reducing runtime, impacting performance significantly.",
+      "scoredAt": "2026-02-22T14:49:27.431276",
       "accessCount": 0,
       "lastAccessed": null
     },
     "2026-02-21.md#TakstHjem — Andre sin mail om SR-Bank": {
-      "score": 7,
-      "reason": "mentions people",
-      "scoredAt": "2026-02-22T14:31:24.961277",
+      "score": 9,
+      "reason": "Key strategic decision impacting market dynamics and competition, involving significant shifts in data ownership and potential emergence of new players like TakstHjem.",
+      "scoredAt": "2026-02-22T14:49:43.799970",
       "accessCount": 0,
       "lastAccessed": null
     },
     "2026-02-21.md#Boretunet ringeliste v3": {
-      "score": 7,
-      "reason": "mentions people",
-      "scoredAt": "2026-02-22T14:31:24.961358",
+      "score": 3,
+      "reason": "Routine API usage and data management task with no key decisions or significant relationship impact",
+      "scoredAt": "2026-02-22T14:49:58.106123",
       "accessCount": 0,
       "lastAccessed": null
     },
     "2026-02-21.md#Email & Calendar Cron Fix": {
-      "score": 8,
-      "reason": "decision/lesson",
-      "scoredAt": "2026-02-22T14:31:24.961439",
+      "score": 9,
+      "reason": "Key technical lesson about isolated sessions requiring explicit command repetition to avoid errors, with a clear fix that prevents recurring issues.",
+      "scoredAt": "2026-02-22T14:50:16.258979",
       "accessCount": 0,
       "lastAccessed": null
     },
     "2026-02-21.md#Rules": {
-      "score": 5,
-      "reason": "general",
-      "scoredAt": "2026-02-22T14:31:24.961519",
+      "score": 8,
+      "reason": "This is a key decision about workflow optimization and resource management, impacting efficiency and cost-effectiveness of scheduled tasks.",
+      "scoredAt": "2026-02-22T14:50:32.142761",
       "accessCount": 0,
       "lastAccessed": null
     },
     "2026-02-22.md#Mission Control → Next.js Migration": {
       "score": 8,
-      "reason": "decision/lesson",
-      "scoredAt": "2026-02-22T14:31:24.961767",
+      "reason": "Key technical decision (migrating to Next.js) with specific lessons on troubleshooting deployment issues and process management. Contains actionable solutions for similar projects.",
+      "scoredAt": "2026-02-22T14:50:58.329345",
       "accessCount": 0,
       "lastAccessed": null
     },
     "2026-02-22.md#Melissa's Birthday Reminder": {
-      "score": 6,
-      "reason": "mentions people",
-      "scoredAt": "2026-02-22T14:31:24.961826",
+      "score": 2,
+      "reason": "Routine task for a personal reminder; no key decisions, lessons, or significant relationship info involved.",
+      "scoredAt": "2026-02-22T14:51:13.557556",
       "accessCount": 0,
       "lastAccessed": null
     },
     "2026-02-22.md#Gmail OAuth Expired": {
-      "score": 6,
-      "reason": "mentions people",
-      "scoredAt": "2026-02-22T14:31:24.961889",
+      "score": 3,
+      "reason": "Technical troubleshooting step for authentication, not a key decision or lasting lesson.",
+      "scoredAt": "2026-02-22T14:51:30.159969",
       "accessCount": 0,
       "lastAccessed": null
     }
   },
-  "updatedAt": "2026-02-22T14:31:24.961890"
+  "updatedAt": "2026-02-22T14:51:30.160124"
 }
