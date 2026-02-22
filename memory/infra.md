@@ -1,5 +1,14 @@
 # Infrastructure
 
+## Memory System (updated 2026-02-22)
+- **Embeddings:** nomic-embed-text via Ollama (OpenAI-compat at localhost:11434/v1)
+- **Search:** Hybrid BM25 + vector (70/30 weighting)
+- **Importance scoring:** Heuristic-based (keywords: decisions, people, money, actions), every 6h
+- **Context index:** 311+ topics → file/line refs (context-index.json), every 6h
+- **Relations graph:** 20 entities, 14 edges (relations.json), every 6h
+- **Decay:** Sun 21:00 — compress 7-30d files → weekly digests, archive >30d
+- **Infra Sync cron:** 6 scripts every 6h (memory-index, investments, context-index, relations, scoring, mission-control)
+
 ## Google Workspace (gog CLI)
 - Primary account: banna@bottenanna.no (bottenanna26@gmail.com is alias)
 - Services: gmail, calendar, drive, contacts, docs, sheets

@@ -20,6 +20,12 @@
 - Open-ended research tasks burn 200k tokens — give strict constraints (max N searches, short timeout)
 - For email tasks: do directly in main session or split into small focused sub-tasks
 - If sub-agent fails: do it yourself, don't retry with another sub-agent
+- **90s timeout kills most subagents** — use 300s for multi-tool, 120s for simple
+- **Set default model in config** (`agents.defaults.subagents.model`) — don't let subagents inherit Opus
+- **Atomic tasks only** — "build this one script + run it + show output, then stop" beats "build the whole system"
+- **Max 5-7 tool calls** per subagent — more than that, do it yourself
+- **Include full file paths** — subagents don't get SOUL/USER/MEMORY context
+- **Parallel spawning works great** — 3 research agents at once all completed fine
 
 ## Domain Knowledge
 - eTakst is NOT legally regulated — proprietary Eiendomsverdi AS product
@@ -27,6 +33,15 @@
 - ClawHub skills: ~27% of registry is spam/malicious
 - Don't hand-draw SVG paths — use existing libraries
 - PDF export from HTML is unreliable — hosted HTML links work better
+
+## Memory System
+- **Gemini embeddings hit 429 quota** — switched to local Ollama nomic-embed-text via OpenAI-compatible API
+- **OpenClaw has built-in hybrid search** (BM25 + vector) — just enable it in config, don't build your own
+- **LLM-per-section scoring doesn't work with local Ollama** — qwen3-fast ignores /no_think, uses thinking tokens, hangs with stream:false. Heuristic scoring is 1000x faster and good enough.
+- **Heuristic importance scoring** — keyword matching (decisions, people, money, actions) gives 1-10 scores instantly. No tokens needed.
+- **Memory decay needs importance-guided prioritization** — high-score sections survive compression, low-score ones get archived
+- **config.patch for memorySearch** — must nest under `agents.defaults.memorySearch`, not top-level `memorySearch`
+- **Bash 3.2 on macOS** — no associative arrays, no mapfile. Always use Python for anything complex.
 
 ## Next.js / Node
 - Node v24 incompatible with Next.js 16 — use v22 via fnm
