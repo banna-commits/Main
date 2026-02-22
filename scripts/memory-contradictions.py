@@ -53,7 +53,7 @@ def check_email_conflicts(files):
     
     for person, emails in person_emails.items():
         unique = set(e[0] for e in emails)
-        if len(unique) > 2:  # Allow 2 (primary + alias), flag 3+
+        if len(unique) > 3:  # Allow 3 (primary + alias + work), flag 4+
             sources = [f"{e} ({f})" for e, f in emails]
             alerts.append(f"⚠️ EMAIL CONFLICT: {person} has {len(unique)} emails: {', '.join(sources)}")
 
@@ -67,8 +67,11 @@ def check_stale_paths(files):
             if path not in seen_paths:
                 seen_paths.add(path)
                 if not os.path.exists(path) and not path.endswith("*"):
-                    # Skip obvious patterns and dynamic paths
-                    if "/node_modules/" not in path and "<" not in path:
+                    # Skip obvious patterns, dynamic paths, bash $PATH, and daily log refs
+                    is_daily = re.match(r'memory/\d{4}-\d{2}-\d{2}\.md', fname)
+                    if ("/node_modules/" not in path and "<" not in path
+                            and ":$" not in path and "$" not in path
+                            and not is_daily):
                         alerts.append(f"🔗 STALE PATH: {path} (referenced in {fname})")
 
 
@@ -86,7 +89,9 @@ def check_port_conflicts(files):
                 port_services[port].append((ctx, fname))
     
     for port, refs in port_services.items():
-        if len(refs) > 2:  # Same port mentioned in 3+ different contexts
+        # Check if multiple DIFFERENT services use the same port
+        unique_files = set(r[1] for r in refs)
+        if len(refs) > 2 and len(unique_files) > 2:
             contexts = set(r[0] for r in refs)
             if len(contexts) > 1:
                 alerts.append(f"⚠️ PORT CONFLICT: port {port} referenced in {len(refs)} places")
@@ -106,13 +111,17 @@ def check_duplicate_sections(files):
     ignore = {"", "context", "notes", "when", "steps", "gotchas", "constraints",
               "key concepts", "what we should build", "practical ideas",
               "quality rating", "implementation plan for openclaw",
-              "practical implementation ideas", "what we should implement"}
+              "practical implementation ideas", "what we should implement",
+              "google chat", "calendar", "communication", "mission control",
+              "bottenanna.no"}
     
     for title, fnames in sections.items():
         unique_files = set(fnames)
         if len(unique_files) > 1 and title not in ignore:
-            # Skip if all from patterns/ or research files
+            # Skip if all from patterns/, research files, or daily logs
             if all("patterns/" in f or "research-" in f for f in unique_files):
+                continue
+            if all(re.match(r'memory/\d{4}-\d{2}-\d{2}\.md', f) for f in unique_files):
                 continue
             alerts.append(f"📋 DUPLICATE SECTION: '{title}' appears in {', '.join(unique_files)}")
 
