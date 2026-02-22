@@ -1,0 +1,167 @@
+{
+  "files": {
+    "memory/research-memory-durability.md": {
+      "size": 3060,
+      "hash": "4c7694ca4508c2ece88353de876c8bf5"
+    },
+    "memory/research-self-improvement.md": {
+      "size": 3029,
+      "hash": "1f0eae46160d56aab5a6ef40ef8fb0ec"
+    },
+    "memory/2026-02-18.md": {
+      "size": 5897,
+      "hash": "1130f8d5c1204c7b9f3e80cafac7ba99"
+    },
+    "memory/research-agent-memory.md": {
+      "size": 2550,
+      "hash": "112d2e14069d201c6e89b043172a757b"
+    },
+    "memory/research-rag-practices.md": {
+      "size": 3122,
+      "hash": "85ae00806c5c1574d29ddc33398337c8"
+    },
+    "memory/2026-02-19.md": {
+      "size": 2586,
+      "hash": "3bcc6e1ff6b95e66e560b0a9a74fb2a0"
+    },
+    "memory/research-importance-scoring.md": {
+      "size": 2765,
+      "hash": "21e9bef0f37f650288c28abf8590f151"
+    },
+    "memory/people.md": {
+      "size": 777,
+      "hash": "f1542fc6e059cb124898a167eed5e48b"
+    },
+    "memory/2026-02-22.md": {
+      "size": 1154,
+      "hash": "5ba51b4a98a25bd6976d37f20f01427b"
+    },
+    "memory/2026-02-16.md": {
+      "size": 6254,
+      "hash": "77bed89ad7e17c4b96eb9b13a2b02e48"
+    },
+    "memory/2026-02-16-2042.md": {
+      "size": 149,
+      "hash": "226be4b3d3fc77423fe3c3dd65ad7a8a"
+    },
+    "memory/2026-02-19-1247.md": {
+      "size": 149,
+      "hash": "f8a23e259a450ec13513c6303e591fdc"
+    },
+    "memory/2026-02-19-1206.md": {
+      "size": 149,
+      "hash": "85de7782714187c4c9da5fc4a2490cf9"
+    },
+    "memory/infra.md": {
+      "size": 2275,
+      "hash": "efeffac57d7fde2c017b3c9b0635662b"
+    },
+    "memory/2026-02-19-0922.md": {
+      "size": 149,
+      "hash": "55e03242fd18d67fcd1146706abf2ba2"
+    },
+    "memory/2026-02-17.md": {
+      "size": 966,
+      "hash": "472bc74fa5f9a173a849d5e939bd6709"
+    },
+    "memory/projects.md": {
+      "size": 1729,
+      "hash": "520706a36ec330bef7d328a43af55f2c"
+    },
+    "memory/lessons.md": {
+      "size": 3645,
+      "hash": "fd5bf26eecee19b1112461c0bd878499"
+    },
+    "memory/2026-02-19-1117.md": {
+      "size": 149,
+      "hash": "0c1f9586d63a712035c680d7086f7fb8"
+    },
+    "memory/2026-02-20.md": {
+      "size": 4551,
+      "hash": "b412feced22a957459e49af7e06bfe50"
+    },
+    "memory/2026-02-14.md": {
+      "size": 1197,
+      "hash": "8f7f24a1cea5e529225cdccfab304b5d"
+    },
+    "memory/2026-02-21.md": {
+      "size": 2100,
+      "hash": "c4548e54763093eb999f269c2719a71b"
+    },
+    "memory/2026-02-15.md": {
+      "size": 10310,
+      "hash": "b9c889dafce6a1404ffa8b1a853efcba"
+    },
+    "memory/research-self-healing.md": {
+      "size": 3040,
+      "hash": "107b80f8caf3fd4bb3b7a8713bfe9880"
+    },
+    "memory/2026-02-16-context-optimization.md": {
+      "size": 4503,
+      "hash": "a755550f81a60fd50e9f7ae801071d15"
+    },
+    "memory/preferences.md": {
+      "size": 1315,
+      "hash": "aafede803cefe1769b8c8e6208dbf148"
+    },
+    "memory/qwen3-8b-eval.md": {
+      "size": 1185,
+      "hash": "d046bb76fa5b9b69c0c0beb140aa1448"
+    },
+    "memory/2026-02-17-1217.md": {
+      "size": 149,
+      "hash": "fc00c3a462d933d7b3958c4dbaecc148"
+    },
+    "memory/2026-02-17-1015.md": {
+      "size": 149,
+      "hash": "38a53b71b72f383797cdc2c253183675"
+    },
+    "memory/patterns/flower-ordering.md": {
+      "size": 710,
+      "hash": "397dd0433b76fa92076adf1e9f727927"
+    },
+    "memory/patterns/subagent-spawning.md": {
+      "size": 2252,
+      "hash": "6614abf815e4d0dd3bc1a457fc8f6565"
+    },
+    "memory/patterns/README.md": {
+      "size": 214,
+      "hash": "c54523f4e86acd64abedd3b2bf28f823"
+    },
+    "memory/patterns/cron-job-setup.md": {
+      "size": 1180,
+      "hash": "6fe6d80a35e614930083bd009bc7c0e1"
+    },
+    "memory/patterns/stock-research.md": {
+      "size": 832,
+      "hash": "23943d1abcdfaf6c02164a513517ee1a"
+    },
+    "memory/patterns/email-drafting.md": {
+      "size": 722,
+      "hash": "e727276d06b4dc8d660d833bac3228d5"
+    },
+    "MEMORY.md": {
+      "size": 1017,
+      "hash": "0c5beac662f2d858949e3e6e6f7fe1f1"
+    },
+    "SOUL.md": {
+      "size": 1929,
+      "hash": "8ea2e86bcfc34d78db2757244207d545"
+    },
+    "USER.md": {
+      "size": 658,
+      "hash": "f04057985554558c14a614ca2673b50e"
+    },
+    "IDENTITY.md": {
+      "size": 257,
+      "hash": "c65fbe1d653a490e538e37de4e6d0002"
+    },
+    "AGENTS.md": {
+      "size": 10150,
+      "hash": "8519794c2464c509a612d0be25ae9071"
+    }
+  },
+  "lastCheck": "2026-02-22T17:01:02.029671",
+  "totalSize": 88974,
+  "fileCount": 40
+}
