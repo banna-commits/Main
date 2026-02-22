@@ -1,5 +1,11 @@
 # Lessons Learned
 
+## Write-Through Memory
+- **Skriv til minnet UMIDDELBART** når noe nytt settes opp, endres, eller besluttes
+- Ikke vent til du blir bedt om det — det er for sent
+- Nye tjenester, cron jobs, config-endringer, credentials, workflows → `memory/infra.md` eller relevant fil med én gang
+- Hvis du ville sagt "det bør jeg huske" — skriv det ned NÅ, ikke senere
+
 ## Tools & CLI
 - Desktop OAuth client type works; Web app causes redirect_uri_mismatch
 - Gmail hook mapping needs `messageTemplate` or you get 400 errors
