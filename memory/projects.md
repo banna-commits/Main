@@ -15,7 +15,7 @@
 
 ## Into the Body (somatic sensing app) #project
 - Martin's project — guided body awareness/meditation sessions
-- React Native/Expo at /into-the-body/
+- React Native/Expo at /projects/into-the-body/
 - Uses react-native-body-highlighter (female model, more unisex)
 - Martin coming to finpusse the app
 - Spec doc: https://docs.google.com/document/d/1JXXjxYL-6qlHW8UuRi8CxXhGANW6Znu-5jY_R1gNjCM/edit
