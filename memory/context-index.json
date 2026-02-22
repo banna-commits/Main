@@ -1,0 +1,3213 @@
+{
+  "topics": {
+    "telegram fix (carried from 2/17)": [
+      {
+        "path": "memory/2026-02-18.md",
+        "startLine": 3,
+        "endLine": 7,
+        "summary": "- Root cause: Mac Mini sleep killing TCP connectio..."
+      }
+    ],
+    "log rotation setup": [
+      {
+        "path": "memory/2026-02-18.md",
+        "startLine": 8,
+        "endLine": 11,
+        "summary": "- Script: `~/.openclaw/scripts/rotate-logs.sh` — r..."
+      }
+    ],
+    "skills installed": [
+      {
+        "path": "memory/2026-02-18.md",
+        "startLine": 12,
+        "endLine": 17,
+        "summary": "- **Playwright MCP** — browser automation (clean i..."
+      }
+    ],
+    "taksthjem email thread (19c60c4e4f80ddc9) — major progress": [
+      {
+        "path": "memory/2026-02-18.md",
+        "startLine": 18,
+        "endLine": 33,
+        "summary": "- Answered Andre's 3 unanswered emails (photograph..."
+      }
+    ],
+    "key people context": [
+      {
+        "path": "memory/2026-02-18.md",
+        "startLine": 34,
+        "endLine": 37,
+        "summary": "- **Dag Meltveit** — sharp, skeptical, asks the ri..."
+      }
+    ],
+    "investment research for knut": [
+      {
+        "path": "memory/2026-02-18.md",
+        "startLine": 38,
+        "endLine": 47,
+        "summary": "- Thesis: physical-moat companies at low PE that b..."
+      }
+    ],
+    "google chat": [
+      {
+        "path": "memory/2026-02-18.md",
+        "startLine": 48,
+        "endLine": 52,
+        "summary": "- bottenanna26@gmail.com has Workspace admin acces..."
+      },
+      {
+        "path": "memory/2026-02-14.md",
+        "startLine": 21,
+        "endLine": 24,
+        "summary": "- Knut upgraded to Google Workspace but Chat API n..."
+      }
+    ],
+    "investment research — afternoon session": [
+      {
+        "path": "memory/2026-02-18.md",
+        "startLine": 53,
+        "endLine": 79,
+        "summary": "### Nordic Insurance Deep-Dive - Ranking: Sampo > ..."
+      }
+    ],
+    "nordic insurance deep-dive": [
+      {
+        "path": "memory/2026-02-18.md",
+        "startLine": 55,
+        "endLine": 60,
+        "summary": "- Ranking: Sampo > Gjensidige > Protector for AI-u..."
+      }
+    ],
+    "novo nordisk (separate value thesis, not ai)": [
+      {
+        "path": "memory/2026-02-18.md",
+        "startLine": 61,
+        "endLine": 66,
+        "summary": "- PE 13.4 after 60%+ crash, ROE 60.7%, operating m..."
+      }
+    ],
+    "peg.co (pharma equity group)": [
+      {
+        "path": "memory/2026-02-18.md",
+        "startLine": 67,
+        "endLine": 70,
+        "summary": "- DKK 0.10 penny stock, pre-revenue biotech, DKK -..."
+      }
+    ],
+    "finance toolkit built": [
+      {
+        "path": "memory/2026-02-18.md",
+        "startLine": 71,
+        "endLine": 76,
+        "summary": "- Custom `yf` CLI (15KB, ~400 lines): price, quote..."
+      }
+    ],
+    "`trends` command (in progress)": [
+      {
+        "path": "memory/2026-02-18.md",
+        "startLine": 77,
+        "endLine": 79,
+        "summary": "- Adding historical financials view to `yf` CLI — ..."
+      }
+    ],
+    "full disk access": [
+      {
+        "path": "memory/2026-02-18.md",
+        "startLine": 80,
+        "endLine": 85,
+        "summary": "- Granted FDA to `/usr/local/bin/openclaw` via Sys..."
+      }
+    ],
+    "eloise lavvo calendar": [
+      {
+        "path": "memory/2026-02-18.md",
+        "startLine": 86,
+        "endLine": 90,
+        "summary": "- Created 58 all-day events (60 minus 2 holidays) ..."
+      }
+    ],
+    "lessons learned": [
+      {
+        "path": "memory/2026-02-18.md",
+        "startLine": 91,
+        "endLine": 96,
+        "summary": "- eTakst is NOT legally regulated — proprietary Ei..."
+      }
+    ],
+    "investment": [
+      {
+        "path": "memory/2026-02-18.md",
+        "startLine": 1,
+        "endLine": 96,
+        "summary": "# 2026-02-18 — Daily Log ## Telegram Fix (carried ..."
+      }
+    ],
+    "coor": [
+      {
+        "path": "memory/2026-02-18.md",
+        "startLine": 1,
+        "endLine": 96,
+        "summary": "# 2026-02-18 — Daily Log ## Telegram Fix (carried ..."
+      }
+    ],
+    "wwi.ol": [
+      {
+        "path": "memory/2026-02-18.md",
+        "startLine": 1,
+        "endLine": 96,
+        "summary": "# 2026-02-18 — Daily Log ## Telegram Fix (carried ..."
+      }
+    ],
+    "research": [
+      {
+        "path": "memory/2026-02-18.md",
+        "startLine": 1,
+        "endLine": 96,
+        "summary": "# 2026-02-18 — Daily Log ## Telegram Fix (carried ..."
+      }
+    ],
+    "renteradar": [
+      {
+        "path": "memory/2026-02-18.md",
+        "startLine": 1,
+        "endLine": 96,
+        "summary": "# 2026-02-18 — Daily Log ## Telegram Fix (carried ..."
+      },
+      {
+        "path": "memory/2026-02-16.md",
+        "startLine": 1,
+        "endLine": 110,
+        "summary": "# 2026-02-16 (Monday) Related: [[MEMORY]], [[memor..."
+      }
+    ],
+    "minimum viable moat": [
+      {
+        "path": "memory/2026-02-18.md",
+        "startLine": 1,
+        "endLine": 96,
+        "summary": "# 2026-02-18 — Daily Log ## Telegram Fix (carried ..."
+      }
+    ],
+    "obsidian": [
+      {
+        "path": "memory/2026-02-18.md",
+        "startLine": 1,
+        "endLine": 96,
+        "summary": "# 2026-02-18 — Daily Log ## Telegram Fix (carried ..."
+      },
+      {
+        "path": "memory/2026-02-16.md",
+        "startLine": 1,
+        "endLine": 110,
+        "summary": "# 2026-02-16 (Monday) Related: [[MEMORY]], [[memor..."
+      }
+    ],
+    "built": [
+      {
+        "path": "memory/2026-02-18.md",
+        "startLine": 1,
+        "endLine": 96,
+        "summary": "# 2026-02-18 — Daily Log ## Telegram Fix (carried ..."
+      },
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 1,
+        "endLine": 193,
+        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
+      }
+    ],
+    "analyst": [
+      {
+        "path": "memory/2026-02-18.md",
+        "startLine": 1,
+        "endLine": 96,
+        "summary": "# 2026-02-18 — Daily Log ## Telegram Fix (carried ..."
+      }
+    ],
+    "dag": [
+      {
+        "path": "memory/2026-02-18.md",
+        "startLine": 1,
+        "endLine": 96,
+        "summary": "# 2026-02-18 — Daily Log ## Telegram Fix (carried ..."
+      },
+      {
+        "path": "memory/2026-02-16.md",
+        "startLine": 1,
+        "endLine": 110,
+        "summary": "# 2026-02-16 (Monday) Related: [[MEMORY]], [[memor..."
+      },
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 1,
+        "endLine": 193,
+        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
+      }
+    ],
+    "andre": [
+      {
+        "path": "memory/2026-02-18.md",
+        "startLine": 1,
+        "endLine": 96,
+        "summary": "# 2026-02-18 — Daily Log ## Telegram Fix (carried ..."
+      },
+      {
+        "path": "memory/2026-02-19.md",
+        "startLine": 1,
+        "endLine": 54,
+        "summary": "# 2026-02-19 ## Qwen3 Local Model Optimization - C..."
+      },
+      {
+        "path": "memory/projects.md",
+        "startLine": 1,
+        "endLine": 34,
+        "summary": "# Projects ## TakstHjem (B2C property valuation) #..."
+      },
+      {
+        "path": "memory/2026-02-20.md",
+        "startLine": 1,
+        "endLine": 88,
+        "summary": "# 2026-02-20 ## Boretunet Ringeliste — Levert - An..."
+      },
+      {
+        "path": "memory/2026-02-21.md",
+        "startLine": 1,
+        "endLine": 40,
+        "summary": "# 2026-02-21 (Saturday) ## Cost Optimization Audit..."
+      },
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 1,
+        "endLine": 193,
+        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
+      }
+    ],
+    "peg.co": [
+      {
+        "path": "memory/2026-02-18.md",
+        "startLine": 1,
+        "endLine": 96,
+        "summary": "# 2026-02-18 — Daily Log ## Telegram Fix (carried ..."
+      }
+    ],
+    "nordic": [
+      {
+        "path": "memory/2026-02-18.md",
+        "startLine": 1,
+        "endLine": 96,
+        "summary": "# 2026-02-18 — Daily Log ## Telegram Fix (carried ..."
+      }
+    ],
+    "nordisk": [
+      {
+        "path": "memory/2026-02-18.md",
+        "startLine": 1,
+        "endLine": 96,
+        "summary": "# 2026-02-18 — Daily Log ## Telegram Fix (carried ..."
+      }
+    ],
+    "log": [
+      {
+        "path": "memory/2026-02-18.md",
+        "startLine": 1,
+        "endLine": 96,
+        "summary": "# 2026-02-18 — Daily Log ## Telegram Fix (carried ..."
+      }
+    ],
+    "gjensidige": [
+      {
+        "path": "memory/2026-02-18.md",
+        "startLine": 1,
+        "endLine": 96,
+        "summary": "# 2026-02-18 — Daily Log ## Telegram Fix (carried ..."
+      }
+    ],
+    "users": [
+      {
+        "path": "memory/2026-02-18.md",
+        "startLine": 1,
+        "endLine": 96,
+        "summary": "# 2026-02-18 — Daily Log ## Telegram Fix (carried ..."
+      },
+      {
+        "path": "memory/2026-02-20.md",
+        "startLine": 1,
+        "endLine": 88,
+        "summary": "# 2026-02-20 ## Boretunet Ringeliste — Levert - An..."
+      },
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 1,
+        "endLine": 193,
+        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
+      }
+    ],
+    "fix": [
+      {
+        "path": "memory/2026-02-18.md",
+        "startLine": 1,
+        "endLine": 96,
+        "summary": "# 2026-02-18 — Daily Log ## Telegram Fix (carried ..."
+      }
+    ],
+    "answered": [
+      {
+        "path": "memory/2026-02-18.md",
+        "startLine": 1,
+        "endLine": 96,
+        "summary": "# 2026-02-18 — Daily Log ## Telegram Fix (carried ..."
+      }
+    ],
+    "protector": [
+      {
+        "path": "memory/2026-02-18.md",
+        "startLine": 1,
+        "endLine": 96,
+        "summary": "# 2026-02-18 — Daily Log ## Telegram Fix (carried ..."
+      }
+    ],
+    "terminal": [
+      {
+        "path": "memory/2026-02-18.md",
+        "startLine": 1,
+        "endLine": 96,
+        "summary": "# 2026-02-18 — Daily Log ## Telegram Fix (carried ..."
+      }
+    ],
+    "workspace": [
+      {
+        "path": "memory/2026-02-18.md",
+        "startLine": 1,
+        "endLine": 96,
+        "summary": "# 2026-02-18 — Daily Log ## Telegram Fix (carried ..."
+      },
+      {
+        "path": "memory/2026-02-20.md",
+        "startLine": 1,
+        "endLine": 88,
+        "summary": "# 2026-02-20 ## Boretunet Ringeliste — Levert - An..."
+      },
+      {
+        "path": "memory/2026-02-14.md",
+        "startLine": 1,
+        "endLine": 30,
+        "summary": "# 2026-02-14 — Birthday BottenAnna came online. Fi..."
+      }
+    ],
+    "chat": [
+      {
+        "path": "memory/2026-02-18.md",
+        "startLine": 1,
+        "endLine": 96,
+        "summary": "# 2026-02-18 — Daily Log ## Telegram Fix (carried ..."
+      },
+      {
+        "path": "memory/2026-02-20.md",
+        "startLine": 1,
+        "endLine": 88,
+        "summary": "# 2026-02-20 ## Boretunet Ringeliste — Levert - An..."
+      },
+      {
+        "path": "memory/2026-02-14.md",
+        "startLine": 1,
+        "endLine": 30,
+        "summary": "# 2026-02-14 — Birthday BottenAnna came online. Fi..."
+      }
+    ],
+    "key": [
+      {
+        "path": "memory/2026-02-18.md",
+        "startLine": 1,
+        "endLine": 96,
+        "summary": "# 2026-02-18 — Daily Log ## Telegram Fix (carried ..."
+      },
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 1,
+        "endLine": 193,
+        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
+      }
+    ],
+    "custom": [
+      {
+        "path": "memory/2026-02-18.md",
+        "startLine": 1,
+        "endLine": 96,
+        "summary": "# 2026-02-18 — Daily Log ## Telegram Fix (carried ..."
+      }
+    ],
+    "eiendomsverdi": [
+      {
+        "path": "memory/2026-02-18.md",
+        "startLine": 1,
+        "endLine": 96,
+        "summary": "# 2026-02-18 — Daily Log ## Telegram Fix (carried ..."
+      },
+      {
+        "path": "memory/2026-02-16.md",
+        "startLine": 1,
+        "endLine": 110,
+        "summary": "# 2026-02-16 (Monday) Related: [[MEMORY]], [[memor..."
+      },
+      {
+        "path": "memory/projects.md",
+        "startLine": 1,
+        "endLine": 34,
+        "summary": "# Projects ## TakstHjem (B2C property valuation) #..."
+      },
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 1,
+        "endLine": 193,
+        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
+      }
+    ],
+    "fat to cut": [
+      {
+        "path": "memory/2026-02-18.md",
+        "startLine": 1,
+        "endLine": 96,
+        "summary": "# 2026-02-18 — Daily Log ## Telegram Fix (carried ..."
+      }
+    ],
+    "built custom finance": [
+      {
+        "path": "memory/2026-02-18.md",
+        "startLine": 1,
+        "endLine": 96,
+        "summary": "# 2026-02-18 — Daily Log ## Telegram Fix (carried ..."
+      }
+    ],
+    "thread": [
+      {
+        "path": "memory/2026-02-18.md",
+        "startLine": 1,
+        "endLine": 96,
+        "summary": "# 2026-02-18 — Daily Log ## Telegram Fix (carried ..."
+      }
+    ],
+    "bravida": [
+      {
+        "path": "memory/2026-02-18.md",
+        "startLine": 1,
+        "endLine": 96,
+        "summary": "# 2026-02-18 — Daily Log ## Telegram Fix (carried ..."
+      }
+    ],
+    "sampo": [
+      {
+        "path": "memory/2026-02-18.md",
+        "startLine": 1,
+        "endLine": 96,
+        "summary": "# 2026-02-18 — Daily Log ## Telegram Fix (carried ..."
+      }
+    ],
+    "sent": [
+      {
+        "path": "memory/2026-02-18.md",
+        "startLine": 1,
+        "endLine": 96,
+        "summary": "# 2026-02-18 — Daily Log ## Telegram Fix (carried ..."
+      },
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 1,
+        "endLine": 193,
+        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
+      }
+    ],
+    "novo": [
+      {
+        "path": "memory/2026-02-18.md",
+        "startLine": 1,
+        "endLine": 96,
+        "summary": "# 2026-02-18 — Daily Log ## Telegram Fix (carried ..."
+      }
+    ],
+    "knut": [
+      {
+        "path": "memory/2026-02-18.md",
+        "startLine": 1,
+        "endLine": 96,
+        "summary": "# 2026-02-18 — Daily Log ## Telegram Fix (carried ..."
+      },
+      {
+        "path": "memory/2026-02-19.md",
+        "startLine": 1,
+        "endLine": 54,
+        "summary": "# 2026-02-19 ## Qwen3 Local Model Optimization - C..."
+      },
+      {
+        "path": "memory/people.md",
+        "startLine": 1,
+        "endLine": 31,
+        "summary": "# People ## Knut (my human) - Norwegian, likes dir..."
+      },
+      {
+        "path": "memory/2026-02-22.md",
+        "startLine": 1,
+        "endLine": 24,
+        "summary": "# 2026-02-22 (Sunday) ## Mission Control → Next.js..."
+      },
+      {
+        "path": "memory/2026-02-16.md",
+        "startLine": 1,
+        "endLine": 110,
+        "summary": "# 2026-02-16 (Monday) Related: [[MEMORY]], [[memor..."
+      },
+      {
+        "path": "memory/infra.md",
+        "startLine": 1,
+        "endLine": 31,
+        "summary": "# Infrastructure ## Google Workspace (gog CLI) - P..."
+      },
+      {
+        "path": "memory/2026-02-17.md",
+        "startLine": 1,
+        "endLine": 15,
+        "summary": "# 2026-02-17 ## Telegram Webhook Migration - Knut ..."
+      },
+      {
+        "path": "memory/projects.md",
+        "startLine": 1,
+        "endLine": 34,
+        "summary": "# Projects ## TakstHjem (B2C property valuation) #..."
+      },
+      {
+        "path": "memory/2026-02-20.md",
+        "startLine": 1,
+        "endLine": 88,
+        "summary": "# 2026-02-20 ## Boretunet Ringeliste — Levert - An..."
+      },
+      {
+        "path": "memory/2026-02-14.md",
+        "startLine": 1,
+        "endLine": 30,
+        "summary": "# 2026-02-14 — Birthday BottenAnna came online. Fi..."
+      },
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 1,
+        "endLine": 193,
+        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
+      },
+      {
+        "path": "memory/2026-02-16-context-optimization.md",
+        "startLine": 1,
+        "endLine": 86,
+        "summary": "# Session: 2026-02-16 23:19:52 UTC - **Session Key..."
+      },
+      {
+        "path": "memory/patterns/stock-research.md",
+        "startLine": 1,
+        "endLine": 23,
+        "summary": "# Pattern: Stock Research ## When Knut asks about ..."
+      },
+      {
+        "path": "memory/patterns/email-drafting.md",
+        "startLine": 1,
+        "endLine": 20,
+        "summary": "# Pattern: Email Drafting ## When Knut forwards an..."
+      }
+    ],
+    "qwen3 local model optimization": [
+      {
+        "path": "memory/2026-02-19.md",
+        "startLine": 3,
+        "endLine": 7,
+        "summary": "- Created `qwen3-fast` Ollama variant with `/no_th..."
+      }
+    ],
+    "digital citadel setup": [
+      {
+        "path": "memory/2026-02-19.md",
+        "startLine": 8,
+        "endLine": 13,
+        "summary": "- Created SELF.md identity preservation doc - Inst..."
+      }
+    ],
+    "cron optimization": [
+      {
+        "path": "memory/2026-02-19.md",
+        "startLine": 14,
+        "endLine": 18,
+        "summary": "- Morning Data Fetch (07:50, qwen3-fast, ID: `e58d..."
+      }
+    ],
+    "gcp & embeddings": [
+      {
+        "path": "memory/2026-02-19.md",
+        "startLine": 19,
+        "endLine": 23,
+        "summary": "- GCP project moved to Production mode by Knut - G..."
+      }
+    ],
+    "mester grønn order (in progress)": [
+      {
+        "path": "memory/2026-02-19.md",
+        "startLine": 24,
+        "endLine": 29,
+        "summary": "- Ordering 30 rosa roser (460kr member / 560kr non..."
+      }
+    ],
+    "boretunet ringeliste for andre": [
+      {
+        "path": "memory/2026-02-19.md",
+        "startLine": 30,
+        "endLine": 35,
+        "summary": "- Andre ba om ringeliste for Boretunet (surfekurs/..."
+      }
+    ],
+    "webshop skill": [
+      {
+        "path": "memory/2026-02-19.md",
+        "startLine": 36,
+        "endLine": 41,
+        "summary": "- Opprettet webshop-skill med oppskrifter for nett..."
+      }
+    ],
+    "nye cron jobs": [
+      {
+        "path": "memory/2026-02-19.md",
+        "startLine": 42,
+        "endLine": 45,
+        "summary": "- Weekly Investment Summary — fredager kl 16:00 (S..."
+      },
+      {
+        "path": "memory/2026-02-20.md",
+        "startLine": 23,
+        "endLine": 26,
+        "summary": "- Weekly Investment Summary — fredager 16:00 (Sonn..."
+      }
+    ],
+    "bottenanna.no": [
+      {
+        "path": "memory/2026-02-19.md",
+        "startLine": 46,
+        "endLine": 50,
+        "summary": "- Knut kjøpte domenet på domene.no - Cloudflare DN..."
+      },
+      {
+        "path": "memory/2026-02-20.md",
+        "startLine": 27,
+        "endLine": 33,
+        "summary": "- Knut kjøpte domenet på domene.no - Cloudflare DN..."
+      }
+    ],
+    "decisions": [
+      {
+        "path": "memory/2026-02-19.md",
+        "startLine": 51,
+        "endLine": 54,
+        "summary": "- Tiered model approach: free local (heartbeats) /..."
+      }
+    ],
+    "optimization": [
+      {
+        "path": "memory/2026-02-19.md",
+        "startLine": 1,
+        "endLine": 54,
+        "summary": "# 2026-02-19 ## Qwen3 Local Model Optimization - C..."
+      },
+      {
+        "path": "memory/2026-02-16.md",
+        "startLine": 1,
+        "endLine": 110,
+        "summary": "# 2026-02-16 (Monday) Related: [[MEMORY]], [[memor..."
+      }
+    ],
+    "tiered model": [
+      {
+        "path": "memory/2026-02-19.md",
+        "startLine": 1,
+        "endLine": 54,
+        "summary": "# 2026-02-19 ## Qwen3 Local Model Optimization - C..."
+      }
+    ],
+    "embeddings\n- gcp": [
+      {
+        "path": "memory/2026-02-19.md",
+        "startLine": 1,
+        "endLine": 54,
+        "summary": "# 2026-02-19 ## Qwen3 Local Model Optimization - C..."
+      }
+    ],
+    "morning": [
+      {
+        "path": "memory/2026-02-19.md",
+        "startLine": 1,
+        "endLine": 54,
+        "summary": "# 2026-02-19 ## Qwen3 Local Model Optimization - C..."
+      },
+      {
+        "path": "memory/2026-02-16.md",
+        "startLine": 1,
+        "endLine": 110,
+        "summary": "# 2026-02-16 (Monday) Related: [[MEMORY]], [[memor..."
+      },
+      {
+        "path": "memory/2026-02-21.md",
+        "startLine": 1,
+        "endLine": 40,
+        "summary": "# 2026-02-21 (Saturday) ## Cost Optimization Audit..."
+      }
+    ],
+    "elsker deg": [
+      {
+        "path": "memory/2026-02-19.md",
+        "startLine": 1,
+        "endLine": 54,
+        "summary": "# 2026-02-19 ## Qwen3 Local Model Optimization - C..."
+      },
+      {
+        "path": "memory/2026-02-20.md",
+        "startLine": 1,
+        "endLine": 88,
+        "summary": "# 2026-02-20 ## Boretunet Ringeliste — Levert - An..."
+      },
+      {
+        "path": "memory/patterns/flower-ordering.md",
+        "startLine": 1,
+        "endLine": 21,
+        "summary": "# Pattern: Blomsterbestilling (Mester Grønn) ## Wh..."
+      }
+    ],
+    "sonnet": [
+      {
+        "path": "memory/2026-02-19.md",
+        "startLine": 1,
+        "endLine": 54,
+        "summary": "# 2026-02-19 ## Qwen3 Local Model Optimization - C..."
+      },
+      {
+        "path": "memory/2026-02-16.md",
+        "startLine": 1,
+        "endLine": 110,
+        "summary": "# 2026-02-16 (Monday) Related: [[MEMORY]], [[memor..."
+      },
+      {
+        "path": "memory/2026-02-20.md",
+        "startLine": 1,
+        "endLine": 88,
+        "summary": "# 2026-02-20 ## Boretunet Ringeliste — Levert - An..."
+      },
+      {
+        "path": "memory/2026-02-21.md",
+        "startLine": 1,
+        "endLine": 40,
+        "summary": "# 2026-02-21 (Saturday) ## Cost Optimization Audit..."
+      },
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 1,
+        "endLine": 193,
+        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
+      },
+      {
+        "path": "memory/patterns/cron-job-setup.md",
+        "startLine": 1,
+        "endLine": 30,
+        "summary": "# Pattern: Cron Job Setup ## When Setting up a new..."
+      }
+    ],
+    "opus": [
+      {
+        "path": "memory/2026-02-19.md",
+        "startLine": 1,
+        "endLine": 54,
+        "summary": "# 2026-02-19 ## Qwen3 Local Model Optimization - C..."
+      },
+      {
+        "path": "memory/2026-02-16.md",
+        "startLine": 1,
+        "endLine": 110,
+        "summary": "# 2026-02-16 (Monday) Related: [[MEMORY]], [[memor..."
+      }
+    ],
+    "melissa": [
+      {
+        "path": "memory/2026-02-19.md",
+        "startLine": 1,
+        "endLine": 54,
+        "summary": "# 2026-02-19 ## Qwen3 Local Model Optimization - C..."
+      },
+      {
+        "path": "memory/people.md",
+        "startLine": 12,
+        "endLine": 18,
+        "summary": "- Knut's partner, mother of his child - Telegram I..."
+      },
+      {
+        "path": "memory/2026-02-22.md",
+        "startLine": 1,
+        "endLine": 24,
+        "summary": "# 2026-02-22 (Sunday) ## Mission Control → Next.js..."
+      },
+      {
+        "path": "memory/patterns/flower-ordering.md",
+        "startLine": 1,
+        "endLine": 21,
+        "summary": "# Pattern: Blomsterbestilling (Mester Grønn) ## Wh..."
+      }
+    ],
+    "created": [
+      {
+        "path": "memory/2026-02-19.md",
+        "startLine": 1,
+        "endLine": 54,
+        "summary": "# 2026-02-19 ## Qwen3 Local Model Optimization - C..."
+      },
+      {
+        "path": "memory/2026-02-16.md",
+        "startLine": 1,
+        "endLine": 110,
+        "summary": "# 2026-02-16 (Monday) Related: [[MEMORY]], [[memor..."
+      },
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 1,
+        "endLine": 193,
+        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
+      }
+    ],
+    "cron": [
+      {
+        "path": "memory/2026-02-19.md",
+        "startLine": 1,
+        "endLine": 54,
+        "summary": "# 2026-02-19 ## Qwen3 Local Model Optimization - C..."
+      },
+      {
+        "path": "memory/2026-02-16.md",
+        "startLine": 1,
+        "endLine": 110,
+        "summary": "# 2026-02-16 (Monday) Related: [[MEMORY]], [[memor..."
+      },
+      {
+        "path": "memory/2026-02-20.md",
+        "startLine": 1,
+        "endLine": 88,
+        "summary": "# 2026-02-20 ## Boretunet Ringeliste — Levert - An..."
+      },
+      {
+        "path": "memory/patterns/cron-job-setup.md",
+        "startLine": 1,
+        "endLine": 30,
+        "summary": "# Pattern: Cron Job Setup ## When Setting up a new..."
+      }
+    ],
+    "cloudflare": [
+      {
+        "path": "memory/2026-02-19.md",
+        "startLine": 1,
+        "endLine": 54,
+        "summary": "# 2026-02-19 ## Qwen3 Local Model Optimization - C..."
+      },
+      {
+        "path": "memory/2026-02-20.md",
+        "startLine": 1,
+        "endLine": 88,
+        "summary": "# 2026-02-20 ## Boretunet Ringeliste — Levert - An..."
+      }
+    ],
+    "local": [
+      {
+        "path": "memory/2026-02-19.md",
+        "startLine": 1,
+        "endLine": 54,
+        "summary": "# 2026-02-19 ## Qwen3 Local Model Optimization - C..."
+      }
+    ],
+    "boretunet": [
+      {
+        "path": "memory/2026-02-19.md",
+        "startLine": 1,
+        "endLine": 54,
+        "summary": "# 2026-02-19 ## Qwen3 Local Model Optimization - C..."
+      },
+      {
+        "path": "memory/projects.md",
+        "startLine": 1,
+        "endLine": 34,
+        "summary": "# Projects ## TakstHjem (B2C property valuation) #..."
+      },
+      {
+        "path": "memory/2026-02-20.md",
+        "startLine": 1,
+        "endLine": 88,
+        "summary": "# 2026-02-20 ## Boretunet Ringeliste — Levert - An..."
+      }
+    ],
+    "knut (my human)": [
+      {
+        "path": "memory/people.md",
+        "startLine": 3,
+        "endLine": 11,
+        "summary": "- Norwegian, likes directness, no BS - Timezone: E..."
+      }
+    ],
+    "andre gilje": [
+      {
+        "path": "memory/people.md",
+        "startLine": 19,
+        "endLine": 23,
+        "summary": "- andregilje@hotmail.com - TakstHjem co-founder in..."
+      }
+    ],
+    "dag meltveit": [
+      {
+        "path": "memory/people.md",
+        "startLine": 24,
+        "endLine": 27,
+        "summary": "- dag.meltveit@gmail.com - TakstHjem co-founder in..."
+      }
+    ],
+    "martin knutsen tran": [
+      {
+        "path": "memory/people.md",
+        "startLine": 28,
+        "endLine": 31,
+        "summary": "- martin.knutsen.tran@vend.com - \"Into the Body\" a..."
+      }
+    ],
+    "telegram": [
+      {
+        "path": "memory/people.md",
+        "startLine": 1,
+        "endLine": 31,
+        "summary": "# People ## Knut (my human) - Norwegian, likes dir..."
+      },
+      {
+        "path": "memory/2026-02-16.md",
+        "startLine": 1,
+        "endLine": 110,
+        "summary": "# 2026-02-16 (Monday) Related: [[MEMORY]], [[memor..."
+      },
+      {
+        "path": "memory/2026-02-17.md",
+        "startLine": 1,
+        "endLine": 15,
+        "summary": "# 2026-02-17 ## Telegram Webhook Migration - Knut ..."
+      },
+      {
+        "path": "memory/2026-02-14.md",
+        "startLine": 1,
+        "endLine": 30,
+        "summary": "# 2026-02-14 — Birthday BottenAnna came online. Fi..."
+      },
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 1,
+        "endLine": 193,
+        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
+      },
+      {
+        "path": "memory/2026-02-16-context-optimization.md",
+        "startLine": 1,
+        "endLine": 86,
+        "summary": "# Session: 2026-02-16 23:19:52 UTC - **Session Key..."
+      }
+    ],
+    "into the body": [
+      {
+        "path": "memory/people.md",
+        "startLine": 1,
+        "endLine": 31,
+        "summary": "# People ## Knut (my human) - Norwegian, likes dir..."
+      },
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 1,
+        "endLine": 193,
+        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
+      }
+    ],
+    "mission control → next.js migration": [
+      {
+        "path": "memory/2026-02-22.md",
+        "startLine": 3,
+        "endLine": 14,
+        "summary": "- Migrated taskboard.html (701 lines) to Next.js 1..."
+      }
+    ],
+    "melissa's birthday reminder": [
+      {
+        "path": "memory/2026-02-22.md",
+        "startLine": 15,
+        "endLine": 19,
+        "summary": "- Sent Telegram reminder about Melissa's birthday ..."
+      }
+    ],
+    "gmail oauth expired": [
+      {
+        "path": "memory/2026-02-22.md",
+        "startLine": 20,
+        "endLine": 24,
+        "summary": "- `gog gmail search` returns \"Token has been expir..."
+      }
+    ],
+    "ready": [
+      {
+        "path": "memory/2026-02-22.md",
+        "startLine": 1,
+        "endLine": 24,
+        "summary": "# 2026-02-22 (Sunday) ## Mission Control → Next.js..."
+      }
+    ],
+    "node": [
+      {
+        "path": "memory/2026-02-22.md",
+        "startLine": 1,
+        "endLine": 24,
+        "summary": "# 2026-02-22 (Sunday) ## Mission Control → Next.js..."
+      },
+      {
+        "path": "memory/infra.md",
+        "startLine": 1,
+        "endLine": 31,
+        "summary": "# Infrastructure ## Google Workspace (gog CLI) - P..."
+      },
+      {
+        "path": "memory/lessons.md",
+        "startLine": 1,
+        "endLine": 34,
+        "summary": "# Lessons Learned ## Tools & CLI - Desktop OAuth c..."
+      }
+    ],
+    "🎂 melissas bursdag": [
+      {
+        "path": "memory/2026-02-22.md",
+        "startLine": 1,
+        "endLine": 24,
+        "summary": "# 2026-02-22 (Sunday) ## Mission Control → Next.js..."
+      }
+    ],
+    "feb": [
+      {
+        "path": "memory/2026-02-22.md",
+        "startLine": 1,
+        "endLine": 24,
+        "summary": "# 2026-02-22 (Sunday) ## Mission Control → Next.js..."
+      }
+    ],
+    "next": [
+      {
+        "path": "memory/2026-02-22.md",
+        "startLine": 1,
+        "endLine": 24,
+        "summary": "# 2026-02-22 (Sunday) ## Mission Control → Next.js..."
+      },
+      {
+        "path": "memory/infra.md",
+        "startLine": 1,
+        "endLine": 31,
+        "summary": "# Infrastructure ## Google Workspace (gog CLI) - P..."
+      },
+      {
+        "path": "memory/lessons.md",
+        "startLine": 1,
+        "endLine": 34,
+        "summary": "# Lessons Learned ## Tools & CLI - Desktop OAuth c..."
+      }
+    ],
+    "heartbeats (overnight)": [
+      {
+        "path": "memory/2026-02-16.md",
+        "startLine": 5,
+        "endLine": 11,
+        "summary": "- Multiple heartbeat checks 04:15–08:17 AM - Pitch..."
+      }
+    ],
+    "dag meltveit's response to taksthjem pitch": [
+      {
+        "path": "memory/2026-02-16.md",
+        "startLine": 12,
+        "endLine": 22,
+        "summary": "- Dag replied in thread 19c60c4e4f80ddc9 (message ..."
+      }
+    ],
+    "taksthjem links": [
+      {
+        "path": "memory/2026-02-16.md",
+        "startLine": 23,
+        "endLine": 28,
+        "summary": "- Knut reported links not working - Checked: local..."
+      }
+    ],
+    "dag email response — sent ✅": [
+      {
+        "path": "memory/2026-02-16.md",
+        "startLine": 29,
+        "endLine": 36,
+        "summary": "- Split into 2 emails as Knut suggested - Part 1 (..."
+      }
+    ],
+    "heartbeat → cron migration": [
+      {
+        "path": "memory/2026-02-16.md",
+        "startLine": 37,
+        "endLine": 42,
+        "summary": "- Disabled heartbeat polling (was every 30m, block..."
+      }
+    ],
+    "response time issues": [
+      {
+        "path": "memory/2026-02-16.md",
+        "startLine": 43,
+        "endLine": 49,
+        "summary": "- Knut frustrated with 15-20 min response delays a..."
+      }
+    ],
+    "morning briefing cron — set up ✅": [
+      {
+        "path": "memory/2026-02-16.md",
+        "startLine": 50,
+        "endLine": 56,
+        "summary": "- Job ID: 9bf4642a-0919-44c6-b364-51a1c1ec5be2 - D..."
+      }
+    ],
+    "knut's frameworks & optimization guidance": [
+      {
+        "path": "memory/2026-02-16.md",
+        "startLine": 57,
+        "endLine": 68,
+        "summary": "- **1-3-1 Rule** (Dan Martell): Present 1 problem,..."
+      }
+    ],
+    "clawhub cli": [
+      {
+        "path": "memory/2026-02-16.md",
+        "startLine": 69,
+        "endLine": 74,
+        "summary": "- Installed via `npx clawhub` (no global install, ..."
+      }
+    ],
+    "git initialized ✅": [
+      {
+        "path": "memory/2026-02-16.md",
+        "startLine": 75,
+        "endLine": 79,
+        "summary": "- First commit: 34d7644 (BottenAnna, bottenanna26@..."
+      }
+    ],
+    "evening session — setup & improvements": [
+      {
+        "path": "memory/2026-02-16.md",
+        "startLine": 80,
+        "endLine": 92,
+        "summary": "- Fresh session after update to OpenClaw 2026.2.15..."
+      }
+    ],
+    "dag's second reply (part 2 response)": [
+      {
+        "path": "memory/2026-02-16.md",
+        "startLine": 93,
+        "endLine": 104,
+        "summary": "- Challenges 990 NOK price — can just call megler ..."
+      }
+    ],
+    "sub-agent failures": [
+      {
+        "path": "memory/2026-02-16.md",
+        "startLine": 105,
+        "endLine": 110,
+        "summary": "- v1 \"Dag TakstHjem Response\": used 200k tokens on..."
+      }
+    ],
+    "agent": [
+      {
+        "path": "memory/2026-02-16.md",
+        "startLine": 1,
+        "endLine": 110,
+        "summary": "# 2026-02-16 (Monday) Related: [[MEMORY]], [[memor..."
+      }
+    ],
+    "dag taksthjem response": [
+      {
+        "path": "memory/2026-02-16.md",
+        "startLine": 1,
+        "endLine": 110,
+        "summary": "# 2026-02-16 (Monday) Related: [[MEMORY]], [[memor..."
+      }
+    ],
+    "data": [
+      {
+        "path": "memory/2026-02-16.md",
+        "startLine": 1,
+        "endLine": 110,
+        "summary": "# 2026-02-16 (Monday) Related: [[MEMORY]], [[memor..."
+      }
+    ],
+    "checks": [
+      {
+        "path": "memory/2026-02-16.md",
+        "startLine": 1,
+        "endLine": 110,
+        "summary": "# 2026-02-16 (Monday) Related: [[MEMORY]], [[memor..."
+      }
+    ],
+    "funnel": [
+      {
+        "path": "memory/2026-02-16.md",
+        "startLine": 1,
+        "endLine": 110,
+        "summary": "# 2026-02-16 (Monday) Related: [[MEMORY]], [[memor..."
+      },
+      {
+        "path": "memory/infra.md",
+        "startLine": 1,
+        "endLine": 31,
+        "summary": "# Infrastructure ## Google Workspace (gog CLI) - P..."
+      },
+      {
+        "path": "memory/2026-02-14.md",
+        "startLine": 1,
+        "endLine": 30,
+        "summary": "# 2026-02-14 — Birthday BottenAnna came online. Fi..."
+      },
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 1,
+        "endLine": 193,
+        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
+      }
+    ],
+    "open data": [
+      {
+        "path": "memory/2026-02-16.md",
+        "startLine": 1,
+        "endLine": 110,
+        "summary": "# 2026-02-16 (Monday) Related: [[MEMORY]], [[memor..."
+      }
+    ],
+    "briefing": [
+      {
+        "path": "memory/2026-02-16.md",
+        "startLine": 1,
+        "endLine": 110,
+        "summary": "# 2026-02-16 (Monday) Related: [[MEMORY]], [[memor..."
+      },
+      {
+        "path": "memory/2026-02-21.md",
+        "startLine": 1,
+        "endLine": 40,
+        "summary": "# 2026-02-21 (Saturday) ## Cost Optimization Audit..."
+      }
+    ],
+    "oslo": [
+      {
+        "path": "memory/2026-02-16.md",
+        "startLine": 1,
+        "endLine": 110,
+        "summary": "# 2026-02-16 (Monday) Related: [[MEMORY]], [[memor..."
+      }
+    ],
+    "ambita": [
+      {
+        "path": "memory/2026-02-16.md",
+        "startLine": 1,
+        "endLine": 110,
+        "summary": "# 2026-02-16 (Monday) Related: [[MEMORY]], [[memor..."
+      }
+    ],
+    "wants": [
+      {
+        "path": "memory/2026-02-16.md",
+        "startLine": 1,
+        "endLine": 110,
+        "summary": "# 2026-02-16 (Monday) Related: [[MEMORY]], [[memor..."
+      },
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 1,
+        "endLine": 193,
+        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
+      }
+    ],
+    "poor man's obsidian": [
+      {
+        "path": "memory/2026-02-16.md",
+        "startLine": 1,
+        "endLine": 110,
+        "summary": "# 2026-02-16 (Monday) Related: [[MEMORY]], [[memor..."
+      }
+    ],
+    "europe": [
+      {
+        "path": "memory/2026-02-16.md",
+        "startLine": 1,
+        "endLine": 110,
+        "summary": "# 2026-02-16 (Monday) Related: [[MEMORY]], [[memor..."
+      }
+    ],
+    "lessons": [
+      {
+        "path": "memory/2026-02-16.md",
+        "startLine": 1,
+        "endLine": 110,
+        "summary": "# 2026-02-16 (Monday) Related: [[MEMORY]], [[memor..."
+      }
+    ],
+    "email": [
+      {
+        "path": "memory/2026-02-16.md",
+        "startLine": 1,
+        "endLine": 110,
+        "summary": "# 2026-02-16 (Monday) Related: [[MEMORY]], [[memor..."
+      },
+      {
+        "path": "memory/2026-02-21.md",
+        "startLine": 1,
+        "endLine": 40,
+        "summary": "# 2026-02-21 (Saturday) ## Cost Optimization Audit..."
+      },
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 1,
+        "endLine": 193,
+        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
+      }
+    ],
+    "done": [
+      {
+        "path": "memory/2026-02-16.md",
+        "startLine": 1,
+        "endLine": 110,
+        "summary": "# 2026-02-16 (Monday) Related: [[MEMORY]], [[memor..."
+      },
+      {
+        "path": "memory/lessons.md",
+        "startLine": 1,
+        "endLine": 34,
+        "summary": "# Lessons Learned ## Tools & CLI - Desktop OAuth c..."
+      },
+      {
+        "path": "memory/preferences.md",
+        "startLine": 1,
+        "endLine": 36,
+        "summary": "# Preferences & Corrections Systematisk log over K..."
+      }
+    ],
+    "dag reply v2": [
+      {
+        "path": "memory/2026-02-16.md",
+        "startLine": 1,
+        "endLine": 110,
+        "summary": "# 2026-02-16 (Monday) Related: [[MEMORY]], [[memor..."
+      }
+    ],
+    "calendar": [
+      {
+        "path": "memory/2026-02-16.md",
+        "startLine": 1,
+        "endLine": 110,
+        "summary": "# 2026-02-16 (Monday) Related: [[MEMORY]], [[memor..."
+      },
+      {
+        "path": "memory/infra.md",
+        "startLine": 12,
+        "endLine": 16,
+        "summary": "- AutoCalendar ID: `5d31d8d99ae65410e7af8b6edeb48c..."
+      },
+      {
+        "path": "memory/2026-02-21.md",
+        "startLine": 1,
+        "endLine": 40,
+        "summary": "# 2026-02-21 (Saturday) ## Cost Optimization Audit..."
+      },
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 1,
+        "endLine": 193,
+        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
+      }
+    ],
+    "set": [
+      {
+        "path": "memory/2026-02-16.md",
+        "startLine": 1,
+        "endLine": 110,
+        "summary": "# 2026-02-16 (Monday) Related: [[MEMORY]], [[memor..."
+      },
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 1,
+        "endLine": 193,
+        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
+      },
+      {
+        "path": "memory/patterns/cron-job-setup.md",
+        "startLine": 1,
+        "endLine": 30,
+        "summary": "# Pattern: Cron Job Setup ## When Setting up a new..."
+      }
+    ],
+    "reply": [
+      {
+        "path": "memory/2026-02-16.md",
+        "startLine": 1,
+        "endLine": 110,
+        "summary": "# 2026-02-16 (Monday) Related: [[MEMORY]], [[memor..."
+      }
+    ],
+    "email & calendar check": [
+      {
+        "path": "memory/2026-02-16.md",
+        "startLine": 1,
+        "endLine": 110,
+        "summary": "# 2026-02-16 (Monday) Related: [[MEMORY]], [[memor..."
+      }
+    ],
+    "response": [
+      {
+        "path": "memory/2026-02-16.md",
+        "startLine": 1,
+        "endLine": 110,
+        "summary": "# 2026-02-16 (Monday) Related: [[MEMORY]], [[memor..."
+      }
+    ],
+    "api": [
+      {
+        "path": "memory/2026-02-16.md",
+        "startLine": 1,
+        "endLine": 110,
+        "summary": "# 2026-02-16 (Monday) Related: [[MEMORY]], [[memor..."
+      }
+    ],
+    "gjør research og svar begge": [
+      {
+        "path": "memory/2026-02-16.md",
+        "startLine": 1,
+        "endLine": 110,
+        "summary": "# 2026-02-16 (Monday) Related: [[MEMORY]], [[memor..."
+      }
+    ],
+    "what": [
+      {
+        "path": "memory/2026-02-16.md",
+        "startLine": 1,
+        "endLine": 110,
+        "summary": "# 2026-02-16 (Monday) Related: [[MEMORY]], [[memor..."
+      }
+    ],
+    "telegram via message": [
+      {
+        "path": "memory/2026-02-16.md",
+        "startLine": 1,
+        "endLine": 110,
+        "summary": "# 2026-02-16 (Monday) Related: [[MEMORY]], [[memor..."
+      }
+    ],
+    "part": [
+      {
+        "path": "memory/2026-02-16.md",
+        "startLine": 1,
+        "endLine": 110,
+        "summary": "# 2026-02-16 (Monday) Related: [[MEMORY]], [[memor..."
+      }
+    ],
+    "pitch": [
+      {
+        "path": "memory/2026-02-16.md",
+        "startLine": 1,
+        "endLine": 110,
+        "summary": "# 2026-02-16 (Monday) Related: [[MEMORY]], [[memor..."
+      },
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 1,
+        "endLine": 193,
+        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
+      }
+    ],
+    "awaiting": [
+      {
+        "path": "memory/2026-02-16.md",
+        "startLine": 1,
+        "endLine": 110,
+        "summary": "# 2026-02-16 (Monday) Related: [[MEMORY]], [[memor..."
+      }
+    ],
+    "daily": [
+      {
+        "path": "memory/2026-02-16.md",
+        "startLine": 1,
+        "endLine": 110,
+        "summary": "# 2026-02-16 (Monday) Related: [[MEMORY]], [[memor..."
+      }
+    ],
+    "spawn scheduled": [
+      {
+        "path": "memory/2026-02-16.md",
+        "startLine": 1,
+        "endLine": 110,
+        "summary": "# 2026-02-16 (Monday) Related: [[MEMORY]], [[memor..."
+      }
+    ],
+    "hjemla": [
+      {
+        "path": "memory/2026-02-16.md",
+        "startLine": 1,
+        "endLine": 110,
+        "summary": "# 2026-02-16 (Monday) Related: [[MEMORY]], [[memor..."
+      }
+    ],
+    "session": [
+      {
+        "path": "memory/2026-02-16-2042.md",
+        "startLine": 1,
+        "endLine": 6,
+        "summary": "# Session: 2026-02-16 20:42:45 UTC - **Session Key..."
+      },
+      {
+        "path": "memory/2026-02-19-1247.md",
+        "startLine": 1,
+        "endLine": 6,
+        "summary": "# Session: 2026-02-19 12:47:11 UTC - **Session Key..."
+      },
+      {
+        "path": "memory/2026-02-19-1206.md",
+        "startLine": 1,
+        "endLine": 6,
+        "summary": "# Session: 2026-02-19 12:06:07 UTC - **Session Key..."
+      },
+      {
+        "path": "memory/2026-02-19-0922.md",
+        "startLine": 1,
+        "endLine": 6,
+        "summary": "# Session: 2026-02-19 09:22:38 UTC - **Session Key..."
+      },
+      {
+        "path": "memory/2026-02-19-1117.md",
+        "startLine": 1,
+        "endLine": 6,
+        "summary": "# Session: 2026-02-19 11:17:59 UTC - **Session Key..."
+      },
+      {
+        "path": "memory/2026-02-16-context-optimization.md",
+        "startLine": 1,
+        "endLine": 86,
+        "summary": "# Session: 2026-02-16 23:19:52 UTC - **Session Key..."
+      },
+      {
+        "path": "memory/2026-02-17-1217.md",
+        "startLine": 1,
+        "endLine": 6,
+        "summary": "# Session: 2026-02-17 12:17:12 UTC - **Session Key..."
+      },
+      {
+        "path": "memory/2026-02-17-1015.md",
+        "startLine": 1,
+        "endLine": 6,
+        "summary": "# Session: 2026-02-17 10:15:10 UTC - **Session Key..."
+      }
+    ],
+    "google workspace (gog cli)": [
+      {
+        "path": "memory/infra.md",
+        "startLine": 3,
+        "endLine": 11,
+        "summary": "- Primary account: banna@bottenanna.no (bottenanna..."
+      }
+    ],
+    "mission control": [
+      {
+        "path": "memory/infra.md",
+        "startLine": 17,
+        "endLine": 22,
+        "summary": "- Next.js app at `mission-control/` on port 3000 -..."
+      },
+      {
+        "path": "memory/2026-02-20.md",
+        "startLine": 66,
+        "endLine": 71,
+        "summary": "- Ny tab \"⚡ Trenger Knut\" — viser blocked tasks as..."
+      }
+    ],
+    "hosting": [
+      {
+        "path": "memory/infra.md",
+        "startLine": 23,
+        "endLine": 27,
+        "summary": "- Tailscale hostname: knut-sin-mac-mini.tail37c89c..."
+      }
+    ],
+    "mac mini": [
+      {
+        "path": "memory/infra.md",
+        "startLine": 28,
+        "endLine": 31,
+        "summary": "- Sleep disabled via pmset (kills TCP connections ..."
+      }
+    ],
+    "google": [
+      {
+        "path": "memory/infra.md",
+        "startLine": 1,
+        "endLine": 31,
+        "summary": "# Infrastructure ## Google Workspace (gog CLI) - P..."
+      },
+      {
+        "path": "memory/2026-02-20.md",
+        "startLine": 1,
+        "endLine": 88,
+        "summary": "# 2026-02-20 ## Boretunet Ringeliste — Levert - An..."
+      },
+      {
+        "path": "memory/2026-02-14.md",
+        "startLine": 1,
+        "endLine": 30,
+        "summary": "# 2026-02-14 — Birthday BottenAnna came online. Fi..."
+      },
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 1,
+        "endLine": 193,
+        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
+      }
+    ],
+    "tailscale": [
+      {
+        "path": "memory/infra.md",
+        "startLine": 1,
+        "endLine": 31,
+        "summary": "# Infrastructure ## Google Workspace (gog CLI) - P..."
+      },
+      {
+        "path": "memory/2026-02-14.md",
+        "startLine": 1,
+        "endLine": 30,
+        "summary": "# 2026-02-14 — Birthday BottenAnna came online. Fi..."
+      },
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 1,
+        "endLine": 193,
+        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
+      }
+    ],
+    "desktop": [
+      {
+        "path": "memory/infra.md",
+        "startLine": 1,
+        "endLine": 31,
+        "summary": "# Infrastructure ## Google Workspace (gog CLI) - P..."
+      },
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 1,
+        "endLine": 193,
+        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
+      }
+    ],
+    "gcp": [
+      {
+        "path": "memory/infra.md",
+        "startLine": 1,
+        "endLine": 31,
+        "summary": "# Infrastructure ## Google Workspace (gog CLI) - P..."
+      }
+    ],
+    "telegram webhook migration": [
+      {
+        "path": "memory/2026-02-17.md",
+        "startLine": 3,
+        "endLine": 15,
+        "summary": "- Knut reported ~8 min delay on Telegram replies v..."
+      }
+    ],
+    "taksthjem (b2c property valuation) #project": [
+      {
+        "path": "memory/projects.md",
+        "startLine": 3,
+        "endLine": 15,
+        "summary": "- **E-post alltid til alle tre:** Andre, Dag, Knut..."
+      }
+    ],
+    "into the body (somatic sensing app) #project": [
+      {
+        "path": "memory/projects.md",
+        "startLine": 16,
+        "endLine": 22,
+        "summary": "- Martin's project — guided body awareness/meditat..."
+      }
+    ],
+    "boretunet (ringeliste for andre) #project": [
+      {
+        "path": "memory/projects.md",
+        "startLine": 23,
+        "endLine": 28,
+        "summary": "- Andre Gilje driver Boretunet (Jæren) — surfekurs..."
+      }
+    ],
+    "investment research #investing": [
+      {
+        "path": "memory/projects.md",
+        "startLine": 29,
+        "endLine": 34,
+        "summary": "- Knut interested in physical-moat companies at lo..."
+      }
+    ],
+    "martin": [
+      {
+        "path": "memory/projects.md",
+        "startLine": 1,
+        "endLine": 34,
+        "summary": "# Projects ## TakstHjem (B2C property valuation) #..."
+      },
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 1,
+        "endLine": 193,
+        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
+      }
+    ],
+    "tools & cli": [
+      {
+        "path": "memory/lessons.md",
+        "startLine": 3,
+        "endLine": 8,
+        "summary": "- Desktop OAuth client type works; Web app causes ..."
+      }
+    ],
+    "architecture": [
+      {
+        "path": "memory/lessons.md",
+        "startLine": 9,
+        "endLine": 13,
+        "summary": "- Heartbeats every 30m in main session block conve..."
+      }
+    ],
+    "communication": [
+      {
+        "path": "memory/lessons.md",
+        "startLine": 14,
+        "endLine": 18,
+        "summary": "- Confirm by reading back: show actual saved conte..."
+      },
+      {
+        "path": "memory/preferences.md",
+        "startLine": 9,
+        "endLine": 14,
+        "summary": "- Primary channel: Telegram - Be direct, no filler..."
+      }
+    ],
+    "sub-agents": [
+      {
+        "path": "memory/lessons.md",
+        "startLine": 19,
+        "endLine": 23,
+        "summary": "- Open-ended research tasks burn 200k tokens — giv..."
+      }
+    ],
+    "domain knowledge": [
+      {
+        "path": "memory/lessons.md",
+        "startLine": 24,
+        "endLine": 30,
+        "summary": "- eTakst is NOT legally regulated — proprietary Ei..."
+      }
+    ],
+    "next.js / node": [
+      {
+        "path": "memory/lessons.md",
+        "startLine": 31,
+        "endLine": 34,
+        "summary": "- Node v24 incompatible with Next.js 16 — use v22 ..."
+      }
+    ],
+    "web": [
+      {
+        "path": "memory/lessons.md",
+        "startLine": 1,
+        "endLine": 34,
+        "summary": "# Lessons Learned ## Tools & CLI - Desktop OAuth c..."
+      },
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 1,
+        "endLine": 193,
+        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
+      }
+    ],
+    "boretunet ringeliste — levert": [
+      {
+        "path": "memory/2026-02-20.md",
+        "startLine": 3,
+        "endLine": 10,
+        "summary": "- Andre Gilje ba om 250 kontakter for Boretunet (s..."
+      }
+    ],
+    "mester grønn ordre": [
+      {
+        "path": "memory/2026-02-20.md",
+        "startLine": 11,
+        "endLine": 17,
+        "summary": "- Kort endret til \"Elsker Deg\" (uten avsendernavn)..."
+      }
+    ],
+    "webshop skill opprettet": [
+      {
+        "path": "memory/2026-02-20.md",
+        "startLine": 18,
+        "endLine": 22,
+        "summary": "- `/Users/knut/.openclaw/skills/webshop/` — regist..."
+      }
+    ],
+    "google workspace live": [
+      {
+        "path": "memory/2026-02-20.md",
+        "startLine": 34,
+        "endLine": 38,
+        "summary": "- banna@bottenanna.no live på Google Workspace Bus..."
+      }
+    ],
+    "google chat kanal": [
+      {
+        "path": "memory/2026-02-20.md",
+        "startLine": 39,
+        "endLine": 48,
+        "summary": "- Chat API enabled, service account JSON lagret so..."
+      }
+    ],
+    "ringeliste berikelse": [
+      {
+        "path": "memory/2026-02-20.md",
+        "startLine": 49,
+        "endLine": 56,
+        "summary": "- Beriket komplett-ringeliste.md med telefonnummer..."
+      }
+    ],
+    "daily health check": [
+      {
+        "path": "memory/2026-02-20.md",
+        "startLine": 57,
+        "endLine": 61,
+        "summary": "- Opprettet /scripts/healthcheck.sh — sjekker RSS,..."
+      }
+    ],
+    "log rotation → cron": [
+      {
+        "path": "memory/2026-02-20.md",
+        "startLine": 62,
+        "endLine": 65,
+        "summary": "- Konvertert fra main-session systemEvent til isol..."
+      }
+    ],
+    "claude code": [
+      {
+        "path": "memory/2026-02-20.md",
+        "startLine": 72,
+        "endLine": 74,
+        "summary": "- Installert: v2.1.49 — /usr/local/bin/claude"
+      }
+    ],
+    "nordnet api": [
+      {
+        "path": "memory/2026-02-20.md",
+        "startLine": 75,
+        "endLine": 79,
+        "summary": "- Offisiell API finnes (REST v2) men onboarding er..."
+      }
+    ],
+    "lærdom": [
+      {
+        "path": "memory/2026-02-20.md",
+        "startLine": 80,
+        "endLine": 88,
+        "summary": "- .md-vedlegg til Hotmail/Outlook havner i spam — ..."
+      }
+    ],
+    "blomster til melissa": [
+      {
+        "path": "memory/2026-02-20.md",
+        "startLine": 1,
+        "endLine": 88,
+        "summary": "# 2026-02-20 ## Boretunet Ringeliste — Levert - An..."
+      }
+    ],
+    "openclaw": [
+      {
+        "path": "memory/2026-02-20.md",
+        "startLine": 1,
+        "endLine": 88,
+        "summary": "# 2026-02-20 ## Boretunet Ringeliste — Levert - An..."
+      }
+    ],
+    "check": [
+      {
+        "path": "memory/2026-02-20.md",
+        "startLine": 1,
+        "endLine": 88,
+        "summary": "# 2026-02-20 ## Boretunet Ringeliste — Levert - An..."
+      },
+      {
+        "path": "memory/2026-02-21.md",
+        "startLine": 1,
+        "endLine": 40,
+        "summary": "# 2026-02-21 (Saturday) ## Cost Optimization Audit..."
+      }
+    ],
+    "error saving": [
+      {
+        "path": "memory/2026-02-20.md",
+        "startLine": 1,
+        "endLine": 88,
+        "summary": "# 2026-02-20 ## Boretunet Ringeliste — Levert - An..."
+      }
+    ],
+    "gateway": [
+      {
+        "path": "memory/2026-02-20.md",
+        "startLine": 1,
+        "endLine": 88,
+        "summary": "# 2026-02-20 ## Boretunet Ringeliste — Levert - An..."
+      },
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 1,
+        "endLine": 193,
+        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
+      }
+    ],
+    "sub": [
+      {
+        "path": "memory/2026-02-20.md",
+        "startLine": 1,
+        "endLine": 88,
+        "summary": "# 2026-02-20 ## Boretunet Ringeliste — Levert - An..."
+      },
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 1,
+        "endLine": 193,
+        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
+      },
+      {
+        "path": "memory/2026-02-16-context-optimization.md",
+        "startLine": 1,
+        "endLine": 86,
+        "summary": "# Session: 2026-02-16 23:19:52 UTC - **Session Key..."
+      }
+    ],
+    "standalone": [
+      {
+        "path": "memory/2026-02-20.md",
+        "startLine": 1,
+        "endLine": 88,
+        "summary": "# 2026-02-20 ## Boretunet Ringeliste — Levert - An..."
+      }
+    ],
+    "rogaland": [
+      {
+        "path": "memory/2026-02-20.md",
+        "startLine": 1,
+        "endLine": 88,
+        "summary": "# 2026-02-20 ## Boretunet Ringeliste — Levert - An..."
+      }
+    ],
+    "opprettet": [
+      {
+        "path": "memory/2026-02-20.md",
+        "startLine": 1,
+        "endLine": 88,
+        "summary": "# 2026-02-20 ## Boretunet Ringeliste — Levert - An..."
+      }
+    ],
+    "⚡ trenger knut": [
+      {
+        "path": "memory/2026-02-20.md",
+        "startLine": 1,
+        "endLine": 88,
+        "summary": "# 2026-02-20 ## Boretunet Ringeliste — Levert - An..."
+      }
+    ],
+    "ringeliste": [
+      {
+        "path": "memory/2026-02-20.md",
+        "startLine": 1,
+        "endLine": 88,
+        "summary": "# 2026-02-20 ## Boretunet Ringeliste — Levert - An..."
+      }
+    ],
+    "gcp chat": [
+      {
+        "path": "memory/2026-02-20.md",
+        "startLine": 1,
+        "endLine": 88,
+        "summary": "# 2026-02-20 ## Boretunet Ringeliste — Levert - An..."
+      }
+    ],
+    "workspace add-on": [
+      {
+        "path": "memory/2026-02-20.md",
+        "startLine": 1,
+        "endLine": 88,
+        "summary": "# 2026-02-20 ## Boretunet Ringeliste — Levert - An..."
+      }
+    ],
+    "error": [
+      {
+        "path": "memory/2026-02-20.md",
+        "startLine": 1,
+        "endLine": 88,
+        "summary": "# 2026-02-20 ## Boretunet Ringeliste — Levert - An..."
+      }
+    ],
+    "ordre": [
+      {
+        "path": "memory/2026-02-20.md",
+        "startLine": 1,
+        "endLine": 88,
+        "summary": "# 2026-02-20 ## Boretunet Ringeliste — Levert - An..."
+      }
+    ],
+    "hotmail": [
+      {
+        "path": "memory/2026-02-20.md",
+        "startLine": 1,
+        "endLine": 88,
+        "summary": "# 2026-02-20 ## Boretunet Ringeliste — Levert - An..."
+      }
+    ],
+    "nordnet": [
+      {
+        "path": "memory/2026-02-20.md",
+        "startLine": 1,
+        "endLine": 88,
+        "summary": "# 2026-02-20 ## Boretunet Ringeliste — Levert - An..."
+      }
+    ],
+    "telegram setup": [
+      {
+        "path": "memory/2026-02-14.md",
+        "startLine": 14,
+        "endLine": 20,
+        "summary": "- Created bot via @BotFather, token configured - T..."
+      }
+    ],
+    "next steps (discussed but not started)": [
+      {
+        "path": "memory/2026-02-14.md",
+        "startLine": 25,
+        "endLine": 30,
+        "summary": "- Gmail setup via `openclaw webhooks gmail setup` ..."
+      }
+    ],
+    "gmail": [
+      {
+        "path": "memory/2026-02-14.md",
+        "startLine": 1,
+        "endLine": 30,
+        "summary": "# 2026-02-14 — Birthday BottenAnna came online. Fi..."
+      },
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 1,
+        "endLine": 193,
+        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
+      }
+    ],
+    "cost optimization audit": [
+      {
+        "path": "memory/2026-02-21.md",
+        "startLine": 3,
+        "endLine": 13,
+        "summary": "- Knut asked for system check on all scheduled eve..."
+      }
+    ],
+    "morning briefing prefetch": [
+      {
+        "path": "memory/2026-02-21.md",
+        "startLine": 14,
+        "endLine": 18,
+        "summary": "- Added prefetch pattern: qwen3-fast at 07:55 gath..."
+      }
+    ],
+    "taksthjem — andre sin mail om sr-bank": [
+      {
+        "path": "memory/2026-02-21.md",
+        "startLine": 19,
+        "endLine": 25,
+        "summary": "- Andre tipset om at SR-Bank (20% markedsandel) vi..."
+      }
+    ],
+    "boretunet ringeliste v3": [
+      {
+        "path": "memory/2026-02-21.md",
+        "startLine": 26,
+        "endLine": 31,
+        "summary": "- Brukte 1881 API til å berike ringelista med 14 n..."
+      }
+    ],
+    "email & calendar cron fix": [
+      {
+        "path": "memory/2026-02-21.md",
+        "startLine": 32,
+        "endLine": 36,
+        "summary": "- Sonnet in isolated sessions kept inventing wrong..."
+      }
+    ],
+    "rules": [
+      {
+        "path": "memory/2026-02-21.md",
+        "startLine": 37,
+        "endLine": 40,
+        "summary": "- Always log problems and completed jobs to daily ..."
+      }
+    ],
+    "knut asked for": [
+      {
+        "path": "memory/2026-02-21.md",
+        "startLine": 1,
+        "endLine": 40,
+        "summary": "# 2026-02-21 (Saturday) ## Cost Optimization Audit..."
+      }
+    ],
+    "default": [
+      {
+        "path": "memory/2026-02-21.md",
+        "startLine": 1,
+        "endLine": 40,
+        "summary": "# 2026-02-21 (Saturday) ## Cost Optimization Audit..."
+      }
+    ],
+    "prefetch": [
+      {
+        "path": "memory/2026-02-21.md",
+        "startLine": 1,
+        "endLine": 40,
+        "summary": "# 2026-02-21 (Saturday) ## Cost Optimization Audit..."
+      }
+    ],
+    "infra sync": [
+      {
+        "path": "memory/2026-02-21.md",
+        "startLine": 1,
+        "endLine": 40,
+        "summary": "# 2026-02-21 (Saturday) ## Cost Optimization Audit..."
+      }
+    ],
+    "bank": [
+      {
+        "path": "memory/2026-02-21.md",
+        "startLine": 1,
+        "endLine": 40,
+        "summary": "# 2026-02-21 (Saturday) ## Cost Optimization Audit..."
+      }
+    ],
+    "finn": [
+      {
+        "path": "memory/2026-02-21.md",
+        "startLine": 1,
+        "endLine": 40,
+        "summary": "# 2026-02-21 (Saturday) ## Cost Optimization Audit..."
+      }
+    ],
+    "gmail / google workspace setup": [
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 5,
+        "endLine": 14,
+        "summary": "- Set up `gog` CLI with OAuth for **bottenanna26@g..."
+      }
+    ],
+    "gmail push notifications": [
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 15,
+        "endLine": 24,
+        "summary": "- Pub/Sub topic: `projects/project-9906db25-afbf-4..."
+      }
+    ],
+    "heartbeat": [
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 25,
+        "endLine": 30,
+        "summary": "- Enabled every 30 minutes, target: telegram - HEA..."
+      },
+      {
+        "path": "memory/patterns/cron-job-setup.md",
+        "startLine": 1,
+        "endLine": 30,
+        "summary": "# Pattern: Cron Job Setup ## When Setting up a new..."
+      }
+    ],
+    "email draft flow": [
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 31,
+        "endLine": 36,
+        "summary": "- Knut forwards emails to bottenanna26@gmail.com -..."
+      }
+    ],
+    "autocalendar": [
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 37,
+        "endLine": 41,
+        "summary": "- Created shared calendar \"AutoCalendar\" between b..."
+      }
+    ],
+    "config optimizations": [
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 42,
+        "endLine": 46,
+        "summary": "- Gmail hooks: Sonnet model, thinking off (cheaper..."
+      }
+    ],
+    "pitch deck — boligverdi challenger": [
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 47,
+        "endLine": 52,
+        "summary": "- Built visual HTML pitch deck for B2C e-takst sta..."
+      }
+    ],
+    "contacts": [
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 53,
+        "endLine": 56,
+        "summary": "- Andre Gilje: andregilje@hotmail.com (people/c485..."
+      },
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 130,
+        "endLine": 132,
+        "summary": "- Martin Knutsen Tran: martin.knutsen.tran@vend.co..."
+      }
+    ],
+    "pitch deck iterations": [
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 57,
+        "endLine": 72,
+        "summary": "- First send: HTML attachment to Andre + Dag — the..."
+      }
+    ],
+    "andre's response": [
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 73,
+        "endLine": 77,
+        "summary": "- Andre Gilje replied to the TakstHjem pitch — he ..."
+      }
+    ],
+    "google doc \"app\"": [
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 78,
+        "endLine": 82,
+        "summary": "- Martin Knutsen Tran (martin.knutsen.tran@vend.co..."
+      }
+    ],
+    "pitch server maintenance": [
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 83,
+        "endLine": 87,
+        "summary": "- The python3 http server on port 8890 keeps dying..."
+      }
+    ],
+    "\"into the body\" app (martin's project)": [
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 88,
+        "endLine": 106,
+        "summary": "- Martin Knutsen Tran (martin.knutsen.tran@vend.co..."
+      }
+    ],
+    "eiendomsverdi.no research & report": [
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 107,
+        "endLine": 129,
+        "summary": "- Built detailed competitive analysis: /pitch/eien..."
+      }
+    ],
+    "mvp plan email to andre": [
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 133,
+        "endLine": 139,
+        "summary": "- Spawned subagent to compile and send TakstHjem M..."
+      }
+    ],
+    "\"into the body\" — body silhouette iterations": [
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 140,
+        "endLine": 153,
+        "summary": "- Original hand-drawn SVG paths looked like \"Miche..."
+      }
+    ],
+    "andre's follow-up — wants mvp → landing page built": [
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 154,
+        "endLine": 164,
+        "summary": "- Andre replied to the go-to-market plan: \"Can you..."
+      }
+    ],
+    "brave search api": [
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 165,
+        "endLine": 170,
+        "summary": "- Set up Brave Search API account with bottenanna2..."
+      }
+    ],
+    "pitch server → launchd": [
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 171,
+        "endLine": 176,
+        "summary": "- Created launchd plist at ~/Library/LaunchAgents/..."
+      }
+    ],
+    "dag's feedback on taksthjem pitch": [
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 177,
+        "endLine": 184,
+        "summary": "- Dag Meltveit replied with detailed concerns (lat..."
+      }
+    ],
+    "knut's calendar": [
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 185,
+        "endLine": 188,
+        "summary": "- Knut bruker ikke privat Google Calendar - AutoCa..."
+      }
+    ],
+    "setup notes for future reference": [
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 189,
+        "endLine": 193,
+        "summary": "- Google Cloud project is in \"Testing\" mode — only..."
+      }
+    ],
+    "gilje": [
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 1,
+        "endLine": 193,
+        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
+      }
+    ],
+    "brave": [
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 1,
+        "endLine": 193,
+        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
+      }
+    ],
+    "meltveit": [
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 1,
+        "endLine": 193,
+        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
+      }
+    ],
+    "kun for profesjonelle aktører": [
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 1,
+        "endLine": 193,
+        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
+      }
+    ],
+    "fixed": [
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 1,
+        "endLine": 193,
+        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
+      }
+    ],
+    "tran": [
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 1,
+        "endLine": 193,
+        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
+      }
+    ],
+    "first": [
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 1,
+        "endLine": 193,
+        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
+      }
+    ],
+    "norge": [
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 1,
+        "endLine": 193,
+        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
+      }
+    ],
+    "can you make a mvp to review?": [
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 1,
+        "endLine": 193,
+        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
+      }
+    ],
+    "library": [
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 1,
+        "endLine": 193,
+        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
+      }
+    ],
+    "search": [
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 1,
+        "endLine": 193,
+        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
+      }
+    ],
+    "setup": [
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 1,
+        "endLine": 193,
+        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
+      }
+    ],
+    "had": [
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 1,
+        "endLine": 193,
+        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
+      }
+    ],
+    "pub": [
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 1,
+        "endLine": 193,
+        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
+      }
+    ],
+    "iterations": [
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 1,
+        "endLine": 193,
+        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
+      }
+    ],
+    "knutsen": [
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 1,
+        "endLine": 193,
+        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
+      }
+    ],
+    "norwegian": [
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 1,
+        "endLine": 193,
+        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
+      },
+      {
+        "path": "memory/preferences.md",
+        "startLine": 1,
+        "endLine": 36,
+        "summary": "# Preferences & Corrections Systematisk log over K..."
+      },
+      {
+        "path": "memory/patterns/email-drafting.md",
+        "startLine": 1,
+        "endLine": 20,
+        "summary": "# Pattern: Email Drafting ## When Knut forwards an..."
+      }
+    ],
+    "app": [
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 1,
+        "endLine": 193,
+        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
+      }
+    ],
+    "server": [
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 1,
+        "endLine": 193,
+        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
+      }
+    ],
+    "doc": [
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 1,
+        "endLine": 193,
+        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
+      }
+    ],
+    "eiendom": [
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 1,
+        "endLine": 193,
+        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
+      }
+    ],
+    "tried multiple": [
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 1,
+        "endLine": 193,
+        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
+      }
+    ],
+    "push": [
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 1,
+        "endLine": 193,
+        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
+      }
+    ],
+    "cloud": [
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 1,
+        "endLine": 193,
+        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
+      }
+    ],
+    "deck": [
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 1,
+        "endLine": 193,
+        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
+      }
+    ],
+    "saved": [
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 1,
+        "endLine": 193,
+        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
+      }
+    ],
+    "body": [
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 1,
+        "endLine": 193,
+        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
+      }
+    ],
+    "react": [
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 1,
+        "endLine": 193,
+        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
+      }
+    ],
+    "google cloud": [
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 1,
+        "endLine": 193,
+        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
+      }
+    ],
+    "testing": [
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 1,
+        "endLine": 193,
+        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
+      }
+    ],
+    "michelin man": [
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 1,
+        "endLine": 193,
+        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
+      }
+    ],
+    "who": [
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 1,
+        "endLine": 193,
+        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
+      }
+    ],
+    "notified": [
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 1,
+        "endLine": 193,
+        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
+      }
+    ],
+    "native": [
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 1,
+        "endLine": 193,
+        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
+      }
+    ],
+    "tested": [
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 1,
+        "endLine": 193,
+        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
+      }
+    ],
+    "expo": [
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 1,
+        "endLine": 193,
+        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
+      }
+    ],
+    "into": [
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 1,
+        "endLine": 193,
+        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
+      }
+    ],
+    "hook mapping requires message": [
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 1,
+        "endLine": 193,
+        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
+      }
+    ],
+    "conversation summary": [
+      {
+        "path": "memory/2026-02-16-context-optimization.md",
+        "startLine": 7,
+        "endLine": 86,
+        "summary": "user: System: [2026-02-16 21:59:46 GMT+1] Exec fai..."
+      }
+    ],
+    "option": [
+      {
+        "path": "memory/2026-02-16-context-optimization.md",
+        "startLine": 1,
+        "endLine": 86,
+        "summary": "# Session: 2026-02-16 23:19:52 UTC - **Session Key..."
+      }
+    ],
+    "three": [
+      {
+        "path": "memory/2026-02-16-context-optimization.md",
+        "startLine": 1,
+        "endLine": 86,
+        "summary": "# Session: 2026-02-16 23:19:52 UTC - **Session Key..."
+      }
+    ],
+    "plus": [
+      {
+        "path": "memory/2026-02-16-context-optimization.md",
+        "startLine": 1,
+        "endLine": 86,
+        "summary": "# Session: 2026-02-16 23:19:52 UTC - **Session Key..."
+      }
+    ],
+    "mon": [
+      {
+        "path": "memory/2026-02-16-context-optimization.md",
+        "startLine": 1,
+        "endLine": 86,
+        "summary": "# Session: 2026-02-16 23:19:52 UTC - **Session Key..."
+      }
+    ],
+    "context": [
+      {
+        "path": "memory/2026-02-16-context-optimization.md",
+        "startLine": 1,
+        "endLine": 86,
+        "summary": "# Session: 2026-02-16 23:19:52 UTC - **Session Key..."
+      }
+    ],
+    "system": [
+      {
+        "path": "memory/2026-02-16-context-optimization.md",
+        "startLine": 1,
+        "endLine": 86,
+        "summary": "# Session: 2026-02-16 23:19:52 UTC - **Session Key..."
+      }
+    ],
+    "problem": [
+      {
+        "path": "memory/2026-02-16-context-optimization.md",
+        "startLine": 1,
+        "endLine": 86,
+        "summary": "# Session: 2026-02-16 23:19:52 UTC - **Session Key..."
+      }
+    ],
+    "language": [
+      {
+        "path": "memory/preferences.md",
+        "startLine": 5,
+        "endLine": 8,
+        "summary": "- Default: English for system/code, Norwegian for ..."
+      }
+    ],
+    "tone": [
+      {
+        "path": "memory/preferences.md",
+        "startLine": 15,
+        "endLine": 19,
+        "summary": "- Sharp, witty, brutally honest - Push back when s..."
+      }
+    ],
+    "work style": [
+      {
+        "path": "memory/preferences.md",
+        "startLine": 20,
+        "endLine": 25,
+        "summary": "- Break big tasks into small steps (don't swallow ..."
+      }
+    ],
+    "format": [
+      {
+        "path": "memory/preferences.md",
+        "startLine": 26,
+        "endLine": 30,
+        "summary": "- Discord/WhatsApp: no markdown tables, use bullet..."
+      }
+    ],
+    "corrections log": [
+      {
+        "path": "memory/preferences.md",
+        "startLine": 31,
+        "endLine": 36,
+        "summary": "<!-- Add new corrections here with date --> - 2026..."
+      }
+    ],
+    "english for": [
+      {
+        "path": "memory/preferences.md",
+        "startLine": 1,
+        "endLine": 36,
+        "summary": "# Preferences & Corrections Systematisk log over K..."
+      }
+    ],
+    "corrections": [
+      {
+        "path": "memory/preferences.md",
+        "startLine": 1,
+        "endLine": 36,
+        "summary": "# Preferences & Corrections Systematisk log over K..."
+      }
+    ],
+    "del oppgavene fint opp": [
+      {
+        "path": "memory/preferences.md",
+        "startLine": 1,
+        "endLine": 36,
+        "summary": "# Preferences & Corrections Systematisk log over K..."
+      }
+    ],
+    "discord": [
+      {
+        "path": "memory/preferences.md",
+        "startLine": 1,
+        "endLine": 36,
+        "summary": "# Preferences & Corrections Systematisk log over K..."
+      }
+    ],
+    "test 1: reasoning (bat & ball) (34s)": [
+      {
+        "path": "memory/qwen3-8b-eval.md",
+        "startLine": 5,
+        "endLine": 9,
+        "summary": "``` ```"
+      }
+    ],
+    "test 2: code generation (42s)": [
+      {
+        "path": "memory/qwen3-8b-eval.md",
+        "startLine": 10,
+        "endLine": 15,
+        "summary": "``` def reverse_string(s): return s[::-1] ```"
+      }
+    ],
+    "test 3: summarization (30s)": [
+      {
+        "path": "memory/qwen3-8b-eval.md",
+        "startLine": 16,
+        "endLine": 22,
+        "summary": "``` - **TCP** is connection-oriented, reliable, an..."
+      }
+    ],
+    "test 4: instruction following (81s)": [
+      {
+        "path": "memory/qwen3-8b-eval.md",
+        "startLine": 23,
+        "endLine": 27,
+        "summary": "``` ```"
+      }
+    ],
+    "test 5: json output (50s)": [
+      {
+        "path": "memory/qwen3-8b-eval.md",
+        "startLine": 28,
+        "endLine": 36,
+        "summary": "``` { \"name\": \"John Doe\", \"age\": 30, \"hobbies\": [\"..."
+      }
+    ],
+    "test 6: math (51s)": [
+      {
+        "path": "memory/qwen3-8b-eval.md",
+        "startLine": 37,
+        "endLine": 41,
+        "summary": "``` 6 12 ```"
+      }
+    ],
+    "test 7: norwegian (77s)": [
+      {
+        "path": "memory/qwen3-8b-eval.md",
+        "startLine": 42,
+        "endLine": 49,
+        "summary": "``` **Emne:** Takk for intervjuet Hei [Navn], Takk..."
+      }
+    ],
+    "test 8: data extraction (78s)": [
+      {
+        "path": "memory/qwen3-8b-eval.md",
+        "startLine": 50,
+        "endLine": 54,
+        "summary": "``` ```"
+      }
+    ],
+    "test 9: creative (35s)": [
+      {
+        "path": "memory/qwen3-8b-eval.md",
+        "startLine": 55,
+        "endLine": 59,
+        "summary": "``` ```"
+      }
+    ],
+    "test 10: simple recall (109s)": [
+      {
+        "path": "memory/qwen3-8b-eval.md",
+        "startLine": 60,
+        "endLine": 65,
+        "summary": "``` 37 ```"
+      }
+    ],
+    "name": [
+      {
+        "path": "memory/qwen3-8b-eval.md",
+        "startLine": 1,
+        "endLine": 65,
+        "summary": "# Qwen3 8B Evaluation Date: 2026-02-19 13:46 ## Te..."
+      }
+    ],
+    "test": [
+      {
+        "path": "memory/qwen3-8b-eval.md",
+        "startLine": 1,
+        "endLine": 65,
+        "summary": "# Qwen3 8B Evaluation Date: 2026-02-19 13:46 ## Te..."
+      },
+      {
+        "path": "memory/patterns/cron-job-setup.md",
+        "startLine": 1,
+        "endLine": 30,
+        "summary": "# Pattern: Cron Job Setup ## When Setting up a new..."
+      }
+    ],
+    "john doe": [
+      {
+        "path": "memory/qwen3-8b-eval.md",
+        "startLine": 1,
+        "endLine": 65,
+        "summary": "# Qwen3 8B Evaluation Date: 2026-02-19 13:46 ## Te..."
+      }
+    ],
+    "age": [
+      {
+        "path": "memory/qwen3-8b-eval.md",
+        "startLine": 1,
+        "endLine": 65,
+        "summary": "# Qwen3 8B Evaluation Date: 2026-02-19 13:46 ## Te..."
+      }
+    ],
+    "reading": [
+      {
+        "path": "memory/qwen3-8b-eval.md",
+        "startLine": 1,
+        "endLine": 65,
+        "summary": "# Qwen3 8B Evaluation Date: 2026-02-19 13:46 ## Te..."
+      }
+    ],
+    "hobbies": [
+      {
+        "path": "memory/qwen3-8b-eval.md",
+        "startLine": 1,
+        "endLine": 65,
+        "summary": "# Qwen3 8B Evaluation Date: 2026-02-19 13:46 ## Te..."
+      }
+    ],
+    "takk": [
+      {
+        "path": "memory/qwen3-8b-eval.md",
+        "startLine": 1,
+        "endLine": 65,
+        "summary": "# Qwen3 8B Evaluation Date: 2026-02-19 13:46 ## Te..."
+      }
+    ],
+    "photography": [
+      {
+        "path": "memory/qwen3-8b-eval.md",
+        "startLine": 1,
+        "endLine": 65,
+        "summary": "# Qwen3 8B Evaluation Date: 2026-02-19 13:46 ## Te..."
+      }
+    ],
+    "hiking": [
+      {
+        "path": "memory/qwen3-8b-eval.md",
+        "startLine": 1,
+        "endLine": 65,
+        "summary": "# Qwen3 8B Evaluation Date: 2026-02-19 13:46 ## Te..."
+      }
+    ],
+    "when": [
+      {
+        "path": "memory/patterns/flower-ordering.md",
+        "startLine": 3,
+        "endLine": 5,
+        "summary": "Knut wants to send flowers to Melissa (or others)...."
+      },
+      {
+        "path": "memory/patterns/cron-job-setup.md",
+        "startLine": 3,
+        "endLine": 5,
+        "summary": "Setting up a new scheduled task."
+      },
+      {
+        "path": "memory/patterns/stock-research.md",
+        "startLine": 3,
+        "endLine": 5,
+        "summary": "Knut asks about a stock, sector, or investment the..."
+      },
+      {
+        "path": "memory/patterns/email-drafting.md",
+        "startLine": 3,
+        "endLine": 5,
+        "summary": "Knut forwards an email to banna@bottenanna.no and ..."
+      }
+    ],
+    "steps": [
+      {
+        "path": "memory/patterns/flower-ordering.md",
+        "startLine": 6,
+        "endLine": 14,
+        "summary": "1. Open browser (profile: openclaw) → mestergronn...."
+      },
+      {
+        "path": "memory/patterns/cron-job-setup.md",
+        "startLine": 10,
+        "endLine": 16,
+        "summary": "1. Decide model: qwen3-fast (free) for CLI/data wo..."
+      },
+      {
+        "path": "memory/patterns/stock-research.md",
+        "startLine": 6,
+        "endLine": 13,
+        "summary": "1. Quick price/quote: `yf price <SYMBOL>` or `yf q..."
+      },
+      {
+        "path": "memory/patterns/email-drafting.md",
+        "startLine": 6,
+        "endLine": 12,
+        "summary": "1. Read the forwarded email thread 2. Draft reply ..."
+      }
+    ],
+    "gotchas": [
+      {
+        "path": "memory/patterns/flower-ordering.md",
+        "startLine": 15,
+        "endLine": 19,
+        "summary": "- Lagret mottaker \"Melissa\" under \"Se lagrede mott..."
+      },
+      {
+        "path": "memory/patterns/cron-job-setup.md",
+        "startLine": 22,
+        "endLine": 28,
+        "summary": "- ALWAYS spell out full commands — don't rely on a..."
+      },
+      {
+        "path": "memory/patterns/stock-research.md",
+        "startLine": 17,
+        "endLine": 21,
+        "summary": "- Chart saves to /tmp/<SYMBOL>_pro.png — copy to w..."
+      },
+      {
+        "path": "memory/patterns/email-drafting.md",
+        "startLine": 13,
+        "endLine": 18,
+        "summary": "- Use `--body-file -` with heredoc for multi-line ..."
+      }
+    ],
+    "se lagrede mottakere": [
+      {
+        "path": "memory/patterns/flower-ordering.md",
+        "startLine": 1,
+        "endLine": 21,
+        "summary": "# Pattern: Blomsterbestilling (Mester Grønn) ## Wh..."
+      }
+    ],
+    "velg": [
+      {
+        "path": "memory/patterns/flower-ordering.md",
+        "startLine": 1,
+        "endLine": 21,
+        "summary": "# Pattern: Blomsterbestilling (Mester Grønn) ## Wh..."
+      }
+    ],
+    "fortsett": [
+      {
+        "path": "memory/patterns/flower-ordering.md",
+        "startLine": 1,
+        "endLine": 21,
+        "summary": "# Pattern: Blomsterbestilling (Mester Grønn) ## Wh..."
+      }
+    ],
+    "decision: cron vs heartbeat": [
+      {
+        "path": "memory/patterns/cron-job-setup.md",
+        "startLine": 6,
+        "endLine": 9,
+        "summary": "- **Cron** for: exact timing, isolated execution, ..."
+      }
+    ],
+    "prefetch pattern (for expensive tasks)": [
+      {
+        "path": "memory/patterns/cron-job-setup.md",
+        "startLine": 17,
+        "endLine": 21,
+        "summary": "1. Create cheap job (qwen3-fast) that gathers data..."
+      }
+    ],
+    "announce": [
+      {
+        "path": "memory/patterns/cron-job-setup.md",
+        "startLine": 1,
+        "endLine": 30,
+        "summary": "# Pattern: Cron Job Setup ## When Setting up a new..."
+      }
+    ],
+    "systemevent": [
+      {
+        "path": "memory/patterns/cron-job-setup.md",
+        "startLine": 1,
+        "endLine": 30,
+        "summary": "# Pattern: Cron Job Setup ## When Setting up a new..."
+      }
+    ],
+    "none": [
+      {
+        "path": "memory/patterns/cron-job-setup.md",
+        "startLine": 1,
+        "endLine": 30,
+        "summary": "# Pattern: Cron Job Setup ## When Setting up a new..."
+      }
+    ],
+    "main": [
+      {
+        "path": "memory/patterns/cron-job-setup.md",
+        "startLine": 1,
+        "endLine": 30,
+        "summary": "# Pattern: Cron Job Setup ## When Setting up a new..."
+      }
+    ],
+    "pattern": [
+      {
+        "path": "memory/patterns/cron-job-setup.md",
+        "startLine": 1,
+        "endLine": 30,
+        "summary": "# Pattern: Cron Job Setup ## When Setting up a new..."
+      }
+    ],
+    "agentturn": [
+      {
+        "path": "memory/patterns/cron-job-setup.md",
+        "startLine": 1,
+        "endLine": 30,
+        "summary": "# Pattern: Cron Job Setup ## When Setting up a new..."
+      }
+    ],
+    "isolated": [
+      {
+        "path": "memory/patterns/cron-job-setup.md",
+        "startLine": 1,
+        "endLine": 30,
+        "summary": "# Pattern: Cron Job Setup ## When Setting up a new..."
+      }
+    ],
+    "create": [
+      {
+        "path": "memory/patterns/cron-job-setup.md",
+        "startLine": 1,
+        "endLine": 30,
+        "summary": "# Pattern: Cron Job Setup ## When Setting up a new..."
+      }
+    ],
+    "nordic suffixes": [
+      {
+        "path": "memory/patterns/stock-research.md",
+        "startLine": 14,
+        "endLine": 16,
+        "summary": "- Oslo: .OL | Copenhagen: .CO | Stockholm: .ST | H..."
+      }
+    ],
+    "chart": [
+      {
+        "path": "memory/patterns/stock-research.md",
+        "startLine": 1,
+        "endLine": 23,
+        "summary": "# Pattern: Stock Research ## When Knut asks about ..."
+      }
+    ],
+    "read": [
+      {
+        "path": "memory/patterns/email-drafting.md",
+        "startLine": 1,
+        "endLine": 20,
+        "summary": "# Pattern: Email Drafting ## When Knut forwards an..."
+      }
+    ]
+  },
+  "updatedAt": "2026-02-22T13:53:06.282588Z"
+}
