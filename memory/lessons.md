@@ -43,6 +43,14 @@
 - **config.patch for memorySearch** — must nest under `agents.defaults.memorySearch`, not top-level `memorySearch`
 - **Bash 3.2 on macOS** — no associative arrays, no mapfile. Always use Python for anything complex.
 
+## Google Calendar (gog)
+- Heldags-events trenger timezone i ISO-format: `2026-02-26T00:00:00+01:00` (ikke bare `2026-02-26`)
+- Uten timezone → "Bad Request" (heldags) eller "Missing time zone definition" (tids-events)
+- Vintertid: `+01:00`, sommertid: `+02:00` (Norge skifter siste søndag i mars)
+- Heldags = midnatt til midnatt neste dag (`T00:00:00` → `T00:00:00` +1 dag)
+- Flerdag = sett end til dagen ETTER siste dag (Google Calendar er exclusive-end)
+- AutoCalendar ID: lang hash-streng, bruker `banna@bottenanna.no` som account
+
 ## Next.js / Node
 - Node v24 incompatible with Next.js 16 — use v22 via fnm
 - OpenClaw exec sandbox kills child processes — use nohup or launchd
