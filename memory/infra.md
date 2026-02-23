@@ -47,15 +47,24 @@
 - Knut bruker ikke privat Google Calendar — AutoCalendar er primærkalenderen
 
 ## Mission Control
-- Next.js app at `mission-control/` on port 3000
-- Launchd: `com.openclaw.missioncontrol` (auto-start, auto-restart)
-- Node v22 via fnm (Node v24 incompatible with Next.js 16)
-- Data: tasks.json, schedule.json, investments.json, memory-index.json
+- **Stack:** Next.js 16 + TypeScript + Tailwind v4 + App Router
+- **Path:** `mission-control/` (workspace)
+- **Port:** 3000, basePath: `/mc`
+- **Launchd:** `com.openclaw.missioncontrol` (auto-start, auto-restart)
+- **Node:** v22 via fnm (Node v24 incompatible with Next.js 16)
+- **URL (Tailscale):** https://knut-sin-mac-mini.tail74a1a0.ts.net/ (tailnet-only, no Funnel)
+- **URL (local):** http://localhost:3000
+- **Data files (workspace root):** tasks.json, schedule.json, investments.json, memory-index.json, system-health.json, activity.json
+- **Tabs:** Tasks (kanban), Activity (feed), Schedule (cron), System (health), Calendar, Investments, Trenger Knut, Memory
+- **Features (v2, 2026-02-23):** Status strip (always visible), tab status dots, ⌘K search overlay, system health monitor, activity feed
+- **Infra Sync cron** regenerates JSON data every 6h
 
-## Hosting
-- Tailscale hostname: knut-sin-mac-mini.tail37c89c.ts.net
-- Pitch server: launchd (`com.openclaw.pitchserver`), port 8890
-- Tailscale Funnel: `/pitch` → http://127.0.0.1:8890
+## Hosting & Tailscale
+- Tailscale hostname: knut-sin-mac-mini.tail74a1a0.ts.net
+- Tailscale serve: `tailscale serve --bg http://127.0.0.1:3000` (proxy / → localhost:3000)
+- Mode: Tailnet-only (NO Funnel — not exposed to internet)
+- URL: https://knut-sin-mac-mini.tail74a1a0.ts.net/
+- To disable: `tailscale serve --https=443 off`
 
 ## Embeddings
 - Model: snowflake-arctic-embed2 (1024 dims, 1.2GB, multilingual inkl norsk)

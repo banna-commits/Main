@@ -113,9 +113,9 @@
       "ticker": "BRAV.ST",
       "aliases": []
     },
-    "protector": {
+    "sampo": {
       "type": "stock",
-      "ticker": "PROT.OL",
+      "ticker": "SAMPO.HE",
       "aliases": []
     },
     "coor": {
@@ -128,9 +128,9 @@
       "ticker": "WWI.OL",
       "aliases": []
     },
-    "sampo": {
+    "protector": {
       "type": "stock",
-      "ticker": "SAMPO.HE",
+      "ticker": "PROT.OL",
       "aliases": []
     },
     "peg": {
@@ -211,7 +211,7 @@
       "relation": "interested_in"
     }
   ],
-  "updatedAt": "2026-02-23T08:02:35.917177",
+  "updatedAt": "2026-02-23T20:02:35.933539",
   "stats": {
     "entity_count": 26,
     "edge_count": 14,

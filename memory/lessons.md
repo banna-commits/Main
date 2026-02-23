@@ -6,6 +6,11 @@
 - Nye tjenester, cron jobs, config-endringer, credentials, workflows → `memory/infra.md` eller relevant fil med én gang
 - Hvis du ville sagt "det bør jeg huske" — skriv det ned NÅ, ikke senere
 
+## Post-Compaction Recovery
+- **ALWAYS run memory_search before resuming work** after compaction — especially when summary is empty
+- Don't trust file locations alone; check daily logs for recent migrations/moves
+- The HTML mission-control in pitch/ was superseded by Next.js on port 3000 (2026-02-22) — wasted time rebuilding HTML version because I didn't check
+
 ## Tools & CLI
 - Desktop OAuth client type works; Web app causes redirect_uri_mismatch
 - Gmail hook mapping needs `messageTemplate` or you get 400 errors

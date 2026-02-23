@@ -8,6 +8,7 @@ Systematisk log over Knuts preferanser — oppdateres når han korrigerer meg.
 
 ## Communication
 - Primary channel: Telegram
+- Telegram streaming: OFF (causes duplicate messages) — verify after any OpenClaw update
 - Be direct, no filler words, no sycophancy
 - Aldri avslutt med "kaller vi det en dag" / "noe mer?" — tid er kontinuerlig, bare vær tilgjengelig
 - 1-3-1 format for problems (1 problem, 3 options, 1 recommendation)

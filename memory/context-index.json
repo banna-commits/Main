@@ -78,6 +78,62 @@
         "summary": "- **Real-time contradiction detection** when new m..."
       }
     ],
+    "memory": [
+      {
+        "path": "memory/research-memory-durability.md",
+        "startLine": 1,
+        "endLine": 48,
+        "summary": "# AI Assistant Memory Durability & Integrity Resea..."
+      },
+      {
+        "path": "memory/research-agent-memory.md",
+        "startLine": 1,
+        "endLine": 39,
+        "summary": "# AI Agent Memory Systems Research ## MemGPT/Letta..."
+      },
+      {
+        "path": "memory/research-importance-scoring.md",
+        "startLine": 1,
+        "endLine": 43,
+        "summary": "# AI Agent Memory Importance Scoring & Spaced Repe..."
+      },
+      {
+        "path": "memory/research-mem0.md",
+        "startLine": 1,
+        "endLine": 249,
+        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
+      },
+      {
+        "path": "memory/2026-02-22.md",
+        "startLine": 1,
+        "endLine": 78,
+        "summary": "# 2026-02-22 (Sunday) ## Mission Control → Next.js..."
+      },
+      {
+        "path": "memory/research-memory-optimization.md",
+        "startLine": 1,
+        "endLine": 190,
+        "summary": "# Memory System Optimization — Best Practices Rese..."
+      },
+      {
+        "path": "memory/lessons.md",
+        "startLine": 1,
+        "endLine": 74,
+        "summary": "# Lessons Learned ## Write-Through Memory - **Skri..."
+      },
+      {
+        "path": "memory/research-memory-compliance.md",
+        "startLine": 1,
+        "endLine": 245,
+        "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
+      },
+      {
+        "path": "memory/preferences.md",
+        "startLine": 22,
+        "endLine": 25,
+        "summary": "- **Auto-save lessons** — when we discover somethi..."
+      }
+    ],
     "integrity": [
       {
         "path": "memory/research-memory-durability.md",
@@ -86,12 +142,18 @@
         "summary": "# AI Assistant Memory Durability & Integrity Resea..."
       }
     ],
-    "consistency": [
+    "metadata": [
       {
         "path": "memory/research-memory-durability.md",
         "startLine": 1,
         "endLine": 48,
         "summary": "# AI Assistant Memory Durability & Integrity Resea..."
+      },
+      {
+        "path": "memory/research-rag-practices.md",
+        "startLine": 1,
+        "endLine": 49,
+        "summary": "# RAG Best Practices for Personal AI Assistants - ..."
       }
     ],
     "context": [
@@ -152,74 +214,12 @@
         "summary": "# Local LLM Routing Best Practices Research - Feb ..."
       }
     ],
-    "memory": [
+    "consistency": [
       {
         "path": "memory/research-memory-durability.md",
         "startLine": 1,
         "endLine": 48,
         "summary": "# AI Assistant Memory Durability & Integrity Resea..."
-      },
-      {
-        "path": "memory/research-agent-memory.md",
-        "startLine": 1,
-        "endLine": 39,
-        "summary": "# AI Agent Memory Systems Research ## MemGPT/Letta..."
-      },
-      {
-        "path": "memory/research-importance-scoring.md",
-        "startLine": 1,
-        "endLine": 43,
-        "summary": "# AI Agent Memory Importance Scoring & Spaced Repe..."
-      },
-      {
-        "path": "memory/research-mem0.md",
-        "startLine": 1,
-        "endLine": 249,
-        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
-      },
-      {
-        "path": "memory/2026-02-22.md",
-        "startLine": 1,
-        "endLine": 78,
-        "summary": "# 2026-02-22 (Sunday) ## Mission Control → Next.js..."
-      },
-      {
-        "path": "memory/research-memory-optimization.md",
-        "startLine": 1,
-        "endLine": 190,
-        "summary": "# Memory System Optimization — Best Practices Rese..."
-      },
-      {
-        "path": "memory/lessons.md",
-        "startLine": 1,
-        "endLine": 74,
-        "summary": "# Lessons Learned ## Write-Through Memory - **Skri..."
-      },
-      {
-        "path": "memory/research-memory-compliance.md",
-        "startLine": 1,
-        "endLine": 245,
-        "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
-      },
-      {
-        "path": "memory/preferences.md",
-        "startLine": 21,
-        "endLine": 24,
-        "summary": "- **Auto-save lessons** — when we discover somethi..."
-      }
-    ],
-    "metadata": [
-      {
-        "path": "memory/research-memory-durability.md",
-        "startLine": 1,
-        "endLine": 48,
-        "summary": "# AI Assistant Memory Durability & Integrity Resea..."
-      },
-      {
-        "path": "memory/research-rag-practices.md",
-        "startLine": 1,
-        "endLine": 49,
-        "summary": "# RAG Best Practices for Personal AI Assistants - ..."
       }
     ],
     "cross": [
@@ -258,28 +258,6 @@
         "summary": "**Memory Integrity Checks**: Hash memory files, tr..."
       }
     ],
-    "track": [
-      {
-        "path": "memory/research-self-improvement.md",
-        "startLine": 1,
-        "endLine": 39,
-        "summary": "# AI Agent Self-Improvement & Durability Research ..."
-      },
-      {
-        "path": "memory/research-self-healing.md",
-        "startLine": 1,
-        "endLine": 56,
-        "summary": "# Self-Healing and Autonomous Error Recovery Patte..."
-      }
-    ],
-    "production": [
-      {
-        "path": "memory/research-self-improvement.md",
-        "startLine": 1,
-        "endLine": 39,
-        "summary": "# AI Agent Self-Improvement & Durability Research ..."
-      }
-    ],
     "agent": [
       {
         "path": "memory/research-self-improvement.md",
@@ -312,6 +290,26 @@
         "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
       }
     ],
+    "performance": [
+      {
+        "path": "memory/research-self-improvement.md",
+        "startLine": 1,
+        "endLine": 39,
+        "summary": "# AI Agent Self-Improvement & Durability Research ..."
+      },
+      {
+        "path": "memory/research-ollama-optimization.md",
+        "startLine": 1,
+        "endLine": 62,
+        "summary": "# Ollama Performance Optimization for Mac Mini M-S..."
+      },
+      {
+        "path": "memory/research-mem0.md",
+        "startLine": 1,
+        "endLine": 249,
+        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
+      }
+    ],
     "enable": [
       {
         "path": "memory/research-self-improvement.md",
@@ -320,33 +318,15 @@
         "summary": "# AI Agent Self-Improvement & Durability Research ..."
       }
     ],
-    "self": [
+    "reliability": [
       {
         "path": "memory/research-self-improvement.md",
         "startLine": 1,
         "endLine": 39,
         "summary": "# AI Agent Self-Improvement & Durability Research ..."
-      },
-      {
-        "path": "memory/research-mem0.md",
-        "startLine": 1,
-        "endLine": 249,
-        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
-      },
-      {
-        "path": "memory/2026-02-22.md",
-        "startLine": 1,
-        "endLine": 78,
-        "summary": "# 2026-02-22 (Sunday) ## Mission Control → Next.js..."
-      },
-      {
-        "path": "memory/research-self-healing.md",
-        "startLine": 1,
-        "endLine": 56,
-        "summary": "# Self-Healing and Autonomous Error Recovery Patte..."
       }
     ],
-    "reliability": [
+    "production": [
       {
         "path": "memory/research-self-improvement.md",
         "startLine": 1,
@@ -366,6 +346,22 @@
         "startLine": 1,
         "endLine": 193,
         "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
+      }
+    ],
+    "ai-driven": [
+      {
+        "path": "memory/research-self-improvement.md",
+        "startLine": 1,
+        "endLine": 39,
+        "summary": "# AI Agent Self-Improvement & Durability Research ..."
+      }
+    ],
+    "chaos": [
+      {
+        "path": "memory/research-self-improvement.md",
+        "startLine": 1,
+        "endLine": 39,
+        "summary": "# AI Agent Self-Improvement & Durability Research ..."
       }
     ],
     "drift": [
@@ -402,40 +398,44 @@
         "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
       }
     ],
-    "ai-driven": [
+    "self": [
       {
         "path": "memory/research-self-improvement.md",
         "startLine": 1,
         "endLine": 39,
         "summary": "# AI Agent Self-Improvement & Durability Research ..."
-      }
-    ],
-    "chaos": [
-      {
-        "path": "memory/research-self-improvement.md",
-        "startLine": 1,
-        "endLine": 39,
-        "summary": "# AI Agent Self-Improvement & Durability Research ..."
-      }
-    ],
-    "performance": [
-      {
-        "path": "memory/research-self-improvement.md",
-        "startLine": 1,
-        "endLine": 39,
-        "summary": "# AI Agent Self-Improvement & Durability Research ..."
-      },
-      {
-        "path": "memory/research-ollama-optimization.md",
-        "startLine": 1,
-        "endLine": 62,
-        "summary": "# Ollama Performance Optimization for Mac Mini M-S..."
       },
       {
         "path": "memory/research-mem0.md",
         "startLine": 1,
         "endLine": 249,
         "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
+      },
+      {
+        "path": "memory/2026-02-22.md",
+        "startLine": 1,
+        "endLine": 78,
+        "summary": "# 2026-02-22 (Sunday) ## Mission Control → Next.js..."
+      },
+      {
+        "path": "memory/research-self-healing.md",
+        "startLine": 1,
+        "endLine": 56,
+        "summary": "# Self-Healing and Autonomous Error Recovery Patte..."
+      }
+    ],
+    "track": [
+      {
+        "path": "memory/research-self-improvement.md",
+        "startLine": 1,
+        "endLine": 39,
+        "summary": "# AI Agent Self-Improvement & Durability Research ..."
+      },
+      {
+        "path": "memory/research-self-healing.md",
+        "startLine": 1,
+        "endLine": 56,
+        "summary": "# Self-Healing and Autonomous Error Recovery Patte..."
       }
     ],
     "telegram fix (carried from 2/17)": [
@@ -572,31 +572,7 @@
         "summary": "- eTakst is NOT legally regulated — proprietary Ei..."
       }
     ],
-    "coor": [
-      {
-        "path": "memory/2026-02-18.md",
-        "startLine": 1,
-        "endLine": 96,
-        "summary": "# 2026-02-18 — Daily Log ## Telegram Fix (carried ..."
-      }
-    ],
-    "novo": [
-      {
-        "path": "memory/2026-02-18.md",
-        "startLine": 1,
-        "endLine": 96,
-        "summary": "# 2026-02-18 — Daily Log ## Telegram Fix (carried ..."
-      }
-    ],
-    "terminal": [
-      {
-        "path": "memory/2026-02-18.md",
-        "startLine": 1,
-        "endLine": 96,
-        "summary": "# 2026-02-18 — Daily Log ## Telegram Fix (carried ..."
-      }
-    ],
-    "nordic": [
+    "nordisk": [
       {
         "path": "memory/2026-02-18.md",
         "startLine": 1,
@@ -630,7 +606,7 @@
         "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
       }
     ],
-    "workspace": [
+    "key": [
       {
         "path": "memory/2026-02-18.md",
         "startLine": 1,
@@ -638,24 +614,22 @@
         "summary": "# 2026-02-18 — Daily Log ## Telegram Fix (carried ..."
       },
       {
-        "path": "memory/2026-02-20.md",
+        "path": "memory/research-memory-optimization.md",
         "startLine": 1,
-        "endLine": 88,
-        "summary": "# 2026-02-20 ## Boretunet Ringeliste — Levert - An..."
+        "endLine": 190,
+        "summary": "# Memory System Optimization — Best Practices Rese..."
       },
       {
-        "path": "memory/2026-02-14.md",
+        "path": "memory/2026-02-15.md",
         "startLine": 1,
-        "endLine": 30,
-        "summary": "# 2026-02-14 — Birthday BottenAnna came online. Fi..."
-      }
-    ],
-    "gjensidige": [
+        "endLine": 193,
+        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
+      },
       {
-        "path": "memory/2026-02-18.md",
+        "path": "memory/research-memory-compliance.md",
         "startLine": 1,
-        "endLine": 96,
-        "summary": "# 2026-02-18 — Daily Log ## Telegram Fix (carried ..."
+        "endLine": 245,
+        "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
       }
     ],
     "bravida": [
@@ -666,7 +640,7 @@
         "summary": "# 2026-02-18 — Daily Log ## Telegram Fix (carried ..."
       }
     ],
-    "custom": [
+    "minimum viable moat": [
       {
         "path": "memory/2026-02-18.md",
         "startLine": 1,
@@ -674,45 +648,7 @@
         "summary": "# 2026-02-18 — Daily Log ## Telegram Fix (carried ..."
       }
     ],
-    "andre": [
-      {
-        "path": "memory/2026-02-18.md",
-        "startLine": 1,
-        "endLine": 96,
-        "summary": "# 2026-02-18 — Daily Log ## Telegram Fix (carried ..."
-      },
-      {
-        "path": "memory/2026-02-19.md",
-        "startLine": 1,
-        "endLine": 54,
-        "summary": "# 2026-02-19 ## Qwen3 Local Model Optimization - C..."
-      },
-      {
-        "path": "memory/projects.md",
-        "startLine": 1,
-        "endLine": 34,
-        "summary": "# Projects ## TakstHjem (B2C property valuation) #..."
-      },
-      {
-        "path": "memory/2026-02-20.md",
-        "startLine": 1,
-        "endLine": 88,
-        "summary": "# 2026-02-20 ## Boretunet Ringeliste — Levert - An..."
-      },
-      {
-        "path": "memory/2026-02-21.md",
-        "startLine": 1,
-        "endLine": 40,
-        "summary": "# 2026-02-21 (Saturday) ## Cost Optimization Audit..."
-      },
-      {
-        "path": "memory/2026-02-15.md",
-        "startLine": 1,
-        "endLine": 193,
-        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
-      }
-    ],
-    "protector": [
+    "thread": [
       {
         "path": "memory/2026-02-18.md",
         "startLine": 1,
@@ -720,15 +656,7 @@
         "summary": "# 2026-02-18 — Daily Log ## Telegram Fix (carried ..."
       }
     ],
-    "analyst": [
-      {
-        "path": "memory/2026-02-18.md",
-        "startLine": 1,
-        "endLine": 96,
-        "summary": "# 2026-02-18 — Daily Log ## Telegram Fix (carried ..."
-      }
-    ],
-    "chat": [
+    "log": [
       {
         "path": "memory/2026-02-18.md",
         "startLine": 1,
@@ -736,106 +664,10 @@
         "summary": "# 2026-02-18 — Daily Log ## Telegram Fix (carried ..."
       },
       {
-        "path": "memory/2026-02-20.md",
+        "path": "memory/research-self-healing.md",
         "startLine": 1,
-        "endLine": 88,
-        "summary": "# 2026-02-20 ## Boretunet Ringeliste — Levert - An..."
-      },
-      {
-        "path": "memory/2026-02-14.md",
-        "startLine": 1,
-        "endLine": 30,
-        "summary": "# 2026-02-14 — Birthday BottenAnna came online. Fi..."
-      }
-    ],
-    "nordisk": [
-      {
-        "path": "memory/2026-02-18.md",
-        "startLine": 1,
-        "endLine": 96,
-        "summary": "# 2026-02-18 — Daily Log ## Telegram Fix (carried ..."
-      }
-    ],
-    "fix": [
-      {
-        "path": "memory/2026-02-18.md",
-        "startLine": 1,
-        "endLine": 96,
-        "summary": "# 2026-02-18 — Daily Log ## Telegram Fix (carried ..."
-      },
-      {
-        "path": "memory/2026-02-22.md",
-        "startLine": 1,
-        "endLine": 78,
-        "summary": "# 2026-02-22 (Sunday) ## Mission Control → Next.js..."
-      },
-      {
-        "path": "memory/research-memory-optimization.md",
-        "startLine": 1,
-        "endLine": 190,
-        "summary": "# Memory System Optimization — Best Practices Rese..."
-      }
-    ],
-    "research": [
-      {
-        "path": "memory/2026-02-18.md",
-        "startLine": 1,
-        "endLine": 96,
-        "summary": "# 2026-02-18 — Daily Log ## Telegram Fix (carried ..."
-      },
-      {
-        "path": "memory/research-memory-compliance.md",
-        "startLine": 1,
-        "endLine": 245,
-        "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
-      },
-      {
-        "path": "memory/research-local-llm-routing.md",
-        "startLine": 1,
-        "endLine": 82,
-        "summary": "# Local LLM Routing Best Practices Research - Feb ..."
-      }
-    ],
-    "wwi.ol": [
-      {
-        "path": "memory/2026-02-18.md",
-        "startLine": 1,
-        "endLine": 96,
-        "summary": "# 2026-02-18 — Daily Log ## Telegram Fix (carried ..."
-      }
-    ],
-    "renteradar": [
-      {
-        "path": "memory/2026-02-18.md",
-        "startLine": 1,
-        "endLine": 96,
-        "summary": "# 2026-02-18 — Daily Log ## Telegram Fix (carried ..."
-      },
-      {
-        "path": "memory/2026-02-16.md",
-        "startLine": 1,
-        "endLine": 110,
-        "summary": "# 2026-02-16 (Monday) Related: [[MEMORY]], [[memor..."
-      }
-    ],
-    "dag": [
-      {
-        "path": "memory/2026-02-18.md",
-        "startLine": 1,
-        "endLine": 96,
-        "summary": "# 2026-02-18 — Daily Log ## Telegram Fix (carried ..."
-      },
-      {
-        "path": "memory/2026-02-16.md",
-        "startLine": 1,
-        "endLine": 110,
-        "summary": "# 2026-02-16 (Monday) Related: [[MEMORY]], [[memor..."
-      },
-      {
-        "path": "memory/2026-02-15.md",
-        "startLine": 1,
-        "endLine": 193,
-        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
+        "endLine": 56,
+        "summary": "# Self-Healing and Autonomous Error Recovery Patte..."
       }
     ],
     "knut": [
@@ -930,7 +762,7 @@
         "summary": "# Pattern: Email Drafting ## When Knut forwards an..."
       }
     ],
-    "sampo": [
+    "nordic": [
       {
         "path": "memory/2026-02-18.md",
         "startLine": 1,
@@ -938,71 +770,21 @@
         "summary": "# 2026-02-18 — Daily Log ## Telegram Fix (carried ..."
       }
     ],
-    "fat to cut": [
+    "built": [
       {
         "path": "memory/2026-02-18.md",
         "startLine": 1,
         "endLine": 96,
         "summary": "# 2026-02-18 — Daily Log ## Telegram Fix (carried ..."
-      }
-    ],
-    "answered": [
-      {
-        "path": "memory/2026-02-18.md",
-        "startLine": 1,
-        "endLine": 96,
-        "summary": "# 2026-02-18 — Daily Log ## Telegram Fix (carried ..."
-      }
-    ],
-    "thread": [
-      {
-        "path": "memory/2026-02-18.md",
-        "startLine": 1,
-        "endLine": 96,
-        "summary": "# 2026-02-18 — Daily Log ## Telegram Fix (carried ..."
-      }
-    ],
-    "obsidian": [
-      {
-        "path": "memory/2026-02-18.md",
-        "startLine": 1,
-        "endLine": 96,
-        "summary": "# 2026-02-18 — Daily Log ## Telegram Fix (carried ..."
-      },
-      {
-        "path": "memory/2026-02-16.md",
-        "startLine": 1,
-        "endLine": 110,
-        "summary": "# 2026-02-16 (Monday) Related: [[MEMORY]], [[memor..."
-      }
-    ],
-    "key": [
-      {
-        "path": "memory/2026-02-18.md",
-        "startLine": 1,
-        "endLine": 96,
-        "summary": "# 2026-02-18 — Daily Log ## Telegram Fix (carried ..."
-      },
-      {
-        "path": "memory/research-memory-optimization.md",
-        "startLine": 1,
-        "endLine": 190,
-        "summary": "# Memory System Optimization — Best Practices Rese..."
       },
       {
         "path": "memory/2026-02-15.md",
         "startLine": 1,
         "endLine": 193,
         "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
-      },
-      {
-        "path": "memory/research-memory-compliance.md",
-        "startLine": 1,
-        "endLine": 245,
-        "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
       }
     ],
-    "investment": [
+    "answered": [
       {
         "path": "memory/2026-02-18.md",
         "startLine": 1,
@@ -1036,6 +818,216 @@
         "summary": "# Node.js Services in OpenClaw Environment ⭐⭐⭐⭐⭐ (..."
       }
     ],
+    "built custom finance": [
+      {
+        "path": "memory/2026-02-18.md",
+        "startLine": 1,
+        "endLine": 96,
+        "summary": "# 2026-02-18 — Daily Log ## Telegram Fix (carried ..."
+      }
+    ],
+    "investment": [
+      {
+        "path": "memory/2026-02-18.md",
+        "startLine": 1,
+        "endLine": 96,
+        "summary": "# 2026-02-18 — Daily Log ## Telegram Fix (carried ..."
+      }
+    ],
+    "obsidian": [
+      {
+        "path": "memory/2026-02-18.md",
+        "startLine": 1,
+        "endLine": 96,
+        "summary": "# 2026-02-18 — Daily Log ## Telegram Fix (carried ..."
+      },
+      {
+        "path": "memory/2026-02-16.md",
+        "startLine": 1,
+        "endLine": 110,
+        "summary": "# 2026-02-16 (Monday) Related: [[MEMORY]], [[memor..."
+      }
+    ],
+    "gjensidige": [
+      {
+        "path": "memory/2026-02-18.md",
+        "startLine": 1,
+        "endLine": 96,
+        "summary": "# 2026-02-18 — Daily Log ## Telegram Fix (carried ..."
+      }
+    ],
+    "research": [
+      {
+        "path": "memory/2026-02-18.md",
+        "startLine": 1,
+        "endLine": 96,
+        "summary": "# 2026-02-18 — Daily Log ## Telegram Fix (carried ..."
+      },
+      {
+        "path": "memory/research-memory-compliance.md",
+        "startLine": 1,
+        "endLine": 245,
+        "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
+      },
+      {
+        "path": "memory/research-local-llm-routing.md",
+        "startLine": 1,
+        "endLine": 82,
+        "summary": "# Local LLM Routing Best Practices Research - Feb ..."
+      }
+    ],
+    "fat to cut": [
+      {
+        "path": "memory/2026-02-18.md",
+        "startLine": 1,
+        "endLine": 96,
+        "summary": "# 2026-02-18 — Daily Log ## Telegram Fix (carried ..."
+      }
+    ],
+    "dag": [
+      {
+        "path": "memory/2026-02-18.md",
+        "startLine": 1,
+        "endLine": 96,
+        "summary": "# 2026-02-18 — Daily Log ## Telegram Fix (carried ..."
+      },
+      {
+        "path": "memory/2026-02-16.md",
+        "startLine": 1,
+        "endLine": 110,
+        "summary": "# 2026-02-16 (Monday) Related: [[MEMORY]], [[memor..."
+      },
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 1,
+        "endLine": 193,
+        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
+      }
+    ],
+    "workspace": [
+      {
+        "path": "memory/2026-02-18.md",
+        "startLine": 1,
+        "endLine": 96,
+        "summary": "# 2026-02-18 — Daily Log ## Telegram Fix (carried ..."
+      },
+      {
+        "path": "memory/2026-02-20.md",
+        "startLine": 1,
+        "endLine": 88,
+        "summary": "# 2026-02-20 ## Boretunet Ringeliste — Levert - An..."
+      },
+      {
+        "path": "memory/2026-02-14.md",
+        "startLine": 1,
+        "endLine": 30,
+        "summary": "# 2026-02-14 — Birthday BottenAnna came online. Fi..."
+      }
+    ],
+    "novo": [
+      {
+        "path": "memory/2026-02-18.md",
+        "startLine": 1,
+        "endLine": 96,
+        "summary": "# 2026-02-18 — Daily Log ## Telegram Fix (carried ..."
+      }
+    ],
+    "analyst": [
+      {
+        "path": "memory/2026-02-18.md",
+        "startLine": 1,
+        "endLine": 96,
+        "summary": "# 2026-02-18 — Daily Log ## Telegram Fix (carried ..."
+      }
+    ],
+    "fix": [
+      {
+        "path": "memory/2026-02-18.md",
+        "startLine": 1,
+        "endLine": 96,
+        "summary": "# 2026-02-18 — Daily Log ## Telegram Fix (carried ..."
+      },
+      {
+        "path": "memory/2026-02-22.md",
+        "startLine": 1,
+        "endLine": 78,
+        "summary": "# 2026-02-22 (Sunday) ## Mission Control → Next.js..."
+      },
+      {
+        "path": "memory/research-memory-optimization.md",
+        "startLine": 1,
+        "endLine": 190,
+        "summary": "# Memory System Optimization — Best Practices Rese..."
+      }
+    ],
+    "peg.co": [
+      {
+        "path": "memory/2026-02-18.md",
+        "startLine": 1,
+        "endLine": 96,
+        "summary": "# 2026-02-18 — Daily Log ## Telegram Fix (carried ..."
+      }
+    ],
+    "sampo": [
+      {
+        "path": "memory/2026-02-18.md",
+        "startLine": 1,
+        "endLine": 96,
+        "summary": "# 2026-02-18 — Daily Log ## Telegram Fix (carried ..."
+      }
+    ],
+    "renteradar": [
+      {
+        "path": "memory/2026-02-18.md",
+        "startLine": 1,
+        "endLine": 96,
+        "summary": "# 2026-02-18 — Daily Log ## Telegram Fix (carried ..."
+      },
+      {
+        "path": "memory/2026-02-16.md",
+        "startLine": 1,
+        "endLine": 110,
+        "summary": "# 2026-02-16 (Monday) Related: [[MEMORY]], [[memor..."
+      }
+    ],
+    "andre": [
+      {
+        "path": "memory/2026-02-18.md",
+        "startLine": 1,
+        "endLine": 96,
+        "summary": "# 2026-02-18 — Daily Log ## Telegram Fix (carried ..."
+      },
+      {
+        "path": "memory/2026-02-19.md",
+        "startLine": 1,
+        "endLine": 54,
+        "summary": "# 2026-02-19 ## Qwen3 Local Model Optimization - C..."
+      },
+      {
+        "path": "memory/projects.md",
+        "startLine": 1,
+        "endLine": 34,
+        "summary": "# Projects ## TakstHjem (B2C property valuation) #..."
+      },
+      {
+        "path": "memory/2026-02-20.md",
+        "startLine": 1,
+        "endLine": 88,
+        "summary": "# 2026-02-20 ## Boretunet Ringeliste — Levert - An..."
+      },
+      {
+        "path": "memory/2026-02-21.md",
+        "startLine": 1,
+        "endLine": 40,
+        "summary": "# 2026-02-21 (Saturday) ## Cost Optimization Audit..."
+      },
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 1,
+        "endLine": 193,
+        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
+      }
+    ],
     "sent": [
       {
         "path": "memory/2026-02-18.md",
@@ -1056,23 +1048,7 @@
         "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
       }
     ],
-    "minimum viable moat": [
-      {
-        "path": "memory/2026-02-18.md",
-        "startLine": 1,
-        "endLine": 96,
-        "summary": "# 2026-02-18 — Daily Log ## Telegram Fix (carried ..."
-      }
-    ],
-    "peg.co": [
-      {
-        "path": "memory/2026-02-18.md",
-        "startLine": 1,
-        "endLine": 96,
-        "summary": "# 2026-02-18 — Daily Log ## Telegram Fix (carried ..."
-      }
-    ],
-    "log": [
+    "chat": [
       {
         "path": "memory/2026-02-18.md",
         "startLine": 1,
@@ -1080,27 +1056,51 @@
         "summary": "# 2026-02-18 — Daily Log ## Telegram Fix (carried ..."
       },
       {
-        "path": "memory/research-self-healing.md",
+        "path": "memory/2026-02-20.md",
         "startLine": 1,
-        "endLine": 56,
-        "summary": "# Self-Healing and Autonomous Error Recovery Patte..."
+        "endLine": 88,
+        "summary": "# 2026-02-20 ## Boretunet Ringeliste — Levert - An..."
+      },
+      {
+        "path": "memory/2026-02-14.md",
+        "startLine": 1,
+        "endLine": 30,
+        "summary": "# 2026-02-14 — Birthday BottenAnna came online. Fi..."
       }
     ],
-    "built": [
+    "coor": [
       {
         "path": "memory/2026-02-18.md",
         "startLine": 1,
         "endLine": 96,
         "summary": "# 2026-02-18 — Daily Log ## Telegram Fix (carried ..."
-      },
-      {
-        "path": "memory/2026-02-15.md",
-        "startLine": 1,
-        "endLine": 193,
-        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
       }
     ],
-    "built custom finance": [
+    "terminal": [
+      {
+        "path": "memory/2026-02-18.md",
+        "startLine": 1,
+        "endLine": 96,
+        "summary": "# 2026-02-18 — Daily Log ## Telegram Fix (carried ..."
+      }
+    ],
+    "wwi.ol": [
+      {
+        "path": "memory/2026-02-18.md",
+        "startLine": 1,
+        "endLine": 96,
+        "summary": "# 2026-02-18 — Daily Log ## Telegram Fix (carried ..."
+      }
+    ],
+    "custom": [
+      {
+        "path": "memory/2026-02-18.md",
+        "startLine": 1,
+        "endLine": 96,
+        "summary": "# 2026-02-18 — Daily Log ## Telegram Fix (carried ..."
+      }
+    ],
+    "protector": [
       {
         "path": "memory/2026-02-18.md",
         "startLine": 1,
@@ -1140,36 +1140,6 @@
         "summary": "- **Hierarchical Tiers**: All systems use multiple..."
       }
     ],
-    "graph": [
-      {
-        "path": "memory/research-agent-memory.md",
-        "startLine": 1,
-        "endLine": 39,
-        "summary": "# AI Agent Memory Systems Research ## MemGPT/Letta..."
-      },
-      {
-        "path": "memory/research-mem0.md",
-        "startLine": 1,
-        "endLine": 249,
-        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
-      }
-    ],
-    "personalization": [
-      {
-        "path": "memory/research-agent-memory.md",
-        "startLine": 1,
-        "endLine": 39,
-        "summary": "# AI Agent Memory Systems Research ## MemGPT/Letta..."
-      }
-    ],
-    "tier": [
-      {
-        "path": "memory/research-agent-memory.md",
-        "startLine": 1,
-        "endLine": 39,
-        "summary": "# AI Agent Memory Systems Research ## MemGPT/Letta..."
-      }
-    ],
     "two-tier memory": [
       {
         "path": "memory/research-agent-memory.md",
@@ -1186,12 +1156,42 @@
         "summary": "# AI Agent Memory Systems Research ## MemGPT/Letta..."
       }
     ],
+    "interrupts": [
+      {
+        "path": "memory/research-agent-memory.md",
+        "startLine": 1,
+        "endLine": 39,
+        "summary": "# AI Agent Memory Systems Research ## MemGPT/Letta..."
+      }
+    ],
+    "tier": [
+      {
+        "path": "memory/research-agent-memory.md",
+        "startLine": 1,
+        "endLine": 39,
+        "summary": "# AI Agent Memory Systems Research ## MemGPT/Letta..."
+      }
+    ],
     "technique": [
       {
         "path": "memory/research-agent-memory.md",
         "startLine": 1,
         "endLine": 39,
         "summary": "# AI Agent Memory Systems Research ## MemGPT/Letta..."
+      }
+    ],
+    "retrieval": [
+      {
+        "path": "memory/research-agent-memory.md",
+        "startLine": 1,
+        "endLine": 39,
+        "summary": "# AI Agent Memory Systems Research ## MemGPT/Letta..."
+      },
+      {
+        "path": "memory/research-mem0.md",
+        "startLine": 1,
+        "endLine": 249,
+        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
       }
     ],
     "temporal": [
@@ -1202,12 +1202,76 @@
         "summary": "# AI Agent Memory Systems Research ## MemGPT/Letta..."
       }
     ],
+    "dynamic": [
+      {
+        "path": "memory/research-agent-memory.md",
+        "startLine": 1,
+        "endLine": 39,
+        "summary": "# AI Agent Memory Systems Research ## MemGPT/Letta..."
+      },
+      {
+        "path": "memory/research-self-healing.md",
+        "startLine": 1,
+        "endLine": 56,
+        "summary": "# Self-Healing and Autonomous Error Recovery Patte..."
+      }
+    ],
     "all": [
       {
         "path": "memory/research-agent-memory.md",
         "startLine": 1,
         "endLine": 39,
         "summary": "# AI Agent Memory Systems Research ## MemGPT/Letta..."
+      }
+    ],
+    "personalization": [
+      {
+        "path": "memory/research-agent-memory.md",
+        "startLine": 1,
+        "endLine": 39,
+        "summary": "# AI Agent Memory Systems Research ## MemGPT/Letta..."
+      }
+    ],
+    "novel": [
+      {
+        "path": "memory/research-agent-memory.md",
+        "startLine": 1,
+        "endLine": 39,
+        "summary": "# AI Agent Memory Systems Research ## MemGPT/Letta..."
+      }
+    ],
+    "hierarchical": [
+      {
+        "path": "memory/research-agent-memory.md",
+        "startLine": 1,
+        "endLine": 39,
+        "summary": "# AI Agent Memory Systems Research ## MemGPT/Letta..."
+      },
+      {
+        "path": "memory/research-importance-scoring.md",
+        "startLine": 1,
+        "endLine": 43,
+        "summary": "# AI Agent Memory Importance Scoring & Spaced Repe..."
+      },
+      {
+        "path": "memory/research-memory-compliance.md",
+        "startLine": 1,
+        "endLine": 245,
+        "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
+      }
+    ],
+    "graph": [
+      {
+        "path": "memory/research-agent-memory.md",
+        "startLine": 1,
+        "endLine": 39,
+        "summary": "# AI Agent Memory Systems Research ## MemGPT/Letta..."
+      },
+      {
+        "path": "memory/research-mem0.md",
+        "startLine": 1,
+        "endLine": 249,
+        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
       }
     ],
     "architecture": [
@@ -1236,70 +1300,6 @@
         "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
       }
     ],
-    "dynamic": [
-      {
-        "path": "memory/research-agent-memory.md",
-        "startLine": 1,
-        "endLine": 39,
-        "summary": "# AI Agent Memory Systems Research ## MemGPT/Letta..."
-      },
-      {
-        "path": "memory/research-self-healing.md",
-        "startLine": 1,
-        "endLine": 56,
-        "summary": "# Self-Healing and Autonomous Error Recovery Patte..."
-      }
-    ],
-    "hierarchical": [
-      {
-        "path": "memory/research-agent-memory.md",
-        "startLine": 1,
-        "endLine": 39,
-        "summary": "# AI Agent Memory Systems Research ## MemGPT/Letta..."
-      },
-      {
-        "path": "memory/research-importance-scoring.md",
-        "startLine": 1,
-        "endLine": 43,
-        "summary": "# AI Agent Memory Importance Scoring & Spaced Repe..."
-      },
-      {
-        "path": "memory/research-memory-compliance.md",
-        "startLine": 1,
-        "endLine": 245,
-        "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
-      }
-    ],
-    "retrieval": [
-      {
-        "path": "memory/research-agent-memory.md",
-        "startLine": 1,
-        "endLine": 39,
-        "summary": "# AI Agent Memory Systems Research ## MemGPT/Letta..."
-      },
-      {
-        "path": "memory/research-mem0.md",
-        "startLine": 1,
-        "endLine": 249,
-        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
-      }
-    ],
-    "interrupts": [
-      {
-        "path": "memory/research-agent-memory.md",
-        "startLine": 1,
-        "endLine": 39,
-        "summary": "# AI Agent Memory Systems Research ## MemGPT/Letta..."
-      }
-    ],
-    "novel": [
-      {
-        "path": "memory/research-agent-memory.md",
-        "startLine": 1,
-        "endLine": 39,
-        "summary": "# AI Agent Memory Systems Research ## MemGPT/Letta..."
-      }
-    ],
     "key best practices": [
       {
         "path": "memory/research-rag-practices.md",
@@ -1314,6 +1314,28 @@
         "startLine": 31,
         "endLine": 49,
         "summary": "**Immediate (High Priority):** - Hybrid search com..."
+      }
+    ],
+    "vibe checks": [
+      {
+        "path": "memory/research-rag-practices.md",
+        "startLine": 1,
+        "endLine": 49,
+        "summary": "# RAG Best Practices for Personal AI Assistants - ..."
+      }
+    ],
+    "implement": [
+      {
+        "path": "memory/research-rag-practices.md",
+        "startLine": 1,
+        "endLine": 49,
+        "summary": "# RAG Best Practices for Personal AI Assistants - ..."
+      },
+      {
+        "path": "memory/research-memory-compliance.md",
+        "startLine": 1,
+        "endLine": 245,
+        "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
       }
     ],
     "best": [
@@ -1336,6 +1358,30 @@
         "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
       }
     ],
+    "digital hoarding": [
+      {
+        "path": "memory/research-rag-practices.md",
+        "startLine": 1,
+        "endLine": 49,
+        "summary": "# RAG Best Practices for Personal AI Assistants - ..."
+      }
+    ],
+    "last year only": [
+      {
+        "path": "memory/research-rag-practices.md",
+        "startLine": 1,
+        "endLine": 49,
+        "summary": "# RAG Best Practices for Personal AI Assistants - ..."
+      }
+    ],
+    "verified sources": [
+      {
+        "path": "memory/research-rag-practices.md",
+        "startLine": 1,
+        "endLine": 49,
+        "summary": "# RAG Best Practices for Personal AI Assistants - ..."
+      }
+    ],
     "hybrid": [
       {
         "path": "memory/research-rag-practices.md",
@@ -1348,44 +1394,6 @@
         "startLine": 1,
         "endLine": 249,
         "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
-      }
-    ],
-    "priority": [
-      {
-        "path": "memory/research-rag-practices.md",
-        "startLine": 1,
-        "endLine": 49,
-        "summary": "# RAG Best Practices for Personal AI Assistants - ..."
-      }
-    ],
-    "vibe checks": [
-      {
-        "path": "memory/research-rag-practices.md",
-        "startLine": 1,
-        "endLine": 49,
-        "summary": "# RAG Best Practices for Personal AI Assistants - ..."
-      }
-    ],
-    "automated": [
-      {
-        "path": "memory/research-rag-practices.md",
-        "startLine": 1,
-        "endLine": 49,
-        "summary": "# RAG Best Practices for Personal AI Assistants - ..."
-      }
-    ],
-    "implement": [
-      {
-        "path": "memory/research-rag-practices.md",
-        "startLine": 1,
-        "endLine": 49,
-        "summary": "# RAG Best Practices for Personal AI Assistants - ..."
-      },
-      {
-        "path": "memory/research-memory-compliance.md",
-        "startLine": 1,
-        "endLine": 245,
-        "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
       }
     ],
     "evaluation": [
@@ -1402,20 +1410,18 @@
         "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
       }
     ],
-    "personal": [
+    "practices": [
       {
         "path": "memory/research-rag-practices.md",
         "startLine": 1,
         "endLine": 49,
         "summary": "# RAG Best Practices for Personal AI Assistants - ..."
-      }
-    ],
-    "smart": [
+      },
       {
-        "path": "memory/research-rag-practices.md",
+        "path": "memory/research-memory-optimization.md",
         "startLine": 1,
-        "endLine": 49,
-        "summary": "# RAG Best Practices for Personal AI Assistants - ..."
+        "endLine": 190,
+        "summary": "# Memory System Optimization — Best Practices Rese..."
       }
     ],
     "use": [
@@ -1444,6 +1450,22 @@
         "summary": "# Node.js Services in OpenClaw Environment ⭐⭐⭐⭐⭐ (..."
       }
     ],
+    "priority": [
+      {
+        "path": "memory/research-rag-practices.md",
+        "startLine": 1,
+        "endLine": 49,
+        "summary": "# RAG Best Practices for Personal AI Assistants - ..."
+      }
+    ],
+    "knowledge": [
+      {
+        "path": "memory/research-rag-practices.md",
+        "startLine": 1,
+        "endLine": 49,
+        "summary": "# RAG Best Practices for Personal AI Assistants - ..."
+      }
+    ],
     "first": [
       {
         "path": "memory/research-rag-practices.md",
@@ -1458,7 +1480,7 @@
         "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
       }
     ],
-    "digital hoarding": [
+    "personal": [
       {
         "path": "memory/research-rag-practices.md",
         "startLine": 1,
@@ -1466,7 +1488,7 @@
         "summary": "# RAG Best Practices for Personal AI Assistants - ..."
       }
     ],
-    "verified sources": [
+    "smart": [
       {
         "path": "memory/research-rag-practices.md",
         "startLine": 1,
@@ -1474,29 +1496,7 @@
         "summary": "# RAG Best Practices for Personal AI Assistants - ..."
       }
     ],
-    "practices": [
-      {
-        "path": "memory/research-rag-practices.md",
-        "startLine": 1,
-        "endLine": 49,
-        "summary": "# RAG Best Practices for Personal AI Assistants - ..."
-      },
-      {
-        "path": "memory/research-memory-optimization.md",
-        "startLine": 1,
-        "endLine": 190,
-        "summary": "# Memory System Optimization — Best Practices Rese..."
-      }
-    ],
-    "last year only": [
-      {
-        "path": "memory/research-rag-practices.md",
-        "startLine": 1,
-        "endLine": 49,
-        "summary": "# RAG Best Practices for Personal AI Assistants - ..."
-      }
-    ],
-    "knowledge": [
+    "automated": [
       {
         "path": "memory/research-rag-practices.md",
         "startLine": 1,
@@ -1596,156 +1596,6 @@
         "summary": "- Tiered model approach: free local (heartbeats) /..."
       }
     ],
-    "boretunet": [
-      {
-        "path": "memory/2026-02-19.md",
-        "startLine": 1,
-        "endLine": 54,
-        "summary": "# 2026-02-19 ## Qwen3 Local Model Optimization - C..."
-      },
-      {
-        "path": "memory/projects.md",
-        "startLine": 1,
-        "endLine": 34,
-        "summary": "# Projects ## TakstHjem (B2C property valuation) #..."
-      },
-      {
-        "path": "memory/2026-02-20.md",
-        "startLine": 1,
-        "endLine": 88,
-        "summary": "# 2026-02-20 ## Boretunet Ringeliste — Levert - An..."
-      }
-    ],
-    "local": [
-      {
-        "path": "memory/2026-02-19.md",
-        "startLine": 1,
-        "endLine": 54,
-        "summary": "# 2026-02-19 ## Qwen3 Local Model Optimization - C..."
-      },
-      {
-        "path": "memory/research-mem0.md",
-        "startLine": 1,
-        "endLine": 249,
-        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
-      },
-      {
-        "path": "memory/research-local-llm-routing.md",
-        "startLine": 1,
-        "endLine": 82,
-        "summary": "# Local LLM Routing Best Practices Research - Feb ..."
-      }
-    ],
-    "elsker deg": [
-      {
-        "path": "memory/2026-02-19.md",
-        "startLine": 1,
-        "endLine": 54,
-        "summary": "# 2026-02-19 ## Qwen3 Local Model Optimization - C..."
-      },
-      {
-        "path": "memory/2026-02-20.md",
-        "startLine": 1,
-        "endLine": 88,
-        "summary": "# 2026-02-20 ## Boretunet Ringeliste — Levert - An..."
-      },
-      {
-        "path": "memory/patterns/flower-ordering.md",
-        "startLine": 1,
-        "endLine": 21,
-        "summary": "# Pattern: Blomsterbestilling (Mester Grønn) ## Wh..."
-      }
-    ],
-    "morning": [
-      {
-        "path": "memory/2026-02-19.md",
-        "startLine": 1,
-        "endLine": 54,
-        "summary": "# 2026-02-19 ## Qwen3 Local Model Optimization - C..."
-      },
-      {
-        "path": "memory/2026-02-16.md",
-        "startLine": 1,
-        "endLine": 110,
-        "summary": "# 2026-02-16 (Monday) Related: [[MEMORY]], [[memor..."
-      },
-      {
-        "path": "memory/2026-02-21.md",
-        "startLine": 1,
-        "endLine": 40,
-        "summary": "# 2026-02-21 (Saturday) ## Cost Optimization Audit..."
-      }
-    ],
-    "sonnet": [
-      {
-        "path": "memory/2026-02-19.md",
-        "startLine": 1,
-        "endLine": 54,
-        "summary": "# 2026-02-19 ## Qwen3 Local Model Optimization - C..."
-      },
-      {
-        "path": "memory/2026-02-16.md",
-        "startLine": 1,
-        "endLine": 110,
-        "summary": "# 2026-02-16 (Monday) Related: [[MEMORY]], [[memor..."
-      },
-      {
-        "path": "memory/lessons.md",
-        "startLine": 1,
-        "endLine": 74,
-        "summary": "# Lessons Learned ## Write-Through Memory - **Skri..."
-      },
-      {
-        "path": "memory/2026-02-20.md",
-        "startLine": 1,
-        "endLine": 88,
-        "summary": "# 2026-02-20 ## Boretunet Ringeliste — Levert - An..."
-      },
-      {
-        "path": "memory/2026-02-21.md",
-        "startLine": 1,
-        "endLine": 40,
-        "summary": "# 2026-02-21 (Saturday) ## Cost Optimization Audit..."
-      },
-      {
-        "path": "memory/2026-02-15.md",
-        "startLine": 1,
-        "endLine": 193,
-        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
-      },
-      {
-        "path": "memory/patterns/subagent-spawning.md",
-        "startLine": 1,
-        "endLine": 50,
-        "summary": "# Pattern: Subagent Spawning ## When Delegating wo..."
-      },
-      {
-        "path": "memory/patterns/model-routing.md",
-        "startLine": 1,
-        "endLine": 34,
-        "summary": "# Pattern: Model Routing ## When Deciding which mo..."
-      },
-      {
-        "path": "memory/patterns/cron-job-setup.md",
-        "startLine": 1,
-        "endLine": 30,
-        "summary": "# Pattern: Cron Job Setup ## When Setting up a new..."
-      }
-    ],
-    "cloudflare": [
-      {
-        "path": "memory/2026-02-19.md",
-        "startLine": 1,
-        "endLine": 54,
-        "summary": "# 2026-02-19 ## Qwen3 Local Model Optimization - C..."
-      },
-      {
-        "path": "memory/2026-02-20.md",
-        "startLine": 1,
-        "endLine": 88,
-        "summary": "# 2026-02-20 ## Boretunet Ringeliste — Levert - An..."
-      }
-    ],
     "embeddings\n- gcp": [
       {
         "path": "memory/2026-02-19.md",
@@ -1812,6 +1662,40 @@
         "summary": "# Pattern: Model Routing ## When Deciding which mo..."
       }
     ],
+    "local": [
+      {
+        "path": "memory/2026-02-19.md",
+        "startLine": 1,
+        "endLine": 54,
+        "summary": "# 2026-02-19 ## Qwen3 Local Model Optimization - C..."
+      },
+      {
+        "path": "memory/research-mem0.md",
+        "startLine": 1,
+        "endLine": 249,
+        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
+      },
+      {
+        "path": "memory/research-local-llm-routing.md",
+        "startLine": 1,
+        "endLine": 82,
+        "summary": "# Local LLM Routing Best Practices Research - Feb ..."
+      }
+    ],
+    "cloudflare": [
+      {
+        "path": "memory/2026-02-19.md",
+        "startLine": 1,
+        "endLine": 54,
+        "summary": "# 2026-02-19 ## Qwen3 Local Model Optimization - C..."
+      },
+      {
+        "path": "memory/2026-02-20.md",
+        "startLine": 1,
+        "endLine": 88,
+        "summary": "# 2026-02-20 ## Boretunet Ringeliste — Levert - An..."
+      }
+    ],
     "tiered model": [
       {
         "path": "memory/2026-02-19.md",
@@ -1846,7 +1730,7 @@
         "summary": "# Pattern: Cron Job Setup ## When Setting up a new..."
       }
     ],
-    "created": [
+    "sonnet": [
       {
         "path": "memory/2026-02-19.md",
         "startLine": 1,
@@ -1860,10 +1744,86 @@
         "summary": "# 2026-02-16 (Monday) Related: [[MEMORY]], [[memor..."
       },
       {
+        "path": "memory/lessons.md",
+        "startLine": 1,
+        "endLine": 74,
+        "summary": "# Lessons Learned ## Write-Through Memory - **Skri..."
+      },
+      {
+        "path": "memory/2026-02-20.md",
+        "startLine": 1,
+        "endLine": 88,
+        "summary": "# 2026-02-20 ## Boretunet Ringeliste — Levert - An..."
+      },
+      {
+        "path": "memory/2026-02-21.md",
+        "startLine": 1,
+        "endLine": 40,
+        "summary": "# 2026-02-21 (Saturday) ## Cost Optimization Audit..."
+      },
+      {
         "path": "memory/2026-02-15.md",
         "startLine": 1,
         "endLine": 193,
         "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
+      },
+      {
+        "path": "memory/patterns/subagent-spawning.md",
+        "startLine": 1,
+        "endLine": 50,
+        "summary": "# Pattern: Subagent Spawning ## When Delegating wo..."
+      },
+      {
+        "path": "memory/patterns/model-routing.md",
+        "startLine": 1,
+        "endLine": 34,
+        "summary": "# Pattern: Model Routing ## When Deciding which mo..."
+      },
+      {
+        "path": "memory/patterns/cron-job-setup.md",
+        "startLine": 1,
+        "endLine": 30,
+        "summary": "# Pattern: Cron Job Setup ## When Setting up a new..."
+      }
+    ],
+    "elsker deg": [
+      {
+        "path": "memory/2026-02-19.md",
+        "startLine": 1,
+        "endLine": 54,
+        "summary": "# 2026-02-19 ## Qwen3 Local Model Optimization - C..."
+      },
+      {
+        "path": "memory/2026-02-20.md",
+        "startLine": 1,
+        "endLine": 88,
+        "summary": "# 2026-02-20 ## Boretunet Ringeliste — Levert - An..."
+      },
+      {
+        "path": "memory/patterns/flower-ordering.md",
+        "startLine": 1,
+        "endLine": 21,
+        "summary": "# Pattern: Blomsterbestilling (Mester Grønn) ## Wh..."
+      }
+    ],
+    "morning": [
+      {
+        "path": "memory/2026-02-19.md",
+        "startLine": 1,
+        "endLine": 54,
+        "summary": "# 2026-02-19 ## Qwen3 Local Model Optimization - C..."
+      },
+      {
+        "path": "memory/2026-02-16.md",
+        "startLine": 1,
+        "endLine": 110,
+        "summary": "# 2026-02-16 (Monday) Related: [[MEMORY]], [[memor..."
+      },
+      {
+        "path": "memory/2026-02-21.md",
+        "startLine": 1,
+        "endLine": 40,
+        "summary": "# 2026-02-21 (Saturday) ## Cost Optimization Audit..."
       }
     ],
     "melissa": [
@@ -1896,6 +1856,46 @@
         "startLine": 1,
         "endLine": 21,
         "summary": "# Pattern: Blomsterbestilling (Mester Grønn) ## Wh..."
+      }
+    ],
+    "created": [
+      {
+        "path": "memory/2026-02-19.md",
+        "startLine": 1,
+        "endLine": 54,
+        "summary": "# 2026-02-19 ## Qwen3 Local Model Optimization - C..."
+      },
+      {
+        "path": "memory/2026-02-16.md",
+        "startLine": 1,
+        "endLine": 110,
+        "summary": "# 2026-02-16 (Monday) Related: [[MEMORY]], [[memor..."
+      },
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 1,
+        "endLine": 193,
+        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
+      }
+    ],
+    "boretunet": [
+      {
+        "path": "memory/2026-02-19.md",
+        "startLine": 1,
+        "endLine": 54,
+        "summary": "# 2026-02-19 ## Qwen3 Local Model Optimization - C..."
+      },
+      {
+        "path": "memory/projects.md",
+        "startLine": 1,
+        "endLine": 34,
+        "summary": "# Projects ## TakstHjem (B2C property valuation) #..."
+      },
+      {
+        "path": "memory/2026-02-20.md",
+        "startLine": 1,
+        "endLine": 88,
+        "summary": "# 2026-02-20 ## Boretunet Ringeliste — Levert - An..."
       }
     ],
     "key configuration settings": [
@@ -1978,6 +1978,48 @@
         "summary": "- Use Q4_K_M quantization for optimal balance - Se..."
       }
     ],
+    "mini": [
+      {
+        "path": "memory/research-ollama-optimization.md",
+        "startLine": 1,
+        "endLine": 62,
+        "summary": "# Ollama Performance Optimization for Mac Mini M-S..."
+      },
+      {
+        "path": "memory/research-mem0.md",
+        "startLine": 1,
+        "endLine": 249,
+        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
+      },
+      {
+        "path": "memory/infra.md",
+        "startLine": 1,
+        "endLine": 76,
+        "summary": "# Infrastructure ## Discord - Bot name: @Bannabot ..."
+      }
+    ],
+    "higher": [
+      {
+        "path": "memory/research-ollama-optimization.md",
+        "startLine": 1,
+        "endLine": 62,
+        "summary": "# Ollama Performance Optimization for Mac Mini M-S..."
+      }
+    ],
+    "default": [
+      {
+        "path": "memory/research-ollama-optimization.md",
+        "startLine": 1,
+        "endLine": 62,
+        "summary": "# Ollama Performance Optimization for Mac Mini M-S..."
+      },
+      {
+        "path": "memory/2026-02-21.md",
+        "startLine": 1,
+        "endLine": 40,
+        "summary": "# 2026-02-21 (Saturday) ## Cost Optimization Audit..."
+      }
+    ],
     "ollama": [
       {
         "path": "memory/research-ollama-optimization.md",
@@ -2036,12 +2078,24 @@
         "summary": "# Infrastructure ## Discord - Bot name: @Bannabot ..."
       }
     ],
-    "higher": [
+    "model": [
       {
         "path": "memory/research-ollama-optimization.md",
         "startLine": 1,
         "endLine": 62,
         "summary": "# Ollama Performance Optimization for Mac Mini M-S..."
+      },
+      {
+        "path": "memory/research-mem0.md",
+        "startLine": 1,
+        "endLine": 249,
+        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
+      },
+      {
+        "path": "memory/patterns/model-routing.md",
+        "startLine": 1,
+        "endLine": 34,
+        "summary": "# Pattern: Model Routing ## When Deciding which mo..."
       }
     ],
     "gpu memory for": [
@@ -2058,6 +2112,26 @@
         "startLine": 1,
         "endLine": 62,
         "summary": "# Ollama Performance Optimization for Mac Mini M-S..."
+      }
+    ],
+    "management": [
+      {
+        "path": "memory/research-ollama-optimization.md",
+        "startLine": 1,
+        "endLine": 62,
+        "summary": "# Ollama Performance Optimization for Mac Mini M-S..."
+      },
+      {
+        "path": "memory/research-mem0.md",
+        "startLine": 1,
+        "endLine": 249,
+        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
+      },
+      {
+        "path": "memory/patterns/nodejs-services-openclaw.md",
+        "startLine": 63,
+        "endLine": 64,
+        "summary": "```bash"
       }
     ],
     "set": [
@@ -2084,80 +2158,6 @@
         "startLine": 1,
         "endLine": 30,
         "summary": "# Pattern: Cron Job Setup ## When Setting up a new..."
-      }
-    ],
-    "default": [
-      {
-        "path": "memory/research-ollama-optimization.md",
-        "startLine": 1,
-        "endLine": 62,
-        "summary": "# Ollama Performance Optimization for Mac Mini M-S..."
-      },
-      {
-        "path": "memory/2026-02-21.md",
-        "startLine": 1,
-        "endLine": 40,
-        "summary": "# 2026-02-21 (Saturday) ## Cost Optimization Audit..."
-      }
-    ],
-    "management": [
-      {
-        "path": "memory/research-ollama-optimization.md",
-        "startLine": 1,
-        "endLine": 62,
-        "summary": "# Ollama Performance Optimization for Mac Mini M-S..."
-      },
-      {
-        "path": "memory/research-mem0.md",
-        "startLine": 1,
-        "endLine": 249,
-        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
-      },
-      {
-        "path": "memory/patterns/nodejs-services-openclaw.md",
-        "startLine": 63,
-        "endLine": 64,
-        "summary": "```bash"
-      }
-    ],
-    "mini": [
-      {
-        "path": "memory/research-ollama-optimization.md",
-        "startLine": 1,
-        "endLine": 62,
-        "summary": "# Ollama Performance Optimization for Mac Mini M-S..."
-      },
-      {
-        "path": "memory/research-mem0.md",
-        "startLine": 1,
-        "endLine": 249,
-        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
-      },
-      {
-        "path": "memory/infra.md",
-        "startLine": 1,
-        "endLine": 76,
-        "summary": "# Infrastructure ## Discord - Bot name: @Bannabot ..."
-      }
-    ],
-    "model": [
-      {
-        "path": "memory/research-ollama-optimization.md",
-        "startLine": 1,
-        "endLine": 62,
-        "summary": "# Ollama Performance Optimization for Mac Mini M-S..."
-      },
-      {
-        "path": "memory/research-mem0.md",
-        "startLine": 1,
-        "endLine": 249,
-        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
-      },
-      {
-        "path": "memory/patterns/model-routing.md",
-        "startLine": 1,
-        "endLine": 34,
-        "summary": "# Pattern: Model Routing ## When Deciding which mo..."
       }
     ],
     "importance scoring methods": [
@@ -2208,70 +2208,6 @@
         "summary": "1. **Scoring pipeline**: Use LLM to rate daily eve..."
       }
     ],
-    "eviction": [
-      {
-        "path": "memory/research-importance-scoring.md",
-        "startLine": 1,
-        "endLine": 43,
-        "summary": "# AI Agent Memory Importance Scoring & Spaced Repe..."
-      }
-    ],
-    "access": [
-      {
-        "path": "memory/research-importance-scoring.md",
-        "startLine": 1,
-        "endLine": 43,
-        "summary": "# AI Agent Memory Importance Scoring & Spaced Repe..."
-      }
-    ],
-    "poignant": [
-      {
-        "path": "memory/research-importance-scoring.md",
-        "startLine": 1,
-        "endLine": 43,
-        "summary": "# AI Agent Memory Importance Scoring & Spaced Repe..."
-      }
-    ],
-    "semantic": [
-      {
-        "path": "memory/research-importance-scoring.md",
-        "startLine": 1,
-        "endLine": 43,
-        "summary": "# AI Agent Memory Importance Scoring & Spaced Repe..."
-      }
-    ],
-    "mundane": [
-      {
-        "path": "memory/research-importance-scoring.md",
-        "startLine": 1,
-        "endLine": 43,
-        "summary": "# AI Agent Memory Importance Scoring & Spaced Repe..."
-      }
-    ],
-    "importance": [
-      {
-        "path": "memory/research-importance-scoring.md",
-        "startLine": 1,
-        "endLine": 43,
-        "summary": "# AI Agent Memory Importance Scoring & Spaced Repe..."
-      }
-    ],
-    "generative": [
-      {
-        "path": "memory/research-importance-scoring.md",
-        "startLine": 1,
-        "endLine": 43,
-        "summary": "# AI Agent Memory Importance Scoring & Spaced Repe..."
-      }
-    ],
-    "spaced": [
-      {
-        "path": "memory/research-importance-scoring.md",
-        "startLine": 1,
-        "endLine": 43,
-        "summary": "# AI Agent Memory Importance Scoring & Spaced Repe..."
-      }
-    ],
     "memories": [
       {
         "path": "memory/research-importance-scoring.md",
@@ -2286,7 +2222,15 @@
         "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
       }
     ],
-    "reflection": [
+    "scoring": [
+      {
+        "path": "memory/research-importance-scoring.md",
+        "startLine": 1,
+        "endLine": 43,
+        "summary": "# AI Agent Memory Importance Scoring & Spaced Repe..."
+      }
+    ],
+    "importance": [
       {
         "path": "memory/research-importance-scoring.md",
         "startLine": 1,
@@ -2308,7 +2252,63 @@
         "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
       }
     ],
-    "scoring": [
+    "generative": [
+      {
+        "path": "memory/research-importance-scoring.md",
+        "startLine": 1,
+        "endLine": 43,
+        "summary": "# AI Agent Memory Importance Scoring & Spaced Repe..."
+      }
+    ],
+    "mundane": [
+      {
+        "path": "memory/research-importance-scoring.md",
+        "startLine": 1,
+        "endLine": 43,
+        "summary": "# AI Agent Memory Importance Scoring & Spaced Repe..."
+      }
+    ],
+    "reflection": [
+      {
+        "path": "memory/research-importance-scoring.md",
+        "startLine": 1,
+        "endLine": 43,
+        "summary": "# AI Agent Memory Importance Scoring & Spaced Repe..."
+      }
+    ],
+    "poignant": [
+      {
+        "path": "memory/research-importance-scoring.md",
+        "startLine": 1,
+        "endLine": 43,
+        "summary": "# AI Agent Memory Importance Scoring & Spaced Repe..."
+      }
+    ],
+    "access": [
+      {
+        "path": "memory/research-importance-scoring.md",
+        "startLine": 1,
+        "endLine": 43,
+        "summary": "# AI Agent Memory Importance Scoring & Spaced Repe..."
+      }
+    ],
+    "spaced": [
+      {
+        "path": "memory/research-importance-scoring.md",
+        "startLine": 1,
+        "endLine": 43,
+        "summary": "# AI Agent Memory Importance Scoring & Spaced Repe..."
+      }
+    ],
+    "semantic": [
+      {
+        "path": "memory/research-importance-scoring.md",
+        "startLine": 1,
+        "endLine": 43,
+        "summary": "# AI Agent Memory Importance Scoring & Spaced Repe..."
+      }
+    ],
+    "eviction": [
       {
         "path": "memory/research-importance-scoring.md",
         "startLine": 1,
@@ -2346,20 +2346,6 @@
         "startLine": 28,
         "endLine": 31,
         "summary": "- martin.knutsen.tran@vend.com - \"Into the Body\" a..."
-      }
-    ],
-    "into the body": [
-      {
-        "path": "memory/people.md",
-        "startLine": 1,
-        "endLine": 31,
-        "summary": "# People ## Knut (my human) - Norwegian, likes dir..."
-      },
-      {
-        "path": "memory/2026-02-15.md",
-        "startLine": 1,
-        "endLine": 193,
-        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
       }
     ],
     "telegram": [
@@ -2404,6 +2390,26 @@
         "startLine": 1,
         "endLine": 86,
         "summary": "# Session: 2026-02-16 23:19:52 UTC - **Session Key..."
+      },
+      {
+        "path": "memory/preferences.md",
+        "startLine": 1,
+        "endLine": 43,
+        "summary": "# Preferences & Corrections Systematisk log over K..."
+      }
+    ],
+    "into the body": [
+      {
+        "path": "memory/people.md",
+        "startLine": 1,
+        "endLine": 31,
+        "summary": "# People ## Knut (my human) - Norwegian, likes dir..."
+      },
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 1,
+        "endLine": 193,
+        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
       }
     ],
     "1. what is mem0? how does it work technically?": [
@@ -2630,160 +2636,12 @@
         "summary": "Mem0 is a sophisticated memory layer that could si..."
       }
     ],
-    "supported": [
+    "yes": [
       {
         "path": "memory/research-mem0.md",
         "startLine": 1,
         "endLine": 249,
         "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
-      }
-    ],
-    "faster": [
-      {
-        "path": "memory/research-mem0.md",
-        "startLine": 1,
-        "endLine": 249,
-        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
-      }
-    ],
-    "storage": [
-      {
-        "path": "memory/research-mem0.md",
-        "startLine": 1,
-        "endLine": 249,
-        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
-      }
-    ],
-    "hosted": [
-      {
-        "path": "memory/research-mem0.md",
-        "startLine": 1,
-        "endLine": 249,
-        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
-      }
-    ],
-    "learning": [
-      {
-        "path": "memory/research-mem0.md",
-        "startLine": 1,
-        "endLine": 249,
-        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
-      }
-    ],
-    "databases": [
-      {
-        "path": "memory/research-mem0.md",
-        "startLine": 1,
-        "endLine": 249,
-        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
-      }
-    ],
-    "nomic-embed-text:latest": [
-      {
-        "path": "memory/research-mem0.md",
-        "startLine": 1,
-        "endLine": 249,
-        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
-      }
-    ],
-    "automatic": [
-      {
-        "path": "memory/research-mem0.md",
-        "startLine": 1,
-        "endLine": 249,
-        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
-      }
-    ],
-    "llm": [
-      {
-        "path": "memory/research-mem0.md",
-        "startLine": 1,
-        "endLine": 249,
-        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
-      }
-    ],
-    "the": [
-      {
-        "path": "memory/research-mem0.md",
-        "startLine": 1,
-        "endLine": 249,
-        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
-      },
-      {
-        "path": "memory/research-memory-compliance.md",
-        "startLine": 1,
-        "endLine": 245,
-        "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
-      }
-    ],
-    "depends": [
-      {
-        "path": "memory/research-mem0.md",
-        "startLine": 1,
-        "endLine": 249,
-        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
-      }
-    ],
-    "conflict": [
-      {
-        "path": "memory/research-mem0.md",
-        "startLine": 1,
-        "endLine": 249,
-        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
-      }
-    ],
-    "can": [
-      {
-        "path": "memory/research-mem0.md",
-        "startLine": 1,
-        "endLine": 249,
-        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
-      }
-    ],
-    "costs": [
-      {
-        "path": "memory/research-mem0.md",
-        "startLine": 1,
-        "endLine": 249,
-        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
-      }
-    ],
-    "example": [
-      {
-        "path": "memory/research-mem0.md",
-        "startLine": 1,
-        "endLine": 249,
-        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
-      }
-    ],
-    "full": [
-      {
-        "path": "memory/research-mem0.md",
-        "startLine": 1,
-        "endLine": 249,
-        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
-      }
-    ],
-    "chroma": [
-      {
-        "path": "memory/research-mem0.md",
-        "startLine": 1,
-        "endLine": 249,
-        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
-      }
-    ],
-    "config": [
-      {
-        "path": "memory/research-mem0.md",
-        "startLine": 1,
-        "endLine": 249,
-        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
-      },
-      {
-        "path": "memory/patterns/model-routing.md",
-        "startLine": 20,
-        "endLine": 26,
-        "summary": "- Main session: Opus (agents.defaults.model.primar..."
       }
     ],
     "uses": [
@@ -2794,21 +2652,7 @@
         "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
       }
     ],
-    "advanced": [
-      {
-        "path": "memory/research-mem0.md",
-        "startLine": 1,
-        "endLine": 249,
-        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
-      },
-      {
-        "path": "memory/research-local-llm-routing.md",
-        "startLine": 1,
-        "endLine": 82,
-        "summary": "# Local LLM Routing Best Practices Research - Feb ..."
-      }
-    ],
-    "token": [
+    "new": [
       {
         "path": "memory/research-mem0.md",
         "startLine": 1,
@@ -2816,23 +2660,7 @@
         "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
       }
     ],
-    "mem-zero": [
-      {
-        "path": "memory/research-mem0.md",
-        "startLine": 1,
-        "endLine": 249,
-        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
-      }
-    ],
-    "results": [
-      {
-        "path": "memory/research-mem0.md",
-        "startLine": 1,
-        "endLine": 249,
-        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
-      }
-    ],
-    "role": [
+    "gpt-4": [
       {
         "path": "memory/research-mem0.md",
         "startLine": 1,
@@ -2852,280 +2680,6 @@
         "startLine": 1,
         "endLine": 190,
         "summary": "# Memory System Optimization — Best Practices Rese..."
-      }
-    ],
-    ".join(f": [
-      {
-        "path": "memory/research-mem0.md",
-        "startLine": 1,
-        "endLine": 249,
-        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
-      }
-    ],
-    "how": [
-      {
-        "path": "memory/research-mem0.md",
-        "startLine": 1,
-        "endLine": 249,
-        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
-      },
-      {
-        "path": "memory/research-memory-compliance.md",
-        "startLine": 1,
-        "endLine": 245,
-        "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
-      }
-    ],
-    "path": [
-      {
-        "path": "memory/research-mem0.md",
-        "startLine": 1,
-        "endLine": 249,
-        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
-      }
-    ],
-    "default_user": [
-      {
-        "path": "memory/research-mem0.md",
-        "startLine": 1,
-        "endLine": 249,
-        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
-      }
-    ],
-    "base_url": [
-      {
-        "path": "memory/research-mem0.md",
-        "startLine": 1,
-        "endLine": 249,
-        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
-      }
-    ],
-    "intelligent": [
-      {
-        "path": "memory/research-mem0.md",
-        "startLine": 1,
-        "endLine": 249,
-        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
-      }
-    ],
-    "enterprise": [
-      {
-        "path": "memory/research-mem0.md",
-        "startLine": 1,
-        "endLine": 249,
-        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
-      }
-    ],
-    "store": [
-      {
-        "path": "memory/research-mem0.md",
-        "startLine": 1,
-        "endLine": 249,
-        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
-      }
-    ],
-    "source": [
-      {
-        "path": "memory/research-mem0.md",
-        "startLine": 1,
-        "endLine": 249,
-        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
-      }
-    ],
-    "collection_name": [
-      {
-        "path": "memory/research-mem0.md",
-        "startLine": 1,
-        "endLine": 249,
-        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
-      }
-    ],
-    "stateful": [
-      {
-        "path": "memory/research-mem0.md",
-        "startLine": 1,
-        "endLine": 249,
-        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
-      }
-    ],
-    "works": [
-      {
-        "path": "memory/research-mem0.md",
-        "startLine": 1,
-        "endLine": 249,
-        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
-      }
-    ],
-    "basic": [
-      {
-        "path": "memory/research-mem0.md",
-        "startLine": 1,
-        "endLine": 249,
-        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
-      },
-      {
-        "path": "memory/research-local-llm-routing.md",
-        "startLine": 1,
-        "endLine": 82,
-        "summary": "# Local LLM Routing Best Practices Research - Feb ..."
-      }
-    ],
-    "yes": [
-      {
-        "path": "memory/research-mem0.md",
-        "startLine": 1,
-        "endLine": 249,
-        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
-      }
-    ],
-    "sub": [
-      {
-        "path": "memory/research-mem0.md",
-        "startLine": 1,
-        "endLine": 249,
-        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
-      },
-      {
-        "path": "memory/2026-02-20.md",
-        "startLine": 1,
-        "endLine": 88,
-        "summary": "# 2026-02-20 ## Boretunet Ringeliste — Levert - An..."
-      },
-      {
-        "path": "memory/2026-02-15.md",
-        "startLine": 1,
-        "endLine": 193,
-        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
-      },
-      {
-        "path": "memory/2026-02-16-context-optimization.md",
-        "startLine": 1,
-        "endLine": 86,
-        "summary": "# Session: 2026-02-16 23:19:52 UTC - **Session Key..."
-      }
-    ],
-    "new": [
-      {
-        "path": "memory/research-mem0.md",
-        "startLine": 1,
-        "endLine": 249,
-        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
-      }
-    ],
-    "integration": [
-      {
-        "path": "memory/research-mem0.md",
-        "startLine": 1,
-        "endLine": 249,
-        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
-      }
-    ],
-    "complete": [
-      {
-        "path": "memory/research-mem0.md",
-        "startLine": 1,
-        "endLine": 249,
-        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
-      }
-    ],
-    "user": [
-      {
-        "path": "memory/research-mem0.md",
-        "startLine": 1,
-        "endLine": 249,
-        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
-      }
-    ],
-    "multi-agent": [
-      {
-        "path": "memory/research-mem0.md",
-        "startLine": 1,
-        "endLine": 249,
-        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
-      }
-    ],
-    "./db": [
-      {
-        "path": "memory/research-mem0.md",
-        "startLine": 1,
-        "endLine": 249,
-        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
-      }
-    ],
-    "dual": [
-      {
-        "path": "memory/research-mem0.md",
-        "startLine": 1,
-        "endLine": 249,
-        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
-      }
-    ],
-    "stateful multi-actor": [
-      {
-        "path": "memory/research-mem0.md",
-        "startLine": 1,
-        "endLine": 249,
-        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
-      }
-    ],
-    "accuracy": [
-      {
-        "path": "memory/research-mem0.md",
-        "startLine": 1,
-        "endLine": 249,
-        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
-      }
-    ],
-    "control": [
-      {
-        "path": "memory/research-mem0.md",
-        "startLine": 1,
-        "endLine": 249,
-        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
-      },
-      {
-        "path": "memory/2026-02-22.md",
-        "startLine": 1,
-        "endLine": 78,
-        "summary": "# 2026-02-22 (Sunday) ## Mission Control → Next.js..."
-      }
-    ],
-    "python": [
-      {
-        "path": "memory/research-mem0.md",
-        "startLine": 1,
-        "endLine": 249,
-        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
-      },
-      {
-        "path": "memory/lessons.md",
-        "startLine": 1,
-        "endLine": 74,
-        "summary": "# Lessons Learned ## Write-Through Memory - **Skri..."
-      }
-    ],
-    "content": [
-      {
-        "path": "memory/research-mem0.md",
-        "startLine": 1,
-        "endLine": 249,
-        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
-      }
-    ],
-    "pros": [
-      {
-        "path": "memory/research-mem0.md",
-        "startLine": 1,
-        "endLine": 249,
-        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
-      }
-    ],
-    "technical": [
-      {
-        "path": "memory/research-mem0.md",
-        "startLine": 1,
-        "endLine": 249,
-        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
       }
     ],
     "node": [
@@ -3160,33 +2714,7 @@
         "summary": "# Node.js Services in OpenClaw Environment ⭐⭐⭐⭐⭐ (..."
       }
     ],
-    "web": [
-      {
-        "path": "memory/research-mem0.md",
-        "startLine": 1,
-        "endLine": 249,
-        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
-      },
-      {
-        "path": "memory/lessons.md",
-        "startLine": 1,
-        "endLine": 74,
-        "summary": "# Lessons Learned ## Write-Through Memory - **Skri..."
-      },
-      {
-        "path": "memory/2026-02-15.md",
-        "startLine": 1,
-        "endLine": 193,
-        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
-      },
-      {
-        "path": "memory/patterns/nodejs-services-openclaw.md",
-        "startLine": 1,
-        "endLine": 71,
-        "summary": "# Node.js Services in OpenClaw Environment ⭐⭐⭐⭐⭐ (..."
-      }
-    ],
-    "gpt-4": [
+    "costs": [
       {
         "path": "memory/research-mem0.md",
         "startLine": 1,
@@ -3194,18 +2722,12 @@
         "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
       }
     ],
-    "vector": [
+    "databases": [
       {
         "path": "memory/research-mem0.md",
         "startLine": 1,
         "endLine": 249,
         "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
-      },
-      {
-        "path": "memory/research-memory-optimization.md",
-        "startLine": 1,
-        "endLine": 190,
-        "summary": "# Memory System Optimization — Best Practices Rese..."
       }
     ],
     "embedder": [
@@ -3216,7 +2738,67 @@
         "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
       }
     ],
-    "resolution": [
+    "chroma": [
+      {
+        "path": "memory/research-mem0.md",
+        "startLine": 1,
+        "endLine": 249,
+        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
+      }
+    ],
+    "system": [
+      {
+        "path": "memory/research-mem0.md",
+        "startLine": 1,
+        "endLine": 249,
+        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
+      },
+      {
+        "path": "memory/2026-02-16-context-optimization.md",
+        "startLine": 1,
+        "endLine": 86,
+        "summary": "# Session: 2026-02-16 23:19:52 UTC - **Session Key..."
+      }
+    ],
+    "mem-zero": [
+      {
+        "path": "memory/research-mem0.md",
+        "startLine": 1,
+        "endLine": 249,
+        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
+      }
+    ],
+    "config": [
+      {
+        "path": "memory/research-mem0.md",
+        "startLine": 1,
+        "endLine": 249,
+        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
+      },
+      {
+        "path": "memory/patterns/model-routing.md",
+        "startLine": 20,
+        "endLine": 26,
+        "summary": "- Main session: Opus (agents.defaults.model.primar..."
+      }
+    ],
+    "automatic": [
+      {
+        "path": "memory/research-mem0.md",
+        "startLine": 1,
+        "endLine": 249,
+        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
+      }
+    ],
+    "depends": [
+      {
+        "path": "memory/research-mem0.md",
+        "startLine": 1,
+        "endLine": 249,
+        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
+      }
+    ],
+    "vector_store": [
       {
         "path": "memory/research-mem0.md",
         "startLine": 1,
@@ -3232,7 +2814,367 @@
         "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
       }
     ],
-    "vector_store": [
+    "nomic-embed-text:latest": [
+      {
+        "path": "memory/research-mem0.md",
+        "startLine": 1,
+        "endLine": 249,
+        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
+      }
+    ],
+    "faster": [
+      {
+        "path": "memory/research-mem0.md",
+        "startLine": 1,
+        "endLine": 249,
+        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
+      }
+    ],
+    "python": [
+      {
+        "path": "memory/research-mem0.md",
+        "startLine": 1,
+        "endLine": 249,
+        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
+      },
+      {
+        "path": "memory/lessons.md",
+        "startLine": 1,
+        "endLine": 74,
+        "summary": "# Lessons Learned ## Write-Through Memory - **Skri..."
+      }
+    ],
+    "technical": [
+      {
+        "path": "memory/research-mem0.md",
+        "startLine": 1,
+        "endLine": 249,
+        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
+      }
+    ],
+    "provider": [
+      {
+        "path": "memory/research-mem0.md",
+        "startLine": 1,
+        "endLine": 249,
+        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
+      }
+    ],
+    "enhanced rag": [
+      {
+        "path": "memory/research-mem0.md",
+        "startLine": 1,
+        "endLine": 249,
+        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
+      }
+    ],
+    "store": [
+      {
+        "path": "memory/research-mem0.md",
+        "startLine": 1,
+        "endLine": 249,
+        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
+      }
+    ],
+    "llm": [
+      {
+        "path": "memory/research-mem0.md",
+        "startLine": 1,
+        "endLine": 249,
+        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
+      }
+    ],
+    "llama": [
+      {
+        "path": "memory/research-mem0.md",
+        "startLine": 1,
+        "endLine": 249,
+        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
+      }
+    ],
+    "source": [
+      {
+        "path": "memory/research-mem0.md",
+        "startLine": 1,
+        "endLine": 249,
+        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
+      }
+    ],
+    "conflict": [
+      {
+        "path": "memory/research-mem0.md",
+        "startLine": 1,
+        "endLine": 249,
+        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
+      }
+    ],
+    "can": [
+      {
+        "path": "memory/research-mem0.md",
+        "startLine": 1,
+        "endLine": 249,
+        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
+      }
+    ],
+    "resolution": [
+      {
+        "path": "memory/research-mem0.md",
+        "startLine": 1,
+        "endLine": 249,
+        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
+      }
+    ],
+    "results": [
+      {
+        "path": "memory/research-mem0.md",
+        "startLine": 1,
+        "endLine": 249,
+        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
+      }
+    ],
+    "token": [
+      {
+        "path": "memory/research-mem0.md",
+        "startLine": 1,
+        "endLine": 249,
+        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
+      }
+    ],
+    "how": [
+      {
+        "path": "memory/research-mem0.md",
+        "startLine": 1,
+        "endLine": 249,
+        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
+      },
+      {
+        "path": "memory/research-memory-compliance.md",
+        "startLine": 1,
+        "endLine": 245,
+        "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
+      }
+    ],
+    "dual": [
+      {
+        "path": "memory/research-mem0.md",
+        "startLine": 1,
+        "endLine": 249,
+        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
+      }
+    ],
+    "user": [
+      {
+        "path": "memory/research-mem0.md",
+        "startLine": 1,
+        "endLine": 249,
+        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
+      }
+    ],
+    "content": [
+      {
+        "path": "memory/research-mem0.md",
+        "startLine": 1,
+        "endLine": 249,
+        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
+      }
+    ],
+    "sub": [
+      {
+        "path": "memory/research-mem0.md",
+        "startLine": 1,
+        "endLine": 249,
+        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
+      },
+      {
+        "path": "memory/2026-02-20.md",
+        "startLine": 1,
+        "endLine": 88,
+        "summary": "# 2026-02-20 ## Boretunet Ringeliste — Levert - An..."
+      },
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 1,
+        "endLine": 193,
+        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
+      },
+      {
+        "path": "memory/2026-02-16-context-optimization.md",
+        "startLine": 1,
+        "endLine": 86,
+        "summary": "# Session: 2026-02-16 23:19:52 UTC - **Session Key..."
+      }
+    ],
+    "stateful": [
+      {
+        "path": "memory/research-mem0.md",
+        "startLine": 1,
+        "endLine": 249,
+        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
+      }
+    ],
+    "accuracy": [
+      {
+        "path": "memory/research-mem0.md",
+        "startLine": 1,
+        "endLine": 249,
+        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
+      }
+    ],
+    "learning": [
+      {
+        "path": "memory/research-mem0.md",
+        "startLine": 1,
+        "endLine": 249,
+        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
+      }
+    ],
+    "./db": [
+      {
+        "path": "memory/research-mem0.md",
+        "startLine": 1,
+        "endLine": 249,
+        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
+      }
+    ],
+    "search": [
+      {
+        "path": "memory/research-mem0.md",
+        "startLine": 1,
+        "endLine": 249,
+        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
+      },
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 1,
+        "endLine": 193,
+        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
+      }
+    ],
+    "default_user": [
+      {
+        "path": "memory/research-mem0.md",
+        "startLine": 1,
+        "endLine": 249,
+        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
+      }
+    ],
+    "collection_name": [
+      {
+        "path": "memory/research-mem0.md",
+        "startLine": 1,
+        "endLine": 249,
+        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
+      }
+    ],
+    "assistant": [
+      {
+        "path": "memory/research-mem0.md",
+        "startLine": 1,
+        "endLine": 249,
+        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
+      }
+    ],
+    "basic": [
+      {
+        "path": "memory/research-mem0.md",
+        "startLine": 1,
+        "endLine": 249,
+        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
+      },
+      {
+        "path": "memory/research-local-llm-routing.md",
+        "startLine": 1,
+        "endLine": 82,
+        "summary": "# Local LLM Routing Best Practices Research - Feb ..."
+      }
+    ],
+    "control": [
+      {
+        "path": "memory/research-mem0.md",
+        "startLine": 1,
+        "endLine": 249,
+        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
+      },
+      {
+        "path": "memory/2026-02-22.md",
+        "startLine": 1,
+        "endLine": 78,
+        "summary": "# 2026-02-22 (Sunday) ## Mission Control → Next.js..."
+      }
+    ],
+    "http://localhost:11434": [
+      {
+        "path": "memory/research-mem0.md",
+        "startLine": 1,
+        "endLine": 249,
+        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
+      }
+    ],
+    "example": [
+      {
+        "path": "memory/research-mem0.md",
+        "startLine": 1,
+        "endLine": 249,
+        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
+      }
+    ],
+    "works": [
+      {
+        "path": "memory/research-mem0.md",
+        "startLine": 1,
+        "endLine": 249,
+        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
+      }
+    ],
+    "enterprise": [
+      {
+        "path": "memory/research-mem0.md",
+        "startLine": 1,
+        "endLine": 249,
+        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
+      }
+    ],
+    "base_url": [
+      {
+        "path": "memory/research-mem0.md",
+        "startLine": 1,
+        "endLine": 249,
+        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
+      }
+    ],
+    "path": [
+      {
+        "path": "memory/research-mem0.md",
+        "startLine": 1,
+        "endLine": 249,
+        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
+      }
+    ],
+    "intelligent": [
+      {
+        "path": "memory/research-mem0.md",
+        "startLine": 1,
+        "endLine": 249,
+        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
+      }
+    ],
+    "open": [
+      {
+        "path": "memory/research-mem0.md",
+        "startLine": 1,
+        "endLine": 249,
+        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
+      }
+    ],
+    "messages = [{": [
+      {
+        "path": "memory/research-mem0.md",
+        "startLine": 1,
+        "endLine": 249,
+        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
+      }
+    ],
+    "pros": [
       {
         "path": "memory/research-mem0.md",
         "startLine": 1,
@@ -3262,7 +3204,7 @@
         "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
       }
     ],
-    "enhanced rag": [
+    "role": [
       {
         "path": "memory/research-mem0.md",
         "startLine": 1,
@@ -3270,7 +3212,7 @@
         "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
       }
     ],
-    "search": [
+    "the": [
       {
         "path": "memory/research-mem0.md",
         "startLine": 1,
@@ -3278,13 +3220,13 @@
         "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
       },
       {
-        "path": "memory/2026-02-15.md",
+        "path": "memory/research-memory-compliance.md",
         "startLine": 1,
-        "endLine": 193,
-        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
+        "endLine": 245,
+        "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
       }
     ],
-    "llama": [
+    "storage": [
       {
         "path": "memory/research-mem0.md",
         "startLine": 1,
@@ -3292,7 +3234,57 @@
         "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
       }
     ],
-    "quality": [
+    "full": [
+      {
+        "path": "memory/research-mem0.md",
+        "startLine": 1,
+        "endLine": 249,
+        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
+      }
+    ],
+    ".join(f": [
+      {
+        "path": "memory/research-mem0.md",
+        "startLine": 1,
+        "endLine": 249,
+        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
+      }
+    ],
+    "web": [
+      {
+        "path": "memory/research-mem0.md",
+        "startLine": 1,
+        "endLine": 249,
+        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
+      },
+      {
+        "path": "memory/lessons.md",
+        "startLine": 1,
+        "endLine": 74,
+        "summary": "# Lessons Learned ## Write-Through Memory - **Skri..."
+      },
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 1,
+        "endLine": 193,
+        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
+      },
+      {
+        "path": "memory/patterns/nodejs-services-openclaw.md",
+        "startLine": 1,
+        "endLine": 71,
+        "summary": "# Node.js Services in OpenClaw Environment ⭐⭐⭐⭐⭐ (..."
+      }
+    ],
+    "combines": [
+      {
+        "path": "memory/research-mem0.md",
+        "startLine": 1,
+        "endLine": 249,
+        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
+      }
+    ],
+    "stateful multi-actor": [
       {
         "path": "memory/research-mem0.md",
         "startLine": 1,
@@ -3314,7 +3306,7 @@
         "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
       }
     ],
-    "system": [
+    "vector": [
       {
         "path": "memory/research-mem0.md",
         "startLine": 1,
@@ -3322,13 +3314,13 @@
         "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
       },
       {
-        "path": "memory/2026-02-16-context-optimization.md",
+        "path": "memory/research-memory-optimization.md",
         "startLine": 1,
-        "endLine": 86,
-        "summary": "# Session: 2026-02-16 23:19:52 UTC - **Session Key..."
+        "endLine": 190,
+        "summary": "# Memory System Optimization — Best Practices Rese..."
       }
     ],
-    "http://localhost:11434": [
+    "hosted": [
       {
         "path": "memory/research-mem0.md",
         "startLine": 1,
@@ -3336,7 +3328,7 @@
         "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
       }
     ],
-    "provider": [
+    "multi-agent": [
       {
         "path": "memory/research-mem0.md",
         "startLine": 1,
@@ -3344,7 +3336,7 @@
         "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
       }
     ],
-    "assistant": [
+    "complete": [
       {
         "path": "memory/research-mem0.md",
         "startLine": 1,
@@ -3352,7 +3344,7 @@
         "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
       }
     ],
-    "open": [
+    "supported": [
       {
         "path": "memory/research-mem0.md",
         "startLine": 1,
@@ -3360,7 +3352,7 @@
         "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
       }
     ],
-    "messages = [{": [
+    "integration": [
       {
         "path": "memory/research-mem0.md",
         "startLine": 1,
@@ -3368,12 +3360,26 @@
         "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
       }
     ],
-    "combines": [
+    "quality": [
       {
         "path": "memory/research-mem0.md",
         "startLine": 1,
         "endLine": 249,
         "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
+      }
+    ],
+    "advanced": [
+      {
+        "path": "memory/research-mem0.md",
+        "startLine": 1,
+        "endLine": 249,
+        "summary": "# Mem0 Research Report **Researched on:** 2026-02-..."
+      },
+      {
+        "path": "memory/research-local-llm-routing.md",
+        "startLine": 1,
+        "endLine": 82,
+        "summary": "# Local LLM Routing Best Practices Research - Feb ..."
       }
     ],
     "mission control → next.js migration": [
@@ -3500,18 +3506,12 @@
         "summary": "- **Completed:** Mission Control migrated to Next...."
       }
     ],
-    "ready": [
+    "mission": [
       {
         "path": "memory/2026-02-22.md",
         "startLine": 1,
         "endLine": 78,
         "summary": "# 2026-02-22 (Sunday) ## Mission Control → Next.js..."
-      },
-      {
-        "path": "memory/patterns/nodejs-services-openclaw.md",
-        "startLine": 1,
-        "endLine": 71,
-        "summary": "# Node.js Services in OpenClaw Environment ⭐⭐⭐⭐⭐ (..."
       }
     ],
     "next": [
@@ -3532,26 +3532,6 @@
         "startLine": 1,
         "endLine": 74,
         "summary": "# Lessons Learned ## Write-Through Memory - **Skri..."
-      }
-    ],
-    "gmail": [
-      {
-        "path": "memory/2026-02-22.md",
-        "startLine": 1,
-        "endLine": 78,
-        "summary": "# 2026-02-22 (Sunday) ## Mission Control → Next.js..."
-      },
-      {
-        "path": "memory/2026-02-14.md",
-        "startLine": 1,
-        "endLine": 30,
-        "summary": "# 2026-02-14 — Birthday BottenAnna came online. Fi..."
-      },
-      {
-        "path": "memory/2026-02-15.md",
-        "startLine": 1,
-        "endLine": 193,
-        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
       }
     ],
     "feb": [
@@ -3578,6 +3558,14 @@
         "summary": "# 2026-02-22 (Sunday) ## Mission Control → Next.js..."
       }
     ],
+    "llm-per-section": [
+      {
+        "path": "memory/2026-02-22.md",
+        "startLine": 1,
+        "endLine": 78,
+        "summary": "# 2026-02-22 (Sunday) ## Mission Control → Next.js..."
+      }
+    ],
     "discord": [
       {
         "path": "memory/2026-02-22.md",
@@ -3594,16 +3582,28 @@
       {
         "path": "memory/preferences.md",
         "startLine": 1,
-        "endLine": 42,
+        "endLine": 43,
         "summary": "# Preferences & Corrections Systematisk log over K..."
       }
     ],
-    "mission": [
+    "gmail": [
       {
         "path": "memory/2026-02-22.md",
         "startLine": 1,
         "endLine": 78,
         "summary": "# 2026-02-22 (Sunday) ## Mission Control → Next.js..."
+      },
+      {
+        "path": "memory/2026-02-14.md",
+        "startLine": 1,
+        "endLine": 30,
+        "summary": "# 2026-02-14 — Birthday BottenAnna came online. Fi..."
+      },
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 1,
+        "endLine": 193,
+        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
       }
     ],
     "subagents": [
@@ -3620,12 +3620,18 @@
         "summary": "# Pattern: Model Routing ## When Deciding which mo..."
       }
     ],
-    "llm-per-section": [
+    "ready": [
       {
         "path": "memory/2026-02-22.md",
         "startLine": 1,
         "endLine": 78,
         "summary": "# 2026-02-22 (Sunday) ## Mission Control → Next.js..."
+      },
+      {
+        "path": "memory/patterns/nodejs-services-openclaw.md",
+        "startLine": 1,
+        "endLine": 71,
+        "summary": "# Node.js Services in OpenClaw Environment ⭐⭐⭐⭐⭐ (..."
       }
     ],
     "heartbeats (overnight)": [
@@ -3732,7 +3738,61 @@
         "summary": "- v1 \"Dag TakstHjem Response\": used 200k tokens on..."
       }
     ],
-    "checks": [
+    "telegram via message": [
+      {
+        "path": "memory/2026-02-16.md",
+        "startLine": 1,
+        "endLine": 110,
+        "summary": "# 2026-02-16 (Monday) Related: [[MEMORY]], [[memor..."
+      }
+    ],
+    "hjemla": [
+      {
+        "path": "memory/2026-02-16.md",
+        "startLine": 1,
+        "endLine": 110,
+        "summary": "# 2026-02-16 (Monday) Related: [[MEMORY]], [[memor..."
+      }
+    ],
+    "oslo": [
+      {
+        "path": "memory/2026-02-16.md",
+        "startLine": 1,
+        "endLine": 110,
+        "summary": "# 2026-02-16 (Monday) Related: [[MEMORY]], [[memor..."
+      }
+    ],
+    "ambita": [
+      {
+        "path": "memory/2026-02-16.md",
+        "startLine": 1,
+        "endLine": 110,
+        "summary": "# 2026-02-16 (Monday) Related: [[MEMORY]], [[memor..."
+      }
+    ],
+    "briefing": [
+      {
+        "path": "memory/2026-02-16.md",
+        "startLine": 1,
+        "endLine": 110,
+        "summary": "# 2026-02-16 (Monday) Related: [[MEMORY]], [[memor..."
+      },
+      {
+        "path": "memory/2026-02-21.md",
+        "startLine": 1,
+        "endLine": 40,
+        "summary": "# 2026-02-21 (Saturday) ## Cost Optimization Audit..."
+      }
+    ],
+    "lessons": [
+      {
+        "path": "memory/2026-02-16.md",
+        "startLine": 1,
+        "endLine": 110,
+        "summary": "# 2026-02-16 (Monday) Related: [[MEMORY]], [[memor..."
+      }
+    ],
+    "email & calendar check": [
       {
         "path": "memory/2026-02-16.md",
         "startLine": 1,
@@ -3754,7 +3814,77 @@
         "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
       }
     ],
-    "part": [
+    "api": [
+      {
+        "path": "memory/2026-02-16.md",
+        "startLine": 1,
+        "endLine": 110,
+        "summary": "# 2026-02-16 (Monday) Related: [[MEMORY]], [[memor..."
+      }
+    ],
+    "data": [
+      {
+        "path": "memory/2026-02-16.md",
+        "startLine": 1,
+        "endLine": 110,
+        "summary": "# 2026-02-16 (Monday) Related: [[MEMORY]], [[memor..."
+      }
+    ],
+    "daily": [
+      {
+        "path": "memory/2026-02-16.md",
+        "startLine": 1,
+        "endLine": 110,
+        "summary": "# 2026-02-16 (Monday) Related: [[MEMORY]], [[memor..."
+      }
+    ],
+    "what": [
+      {
+        "path": "memory/2026-02-16.md",
+        "startLine": 1,
+        "endLine": 110,
+        "summary": "# 2026-02-16 (Monday) Related: [[MEMORY]], [[memor..."
+      },
+      {
+        "path": "memory/research-memory-compliance.md",
+        "startLine": 1,
+        "endLine": 245,
+        "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
+      }
+    ],
+    "dag reply v2": [
+      {
+        "path": "memory/2026-02-16.md",
+        "startLine": 1,
+        "endLine": 110,
+        "summary": "# 2026-02-16 (Monday) Related: [[MEMORY]], [[memor..."
+      }
+    ],
+    "europe": [
+      {
+        "path": "memory/2026-02-16.md",
+        "startLine": 1,
+        "endLine": 110,
+        "summary": "# 2026-02-16 (Monday) Related: [[MEMORY]], [[memor..."
+      }
+    ],
+    "checks": [
+      {
+        "path": "memory/2026-02-16.md",
+        "startLine": 1,
+        "endLine": 110,
+        "summary": "# 2026-02-16 (Monday) Related: [[MEMORY]], [[memor..."
+      }
+    ],
+    "reply": [
+      {
+        "path": "memory/2026-02-16.md",
+        "startLine": 1,
+        "endLine": 110,
+        "summary": "# 2026-02-16 (Monday) Related: [[MEMORY]], [[memor..."
+      }
+    ],
+    "dag taksthjem response": [
       {
         "path": "memory/2026-02-16.md",
         "startLine": 1,
@@ -3776,7 +3906,7 @@
         "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
       }
     ],
-    "oslo": [
+    "spawn scheduled": [
       {
         "path": "memory/2026-02-16.md",
         "startLine": 1,
@@ -3804,12 +3934,32 @@
         "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
       }
     ],
-    "data": [
+    "open data": [
       {
         "path": "memory/2026-02-16.md",
         "startLine": 1,
         "endLine": 110,
         "summary": "# 2026-02-16 (Monday) Related: [[MEMORY]], [[memor..."
+      }
+    ],
+    "done": [
+      {
+        "path": "memory/2026-02-16.md",
+        "startLine": 1,
+        "endLine": 110,
+        "summary": "# 2026-02-16 (Monday) Related: [[MEMORY]], [[memor..."
+      },
+      {
+        "path": "memory/lessons.md",
+        "startLine": 1,
+        "endLine": 74,
+        "summary": "# Lessons Learned ## Write-Through Memory - **Skri..."
+      },
+      {
+        "path": "memory/preferences.md",
+        "startLine": 1,
+        "endLine": 43,
+        "summary": "# Preferences & Corrections Systematisk log over K..."
       }
     ],
     "poor man's obsidian": [
@@ -3820,50 +3970,12 @@
         "summary": "# 2026-02-16 (Monday) Related: [[MEMORY]], [[memor..."
       }
     ],
-    "europe": [
+    "gjør research og svar begge": [
       {
         "path": "memory/2026-02-16.md",
         "startLine": 1,
         "endLine": 110,
         "summary": "# 2026-02-16 (Monday) Related: [[MEMORY]], [[memor..."
-      }
-    ],
-    "api": [
-      {
-        "path": "memory/2026-02-16.md",
-        "startLine": 1,
-        "endLine": 110,
-        "summary": "# 2026-02-16 (Monday) Related: [[MEMORY]], [[memor..."
-      }
-    ],
-    "lessons": [
-      {
-        "path": "memory/2026-02-16.md",
-        "startLine": 1,
-        "endLine": 110,
-        "summary": "# 2026-02-16 (Monday) Related: [[MEMORY]], [[memor..."
-      }
-    ],
-    "daily": [
-      {
-        "path": "memory/2026-02-16.md",
-        "startLine": 1,
-        "endLine": 110,
-        "summary": "# 2026-02-16 (Monday) Related: [[MEMORY]], [[memor..."
-      }
-    ],
-    "briefing": [
-      {
-        "path": "memory/2026-02-16.md",
-        "startLine": 1,
-        "endLine": 110,
-        "summary": "# 2026-02-16 (Monday) Related: [[MEMORY]], [[memor..."
-      },
-      {
-        "path": "memory/2026-02-21.md",
-        "startLine": 1,
-        "endLine": 40,
-        "summary": "# 2026-02-21 (Saturday) ## Cost Optimization Audit..."
       }
     ],
     "funnel": [
@@ -3892,106 +4004,6 @@
         "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
       }
     ],
-    "spawn scheduled": [
-      {
-        "path": "memory/2026-02-16.md",
-        "startLine": 1,
-        "endLine": 110,
-        "summary": "# 2026-02-16 (Monday) Related: [[MEMORY]], [[memor..."
-      }
-    ],
-    "dag taksthjem response": [
-      {
-        "path": "memory/2026-02-16.md",
-        "startLine": 1,
-        "endLine": 110,
-        "summary": "# 2026-02-16 (Monday) Related: [[MEMORY]], [[memor..."
-      }
-    ],
-    "response": [
-      {
-        "path": "memory/2026-02-16.md",
-        "startLine": 1,
-        "endLine": 110,
-        "summary": "# 2026-02-16 (Monday) Related: [[MEMORY]], [[memor..."
-      }
-    ],
-    "open data": [
-      {
-        "path": "memory/2026-02-16.md",
-        "startLine": 1,
-        "endLine": 110,
-        "summary": "# 2026-02-16 (Monday) Related: [[MEMORY]], [[memor..."
-      }
-    ],
-    "telegram via message": [
-      {
-        "path": "memory/2026-02-16.md",
-        "startLine": 1,
-        "endLine": 110,
-        "summary": "# 2026-02-16 (Monday) Related: [[MEMORY]], [[memor..."
-      }
-    ],
-    "done": [
-      {
-        "path": "memory/2026-02-16.md",
-        "startLine": 1,
-        "endLine": 110,
-        "summary": "# 2026-02-16 (Monday) Related: [[MEMORY]], [[memor..."
-      },
-      {
-        "path": "memory/lessons.md",
-        "startLine": 1,
-        "endLine": 74,
-        "summary": "# Lessons Learned ## Write-Through Memory - **Skri..."
-      },
-      {
-        "path": "memory/preferences.md",
-        "startLine": 1,
-        "endLine": 42,
-        "summary": "# Preferences & Corrections Systematisk log over K..."
-      }
-    ],
-    "email & calendar check": [
-      {
-        "path": "memory/2026-02-16.md",
-        "startLine": 1,
-        "endLine": 110,
-        "summary": "# 2026-02-16 (Monday) Related: [[MEMORY]], [[memor..."
-      }
-    ],
-    "dag reply v2": [
-      {
-        "path": "memory/2026-02-16.md",
-        "startLine": 1,
-        "endLine": 110,
-        "summary": "# 2026-02-16 (Monday) Related: [[MEMORY]], [[memor..."
-      }
-    ],
-    "hjemla": [
-      {
-        "path": "memory/2026-02-16.md",
-        "startLine": 1,
-        "endLine": 110,
-        "summary": "# 2026-02-16 (Monday) Related: [[MEMORY]], [[memor..."
-      }
-    ],
-    "gjør research og svar begge": [
-      {
-        "path": "memory/2026-02-16.md",
-        "startLine": 1,
-        "endLine": 110,
-        "summary": "# 2026-02-16 (Monday) Related: [[MEMORY]], [[memor..."
-      }
-    ],
-    "ambita": [
-      {
-        "path": "memory/2026-02-16.md",
-        "startLine": 1,
-        "endLine": 110,
-        "summary": "# 2026-02-16 (Monday) Related: [[MEMORY]], [[memor..."
-      }
-    ],
     "awaiting": [
       {
         "path": "memory/2026-02-16.md",
@@ -4000,21 +4012,15 @@
         "summary": "# 2026-02-16 (Monday) Related: [[MEMORY]], [[memor..."
       }
     ],
-    "what": [
+    "part": [
       {
         "path": "memory/2026-02-16.md",
         "startLine": 1,
         "endLine": 110,
         "summary": "# 2026-02-16 (Monday) Related: [[MEMORY]], [[memor..."
-      },
-      {
-        "path": "memory/research-memory-compliance.md",
-        "startLine": 1,
-        "endLine": 245,
-        "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
       }
     ],
-    "reply": [
+    "response": [
       {
         "path": "memory/2026-02-16.md",
         "startLine": 1,
@@ -4278,7 +4284,57 @@
         "summary": "8. **Sleep-time memory agent** — during heartbeats..."
       }
     ],
-    "letta": [
+    "weaviate": [
+      {
+        "path": "memory/research-memory-optimization.md",
+        "startLine": 1,
+        "endLine": 190,
+        "summary": "# Memory System Optimization — Best Practices Rese..."
+      }
+    ],
+    "anti": [
+      {
+        "path": "memory/research-memory-optimization.md",
+        "startLine": 1,
+        "endLine": 190,
+        "summary": "# Memory System Optimization — Best Practices Rese..."
+      }
+    ],
+    "melissa's birthday is feb 23": [
+      {
+        "path": "memory/research-memory-optimization.md",
+        "startLine": 1,
+        "endLine": 190,
+        "summary": "# Memory System Optimization — Best Practices Rese..."
+      }
+    ],
+    "norwegian": [
+      {
+        "path": "memory/research-memory-optimization.md",
+        "startLine": 1,
+        "endLine": 190,
+        "summary": "# Memory System Optimization — Best Practices Rese..."
+      },
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 1,
+        "endLine": 193,
+        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
+      },
+      {
+        "path": "memory/preferences.md",
+        "startLine": 1,
+        "endLine": 43,
+        "summary": "# Preferences & Corrections Systematisk log over K..."
+      },
+      {
+        "path": "memory/patterns/email-drafting.md",
+        "startLine": 1,
+        "endLine": 20,
+        "summary": "# Pattern: Email Drafting ## When Knut forwards an..."
+      }
+    ],
+    "add": [
       {
         "path": "memory/research-memory-optimization.md",
         "startLine": 1,
@@ -4294,7 +4350,99 @@
         "summary": "# Memory System Optimization — Best Practices Rese..."
       }
     ],
-    "skills": [
+    "query": [
+      {
+        "path": "memory/research-memory-optimization.md",
+        "startLine": 1,
+        "endLine": 190,
+        "summary": "# Memory System Optimization — Best Practices Rese..."
+      }
+    ],
+    "action": [
+      {
+        "path": "memory/research-memory-optimization.md",
+        "startLine": 1,
+        "endLine": 190,
+        "summary": "# Memory System Optimization — Best Practices Rese..."
+      },
+      {
+        "path": "memory/research-memory-compliance.md",
+        "startLine": 1,
+        "endLine": 245,
+        "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
+      }
+    ],
+    "remember this": [
+      {
+        "path": "memory/research-memory-optimization.md",
+        "startLine": 1,
+        "endLine": 190,
+        "summary": "# Memory System Optimization — Best Practices Rese..."
+      }
+    ],
+    "superlinked": [
+      {
+        "path": "memory/research-memory-optimization.md",
+        "startLine": 1,
+        "endLine": 190,
+        "summary": "# Memory System Optimization — Best Practices Rese..."
+      }
+    ],
+    "english": [
+      {
+        "path": "memory/research-memory-optimization.md",
+        "startLine": 1,
+        "endLine": 190,
+        "summary": "# Memory System Optimization — Best Practices Rese..."
+      }
+    ],
+    "sleep": [
+      {
+        "path": "memory/research-memory-optimization.md",
+        "startLine": 1,
+        "endLine": 190,
+        "summary": "# Memory System Optimization — Best Practices Rese..."
+      }
+    ],
+    "arctic": [
+      {
+        "path": "memory/research-memory-optimization.md",
+        "startLine": 1,
+        "endLine": 190,
+        "summary": "# Memory System Optimization — Best Practices Rese..."
+      }
+    ],
+    "this": [
+      {
+        "path": "memory/research-memory-optimization.md",
+        "startLine": 1,
+        "endLine": 190,
+        "summary": "# Memory System Optimization — Best Practices Rese..."
+      },
+      {
+        "path": "memory/research-memory-compliance.md",
+        "startLine": 1,
+        "endLine": 245,
+        "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
+      }
+    ],
+    "lost in the middle": [
+      {
+        "path": "memory/research-memory-optimization.md",
+        "startLine": 1,
+        "endLine": 190,
+        "summary": "# Memory System Optimization — Best Practices Rese..."
+      }
+    ],
+    "reddit": [
+      {
+        "path": "memory/research-memory-optimization.md",
+        "startLine": 1,
+        "endLine": 190,
+        "summary": "# Memory System Optimization — Best Practices Rese..."
+      }
+    ],
+    "from": [
       {
         "path": "memory/research-memory-optimization.md",
         "startLine": 1,
@@ -4322,95 +4470,15 @@
         "summary": "# Pattern: Cron Job Setup ## When Setting up a new..."
       }
     ],
-    "lost in the middle": [
-      {
-        "path": "memory/research-memory-optimization.md",
-        "startLine": 1,
-        "endLine": 190,
-        "summary": "# Memory System Optimization — Best Practices Rese..."
-      }
-    ],
-    "query": [
-      {
-        "path": "memory/research-memory-optimization.md",
-        "startLine": 1,
-        "endLine": 190,
-        "summary": "# Memory System Optimization — Best Practices Rese..."
-      }
-    ],
-    "weaviate": [
-      {
-        "path": "memory/research-memory-optimization.md",
-        "startLine": 1,
-        "endLine": 190,
-        "summary": "# Memory System Optimization — Best Practices Rese..."
-      }
-    ],
-    "remember this": [
-      {
-        "path": "memory/research-memory-optimization.md",
-        "startLine": 1,
-        "endLine": 190,
-        "summary": "# Memory System Optimization — Best Practices Rese..."
-      }
-    ],
-    "action": [
-      {
-        "path": "memory/research-memory-optimization.md",
-        "startLine": 1,
-        "endLine": 190,
-        "summary": "# Memory System Optimization — Best Practices Rese..."
-      },
-      {
-        "path": "memory/research-memory-compliance.md",
-        "startLine": 1,
-        "endLine": 245,
-        "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
-      }
-    ],
-    "english": [
-      {
-        "path": "memory/research-memory-optimization.md",
-        "startLine": 1,
-        "endLine": 190,
-        "summary": "# Memory System Optimization — Best Practices Rese..."
-      }
-    ],
-    "norwegian": [
-      {
-        "path": "memory/research-memory-optimization.md",
-        "startLine": 1,
-        "endLine": 190,
-        "summary": "# Memory System Optimization — Best Practices Rese..."
-      },
-      {
-        "path": "memory/2026-02-15.md",
-        "startLine": 1,
-        "endLine": 193,
-        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
-      },
-      {
-        "path": "memory/preferences.md",
-        "startLine": 1,
-        "endLine": 42,
-        "summary": "# Preferences & Corrections Systematisk log over K..."
-      },
-      {
-        "path": "memory/patterns/email-drafting.md",
-        "startLine": 1,
-        "endLine": 20,
-        "summary": "# Pattern: Email Drafting ## When Knut forwards an..."
-      }
-    ],
-    "anti": [
-      {
-        "path": "memory/research-memory-optimization.md",
-        "startLine": 1,
-        "endLine": 190,
-        "summary": "# Memory System Optimization — Best Practices Rese..."
-      }
-    ],
     "too": [
+      {
+        "path": "memory/research-memory-optimization.md",
+        "startLine": 1,
+        "endLine": 190,
+        "summary": "# Memory System Optimization — Best Practices Rese..."
+      }
+    ],
+    "snowflake": [
       {
         "path": "memory/research-memory-optimization.md",
         "startLine": 1,
@@ -4426,30 +4494,6 @@
         "summary": "# Memory System Optimization — Best Practices Rese..."
       }
     ],
-    "averaged": [
-      {
-        "path": "memory/research-memory-optimization.md",
-        "startLine": 1,
-        "endLine": 190,
-        "summary": "# Memory System Optimization — Best Practices Rese..."
-      }
-    ],
-    "from": [
-      {
-        "path": "memory/research-memory-optimization.md",
-        "startLine": 1,
-        "endLine": 190,
-        "summary": "# Memory System Optimization — Best Practices Rese..."
-      }
-    ],
-    "melissa's birthday is feb 23": [
-      {
-        "path": "memory/research-memory-optimization.md",
-        "startLine": 1,
-        "endLine": 190,
-        "summary": "# Memory System Optimization — Best Practices Rese..."
-      }
-    ],
     "our": [
       {
         "path": "memory/research-memory-optimization.md",
@@ -4458,7 +4502,23 @@
         "summary": "# Memory System Optimization — Best Practices Rese..."
       }
     ],
-    "superlinked": [
+    "averaged": [
+      {
+        "path": "memory/research-memory-optimization.md",
+        "startLine": 1,
+        "endLine": 190,
+        "summary": "# Memory System Optimization — Best Practices Rese..."
+      }
+    ],
+    "letta": [
+      {
+        "path": "memory/research-memory-optimization.md",
+        "startLine": 1,
+        "endLine": 190,
+        "summary": "# Memory System Optimization — Best Practices Rese..."
+      }
+    ],
+    "skills": [
       {
         "path": "memory/research-memory-optimization.md",
         "startLine": 1,
@@ -4467,60 +4527,6 @@
       }
     ],
     "blomster": [
-      {
-        "path": "memory/research-memory-optimization.md",
-        "startLine": 1,
-        "endLine": 190,
-        "summary": "# Memory System Optimization — Best Practices Rese..."
-      }
-    ],
-    "this": [
-      {
-        "path": "memory/research-memory-optimization.md",
-        "startLine": 1,
-        "endLine": 190,
-        "summary": "# Memory System Optimization — Best Practices Rese..."
-      },
-      {
-        "path": "memory/research-memory-compliance.md",
-        "startLine": 1,
-        "endLine": 245,
-        "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
-      }
-    ],
-    "arctic": [
-      {
-        "path": "memory/research-memory-optimization.md",
-        "startLine": 1,
-        "endLine": 190,
-        "summary": "# Memory System Optimization — Best Practices Rese..."
-      }
-    ],
-    "reddit": [
-      {
-        "path": "memory/research-memory-optimization.md",
-        "startLine": 1,
-        "endLine": 190,
-        "summary": "# Memory System Optimization — Best Practices Rese..."
-      }
-    ],
-    "add": [
-      {
-        "path": "memory/research-memory-optimization.md",
-        "startLine": 1,
-        "endLine": 190,
-        "summary": "# Memory System Optimization — Best Practices Rese..."
-      }
-    ],
-    "sleep": [
-      {
-        "path": "memory/research-memory-optimization.md",
-        "startLine": 1,
-        "endLine": 190,
-        "summary": "# Memory System Optimization — Best Practices Rese..."
-      }
-    ],
-    "snowflake": [
       {
         "path": "memory/research-memory-optimization.md",
         "startLine": 1,
@@ -4662,6 +4668,34 @@
         "summary": "- Sleep disabled via pmset (kills TCP connections ..."
       }
     ],
+    "tailscale": [
+      {
+        "path": "memory/infra.md",
+        "startLine": 1,
+        "endLine": 76,
+        "summary": "# Infrastructure ## Discord - Bot name: @Bannabot ..."
+      },
+      {
+        "path": "memory/2026-02-14.md",
+        "startLine": 1,
+        "endLine": 30,
+        "summary": "# 2026-02-14 — Birthday BottenAnna came online. Fi..."
+      },
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 1,
+        "endLine": 193,
+        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
+      }
+    ],
+    "gcp": [
+      {
+        "path": "memory/infra.md",
+        "startLine": 1,
+        "endLine": 76,
+        "summary": "# Infrastructure ## Discord - Bot name: @Bannabot ..."
+      }
+    ],
     "google": [
       {
         "path": "memory/infra.md",
@@ -4694,24 +4728,12 @@
         "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
       }
     ],
-    "tailscale": [
+    "bannabot": [
       {
         "path": "memory/infra.md",
         "startLine": 1,
         "endLine": 76,
         "summary": "# Infrastructure ## Discord - Bot name: @Bannabot ..."
-      },
-      {
-        "path": "memory/2026-02-14.md",
-        "startLine": 1,
-        "endLine": 30,
-        "summary": "# 2026-02-14 — Birthday BottenAnna came online. Fi..."
-      },
-      {
-        "path": "memory/2026-02-15.md",
-        "startLine": 1,
-        "endLine": 193,
-        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
       }
     ],
     "desktop": [
@@ -4726,22 +4748,6 @@
         "startLine": 1,
         "endLine": 193,
         "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
-      }
-    ],
-    "bannabot": [
-      {
-        "path": "memory/infra.md",
-        "startLine": 1,
-        "endLine": 76,
-        "summary": "# Infrastructure ## Discord - Bot name: @Bannabot ..."
-      }
-    ],
-    "gcp": [
-      {
-        "path": "memory/infra.md",
-        "startLine": 1,
-        "endLine": 76,
-        "summary": "# Infrastructure ## Discord - Bot name: @Bannabot ..."
       }
     ],
     "telegram webhook migration": [
@@ -4824,8 +4830,8 @@
       {
         "path": "memory/preferences.md",
         "startLine": 9,
-        "endLine": 15,
-        "summary": "- Primary channel: Telegram - Be direct, no filler..."
+        "endLine": 16,
+        "summary": "- Primary channel: Telegram - Telegram streaming: ..."
       }
     ],
     "sub-agents": [
@@ -4876,22 +4882,6 @@
         "summary": "- Node v24 incompatible with Next.js 16 — use v22 ..."
       }
     ],
-    "heuristic": [
-      {
-        "path": "memory/lessons.md",
-        "startLine": 1,
-        "endLine": 74,
-        "summary": "# Lessons Learned ## Write-Through Memory - **Skri..."
-      }
-    ],
-    "heldags": [
-      {
-        "path": "memory/lessons.md",
-        "startLine": 1,
-        "endLine": 74,
-        "summary": "# Lessons Learned ## Write-Through Memory - **Skri..."
-      }
-    ],
     "det bør jeg huske": [
       {
         "path": "memory/lessons.md",
@@ -4908,6 +4898,14 @@
         "summary": "# Lessons Learned ## Write-Through Memory - **Skri..."
       }
     ],
+    "beats": [
+      {
+        "path": "memory/lessons.md",
+        "startLine": 1,
+        "endLine": 74,
+        "summary": "# Lessons Learned ## Write-Through Memory - **Skri..."
+      }
+    ],
     "missing time zone definition": [
       {
         "path": "memory/lessons.md",
@@ -4916,7 +4914,15 @@
         "summary": "# Lessons Learned ## Write-Through Memory - **Skri..."
       }
     ],
-    "beats": [
+    "heldags": [
+      {
+        "path": "memory/lessons.md",
+        "startLine": 1,
+        "endLine": 74,
+        "summary": "# Lessons Learned ## Write-Through Memory - **Skri..."
+      }
+    ],
+    "heuristic": [
       {
         "path": "memory/lessons.md",
         "startLine": 1,
@@ -5012,31 +5018,7 @@
         "summary": "- .md-vedlegg til Hotmail/Outlook havner i spam — ..."
       }
     ],
-    "blomster til melissa": [
-      {
-        "path": "memory/2026-02-20.md",
-        "startLine": 1,
-        "endLine": 88,
-        "summary": "# 2026-02-20 ## Boretunet Ringeliste — Levert - An..."
-      }
-    ],
-    "hotmail": [
-      {
-        "path": "memory/2026-02-20.md",
-        "startLine": 1,
-        "endLine": 88,
-        "summary": "# 2026-02-20 ## Boretunet Ringeliste — Levert - An..."
-      }
-    ],
-    "openclaw": [
-      {
-        "path": "memory/2026-02-20.md",
-        "startLine": 1,
-        "endLine": 88,
-        "summary": "# 2026-02-20 ## Boretunet Ringeliste — Levert - An..."
-      }
-    ],
-    "error": [
+    "gateway": [
       {
         "path": "memory/2026-02-20.md",
         "startLine": 1,
@@ -5044,13 +5026,13 @@
         "summary": "# 2026-02-20 ## Boretunet Ringeliste — Levert - An..."
       },
       {
-        "path": "memory/research-self-healing.md",
+        "path": "memory/2026-02-15.md",
         "startLine": 1,
-        "endLine": 56,
-        "summary": "# Self-Healing and Autonomous Error Recovery Patte..."
+        "endLine": 193,
+        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
       }
     ],
-    "standalone": [
+    "ringeliste": [
       {
         "path": "memory/2026-02-20.md",
         "startLine": 1,
@@ -5058,31 +5040,7 @@
         "summary": "# 2026-02-20 ## Boretunet Ringeliste — Levert - An..."
       }
     ],
-    "rogaland": [
-      {
-        "path": "memory/2026-02-20.md",
-        "startLine": 1,
-        "endLine": 88,
-        "summary": "# 2026-02-20 ## Boretunet Ringeliste — Levert - An..."
-      }
-    ],
-    "nordnet": [
-      {
-        "path": "memory/2026-02-20.md",
-        "startLine": 1,
-        "endLine": 88,
-        "summary": "# 2026-02-20 ## Boretunet Ringeliste — Levert - An..."
-      }
-    ],
-    "gcp chat": [
-      {
-        "path": "memory/2026-02-20.md",
-        "startLine": 1,
-        "endLine": 88,
-        "summary": "# 2026-02-20 ## Boretunet Ringeliste — Levert - An..."
-      }
-    ],
-    "⚡ trenger knut": [
+    "blomster til melissa": [
       {
         "path": "memory/2026-02-20.md",
         "startLine": 1,
@@ -5099,6 +5057,46 @@
       }
     ],
     "ordre": [
+      {
+        "path": "memory/2026-02-20.md",
+        "startLine": 1,
+        "endLine": 88,
+        "summary": "# 2026-02-20 ## Boretunet Ringeliste — Levert - An..."
+      }
+    ],
+    "gcp chat": [
+      {
+        "path": "memory/2026-02-20.md",
+        "startLine": 1,
+        "endLine": 88,
+        "summary": "# 2026-02-20 ## Boretunet Ringeliste — Levert - An..."
+      }
+    ],
+    "standalone": [
+      {
+        "path": "memory/2026-02-20.md",
+        "startLine": 1,
+        "endLine": 88,
+        "summary": "# 2026-02-20 ## Boretunet Ringeliste — Levert - An..."
+      }
+    ],
+    "nordnet": [
+      {
+        "path": "memory/2026-02-20.md",
+        "startLine": 1,
+        "endLine": 88,
+        "summary": "# 2026-02-20 ## Boretunet Ringeliste — Levert - An..."
+      }
+    ],
+    "error saving": [
+      {
+        "path": "memory/2026-02-20.md",
+        "startLine": 1,
+        "endLine": 88,
+        "summary": "# 2026-02-20 ## Boretunet Ringeliste — Levert - An..."
+      }
+    ],
+    "opprettet": [
       {
         "path": "memory/2026-02-20.md",
         "startLine": 1,
@@ -5126,7 +5124,7 @@
         "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
       }
     ],
-    "error saving": [
+    "⚡ trenger knut": [
       {
         "path": "memory/2026-02-20.md",
         "startLine": 1,
@@ -5134,7 +5132,7 @@
         "summary": "# 2026-02-20 ## Boretunet Ringeliste — Levert - An..."
       }
     ],
-    "ringeliste": [
+    "hotmail": [
       {
         "path": "memory/2026-02-20.md",
         "startLine": 1,
@@ -5142,7 +5140,7 @@
         "summary": "# 2026-02-20 ## Boretunet Ringeliste — Levert - An..."
       }
     ],
-    "gateway": [
+    "error": [
       {
         "path": "memory/2026-02-20.md",
         "startLine": 1,
@@ -5150,13 +5148,21 @@
         "summary": "# 2026-02-20 ## Boretunet Ringeliste — Levert - An..."
       },
       {
-        "path": "memory/2026-02-15.md",
+        "path": "memory/research-self-healing.md",
         "startLine": 1,
-        "endLine": 193,
-        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
+        "endLine": 56,
+        "summary": "# Self-Healing and Autonomous Error Recovery Patte..."
       }
     ],
-    "opprettet": [
+    "openclaw": [
+      {
+        "path": "memory/2026-02-20.md",
+        "startLine": 1,
+        "endLine": 88,
+        "summary": "# 2026-02-20 ## Boretunet Ringeliste — Levert - An..."
+      }
+    ],
+    "rogaland": [
       {
         "path": "memory/2026-02-20.md",
         "startLine": 1,
@@ -5234,7 +5240,23 @@
         "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
       }
     ],
+    "bank": [
+      {
+        "path": "memory/2026-02-21.md",
+        "startLine": 1,
+        "endLine": 40,
+        "summary": "# 2026-02-21 (Saturday) ## Cost Optimization Audit..."
+      }
+    ],
     "finn": [
+      {
+        "path": "memory/2026-02-21.md",
+        "startLine": 1,
+        "endLine": 40,
+        "summary": "# 2026-02-21 (Saturday) ## Cost Optimization Audit..."
+      }
+    ],
+    "knut asked for": [
       {
         "path": "memory/2026-02-21.md",
         "startLine": 1,
@@ -5251,22 +5273,6 @@
       }
     ],
     "infra sync": [
-      {
-        "path": "memory/2026-02-21.md",
-        "startLine": 1,
-        "endLine": 40,
-        "summary": "# 2026-02-21 (Saturday) ## Cost Optimization Audit..."
-      }
-    ],
-    "knut asked for": [
-      {
-        "path": "memory/2026-02-21.md",
-        "startLine": 1,
-        "endLine": 40,
-        "summary": "# 2026-02-21 (Saturday) ## Cost Optimization Audit..."
-      }
-    ],
-    "bank": [
       {
         "path": "memory/2026-02-21.md",
         "startLine": 1,
@@ -5462,6 +5468,38 @@
         "summary": "- Google Cloud project is in \"Testing\" mode — only..."
       }
     ],
+    "saved": [
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 1,
+        "endLine": 193,
+        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
+      }
+    ],
+    "meltveit": [
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 1,
+        "endLine": 193,
+        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
+      }
+    ],
+    "michelin man": [
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 1,
+        "endLine": 193,
+        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
+      }
+    ],
+    "cloud": [
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 1,
+        "endLine": 193,
+        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
+      }
+    ],
     "pub": [
       {
         "path": "memory/2026-02-15.md",
@@ -5470,7 +5508,7 @@
         "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
       }
     ],
-    "tried multiple": [
+    "app": [
       {
         "path": "memory/2026-02-15.md",
         "startLine": 1,
@@ -5478,7 +5516,31 @@
         "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
       }
     ],
-    "google cloud": [
+    "can you make a mvp to review?": [
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 1,
+        "endLine": 193,
+        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
+      }
+    ],
+    "hook mapping requires message": [
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 1,
+        "endLine": 193,
+        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
+      }
+    ],
+    "tran": [
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 1,
+        "endLine": 193,
+        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
+      }
+    ],
+    "gilje": [
       {
         "path": "memory/2026-02-15.md",
         "startLine": 1,
@@ -5487,6 +5549,54 @@
       }
     ],
     "react": [
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 1,
+        "endLine": 193,
+        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
+      }
+    ],
+    "doc": [
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 1,
+        "endLine": 193,
+        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
+      }
+    ],
+    "body": [
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 1,
+        "endLine": 193,
+        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
+      }
+    ],
+    "fixed": [
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 1,
+        "endLine": 193,
+        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
+      }
+    ],
+    "norge": [
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 1,
+        "endLine": 193,
+        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
+      }
+    ],
+    "kun for profesjonelle aktører": [
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 1,
+        "endLine": 193,
+        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
+      }
+    ],
+    "tried multiple": [
       {
         "path": "memory/2026-02-15.md",
         "startLine": 1,
@@ -5508,7 +5618,7 @@
         "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
       }
     ],
-    "eiendom": [
+    "had": [
       {
         "path": "memory/2026-02-15.md",
         "startLine": 1,
@@ -5516,7 +5626,7 @@
         "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
       }
     ],
-    "norge": [
+    "knutsen": [
       {
         "path": "memory/2026-02-15.md",
         "startLine": 1,
@@ -5538,71 +5648,7 @@
         "summary": "# Node.js Services in OpenClaw Environment ⭐⭐⭐⭐⭐ (..."
       }
     ],
-    "kun for profesjonelle aktører": [
-      {
-        "path": "memory/2026-02-15.md",
-        "startLine": 1,
-        "endLine": 193,
-        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
-      }
-    ],
     "into": [
-      {
-        "path": "memory/2026-02-15.md",
-        "startLine": 1,
-        "endLine": 193,
-        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
-      }
-    ],
-    "michelin man": [
-      {
-        "path": "memory/2026-02-15.md",
-        "startLine": 1,
-        "endLine": 193,
-        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
-      }
-    ],
-    "fixed": [
-      {
-        "path": "memory/2026-02-15.md",
-        "startLine": 1,
-        "endLine": 193,
-        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
-      }
-    ],
-    "notified": [
-      {
-        "path": "memory/2026-02-15.md",
-        "startLine": 1,
-        "endLine": 193,
-        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
-      }
-    ],
-    "cloud": [
-      {
-        "path": "memory/2026-02-15.md",
-        "startLine": 1,
-        "endLine": 193,
-        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
-      }
-    ],
-    "iterations": [
-      {
-        "path": "memory/2026-02-15.md",
-        "startLine": 1,
-        "endLine": 193,
-        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
-      }
-    ],
-    "body": [
-      {
-        "path": "memory/2026-02-15.md",
-        "startLine": 1,
-        "endLine": 193,
-        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
-      }
-    ],
-    "saved": [
       {
         "path": "memory/2026-02-15.md",
         "startLine": 1,
@@ -5618,79 +5664,15 @@
         "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
       }
     ],
-    "tested": [
-      {
-        "path": "memory/2026-02-15.md",
-        "startLine": 1,
-        "endLine": 193,
-        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
-      }
-    ],
-    "doc": [
-      {
-        "path": "memory/2026-02-15.md",
-        "startLine": 1,
-        "endLine": 193,
-        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
-      }
-    ],
-    "meltveit": [
-      {
-        "path": "memory/2026-02-15.md",
-        "startLine": 1,
-        "endLine": 193,
-        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
-      }
-    ],
-    "tran": [
-      {
-        "path": "memory/2026-02-15.md",
-        "startLine": 1,
-        "endLine": 193,
-        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
-      }
-    ],
-    "had": [
-      {
-        "path": "memory/2026-02-15.md",
-        "startLine": 1,
-        "endLine": 193,
-        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
-      }
-    ],
-    "knutsen": [
-      {
-        "path": "memory/2026-02-15.md",
-        "startLine": 1,
-        "endLine": 193,
-        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
-      }
-    ],
-    "gilje": [
-      {
-        "path": "memory/2026-02-15.md",
-        "startLine": 1,
-        "endLine": 193,
-        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
-      }
-    ],
-    "server": [
-      {
-        "path": "memory/2026-02-15.md",
-        "startLine": 1,
-        "endLine": 193,
-        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
-      }
-    ],
-    "expo": [
-      {
-        "path": "memory/2026-02-15.md",
-        "startLine": 1,
-        "endLine": 193,
-        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
-      }
-    ],
     "deck": [
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 1,
+        "endLine": 193,
+        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
+      }
+    ],
+    "notified": [
       {
         "path": "memory/2026-02-15.md",
         "startLine": 1,
@@ -5706,7 +5688,7 @@
         "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
       }
     ],
-    "hook mapping requires message": [
+    "expo": [
       {
         "path": "memory/2026-02-15.md",
         "startLine": 1,
@@ -5714,7 +5696,7 @@
         "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
       }
     ],
-    "app": [
+    "tested": [
       {
         "path": "memory/2026-02-15.md",
         "startLine": 1,
@@ -5722,7 +5704,31 @@
         "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
       }
     ],
-    "can you make a mvp to review?": [
+    "server": [
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 1,
+        "endLine": 193,
+        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
+      }
+    ],
+    "eiendom": [
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 1,
+        "endLine": 193,
+        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
+      }
+    ],
+    "google cloud": [
+      {
+        "path": "memory/2026-02-15.md",
+        "startLine": 1,
+        "endLine": 193,
+        "summary": "# 2026-02-15 Related: [[MEMORY]], [[TOOLS]] ## Gma..."
+      }
+    ],
+    "iterations": [
       {
         "path": "memory/2026-02-15.md",
         "startLine": 1,
@@ -5810,7 +5816,145 @@
         "summary": "- Agent reflection on repeated failures - Dynamic ..."
       }
     ],
+    "circuit": [
+      {
+        "path": "memory/research-self-healing.md",
+        "startLine": 1,
+        "endLine": 56,
+        "summary": "# Self-Healing and Autonomous Error Recovery Patte..."
+      }
+    ],
+    "escalation": [
+      {
+        "path": "memory/research-self-healing.md",
+        "startLine": 1,
+        "endLine": 56,
+        "summary": "# Self-Healing and Autonomous Error Recovery Patte..."
+      }
+    ],
+    "graceful": [
+      {
+        "path": "memory/research-self-healing.md",
+        "startLine": 1,
+        "endLine": 56,
+        "summary": "# Self-Healing and Autonomous Error Recovery Patte..."
+      }
+    ],
+    "healing": [
+      {
+        "path": "memory/research-self-healing.md",
+        "startLine": 1,
+        "endLine": 56,
+        "summary": "# Self-Healing and Autonomous Error Recovery Patte..."
+      }
+    ],
+    "pattern": [
+      {
+        "path": "memory/research-self-healing.md",
+        "startLine": 1,
+        "endLine": 56,
+        "summary": "# Self-Healing and Autonomous Error Recovery Patte..."
+      },
+      {
+        "path": "memory/patterns/cron-job-setup.md",
+        "startLine": 1,
+        "endLine": 30,
+        "summary": "# Pattern: Cron Job Setup ## When Setting up a new..."
+      }
+    ],
+    "observability": [
+      {
+        "path": "memory/research-self-healing.md",
+        "startLine": 1,
+        "endLine": 56,
+        "summary": "# Self-Healing and Autonomous Error Recovery Patte..."
+      }
+    ],
     "infrastructure": [
+      {
+        "path": "memory/research-self-healing.md",
+        "startLine": 1,
+        "endLine": 56,
+        "summary": "# Self-Healing and Autonomous Error Recovery Patte..."
+      }
+    ],
+    "phase": [
+      {
+        "path": "memory/research-self-healing.md",
+        "startLine": 1,
+        "endLine": 56,
+        "summary": "# Self-Healing and Autonomous Error Recovery Patte..."
+      },
+      {
+        "path": "memory/research-memory-compliance.md",
+        "startLine": 1,
+        "endLine": 245,
+        "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
+      }
+    ],
+    "fallback": [
+      {
+        "path": "memory/research-self-healing.md",
+        "startLine": 1,
+        "endLine": 56,
+        "summary": "# Self-Healing and Autonomous Error Recovery Patte..."
+      }
+    ],
+    "tool": [
+      {
+        "path": "memory/research-self-healing.md",
+        "startLine": 1,
+        "endLine": 56,
+        "summary": "# Self-Healing and Autonomous Error Recovery Patte..."
+      }
+    ],
+    "recovery": [
+      {
+        "path": "memory/research-self-healing.md",
+        "startLine": 1,
+        "endLine": 56,
+        "summary": "# Self-Healing and Autonomous Error Recovery Patte..."
+      }
+    ],
+    "patterns": [
+      {
+        "path": "memory/research-self-healing.md",
+        "startLine": 1,
+        "endLine": 56,
+        "summary": "# Self-Healing and Autonomous Error Recovery Patte..."
+      },
+      {
+        "path": "memory/research-memory-compliance.md",
+        "startLine": 1,
+        "endLine": 245,
+        "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
+      }
+    ],
+    "breakers": [
+      {
+        "path": "memory/research-self-healing.md",
+        "startLine": 1,
+        "endLine": 56,
+        "summary": "# Self-Healing and Autonomous Error Recovery Patte..."
+      }
+    ],
+    "stop": [
+      {
+        "path": "memory/research-self-healing.md",
+        "startLine": 1,
+        "endLine": 56,
+        "summary": "# Self-Healing and Autonomous Error Recovery Patte..."
+      }
+    ],
+    "progressive": [
+      {
+        "path": "memory/research-self-healing.md",
+        "startLine": 1,
+        "endLine": 56,
+        "summary": "# Self-Healing and Autonomous Error Recovery Patte..."
+      }
+    ],
+    "detection": [
       {
         "path": "memory/research-self-healing.md",
         "startLine": 1,
@@ -5834,145 +5978,7 @@
         "summary": "# Self-Healing and Autonomous Error Recovery Patte..."
       }
     ],
-    "pattern": [
-      {
-        "path": "memory/research-self-healing.md",
-        "startLine": 1,
-        "endLine": 56,
-        "summary": "# Self-Healing and Autonomous Error Recovery Patte..."
-      },
-      {
-        "path": "memory/patterns/cron-job-setup.md",
-        "startLine": 1,
-        "endLine": 30,
-        "summary": "# Pattern: Cron Job Setup ## When Setting up a new..."
-      }
-    ],
-    "escalation": [
-      {
-        "path": "memory/research-self-healing.md",
-        "startLine": 1,
-        "endLine": 56,
-        "summary": "# Self-Healing and Autonomous Error Recovery Patte..."
-      }
-    ],
     "human": [
-      {
-        "path": "memory/research-self-healing.md",
-        "startLine": 1,
-        "endLine": 56,
-        "summary": "# Self-Healing and Autonomous Error Recovery Patte..."
-      }
-    ],
-    "phase": [
-      {
-        "path": "memory/research-self-healing.md",
-        "startLine": 1,
-        "endLine": 56,
-        "summary": "# Self-Healing and Autonomous Error Recovery Patte..."
-      },
-      {
-        "path": "memory/research-memory-compliance.md",
-        "startLine": 1,
-        "endLine": 245,
-        "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
-      }
-    ],
-    "observability": [
-      {
-        "path": "memory/research-self-healing.md",
-        "startLine": 1,
-        "endLine": 56,
-        "summary": "# Self-Healing and Autonomous Error Recovery Patte..."
-      }
-    ],
-    "graceful": [
-      {
-        "path": "memory/research-self-healing.md",
-        "startLine": 1,
-        "endLine": 56,
-        "summary": "# Self-Healing and Autonomous Error Recovery Patte..."
-      }
-    ],
-    "fallback": [
-      {
-        "path": "memory/research-self-healing.md",
-        "startLine": 1,
-        "endLine": 56,
-        "summary": "# Self-Healing and Autonomous Error Recovery Patte..."
-      }
-    ],
-    "patterns": [
-      {
-        "path": "memory/research-self-healing.md",
-        "startLine": 1,
-        "endLine": 56,
-        "summary": "# Self-Healing and Autonomous Error Recovery Patte..."
-      },
-      {
-        "path": "memory/research-memory-compliance.md",
-        "startLine": 1,
-        "endLine": 245,
-        "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
-      }
-    ],
-    "healing": [
-      {
-        "path": "memory/research-self-healing.md",
-        "startLine": 1,
-        "endLine": 56,
-        "summary": "# Self-Healing and Autonomous Error Recovery Patte..."
-      }
-    ],
-    "progressive": [
-      {
-        "path": "memory/research-self-healing.md",
-        "startLine": 1,
-        "endLine": 56,
-        "summary": "# Self-Healing and Autonomous Error Recovery Patte..."
-      }
-    ],
-    "stop": [
-      {
-        "path": "memory/research-self-healing.md",
-        "startLine": 1,
-        "endLine": 56,
-        "summary": "# Self-Healing and Autonomous Error Recovery Patte..."
-      }
-    ],
-    "circuit": [
-      {
-        "path": "memory/research-self-healing.md",
-        "startLine": 1,
-        "endLine": 56,
-        "summary": "# Self-Healing and Autonomous Error Recovery Patte..."
-      }
-    ],
-    "recovery": [
-      {
-        "path": "memory/research-self-healing.md",
-        "startLine": 1,
-        "endLine": 56,
-        "summary": "# Self-Healing and Autonomous Error Recovery Patte..."
-      }
-    ],
-    "tool": [
-      {
-        "path": "memory/research-self-healing.md",
-        "startLine": 1,
-        "endLine": 56,
-        "summary": "# Self-Healing and Autonomous Error Recovery Patte..."
-      }
-    ],
-    "breakers": [
-      {
-        "path": "memory/research-self-healing.md",
-        "startLine": 1,
-        "endLine": 56,
-        "summary": "# Self-Healing and Autonomous Error Recovery Patte..."
-      }
-    ],
-    "detection": [
       {
         "path": "memory/research-self-healing.md",
         "startLine": 1,
@@ -5986,14 +5992,6 @@
         "startLine": 7,
         "endLine": 86,
         "summary": "user: System: [2026-02-16 21:59:46 GMT+1] Exec fai..."
-      }
-    ],
-    "option": [
-      {
-        "path": "memory/2026-02-16-context-optimization.md",
-        "startLine": 1,
-        "endLine": 86,
-        "summary": "# Session: 2026-02-16 23:19:52 UTC - **Session Key..."
       }
     ],
     "problem": [
@@ -6019,6 +6017,14 @@
       }
     ],
     "three": [
+      {
+        "path": "memory/2026-02-16-context-optimization.md",
+        "startLine": 1,
+        "endLine": 86,
+        "summary": "# Session: 2026-02-16 23:19:52 UTC - **Session Key..."
+      }
+    ],
+    "option": [
       {
         "path": "memory/2026-02-16-context-optimization.md",
         "startLine": 1,
@@ -6282,6 +6288,14 @@
         "summary": "Reliable agent memory compliance requires architec..."
       }
     ],
+    "effective": [
+      {
+        "path": "memory/research-memory-compliance.md",
+        "startLine": 1,
+        "endLine": 245,
+        "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
+      }
+    ],
     "second": [
       {
         "path": "memory/research-memory-compliance.md",
@@ -6290,7 +6304,7 @@
         "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
       }
     ],
-    "before": [
+    "solution": [
       {
         "path": "memory/research-memory-compliance.md",
         "startLine": 1,
@@ -6298,7 +6312,7 @@
         "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
       }
     ],
-    "decompose": [
+    "report": [
       {
         "path": "memory/research-memory-compliance.md",
         "startLine": 1,
@@ -6306,7 +6320,7 @@
         "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
       }
     ],
-    "framework": [
+    "boot": [
       {
         "path": "memory/research-memory-compliance.md",
         "startLine": 1,
@@ -6314,15 +6328,7 @@
         "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
       }
     ],
-    "remember.": [
-      {
-        "path": "memory/research-memory-compliance.md",
-        "startLine": 1,
-        "endLine": 245,
-        "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
-      }
-    ],
-    "implementation": [
+    "scan": [
       {
         "path": "memory/research-memory-compliance.md",
         "startLine": 1,
@@ -6338,7 +6344,7 @@
         "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
       }
     ],
-    "february": [
+    "reinforcement": [
       {
         "path": "memory/research-memory-compliance.md",
         "startLine": 1,
@@ -6346,7 +6352,7 @@
         "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
       }
     ],
-    "always": [
+    "follow your memory files": [
       {
         "path": "memory/research-memory-compliance.md",
         "startLine": 1,
@@ -6354,7 +6360,7 @@
         "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
       }
     ],
-    "generated": [
+    "common": [
       {
         "path": "memory/research-memory-compliance.md",
         "startLine": 1,
@@ -6362,15 +6368,7 @@
         "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
       }
     ],
-    "conflicting": [
-      {
-        "path": "memory/research-memory-compliance.md",
-        "startLine": 1,
-        "endLine": 245,
-        "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
-      }
-    ],
-    "solution": [
+    "pre": [
       {
         "path": "memory/research-memory-compliance.md",
         "startLine": 1,
@@ -6392,6 +6390,14 @@
         "summary": "# Pattern: Subagent Spawning ## When Delegating wo..."
       }
     ],
+    "reference": [
+      {
+        "path": "memory/research-memory-compliance.md",
+        "startLine": 1,
+        "endLine": 245,
+        "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
+      }
+    ],
     "create": [
       {
         "path": "memory/research-memory-compliance.md",
@@ -6406,6 +6412,46 @@
         "summary": "# Pattern: Cron Job Setup ## When Setting up a new..."
       }
     ],
+    "structured": [
+      {
+        "path": "memory/research-memory-compliance.md",
+        "startLine": 1,
+        "endLine": 245,
+        "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
+      }
+    ],
+    "generated": [
+      {
+        "path": "memory/research-memory-compliance.md",
+        "startLine": 1,
+        "endLine": 245,
+        "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
+      }
+    ],
+    "primary": [
+      {
+        "path": "memory/research-memory-compliance.md",
+        "startLine": 1,
+        "endLine": 245,
+        "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
+      }
+    ],
+    "start": [
+      {
+        "path": "memory/research-memory-compliance.md",
+        "startLine": 1,
+        "endLine": 245,
+        "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
+      }
+    ],
+    "implementation": [
+      {
+        "path": "memory/research-memory-compliance.md",
+        "startLine": 1,
+        "endLine": 245,
+        "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
+      }
+    ],
     "follow": [
       {
         "path": "memory/research-memory-compliance.md",
@@ -6414,7 +6460,31 @@
         "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
       }
     ],
-    "review recent": [
+    "based": [
+      {
+        "path": "memory/research-memory-compliance.md",
+        "startLine": 1,
+        "endLine": 245,
+        "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
+      }
+    ],
+    "inconsistent": [
+      {
+        "path": "memory/research-memory-compliance.md",
+        "startLine": 1,
+        "endLine": 245,
+        "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
+      }
+    ],
+    "identify": [
+      {
+        "path": "memory/research-memory-compliance.md",
+        "startLine": 1,
+        "endLine": 245,
+        "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
+      }
+    ],
+    "rule": [
       {
         "path": "memory/research-memory-compliance.md",
         "startLine": 1,
@@ -6430,14 +6500,6 @@
         "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
       }
     ],
-    "engineering": [
-      {
-        "path": "memory/research-memory-compliance.md",
-        "startLine": 1,
-        "endLine": 245,
-        "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
-      }
-    ],
     "week": [
       {
         "path": "memory/research-memory-compliance.md",
@@ -6446,7 +6508,69 @@
         "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
       }
     ],
-    "structured": [
+    "format": [
+      {
+        "path": "memory/research-memory-compliance.md",
+        "startLine": 1,
+        "endLine": 245,
+        "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
+      },
+      {
+        "path": "memory/preferences.md",
+        "startLine": 32,
+        "endLine": 36,
+        "summary": "- Discord/WhatsApp: no markdown tables, use bullet..."
+      }
+    ],
+    "important": [
+      {
+        "path": "memory/research-memory-compliance.md",
+        "startLine": 1,
+        "endLine": 245,
+        "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
+      }
+    ],
+    "checklist": [
+      {
+        "path": "memory/research-memory-compliance.md",
+        "startLine": 1,
+        "endLine": 245,
+        "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
+      }
+    ],
+    "structure": [
+      {
+        "path": "memory/research-memory-compliance.md",
+        "startLine": 1,
+        "endLine": 245,
+        "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
+      }
+    ],
+    "systems": [
+      {
+        "path": "memory/research-memory-compliance.md",
+        "startLine": 1,
+        "endLine": 245,
+        "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
+      }
+    ],
+    "prompts": [
+      {
+        "path": "memory/research-memory-compliance.md",
+        "startLine": 1,
+        "endLine": 245,
+        "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
+      }
+    ],
+    "decompose": [
+      {
+        "path": "memory/research-memory-compliance.md",
+        "startLine": 1,
+        "endLine": 245,
+        "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
+      }
+    ],
+    "(2026)\n- lilian weng:": [
       {
         "path": "memory/research-memory-compliance.md",
         "startLine": 1,
@@ -6462,14 +6586,6 @@
         "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
       }
     ],
-    "their": [
-      {
-        "path": "memory/research-memory-compliance.md",
-        "startLine": 1,
-        "endLine": 245,
-        "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
-      }
-    ],
     "teams": [
       {
         "path": "memory/research-memory-compliance.md",
@@ -6478,7 +6594,39 @@
         "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
       }
     ],
-    "review": [
+    "formats": [
+      {
+        "path": "memory/research-memory-compliance.md",
+        "startLine": 1,
+        "endLine": 245,
+        "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
+      }
+    ],
+    "engineering": [
+      {
+        "path": "memory/research-memory-compliance.md",
+        "startLine": 1,
+        "endLine": 245,
+        "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
+      }
+    ],
+    "this version feels better": [
+      {
+        "path": "memory/research-memory-compliance.md",
+        "startLine": 1,
+        "endLine": 245,
+        "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
+      }
+    ],
+    "remember.": [
+      {
+        "path": "memory/research-memory-compliance.md",
+        "startLine": 1,
+        "endLine": 245,
+        "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
+      }
+    ],
+    "prompt": [
       {
         "path": "memory/research-memory-compliance.md",
         "startLine": 1,
@@ -6494,7 +6642,23 @@
         "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
       }
     ],
-    "common": [
+    "symptoms": [
+      {
+        "path": "memory/research-memory-compliance.md",
+        "startLine": 1,
+        "endLine": 245,
+        "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
+      }
+    ],
+    "sources": [
+      {
+        "path": "memory/research-memory-compliance.md",
+        "startLine": 1,
+        "endLine": 245,
+        "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
+      }
+    ],
+    "always": [
       {
         "path": "memory/research-memory-compliance.md",
         "startLine": 1,
@@ -6516,7 +6680,7 @@
         "summary": "# Pattern: Email Drafting ## When Knut forwards an..."
       }
     ],
-    "identify": [
+    "same": [
       {
         "path": "memory/research-memory-compliance.md",
         "startLine": 1,
@@ -6524,125 +6688,7 @@
         "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
       }
     ],
-    "inconsistent": [
-      {
-        "path": "memory/research-memory-compliance.md",
-        "startLine": 1,
-        "endLine": 245,
-        "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
-      }
-    ],
-    "optimal": [
-      {
-        "path": "memory/research-memory-compliance.md",
-        "startLine": 1,
-        "endLine": 245,
-        "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
-      }
-    ],
-    "reference": [
-      {
-        "path": "memory/research-memory-compliance.md",
-        "startLine": 1,
-        "endLine": 245,
-        "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
-      }
-    ],
-    "sources": [
-      {
-        "path": "memory/research-memory-compliance.md",
-        "startLine": 1,
-        "endLine": 245,
-        "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
-      }
-    ],
-    "primary": [
-      {
-        "path": "memory/research-memory-compliance.md",
-        "startLine": 1,
-        "endLine": 245,
-        "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
-      }
-    ],
-    "format": [
-      {
-        "path": "memory/research-memory-compliance.md",
-        "startLine": 1,
-        "endLine": 245,
-        "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
-      },
-      {
-        "path": "memory/preferences.md",
-        "startLine": 31,
-        "endLine": 35,
-        "summary": "- Discord/WhatsApp: no markdown tables, use bullet..."
-      }
-    ],
-    "important": [
-      {
-        "path": "memory/research-memory-compliance.md",
-        "startLine": 1,
-        "endLine": 245,
-        "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
-      }
-    ],
-    "systems": [
-      {
-        "path": "memory/research-memory-compliance.md",
-        "startLine": 1,
-        "endLine": 245,
-        "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
-      }
-    ],
-    "structure": [
-      {
-        "path": "memory/research-memory-compliance.md",
-        "startLine": 1,
-        "endLine": 245,
-        "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
-      }
-    ],
-    "remember to check": [
-      {
-        "path": "memory/research-memory-compliance.md",
-        "startLine": 1,
-        "endLine": 245,
-        "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
-      }
-    ],
-    "this version feels better": [
-      {
-        "path": "memory/research-memory-compliance.md",
-        "startLine": 1,
-        "endLine": 245,
-        "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
-      }
-    ],
-    "compliance": [
-      {
-        "path": "memory/research-memory-compliance.md",
-        "startLine": 1,
-        "endLine": 245,
-        "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
-      }
-    ],
-    "based": [
-      {
-        "path": "memory/research-memory-compliance.md",
-        "startLine": 1,
-        "endLine": 245,
-        "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
-      }
-    ],
-    "report": [
-      {
-        "path": "memory/research-memory-compliance.md",
-        "startLine": 1,
-        "endLine": 245,
-        "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
-      }
-    ],
-    "effective": [
+    "their": [
       {
         "path": "memory/research-memory-compliance.md",
         "startLine": 1,
@@ -6658,7 +6704,31 @@
         "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
       }
     ],
-    "prompt": [
+    "whack-a-mole": [
+      {
+        "path": "memory/research-memory-compliance.md",
+        "startLine": 1,
+        "endLine": 245,
+        "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
+      }
+    ],
+    "february": [
+      {
+        "path": "memory/research-memory-compliance.md",
+        "startLine": 1,
+        "endLine": 245,
+        "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
+      }
+    ],
+    "compliance": [
+      {
+        "path": "memory/research-memory-compliance.md",
+        "startLine": 1,
+        "endLine": 245,
+        "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
+      }
+    ],
+    "framework": [
       {
         "path": "memory/research-memory-compliance.md",
         "startLine": 1,
@@ -6674,7 +6744,7 @@
         "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
       }
     ],
-    "boot": [
+    "optimal": [
       {
         "path": "memory/research-memory-compliance.md",
         "startLine": 1,
@@ -6682,7 +6752,7 @@
         "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
       }
     ],
-    "prompts": [
+    "conflicting": [
       {
         "path": "memory/research-memory-compliance.md",
         "startLine": 1,
@@ -6690,7 +6760,7 @@
         "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
       }
     ],
-    "(2026)\n- lilian weng:": [
+    "before": [
       {
         "path": "memory/research-memory-compliance.md",
         "startLine": 1,
@@ -6698,7 +6768,7 @@
         "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
       }
     ],
-    "formats": [
+    "review recent": [
       {
         "path": "memory/research-memory-compliance.md",
         "startLine": 1,
@@ -6706,7 +6776,7 @@
         "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
       }
     ],
-    "reinforcement": [
+    "review": [
       {
         "path": "memory/research-memory-compliance.md",
         "startLine": 1,
@@ -6714,71 +6784,7 @@
         "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
       }
     ],
-    "checklist": [
-      {
-        "path": "memory/research-memory-compliance.md",
-        "startLine": 1,
-        "endLine": 245,
-        "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
-      }
-    ],
-    "pre": [
-      {
-        "path": "memory/research-memory-compliance.md",
-        "startLine": 1,
-        "endLine": 245,
-        "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
-      }
-    ],
-    "start": [
-      {
-        "path": "memory/research-memory-compliance.md",
-        "startLine": 1,
-        "endLine": 245,
-        "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
-      }
-    ],
-    "scan": [
-      {
-        "path": "memory/research-memory-compliance.md",
-        "startLine": 1,
-        "endLine": 245,
-        "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
-      }
-    ],
-    "follow your memory files": [
-      {
-        "path": "memory/research-memory-compliance.md",
-        "startLine": 1,
-        "endLine": 245,
-        "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
-      }
-    ],
-    "rule": [
-      {
-        "path": "memory/research-memory-compliance.md",
-        "startLine": 1,
-        "endLine": 245,
-        "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
-      }
-    ],
-    "symptoms": [
-      {
-        "path": "memory/research-memory-compliance.md",
-        "startLine": 1,
-        "endLine": 245,
-        "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
-      }
-    ],
-    "whack-a-mole": [
-      {
-        "path": "memory/research-memory-compliance.md",
-        "startLine": 1,
-        "endLine": 245,
-        "summary": "# AI Agent Memory Compliance: Making Agents Follow..."
-      }
-    ],
-    "same": [
+    "remember to check": [
       {
         "path": "memory/research-memory-compliance.md",
         "startLine": 1,
@@ -6794,7 +6800,7 @@
         "summary": "**Use Qwen3-Fast (local 8B) for:** - Simple coding..."
       }
     ],
-    "general-purpose": [
+    "small": [
       {
         "path": "memory/research-local-llm-routing.md",
         "startLine": 1,
@@ -6802,7 +6808,7 @@
         "summary": "# Local LLM Routing Best Practices Research - Feb ..."
       }
     ],
-    "fast": [
+    "code": [
       {
         "path": "memory/research-local-llm-routing.md",
         "startLine": 1,
@@ -6811,30 +6817,6 @@
       }
     ],
     "batch": [
-      {
-        "path": "memory/research-local-llm-routing.md",
-        "startLine": 1,
-        "endLine": 82,
-        "summary": "# Local LLM Routing Best Practices Research - Feb ..."
-      }
-    ],
-    "expert": [
-      {
-        "path": "memory/research-local-llm-routing.md",
-        "startLine": 1,
-        "endLine": 82,
-        "summary": "# Local LLM Routing Best Practices Research - Feb ..."
-      }
-    ],
-    "simple": [
-      {
-        "path": "memory/research-local-llm-routing.md",
-        "startLine": 1,
-        "endLine": 82,
-        "summary": "# Local LLM Routing Best Practices Research - Feb ..."
-      }
-    ],
-    "/no_think": [
       {
         "path": "memory/research-local-llm-routing.md",
         "startLine": 1,
@@ -6856,7 +6838,7 @@
         "summary": "# Pattern: Model Routing ## When Deciding which mo..."
       }
     ],
-    "code": [
+    "shorter": [
       {
         "path": "memory/research-local-llm-routing.md",
         "startLine": 1,
@@ -6864,7 +6846,7 @@
         "summary": "# Local LLM Routing Best Practices Research - Feb ..."
       }
     ],
-    "shorter": [
+    "fast": [
       {
         "path": "memory/research-local-llm-routing.md",
         "startLine": 1,
@@ -6916,6 +6898,22 @@
         "summary": "Knut forwards an email to banna@bottenanna.no and ..."
       }
     ],
+    "simple": [
+      {
+        "path": "memory/research-local-llm-routing.md",
+        "startLine": 1,
+        "endLine": 82,
+        "summary": "# Local LLM Routing Best Practices Research - Feb ..."
+      }
+    ],
+    "general-purpose": [
+      {
+        "path": "memory/research-local-llm-routing.md",
+        "startLine": 1,
+        "endLine": 82,
+        "summary": "# Local LLM Routing Best Practices Research - Feb ..."
+      }
+    ],
     "complex": [
       {
         "path": "memory/research-local-llm-routing.md",
@@ -6924,7 +6922,15 @@
         "summary": "# Local LLM Routing Best Practices Research - Feb ..."
       }
     ],
-    "small": [
+    "expert": [
+      {
+        "path": "memory/research-local-llm-routing.md",
+        "startLine": 1,
+        "endLine": 82,
+        "summary": "# Local LLM Routing Best Practices Research - Feb ..."
+      }
+    ],
+    "/no_think": [
       {
         "path": "memory/research-local-llm-routing.md",
         "startLine": 1,
@@ -6943,72 +6949,40 @@
     "tone": [
       {
         "path": "memory/preferences.md",
-        "startLine": 16,
-        "endLine": 20,
+        "startLine": 17,
+        "endLine": 21,
         "summary": "- Sharp, witty, brutally honest - Push back when s..."
       }
     ],
     "work style": [
       {
         "path": "memory/preferences.md",
-        "startLine": 25,
-        "endLine": 30,
+        "startLine": 26,
+        "endLine": 31,
         "summary": "- Break big tasks into small steps (don't swallow ..."
       }
     ],
     "corrections log": [
       {
         "path": "memory/preferences.md",
-        "startLine": 36,
-        "endLine": 42,
+        "startLine": 37,
+        "endLine": 43,
         "summary": "<!-- Add new corrections here with date --> - 2026..."
-      }
-    ],
-    "corrections": [
-      {
-        "path": "memory/preferences.md",
-        "startLine": 1,
-        "endLine": 42,
-        "summary": "# Preferences & Corrections Systematisk log over K..."
-      }
-    ],
-    "noe mer?": [
-      {
-        "path": "memory/preferences.md",
-        "startLine": 1,
-        "endLine": 42,
-        "summary": "# Preferences & Corrections Systematisk log over K..."
-      }
-    ],
-    "english for": [
-      {
-        "path": "memory/preferences.md",
-        "startLine": 1,
-        "endLine": 42,
-        "summary": "# Preferences & Corrections Systematisk log over K..."
       }
     ],
     "lagre det": [
       {
         "path": "memory/preferences.md",
         "startLine": 1,
-        "endLine": 42,
+        "endLine": 43,
         "summary": "# Preferences & Corrections Systematisk log over K..."
       }
     ],
-    "don": [
+    "corrections": [
       {
         "path": "memory/preferences.md",
         "startLine": 1,
-        "endLine": 42,
-        "summary": "# Preferences & Corrections Systematisk log over K..."
-      }
-    ],
-    "del oppgavene fint opp": [
-      {
-        "path": "memory/preferences.md",
-        "startLine": 1,
-        "endLine": 42,
+        "endLine": 43,
         "summary": "# Preferences & Corrections Systematisk log over K..."
       }
     ],
@@ -7016,7 +6990,39 @@
       {
         "path": "memory/preferences.md",
         "startLine": 1,
-        "endLine": 42,
+        "endLine": 43,
+        "summary": "# Preferences & Corrections Systematisk log over K..."
+      }
+    ],
+    "english for": [
+      {
+        "path": "memory/preferences.md",
+        "startLine": 1,
+        "endLine": 43,
+        "summary": "# Preferences & Corrections Systematisk log over K..."
+      }
+    ],
+    "del oppgavene fint opp": [
+      {
+        "path": "memory/preferences.md",
+        "startLine": 1,
+        "endLine": 43,
+        "summary": "# Preferences & Corrections Systematisk log over K..."
+      }
+    ],
+    "noe mer?": [
+      {
+        "path": "memory/preferences.md",
+        "startLine": 1,
+        "endLine": 43,
+        "summary": "# Preferences & Corrections Systematisk log over K..."
+      }
+    ],
+    "don": [
+      {
+        "path": "memory/preferences.md",
+        "startLine": 1,
+        "endLine": 43,
         "summary": "# Preferences & Corrections Systematisk log over K..."
       }
     ],
@@ -7100,31 +7106,7 @@
         "summary": "``` 37 ```"
       }
     ],
-    "reading": [
-      {
-        "path": "memory/qwen3-8b-eval.md",
-        "startLine": 1,
-        "endLine": 65,
-        "summary": "# Qwen3 8B Evaluation Date: 2026-02-19 13:46 ## Te..."
-      }
-    ],
-    "takk": [
-      {
-        "path": "memory/qwen3-8b-eval.md",
-        "startLine": 1,
-        "endLine": 65,
-        "summary": "# Qwen3 8B Evaluation Date: 2026-02-19 13:46 ## Te..."
-      }
-    ],
     "hiking": [
-      {
-        "path": "memory/qwen3-8b-eval.md",
-        "startLine": 1,
-        "endLine": 65,
-        "summary": "# Qwen3 8B Evaluation Date: 2026-02-19 13:46 ## Te..."
-      }
-    ],
-    "photography": [
       {
         "path": "memory/qwen3-8b-eval.md",
         "startLine": 1,
@@ -7140,6 +7122,14 @@
         "summary": "# Qwen3 8B Evaluation Date: 2026-02-19 13:46 ## Te..."
       }
     ],
+    "takk": [
+      {
+        "path": "memory/qwen3-8b-eval.md",
+        "startLine": 1,
+        "endLine": 65,
+        "summary": "# Qwen3 8B Evaluation Date: 2026-02-19 13:46 ## Te..."
+      }
+    ],
     "john doe": [
       {
         "path": "memory/qwen3-8b-eval.md",
@@ -7148,7 +7138,7 @@
         "summary": "# Qwen3 8B Evaluation Date: 2026-02-19 13:46 ## Te..."
       }
     ],
-    "hobbies": [
+    "age": [
       {
         "path": "memory/qwen3-8b-eval.md",
         "startLine": 1,
@@ -7156,7 +7146,23 @@
         "summary": "# Qwen3 8B Evaluation Date: 2026-02-19 13:46 ## Te..."
       }
     ],
-    "age": [
+    "reading": [
+      {
+        "path": "memory/qwen3-8b-eval.md",
+        "startLine": 1,
+        "endLine": 65,
+        "summary": "# Qwen3 8B Evaluation Date: 2026-02-19 13:46 ## Te..."
+      }
+    ],
+    "photography": [
+      {
+        "path": "memory/qwen3-8b-eval.md",
+        "startLine": 1,
+        "endLine": 65,
+        "summary": "# Qwen3 8B Evaluation Date: 2026-02-19 13:46 ## Te..."
+      }
+    ],
+    "hobbies": [
       {
         "path": "memory/qwen3-8b-eval.md",
         "startLine": 1,
@@ -7228,14 +7234,6 @@
         "summary": "- Use `--body-file -` with heredoc for multi-line ..."
       }
     ],
-    "fortsett": [
-      {
-        "path": "memory/patterns/flower-ordering.md",
-        "startLine": 1,
-        "endLine": 21,
-        "summary": "# Pattern: Blomsterbestilling (Mester Grønn) ## Wh..."
-      }
-    ],
     "velg": [
       {
         "path": "memory/patterns/flower-ordering.md",
@@ -7245,6 +7243,14 @@
       }
     ],
     "se lagrede mottakere": [
+      {
+        "path": "memory/patterns/flower-ordering.md",
+        "startLine": 1,
+        "endLine": 21,
+        "summary": "# Pattern: Blomsterbestilling (Mester Grønn) ## Wh..."
+      }
+    ],
+    "fortsett": [
       {
         "path": "memory/patterns/flower-ordering.md",
         "startLine": 1,
@@ -7322,47 +7328,7 @@
         "summary": "After fixing config defaults and timeout, subagent..."
       }
     ],
-    "then": [
-      {
-        "path": "memory/patterns/subagent-spawning.md",
-        "startLine": 1,
-        "endLine": 50,
-        "summary": "# Pattern: Subagent Spawning ## When Delegating wo..."
-      }
-    ],
-    "bad": [
-      {
-        "path": "memory/patterns/subagent-spawning.md",
-        "startLine": 1,
-        "endLine": 50,
-        "summary": "# Pattern: Subagent Spawning ## When Delegating wo..."
-      }
-    ],
-    "build this one script": [
-      {
-        "path": "memory/patterns/subagent-spawning.md",
-        "startLine": 1,
-        "endLine": 50,
-        "summary": "# Pattern: Subagent Spawning ## When Delegating wo..."
-      }
-    ],
-    "build a memory decay": [
-      {
-        "path": "memory/patterns/subagent-spawning.md",
-        "startLine": 1,
-        "endLine": 50,
-        "summary": "# Pattern: Subagent Spawning ## When Delegating wo..."
-      }
-    ],
-    "do x. output y. then stop.": [
-      {
-        "path": "memory/patterns/subagent-spawning.md",
-        "startLine": 1,
-        "endLine": 50,
-        "summary": "# Pattern: Subagent Spawning ## When Delegating wo..."
-      }
-    ],
-    "then stop.": [
+    "good": [
       {
         "path": "memory/patterns/subagent-spawning.md",
         "startLine": 1,
@@ -7378,6 +7344,14 @@
         "summary": "# Pattern: Subagent Spawning ## When Delegating wo..."
       }
     ],
+    "do x. output y. then stop.": [
+      {
+        "path": "memory/patterns/subagent-spawning.md",
+        "startLine": 1,
+        "endLine": 50,
+        "summary": "# Pattern: Subagent Spawning ## When Delegating wo..."
+      }
+    ],
     "subagent": [
       {
         "path": "memory/patterns/subagent-spawning.md",
@@ -7386,7 +7360,15 @@
         "summary": "# Pattern: Subagent Spawning ## When Delegating wo..."
       }
     ],
-    "good": [
+    "then stop.": [
+      {
+        "path": "memory/patterns/subagent-spawning.md",
+        "startLine": 1,
+        "endLine": 50,
+        "summary": "# Pattern: Subagent Spawning ## When Delegating wo..."
+      }
+    ],
+    "build this one script": [
       {
         "path": "memory/patterns/subagent-spawning.md",
         "startLine": 1,
@@ -7395,6 +7377,30 @@
       }
     ],
     "task": [
+      {
+        "path": "memory/patterns/subagent-spawning.md",
+        "startLine": 1,
+        "endLine": 50,
+        "summary": "# Pattern: Subagent Spawning ## When Delegating wo..."
+      }
+    ],
+    "bad": [
+      {
+        "path": "memory/patterns/subagent-spawning.md",
+        "startLine": 1,
+        "endLine": 50,
+        "summary": "# Pattern: Subagent Spawning ## When Delegating wo..."
+      }
+    ],
+    "build a memory decay": [
+      {
+        "path": "memory/patterns/subagent-spawning.md",
+        "startLine": 1,
+        "endLine": 50,
+        "summary": "# Pattern: Subagent Spawning ## When Delegating wo..."
+      }
+    ],
+    "then": [
       {
         "path": "memory/patterns/subagent-spawning.md",
         "startLine": 1,
@@ -7474,6 +7480,14 @@
         "summary": "# Node.js Services in OpenClaw Environment ⭐⭐⭐⭐⭐ (..."
       }
     ],
+    "1.0": [
+      {
+        "path": "memory/patterns/nodejs-services-openclaw.md",
+        "startLine": 1,
+        "endLine": 71,
+        "summary": "# Node.js Services in OpenClaw Environment ⭐⭐⭐⭐⭐ (..."
+      }
+    ],
     "utf-8": [
       {
         "path": "memory/patterns/nodejs-services-openclaw.md",
@@ -7498,14 +7512,6 @@
         "summary": "# Node.js Services in OpenClaw Environment ⭐⭐⭐⭐⭐ (..."
       }
     ],
-    "1.0": [
-      {
-        "path": "memory/patterns/nodejs-services-openclaw.md",
-        "startLine": 1,
-        "endLine": 71,
-        "summary": "# Node.js Services in OpenClaw Environment ⭐⭐⭐⭐⭐ (..."
-      }
-    ],
     "routing table": [
       {
         "path": "memory/patterns/model-routing.md",
@@ -7514,7 +7520,7 @@
         "summary": "| Model | Use for | Cost | |-------|---------|----..."
       }
     ],
-    "opus for": [
+    "heartbeats": [
       {
         "path": "memory/patterns/model-routing.md",
         "startLine": 1,
@@ -7522,7 +7528,7 @@
         "summary": "# Pattern: Model Routing ## When Deciding which mo..."
       }
     ],
-    "heartbeats": [
+    "opus for": [
       {
         "path": "memory/patterns/model-routing.md",
         "startLine": 1,
@@ -7546,15 +7552,7 @@
         "summary": "1. Create cheap job (qwen3-fast) that gathers data..."
       }
     ],
-    "none": [
-      {
-        "path": "memory/patterns/cron-job-setup.md",
-        "startLine": 1,
-        "endLine": 30,
-        "summary": "# Pattern: Cron Job Setup ## When Setting up a new..."
-      }
-    ],
-    "agentturn": [
+    "announce": [
       {
         "path": "memory/patterns/cron-job-setup.md",
         "startLine": 1,
@@ -7570,23 +7568,31 @@
         "summary": "# Pattern: Cron Job Setup ## When Setting up a new..."
       }
     ],
-    "isolated": [
-      {
-        "path": "memory/patterns/cron-job-setup.md",
-        "startLine": 1,
-        "endLine": 30,
-        "summary": "# Pattern: Cron Job Setup ## When Setting up a new..."
-      }
-    ],
-    "announce": [
-      {
-        "path": "memory/patterns/cron-job-setup.md",
-        "startLine": 1,
-        "endLine": 30,
-        "summary": "# Pattern: Cron Job Setup ## When Setting up a new..."
-      }
-    ],
     "systemevent": [
+      {
+        "path": "memory/patterns/cron-job-setup.md",
+        "startLine": 1,
+        "endLine": 30,
+        "summary": "# Pattern: Cron Job Setup ## When Setting up a new..."
+      }
+    ],
+    "agentturn": [
+      {
+        "path": "memory/patterns/cron-job-setup.md",
+        "startLine": 1,
+        "endLine": 30,
+        "summary": "# Pattern: Cron Job Setup ## When Setting up a new..."
+      }
+    ],
+    "none": [
+      {
+        "path": "memory/patterns/cron-job-setup.md",
+        "startLine": 1,
+        "endLine": 30,
+        "summary": "# Pattern: Cron Job Setup ## When Setting up a new..."
+      }
+    ],
+    "isolated": [
       {
         "path": "memory/patterns/cron-job-setup.md",
         "startLine": 1,
@@ -7611,5 +7617,5 @@
       }
     ]
   },
-  "updatedAt": "2026-02-23T08:02:35.913210Z"
+  "updatedAt": "2026-02-23T20:02:35.874666Z"
 }
