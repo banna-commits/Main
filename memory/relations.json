@@ -48,6 +48,26 @@
       "display_name": "Boretunet",
       "aliases": []
     },
+    "discord": {
+      "type": "tool",
+      "display_name": "Discord",
+      "aliases": []
+    },
+    "document-tools": {
+      "type": "tool",
+      "display_name": "Document Tools",
+      "aliases": []
+    },
+    "ollama-config": {
+      "type": "tool",
+      "display_name": "Ollama Config",
+      "aliases": []
+    },
+    "memory-system": {
+      "type": "tool",
+      "display_name": "Memory System",
+      "aliases": []
+    },
     "google-workspace": {
       "type": "tool",
       "display_name": "Google Workspace",
@@ -66,6 +86,16 @@
     "hosting": {
       "type": "tool",
       "display_name": "Hosting",
+      "aliases": []
+    },
+    "embeddings": {
+      "type": "tool",
+      "display_name": "Embeddings",
+      "aliases": []
+    },
+    "git-backup": {
+      "type": "tool",
+      "display_name": "Git Backup",
       "aliases": []
     },
     "mac-mini": {
@@ -181,14 +211,14 @@
       "relation": "interested_in"
     }
   ],
-  "updatedAt": "2026-02-22T14:00:24.443733",
+  "updatedAt": "2026-02-23T08:02:35.917177",
   "stats": {
-    "entity_count": 20,
+    "entity_count": 26,
     "edge_count": 14,
     "entity_types": {
       "person": 5,
       "project": 3,
-      "tool": 5,
+      "tool": 11,
       "stock": 7
     }
   }
