@@ -1,5 +1,17 @@
+=== DATE ===
+2026-02-23
+=== DAILY LOG ===
+# 2026-02-23 (Sunday)
+
+## Mission Control — Tailscale Serve
+- Exposed Mission Control (localhost:3000) via Tailscale serve (internal tailnet only, no Funnel)
+- URL: https://knut-sin-mac-mini.tail74a1a0.ts.net/
+- Accessible from all devices on Knut's tailnet
+- Command: `tailscale serve --bg http://127.0.0.1:3000`
+- To disable: `tailscale serve --https=443 off`
+=== TASKS ===
 {
-  "lastUpdated": "2026-02-23T22:22:24.475Z",
+  "lastUpdated": "2026-02-20T21:57:00+01:00",
   "columns": [
     "backlog",
     "in-progress",
@@ -7,6 +19,18 @@
     "done"
   ],
   "tasks": [
+    {
+      "id": "t1",
+      "title": "WWI.OL deep-dive analysis",
+      "description": "Wallenius Wilhelmsen — PE 5.1, ROE 22.5%, 52% margin. Shipping/logistics physical moat.",
+      "status": "backlog",
+      "assignee": "anna",
+      "priority": "high",
+      "tags": [
+        "investing"
+      ],
+      "created": "2026-02-18"
+    },
     {
       "id": "t2",
       "title": "yf CLI: finish trends command",
@@ -23,7 +47,7 @@
       "id": "t3",
       "title": "Analyze more screener hits",
       "description": "DNB, Yara, Evolution, Pandora — write investment notes for promising candidates",
-      "status": "done",
+      "status": "backlog",
       "assignee": "anna",
       "priority": "medium",
       "tags": [
@@ -43,6 +67,18 @@
       ],
       "created": "2026-02-18",
       "completed": "2026-02-20"
+    },
+    {
+      "id": "t5",
+      "title": "sudo pmset autorestart + powernap",
+      "description": "Run: sudo pmset -a autorestart 1 powernap 0",
+      "status": "blocked",
+      "assignee": "knut",
+      "priority": "low",
+      "tags": [
+        "infra"
+      ],
+      "blockedReason": "Needs sudo in Terminal"
     },
     {
       "id": "t6",
@@ -171,6 +207,36 @@
       ],
       "created": "2026-02-20",
       "completed": "2026-02-20"
+    },
+    {
+      "id": "t16",
+      "title": "1881 API: hent API-nøkkel",
+      "description": "Logg inn på api1881.no (banna@bottenanna.no), hent API-nøkkel fra profil/produkter. Gi nøkkel til Anna for å berike ringelisten.",
+      "status": "blocked",
+      "assignee": "knut",
+      "priority": "medium",
+      "tags": [
+        "infra"
+      ],
+      "blockedReason": "Trenger passord-reset + login på api1881.no",
+      "created": "2026-02-20"
+    },
+    {
+      "id": "t17",
+      "title": "Workspace: vurder ekstra bruker for knutgreiner",
+      "description": "Alternativ A: Legg til knut@bottenanna.no i Workspace (admin.google.com → Directory → Users → Add). Koster ekstra lisens ~$12/mnd.\nAlternativ B: Bare bruk banna@bottenanna.no i en annen browser-profil.",
+      "status": "backlog",
+      "assignee": "knut",
+      "priority": "low",
+      "tags": [
+        "infra"
+      ],
+      "created": "2026-02-20"
     }
   ]
-}
+}=== GIT LOG ===
+=== CRON RUNS ===
+[main 84fe55f] memory: auto-commit 2026-02-23
+ 7 files changed, 1310 insertions(+), 1281 deletions(-)
+ create mode 100644 memory/2026-02-23.md
+Memory committed: 2026-02-23

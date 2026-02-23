@@ -1,0 +1,20 @@
+{
+  "lastUpdated": "2026-02-23T20:30:00+01:00",
+  "events": [
+    { "time": "2026-02-23T20:28:00+01:00", "type": "info", "icon": "💬", "text": "Telegram: Knut asked about mission control improvements" },
+    { "time": "2026-02-23T20:01:00+01:00", "type": "success", "icon": "⚙️", "text": "Config patched: Google Chat disabled" },
+    { "time": "2026-02-23T20:00:00+01:00", "type": "success", "icon": "⏰", "text": "Cron 'Email & Calendar Check' completed (22s)" },
+    { "time": "2026-02-23T19:58:00+01:00", "type": "info", "icon": "🐙", "text": "PR #24783 created on openclaw/openclaw" },
+    { "time": "2026-02-23T19:45:00+01:00", "type": "warning", "icon": "🔌", "text": "Discord WebSocket reconnected after code 1006" },
+    { "time": "2026-02-23T18:14:00+01:00", "type": "error", "icon": "🔴", "text": "Gateway: pairing required loop — 1734 failed attempts" },
+    { "time": "2026-02-23T16:00:00+01:00", "type": "error", "icon": "⏰", "text": "Cron 'Crypto MACD Monitor' failed: yfinance timeout" },
+    { "time": "2026-02-23T12:00:00+01:00", "type": "success", "icon": "⏰", "text": "Cron 'Email & Calendar Check' completed (18s)" },
+    { "time": "2026-02-23T08:00:00+01:00", "type": "success", "icon": "📋", "text": "Morning Briefing delivered to Telegram" },
+    { "time": "2026-02-23T04:00:00+01:00", "type": "success", "icon": "🗂", "text": "Log rotation completed — 3 files rotated" },
+    { "time": "2026-02-22T20:00:00+01:00", "type": "success", "icon": "⏰", "text": "Cron 'Email & Calendar Check' completed (15s)" },
+    { "time": "2026-02-22T18:30:00+01:00", "type": "info", "icon": "📧", "text": "Email from GitHub: PR review request on openclaw/openclaw" },
+    { "time": "2026-02-22T16:00:00+01:00", "type": "success", "icon": "📈", "text": "Crypto MACD scan completed — 2 crossovers detected" },
+    { "time": "2026-02-22T12:00:00+01:00", "type": "success", "icon": "⏰", "text": "Cron 'Email & Calendar Check' completed (12s)" },
+    { "time": "2026-02-22T08:00:00+01:00", "type": "success", "icon": "📋", "text": "Morning Briefing delivered to Telegram" }
+  ]
+}

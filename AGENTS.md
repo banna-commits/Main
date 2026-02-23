@@ -55,6 +55,9 @@ You wake up fresh each session. These files are your continuity:
 
 Capture what matters. Decisions, context, things to remember. Skip the secrets unless asked to keep them.
 
+### ⚠️ WRITE-THROUGH IS NON-NEGOTIABLE
+**Every state change → update memory files IN THE SAME TURN.** Not after. Not when asked. Not batched at the end. This has been a repeated failure. If you changed a port, URL, config, service, or learned something new — the memory file update happens BEFORE you reply to the human. No exceptions.
+
 ### 🔄 Pattern Learning
 When a multi-step workflow succeeds, save the recipe to `memory/patterns/<name>.md`. Include:
 - **When** to use it

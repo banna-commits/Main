@@ -29,6 +29,7 @@ Notify if event within 2h.
 Every few days, review recent `memory/` files and update MEMORY.md.
 
 ## Rules
+- **Calendar events: mention once per day max.** Track notified events in `memory/heartbeat-state.json` under `notifiedEvents` (keyed by date + event name). Never re-notify the same event on the same day.
 - Quiet hours: 23:00–08:00 (Europe/Oslo) — HEARTBEAT_OK unless urgent
 - Don't repeat checks done <30 min ago
 - Track checks in `memory/heartbeat-state.json`

@@ -1,10 +1,28 @@
 # Lessons Learned
 
-## Write-Through Memory
-- **Skriv til minnet UMIDDELBART** når noe nytt settes opp, endres, eller besluttes
-- Ikke vent til du blir bedt om det — det er for sent
-- Nye tjenester, cron jobs, config-endringer, credentials, workflows → `memory/infra.md` eller relevant fil med én gang
-- Hvis du ville sagt "det bør jeg huske" — skriv det ned NÅ, ikke senere
+## Write-Through Memory (⚠️ REPEATED FAILURE — READ THIS CAREFULLY)
+**This is the #1 recurring mistake. It has been called out by Knut multiple times.**
+
+### The Rule
+Every time you complete an action that changes state — a port, a URL, a config, a new service, a lesson learned — **update the relevant memory file IN THE SAME TURN. Not after. Not when asked. Not in a batch at the end.**
+
+### What "same turn" means
+- You change MC from port 3000 → 3001? Update `memory/infra.md` AND `memory/YYYY-MM-DD.md` RIGHT NOW, before replying to Knut.
+- You learn Tailscale strips subpath prefixes? Update `memory/patterns/tailscale-serve.md` RIGHT NOW, not 30 minutes later.
+- You set up a new cron job? Write it to `memory/infra.md` in the same tool-call sequence.
+
+### Why this keeps failing
+- "I'll update memory after this is working" → session compacts → knowledge lost
+- "Let me batch all the updates at the end" → Knut has to remind me → trust erodes
+- "The daily log already covers it" → daily log had STALE info (port 3000) while actual state was port 3001
+
+### The checklist (every state-changing action)
+1. ✅ Did I update the relevant `memory/` file?
+2. ✅ Did I update `memory/YYYY-MM-DD.md` daily log?
+3. ✅ Did I update any affected pattern in `memory/patterns/`?
+4. ✅ Is the OLD info removed/corrected (not just new info appended)?
+
+**If you catch yourself thinking "I should remember this" — you've already failed. It should already be written.**
 
 ## Post-Compaction Recovery
 - **ALWAYS run memory_search before resuming work** after compaction — especially when summary is empty

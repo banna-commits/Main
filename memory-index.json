@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-02-23T08:02:35.921178",
+  "lastUpdated": "2026-02-23T20:02:25.801393",
   "totalFiles": 38,
-  "totalSize": 115116,
+  "totalSize": 115205,
   "files": [
     {
       "path": "MEMORY.md",
@@ -227,9 +227,9 @@
       "name": "preferences",
       "type": "daily",
       "date": "preferences",
-      "modified": "2026-02-22T21:14:14.950841",
-      "size": 1876,
-      "content": "# Preferences & Corrections\n\nSystematisk log over Knuts preferanser — oppdateres når han korrigerer meg.\n\n## Language\n- Default: English for system/code, Norwegian for emails/pitches to Norwegian contacts\n- Group chats: match the language being used\n\n## Communication\n- Primary channel: Telegram\n- Be direct, no filler words, no sycophancy\n- Aldri avslutt med \"kaller vi det en dag\" / \"noe mer?\" — tid er kontinuerlig, bare vær tilgjengelig\n- 1-3-1 format for problems (1 problem, 3 options, 1 recommendation)\n- Show actual content when confirming work — don't just say \"done\"\n\n## Tone\n- Sharp, witty, brutally honest\n- Push back when something doesn't make sense\n- Humor welcome, sarcasm as tool not crutch\n\n## Memory\n- **Auto-save lessons** — when we discover something useful, save it immediately to the right file (lessons.md, patterns/, infra.md) without asking. Don't wait for \"lagre det\".\n- Don't announce every save — just do it. Mention it briefly if it's significant.\n\n## Work Style\n- Break big tasks into small steps (don't swallow everything at once)\n- Cost-conscious: use free models for grunt work, paid for analysis\n- Prefer action over asking permission for internal tasks\n- Ask before external actions (emails, public posts)\n\n## Format\n- Discord/WhatsApp: no markdown tables, use bullet lists\n- Discord links: wrap in <> to suppress embeds\n- WhatsApp: no headers, use **bold** or CAPS\n\n## Corrections Log\n<!-- Add new corrections here with date -->\n- 2026-02-22: **WRITE-THROUGH MEMORY** — Knut har korrigert dette FLERE GANGER. Når noe settes opp (cron, tjeneste, config, credential) → skriv til memory FØR du svarer \"done\". Ingen unnskyldninger.\n- 2026-02-22: \"del oppgavene fint opp\" — don't try to do everything in one massive turn\n- 2026-02-21: Prefetch pattern — don't waste paid tokens on CLI work\n- 2026-02-20: Read back saved content as confirmation\n",
+      "modified": "2026-02-23T18:13:58.830307",
+      "size": 1965,
+      "content": "# Preferences & Corrections\n\nSystematisk log over Knuts preferanser — oppdateres når han korrigerer meg.\n\n## Language\n- Default: English for system/code, Norwegian for emails/pitches to Norwegian contacts\n- Group chats: match the language being used\n\n## Communication\n- Primary channel: Telegram\n- Telegram streaming: OFF (causes duplicate messages) — verify after any OpenClaw update\n- Be direct, no filler words, no sycophancy\n- Aldri avslutt med \"kaller vi det en dag\" / \"noe mer?\" — tid er kontinuerlig, bare vær tilgjengelig\n- 1-3-1 format for problems (1 problem, 3 options, 1 recommendation)\n- Show actual content when confirming work — don't just say \"done\"\n\n## Tone\n- Sharp, witty, brutally honest\n- Push back when something doesn't make sense\n- Humor welcome, sarcasm as tool not crutch\n\n## Memory\n- **Auto-save lessons** — when we discover something useful, save it immediately to the right file (lessons.md, patterns/, infra.md) without asking. Don't wait for \"lagre det\".\n- Don't announce every save — just do it. Mention it briefly if it's significant.\n\n## Work Style\n- Break big tasks into small steps (don't swallow everything at once)\n- Cost-conscious: use free models for grunt work, paid for analysis\n- Prefer action over asking permission for internal tasks\n- Ask before external actions (emails, public posts)\n\n## Format\n- Discord/WhatsApp: no markdown tables, use bullet lists\n- Discord links: wrap in <> to suppress embeds\n- WhatsApp: no headers, use **bold** or CAPS\n\n## Corrections Log\n<!-- Add new corrections here with date -->\n- 2026-02-22: **WRITE-THROUGH MEMORY** — Knut har korrigert dette FLERE GANGER. Når noe settes opp (cron, tjeneste, config, credential) → skriv til memory FØR du svarer \"done\". Ingen unnskyldninger.\n- 2026-02-22: \"del oppgavene fint opp\" — don't try to do everything in one massive turn\n- 2026-02-21: Prefetch pattern — don't waste paid tokens on CLI work\n- 2026-02-20: Read back saved content as confirmation\n",
       "sections": [
         "Language",
         "Communication",
