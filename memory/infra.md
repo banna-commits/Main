@@ -49,11 +49,11 @@
 ## Mission Control
 - **Stack:** Next.js 16 + TypeScript + Tailwind v4 + App Router
 - **Path:** `mission-control/` (workspace)
-- **Port:** 3000, basePath: `/mc`
+- **Port:** 3001
 - **Launchd:** `com.openclaw.missioncontrol` (auto-start, auto-restart)
 - **Node:** v22 via fnm (Node v24 incompatible with Next.js 16)
-- **URL (Tailscale):** https://knut-sin-mac-mini.tail74a1a0.ts.net/ (tailnet-only, no Funnel)
-- **URL (local):** http://localhost:3000
+- **URL (Tailscale):** https://knut-sin-mac-mini.tail74a1a0.ts.net:3001 (tailnet-only, no Funnel)
+- **URL (local):** http://localhost:3001
 - **Data files (workspace root):** tasks.json, schedule.json, investments.json, memory-index.json, system-health.json, activity.json
 - **Tabs:** Tasks (kanban), Activity (feed), Schedule (cron), System (health), Calendar, Investments, Trenger Knut, Memory
 - **Features (v2, 2026-02-23):** Status strip (always visible), tab status dots, ⌘K search overlay, system health monitor, activity feed
@@ -61,10 +61,13 @@
 
 ## Hosting & Tailscale
 - Tailscale hostname: knut-sin-mac-mini.tail74a1a0.ts.net
-- Tailscale serve: `tailscale serve --bg http://127.0.0.1:3000` (proxy / → localhost:3000)
+- Tailscale serve routes:
+  - `:443 /` → OpenClaw Gateway (port 18789)
+  - `:443 /gmail-pubsub` → Gmail webhook (port 8788)
+  - `:3001` → Mission Control (port 3001)
 - Mode: Tailnet-only (NO Funnel — not exposed to internet)
-- URL: https://knut-sin-mac-mini.tail74a1a0.ts.net/
-- To disable: `tailscale serve --https=443 off`
+- Note: Tailscale `--set-path` strips the prefix before proxying — subpath SPAs need their own port instead
+- To disable: `tailscale serve --https=443 off` / `tailscale serve --https=3001 off`
 
 ## Embeddings
 - Model: snowflake-arctic-embed2 (1024 dims, 1.2GB, multilingual inkl norsk)

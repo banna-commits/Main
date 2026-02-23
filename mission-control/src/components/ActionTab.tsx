@@ -1,6 +1,7 @@
 'use client';
 
-import { TasksData } from '@/types';
+import { useState } from 'react';
+import { Task, TasksData } from '@/types';
 
 const TAG_STYLES: Record<string, string> = {
   investing: 'bg-[#1f3a1f] text-green',
@@ -16,18 +17,198 @@ const PRIORITY_EMOJI: Record<string, string> = {
   low: '🟢 ',
 };
 
-export default function ActionTab({ data }: { data: TasksData | null }) {
+const STATUS_OPTIONS = [
+  { value: 'backlog', label: 'Backlog' },
+  { value: 'in-progress', label: 'In Progress' },
+  { value: 'blocked', label: 'Blocked' },
+  { value: 'done', label: 'Done' },
+];
+
+const PRIORITY_OPTIONS = [
+  { value: 'high', label: '🔴 High' },
+  { value: 'medium', label: '🟡 Medium' },
+  { value: 'low', label: '🟢 Low' },
+];
+
+async function patchTask(id: string, updates: Partial<Task>) {
+  const res = await fetch('/api/tasks', {
+    method: 'PATCH',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ id, ...updates }),
+  });
+  return res.json();
+}
+
+async function deleteTask(id: string) {
+  const res = await fetch('/api/tasks', {
+    method: 'DELETE',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ id }),
+  });
+  return res.json();
+}
+
+async function sendTask(taskId: string, title: string) {
+  const res = await fetch('/api/tasks/send', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ taskId, title }),
+  });
+  return res.json();
+}
+
+function TaskModal({
+  task, onClose, onUpdate, onDelete,
+}: {
+  task: Task; onClose: () => void;
+  onUpdate: (id: string, updates: Partial<Task>) => void;
+  onDelete: (id: string) => void;
+}) {
+  const [title, setTitle] = useState(task.title);
+  const [description, setDescription] = useState(task.description || '');
+  const [status, setStatus] = useState(task.status);
+  const [priority, setPriority] = useState(task.priority || 'medium');
+  const [confirmDelete, setConfirmDelete] = useState(false);
+  const [sent, setSent] = useState(false);
+  const [saving, setSaving] = useState(false);
+
+  const dirty = title !== task.title || description !== (task.description || '') ||
+    status !== task.status || priority !== (task.priority || 'medium');
+
+  const save = async () => {
+    if (!dirty) return;
+    setSaving(true);
+    await onUpdate(task.id, { title, description: description || undefined, status, priority });
+    setSaving(false);
+  };
+
+  const handleDone = async () => {
+    setSaving(true);
+    await onUpdate(task.id, { title, description: description || undefined, status: 'done', priority });
+    setSaving(false);
+    onClose();
+  };
+
+  const handleSend = async () => {
+    await sendTask(task.id, title);
+    setSent(true);
+    setTimeout(() => setSent(false), 2000);
+  };
+
+  const handleDelete = async () => {
+    if (!confirmDelete) { setConfirmDelete(true); return; }
+    await onDelete(task.id);
+    onClose();
+  };
+
+  return (
+    <div
+      className="fixed inset-0 bg-black/60 backdrop-blur-sm z-50 flex items-center justify-center p-4 animate-fadeIn"
+      onClick={(e) => { if (e.target === e.currentTarget) onClose(); }}
+    >
+      <div className="bg-surface border border-border rounded-xl w-full max-w-lg shadow-2xl animate-slideUp">
+        <div className="flex items-center justify-between px-5 py-3.5 border-b border-border">
+          <span className="text-xs text-text-dim font-mono">{task.id}</span>
+          <button onClick={onClose} className="text-text-dim hover:text-text text-lg leading-none">✕</button>
+        </div>
+        <div className="px-5 py-4 space-y-4">
+          <input
+            value={title} onChange={(e) => setTitle(e.target.value)}
+            className="w-full bg-transparent text-lg font-semibold text-text border-b border-transparent focus:border-accent outline-none pb-1 transition-colors"
+            placeholder="Task title" autoFocus
+          />
+          <textarea
+            value={description} onChange={(e) => setDescription(e.target.value)}
+            className="w-full bg-bg border border-border rounded-lg p-3 text-sm text-text-dim resize-none outline-none focus:border-accent transition-colors min-h-[80px]"
+            placeholder="Description (optional)"
+          />
+          <div className="flex gap-3">
+            <div className="flex-1">
+              <label className="text-[10px] text-text-dim uppercase tracking-wider mb-1 block">Status</label>
+              <select value={status} onChange={(e) => setStatus(e.target.value)}
+                className="w-full bg-bg border border-border rounded-lg px-3 py-2 text-sm text-text outline-none focus:border-accent">
+                {STATUS_OPTIONS.map(o => <option key={o.value} value={o.value}>{o.label}</option>)}
+              </select>
+            </div>
+            <div className="flex-1">
+              <label className="text-[10px] text-text-dim uppercase tracking-wider mb-1 block">Priority</label>
+              <select value={priority} onChange={(e) => setPriority(e.target.value)}
+                className="w-full bg-bg border border-border rounded-lg px-3 py-2 text-sm text-text outline-none focus:border-accent">
+                {PRIORITY_OPTIONS.map(o => <option key={o.value} value={o.value}>{o.label}</option>)}
+              </select>
+            </div>
+          </div>
+          {task.tags && task.tags.length > 0 && (
+            <div className="flex gap-1.5 flex-wrap">
+              {task.tags.map(tg => (
+                <span key={tg} className={`text-[11px] px-2 py-0.5 rounded ${TAG_STYLES[tg] || 'bg-border text-text-dim'}`}>{tg}</span>
+              ))}
+            </div>
+          )}
+          {task.blockedReason && (
+            <div className="text-xs text-red bg-red/10 rounded-lg px-3 py-2">⚠ {task.blockedReason}</div>
+          )}
+        </div>
+        <div className="px-5 py-3.5 border-t border-border flex flex-wrap gap-2">
+          {dirty && (
+            <button onClick={save} disabled={saving}
+              className="px-4 py-2 bg-accent text-bg text-sm font-semibold rounded-lg hover:opacity-90 transition-opacity disabled:opacity-50">
+              {saving ? 'Lagrer...' : 'Lagre'}
+            </button>
+          )}
+          {status !== 'done' && (
+            <button onClick={handleDone}
+              className="px-4 py-2 bg-green/20 text-green text-sm font-semibold rounded-lg hover:bg-green/30 transition-colors">
+              ✓ Done
+            </button>
+          )}
+          <button onClick={handleSend}
+            className="px-4 py-2 bg-accent/20 text-accent text-sm font-semibold rounded-lg hover:bg-accent/30 transition-colors">
+            {sent ? '✓ Sendt!' : '⚡ Jobbe med'}
+          </button>
+          <div className="flex-1" />
+          <button onClick={handleDelete}
+            className={`px-4 py-2 text-sm font-semibold rounded-lg transition-colors ${
+              confirmDelete ? 'bg-red text-white hover:bg-red/80' : 'bg-red/10 text-red hover:bg-red/20'
+            }`}>
+            {confirmDelete ? 'Bekreft slett' : '🗑 Slett'}
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default function ActionTab({ data, onRefresh }: { data: TasksData | null; onRefresh?: () => void }) {
+  const [selectedTask, setSelectedTask] = useState<Task | null>(null);
+
   if (!data) return null;
 
   const tasks = data.tasks.filter(t => t.assignee === 'knut' && t.status === 'blocked');
 
+  const handleUpdate = async (id: string, updates: Partial<Task>) => {
+    await patchTask(id, updates);
+    onRefresh?.();
+    if (selectedTask?.id === id) setSelectedTask({ ...selectedTask, ...updates });
+  };
+
+  const handleDelete = async (id: string) => {
+    await deleteTask(id);
+    onRefresh?.();
+    setSelectedTask(null);
+  };
+
   return (
     <div>
+      {selectedTask && (
+        <TaskModal task={selectedTask} onClose={() => setSelectedTask(null)} onUpdate={handleUpdate} onDelete={handleDelete} />
+      )}
       <div className="mb-4 text-text-dim text-[13px]">Oppgaver som er blokkert og venter på deg. Gjør disse og ping Anna ⚡</div>
       {!tasks.length ? (
         <div className="text-text-dim text-xs italic text-center py-5">✅ Ingen oppgaver venter på deg!</div>
       ) : tasks.map(t => (
-        <div key={t.id} className="bg-bg border border-border rounded-lg p-[11px] mb-2.5 max-w-[600px] hover:border-accent transition-colors">
+        <div key={t.id} onClick={() => setSelectedTask(t)}
+          className="bg-bg border border-border rounded-lg p-[11px] mb-2.5 max-w-[600px] hover:border-accent transition-colors cursor-pointer active:scale-[0.98]">
           <div className="text-[13px] font-semibold mb-1">
             <span className="text-[9px]">{PRIORITY_EMOJI[t.priority || 'medium']}</span>
             {t.title}

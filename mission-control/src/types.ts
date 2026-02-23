@@ -87,3 +87,24 @@ export interface MemoryData {
   files: MemoryFile[];
   totalSize: number;
 }
+
+export interface SystemHealth {
+  lastUpdated: string;
+  gateway: { status: string; uptime: string; version: string; pid: number; memoryMB: number };
+  channels: Record<string, { status: string; lastMessage?: string; note?: string }>;
+  cron: { total: number; ok: number; error: number; lastError?: { job: string; time: string; message: string } };
+  workspace: { sizeMB: number; memoryFiles: number; lastCommit: string };
+  system: { cpuPercent: number; memoryPercent: number; diskPercent: number };
+}
+
+export interface ActivityEvent {
+  time: string;
+  type: 'info' | 'success' | 'warning' | 'error';
+  icon: string;
+  text: string;
+}
+
+export interface ActivityData {
+  lastUpdated: string;
+  events: ActivityEvent[];
+}
