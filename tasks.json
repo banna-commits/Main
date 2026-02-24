@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-23T22:22:24.475Z",
+  "lastUpdated": "2026-02-24T07:32:00.000Z",
   "columns": [
     "backlog",
     "in-progress",
@@ -10,7 +10,7 @@
     {
       "id": "t2",
       "title": "yf CLI: finish trends command",
-      "description": "Historical financials view — revenue, margins, EPS over ~4 years via yfinance .financials/.balance_sheet/.cashflow",
+      "description": "Historical financials view \u2014 revenue, margins, EPS over ~4 years via yfinance .financials/.balance_sheet/.cashflow",
       "status": "in-progress",
       "assignee": "anna",
       "priority": "medium",
@@ -22,7 +22,7 @@
     {
       "id": "t3",
       "title": "Analyze more screener hits",
-      "description": "DNB, Yara, Evolution, Pandora — write investment notes for promising candidates",
+      "description": "DNB, Yara, Evolution, Pandora \u2014 write investment notes for promising candidates",
       "status": "done",
       "assignee": "anna",
       "priority": "medium",
@@ -47,7 +47,7 @@
     {
       "id": "t6",
       "title": "TakstHjem: wait for Dag/Andre response",
-      "description": "Minimum viable moat discussion — awaiting reply on devil's advocate critique",
+      "description": "Minimum viable moat discussion \u2014 awaiting reply on devil's advocate critique",
       "status": "blocked",
       "assignee": "knut",
       "priority": "high",
@@ -98,7 +98,7 @@
     {
       "id": "t10",
       "title": "Full Disk Access for OpenClaw",
-      "description": "Granted FDA to /usr/local/bin/openclaw — no more permission popups",
+      "description": "Granted FDA to /usr/local/bin/openclaw \u2014 no more permission popups",
       "status": "done",
       "assignee": "knut",
       "priority": "high",
@@ -111,7 +111,7 @@
     {
       "id": "t12",
       "title": "Move age secret key to password manager",
-      "description": "Secret key is in ~/citadel-backups/key.txt (plaintext). Move to 1Password/Bitwarden, then delete key.txt. Public key is baked into backup script — leave that.",
+      "description": "Secret key is in ~/citadel-backups/key.txt (plaintext). Move to 1Password/Bitwarden, then delete key.txt. Public key is baked into backup script \u2014 leave that.",
       "status": "backlog",
       "assignee": "knut",
       "priority": "high",
@@ -124,7 +124,7 @@
     {
       "id": "t13",
       "title": "Google Chat: download SA JSON key",
-      "description": "GCP → Service Accounts → New JSON key → save as ~/.openclaw/googlechat-sa.json. Then ping Anna to finish config.",
+      "description": "GCP \u2192 Service Accounts \u2192 New JSON key \u2192 save as ~/.openclaw/googlechat-sa.json. Then ping Anna to finish config.",
       "status": "done",
       "assignee": "knut",
       "priority": "medium",
@@ -150,7 +150,7 @@
     {
       "id": "t11",
       "title": "Facilities mgmt sector analysis",
-      "description": "Coor.ST, ISS.CO — low-margin FM companies, AI cost-cut candidates",
+      "description": "Coor.ST, ISS.CO \u2014 low-margin FM companies, AI cost-cut candidates",
       "status": "backlog",
       "assignee": "anna",
       "priority": "medium",
@@ -162,7 +162,7 @@
     {
       "id": "t15",
       "title": "gog auth for banna@bottenanna.no",
-      "description": "Terminal: gog auth add banna@bottenanna.no --services gmail,calendar,drive,contacts,docs,sheets\nÅpner browser for OAuth-samtykke. Ping Anna etterpå.",
+      "description": "Terminal: gog auth add banna@bottenanna.no --services gmail,calendar,drive,contacts,docs,sheets\n\u00c5pner browser for OAuth-samtykke. Ping Anna etterp\u00e5.",
       "status": "done",
       "assignee": "knut",
       "priority": "medium",
@@ -171,6 +171,44 @@
       ],
       "created": "2026-02-20",
       "completed": "2026-02-20"
+    },
+    {
+      "id": "t16",
+      "title": "Rotate Anthropic API key",
+      "description": "Key exposed in session context. Generate new at console.anthropic.com, then tell Anna to update config.",
+      "status": "done",
+      "assignee": "knut",
+      "priority": "high",
+      "tags": [
+        "security"
+      ],
+      "created": "2026-02-24",
+      "completed": "2026-02-24"
+    },
+    {
+      "id": "t17",
+      "title": "Enable 2FA on Telegram (Knut + Melissa)",
+      "description": "Settings \u2192 Privacy & Security \u2192 Two-Step Verification. Biggest single risk \u2014 Telegram account compromise = full Anna access.",
+      "status": "backlog",
+      "assignee": "knut",
+      "priority": "high",
+      "tags": [
+        "security"
+      ],
+      "created": "2026-02-24"
+    },
+    {
+      "id": "t18",
+      "title": "Report OpenClaw config.get redaction bug",
+      "description": "config.get redacts keys in raw but leaks them in resolved/config sections. File GitHub issue at github.com/openclaw/openclaw.",
+      "status": "done",
+      "assignee": "knut",
+      "priority": "medium",
+      "tags": [
+        "security"
+      ],
+      "created": "2026-02-24",
+      "completed": "2026-02-24"
     }
   ]
 }

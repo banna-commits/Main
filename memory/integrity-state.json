@@ -24,6 +24,10 @@
       "size": 2586,
       "hash": "3bcc6e1ff6b95e66e560b0a9a74fb2a0"
     },
+    "memory/research-ollama-optimization.md": {
+      "size": 1982,
+      "hash": "cd2a05b112a0475071846914f2a89c6a"
+    },
     "memory/research-importance-scoring.md": {
       "size": 2765,
       "hash": "21e9bef0f37f650288c28abf8590f151"
@@ -32,13 +36,21 @@
       "size": 777,
       "hash": "f1542fc6e059cb124898a167eed5e48b"
     },
+    "memory/research-mem0.md": {
+      "size": 10247,
+      "hash": "e3fe2b70365fb01983d19255690a0718"
+    },
     "memory/2026-02-22.md": {
-      "size": 1154,
-      "hash": "5ba51b4a98a25bd6976d37f20f01427b"
+      "size": 4666,
+      "hash": "c3435f23fa5f23d3bb032ca9e172c7cc"
     },
     "memory/2026-02-16.md": {
       "size": 6254,
       "hash": "77bed89ad7e17c4b96eb9b13a2b02e48"
+    },
+    "memory/research-memory-optimization.md": {
+      "size": 9470,
+      "hash": "b1c2f19fc9485827d5c76fb8cf62ddd2"
     },
     "memory/2026-02-16-2042.md": {
       "size": 149,
@@ -53,8 +65,12 @@
       "hash": "85de7782714187c4c9da5fc4a2490cf9"
     },
     "memory/infra.md": {
-      "size": 2275,
-      "hash": "efeffac57d7fde2c017b3c9b0635662b"
+      "size": 4724,
+      "hash": "aec25b02eca5d43b4db514ca52e30b67"
+    },
+    "memory/2026-02-23.md": {
+      "size": 1902,
+      "hash": "0390616ce69c866b3402bbf0cb35b674"
     },
     "memory/2026-02-19-0922.md": {
       "size": 149,
@@ -65,12 +81,12 @@
       "hash": "472bc74fa5f9a173a849d5e939bd6709"
     },
     "memory/projects.md": {
-      "size": 1729,
-      "hash": "520706a36ec330bef7d328a43af55f2c"
+      "size": 1738,
+      "hash": "285e811b6e3c1098ab235e569a2311a3"
     },
     "memory/lessons.md": {
-      "size": 3645,
-      "hash": "fd5bf26eecee19b1112461c0bd878499"
+      "size": 6295,
+      "hash": "4d28f08ec3c8d993e610bffc97bb4239"
     },
     "memory/2026-02-19-1117.md": {
       "size": 149,
@@ -100,9 +116,17 @@
       "size": 4503,
       "hash": "a755550f81a60fd50e9f7ae801071d15"
     },
+    "memory/research-memory-compliance.md": {
+      "size": 9701,
+      "hash": "9e6d92d6b80aa9d3134a30d721060a51"
+    },
+    "memory/research-local-llm-routing.md": {
+      "size": 3631,
+      "hash": "b596744c3ff39f6c50a236cf0c83de10"
+    },
     "memory/preferences.md": {
-      "size": 1315,
-      "hash": "aafede803cefe1769b8c8e6208dbf148"
+      "size": 1989,
+      "hash": "c838814480b0dcbcb2f8d58ee65e14e0"
     },
     "memory/qwen3-8b-eval.md": {
       "size": 1185,
@@ -120,13 +144,25 @@
       "size": 710,
       "hash": "397dd0433b76fa92076adf1e9f727927"
     },
+    "memory/patterns/tailscale-serve.md": {
+      "size": 1243,
+      "hash": "ad547389036471a9c97971efd82ee0c1"
+    },
     "memory/patterns/subagent-spawning.md": {
       "size": 2252,
       "hash": "6614abf815e4d0dd3bc1a457fc8f6565"
     },
+    "memory/patterns/nodejs-services-openclaw.md": {
+      "size": 2329,
+      "hash": "b1834234bdc09589e7fb623af782ebcb"
+    },
     "memory/patterns/README.md": {
       "size": 214,
       "hash": "c54523f4e86acd64abedd3b2bf28f823"
+    },
+    "memory/patterns/model-routing.md": {
+      "size": 1377,
+      "hash": "61a1213a95821d6c1626b9d0f7121d68"
     },
     "memory/patterns/cron-job-setup.md": {
       "size": 1180,
@@ -153,15 +189,15 @@
       "hash": "f04057985554558c14a614ca2673b50e"
     },
     "IDENTITY.md": {
-      "size": 257,
-      "hash": "c65fbe1d653a490e538e37de4e6d0002"
+      "size": 1620,
+      "hash": "caf468c1a06b521bef0cdef274ad0b9a"
     },
     "AGENTS.md": {
-      "size": 10150,
-      "hash": "8519794c2464c509a612d0be25ae9071"
+      "size": 11784,
+      "hash": "d6d78b9b539e433e84a3cc8c7acef4a9"
     }
   },
-  "lastCheck": "2026-02-22T17:01:02.029671",
-  "totalSize": 88974,
-  "fileCount": 40
+  "lastCheck": "2026-02-24T05:01:44.084293",
+  "totalSize": 143147,
+  "fileCount": 49
 }

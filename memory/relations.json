@@ -108,9 +108,9 @@
       "ticker": "NOVO-B.CO",
       "aliases": []
     },
-    "bravida": {
+    "wwi": {
       "type": "stock",
-      "ticker": "BRAV.ST",
+      "ticker": "WWI.OL",
       "aliases": []
     },
     "sampo": {
@@ -123,9 +123,9 @@
       "ticker": "COOR.ST",
       "aliases": []
     },
-    "wwi": {
+    "bravida": {
       "type": "stock",
-      "ticker": "WWI.OL",
+      "ticker": "BRAV.ST",
       "aliases": []
     },
     "protector": {
@@ -211,7 +211,7 @@
       "relation": "interested_in"
     }
   ],
-  "updatedAt": "2026-02-24T02:02:12.215919",
+  "updatedAt": "2026-02-24T08:02:18.140024",
   "stats": {
     "entity_count": 26,
     "edge_count": 14,
