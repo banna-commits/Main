@@ -671,7 +671,42 @@
       "scoredAt": "2026-02-23T08:02:35.926404",
       "accessCount": 0,
       "lastAccessed": null
+    },
+    "2026-02-23.md#Mission Control — Tailscale Serve (earlier today)": {
+      "score": 4,
+      "reason": "general",
+      "scoredAt": "2026-02-24T02:02:12.239260",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-23.md#Mission Control — Port Change & OpenClaw Coexistence": {
+      "score": 5,
+      "reason": "general",
+      "scoredAt": "2026-02-24T02:02:12.239412",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-23.md#Mission Control — Interactive ActionTab": {
+      "score": 7,
+      "reason": "mentions people",
+      "scoredAt": "2026-02-24T02:02:12.239491",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-23.md#Final State": {
+      "score": 5,
+      "reason": "general",
+      "scoredAt": "2026-02-24T02:02:12.239571",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-23.md#End-of-Day Summary": {
+      "score": 8,
+      "reason": "mentions people, action items",
+      "scoredAt": "2026-02-24T02:02:12.239662",
+      "accessCount": 0,
+      "lastAccessed": null
     }
   },
-  "updatedAt": "2026-02-23T20:02:35.961031"
+  "updatedAt": "2026-02-24T02:02:12.239662"
 }

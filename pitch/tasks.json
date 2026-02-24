@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-20T21:57:00+01:00",
+  "lastUpdated": "2026-02-23T22:22:24.475Z",
   "columns": [
     "backlog",
     "in-progress",
@@ -7,18 +7,6 @@
     "done"
   ],
   "tasks": [
-    {
-      "id": "t1",
-      "title": "WWI.OL deep-dive analysis",
-      "description": "Wallenius Wilhelmsen — PE 5.1, ROE 22.5%, 52% margin. Shipping/logistics physical moat.",
-      "status": "backlog",
-      "assignee": "anna",
-      "priority": "high",
-      "tags": [
-        "investing"
-      ],
-      "created": "2026-02-18"
-    },
     {
       "id": "t2",
       "title": "yf CLI: finish trends command",
@@ -35,7 +23,7 @@
       "id": "t3",
       "title": "Analyze more screener hits",
       "description": "DNB, Yara, Evolution, Pandora — write investment notes for promising candidates",
-      "status": "backlog",
+      "status": "done",
       "assignee": "anna",
       "priority": "medium",
       "tags": [
@@ -55,18 +43,6 @@
       ],
       "created": "2026-02-18",
       "completed": "2026-02-20"
-    },
-    {
-      "id": "t5",
-      "title": "sudo pmset autorestart + powernap",
-      "description": "Run: sudo pmset -a autorestart 1 powernap 0",
-      "status": "blocked",
-      "assignee": "knut",
-      "priority": "low",
-      "tags": [
-        "infra"
-      ],
-      "blockedReason": "Needs sudo in Terminal"
     },
     {
       "id": "t6",
@@ -195,31 +171,6 @@
       ],
       "created": "2026-02-20",
       "completed": "2026-02-20"
-    },
-    {
-      "id": "t16",
-      "title": "1881 API: hent API-nøkkel",
-      "description": "Logg inn på api1881.no (banna@bottenanna.no), hent API-nøkkel fra profil/produkter. Gi nøkkel til Anna for å berike ringelisten.",
-      "status": "blocked",
-      "assignee": "knut",
-      "priority": "medium",
-      "tags": [
-        "infra"
-      ],
-      "blockedReason": "Trenger passord-reset + login på api1881.no",
-      "created": "2026-02-20"
-    },
-    {
-      "id": "t17",
-      "title": "Workspace: vurder ekstra bruker for knutgreiner",
-      "description": "Alternativ A: Legg til knut@bottenanna.no i Workspace (admin.google.com → Directory → Users → Add). Koster ekstra lisens ~$12/mnd.\nAlternativ B: Bare bruk banna@bottenanna.no i en annen browser-profil.",
-      "status": "backlog",
-      "assignee": "knut",
-      "priority": "low",
-      "tags": [
-        "infra"
-      ],
-      "created": "2026-02-20"
     }
   ]
 }

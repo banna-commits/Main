@@ -67,6 +67,8 @@
   - `:3001` → Mission Control (port 3001)
 - Mode: Tailnet-only (NO Funnel — not exposed to internet)
 - Note: Tailscale `--set-path` strips the prefix before proxying — subpath SPAs need their own port instead
+- **LAN fallback:** http://10.0.0.28:3001 (when Tailscale tunnel is down, same Wi-Fi required)
+- **Tailscale tunnel fix** (needs sudo): `sudo tailscale down && sleep 2 && sudo tailscale up`
 - To disable: `tailscale serve --https=443 off` / `tailscale serve --https=3001 off`
 
 ## Embeddings
