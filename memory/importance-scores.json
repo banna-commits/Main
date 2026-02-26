@@ -706,7 +706,70 @@
       "scoredAt": "2026-02-24T02:02:12.239662",
       "accessCount": 0,
       "lastAccessed": null
+    },
+    "2026-02-24-mem0-plugin.md#Conversation Summary": {
+      "score": 6,
+      "reason": "action items",
+      "scoredAt": "2026-02-25T20:02:34.621037",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-24.md#Memory Discipline Feedback": {
+      "score": 7,
+      "reason": "mentions people",
+      "scoredAt": "2026-02-25T20:02:34.621173",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-24.md#Morning Briefing — Research Email Integration": {
+      "score": 7,
+      "reason": "mentions people",
+      "scoredAt": "2026-02-25T20:02:34.621311",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-25.md#Mission Control uptime fix": {
+      "score": 5,
+      "reason": "general",
+      "scoredAt": "2026-02-26T02:02:39.901607",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-25.md#Email + Calendar heartbeat": {
+      "score": 5,
+      "reason": "general",
+      "scoredAt": "2026-02-26T02:02:39.901744",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-25.md#Late-night heartbeat": {
+      "score": 4,
+      "reason": "general",
+      "scoredAt": "2026-02-26T02:02:39.901861",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-26.md#00:24 heartbeat": {
+      "score": 3,
+      "reason": "routine",
+      "scoredAt": "2026-02-26T02:02:39.902141",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-26.md#00:51 heartbeat": {
+      "score": 2,
+      "reason": "routine",
+      "scoredAt": "2026-02-26T02:02:39.902176",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-26.md#01:23 heartbeat": {
+      "score": 2,
+      "reason": "routine",
+      "scoredAt": "2026-02-26T02:02:39.902215",
+      "accessCount": 0,
+      "lastAccessed": null
     }
   },
-  "updatedAt": "2026-02-24T08:02:18.166717"
+  "updatedAt": "2026-02-26T02:02:39.902216"
 }

@@ -74,6 +74,25 @@ Every time you complete an action that changes state — a port, a URL, a config
 - **8B models good for:** data fetching, heartbeats, simple formatting, running scripts
 - **8B models bad for:** complex reasoning, nuanced analysis, multi-step planning → use Sonnet/Opus
 
+## Memory Read/Write Discipline (2026-02-24 — Knut feedback)
+**Problem:** Glitching on BOTH sides — not writing enough (download) and not reading enough (upload).
+
+### Write failures (download to files):
+- Conversations with substance (meta discussions, preference corrections, decisions) don't get logged
+- After compaction, context from earlier in the day is gone if not written
+- "I'll do it later" = never
+
+### Read failures (upload from files):
+- `memory_search` exists but isn't used proactively before answering
+- After compaction, don't always read recent daily logs despite instructions
+- Semantic search is only as good as what was written — garbage in, garbage out
+
+### Fix:
+1. **Every substantive exchange** → daily log entry BEFORE replying
+2. **Any question touching past context** → `memory_search` FIRST
+3. **Daily log quality** — log decisions, preferences, corrections, not just events
+4. **Post-compaction** — ALWAYS read today + yesterday daily logs immediately
+
 ## Memory System
 - **Gemini embeddings hit 429 quota** — switched to local Ollama nomic-embed-text via OpenAI-compatible API
 - **OpenClaw has built-in hybrid search** (BM25 + vector) — just enable it in config, don't build your own
