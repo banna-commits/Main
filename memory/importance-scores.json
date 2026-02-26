@@ -769,7 +769,203 @@
       "scoredAt": "2026-02-26T02:02:39.902215",
       "accessCount": 0,
       "lastAccessed": null
+    },
+    "2026-02-26.md#02:02 heartbeat": {
+      "score": 4,
+      "reason": "general",
+      "scoredAt": "2026-02-26T08:02:46.269893",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-26.md#02:07 heartbeat": {
+      "score": 4,
+      "reason": "general",
+      "scoredAt": "2026-02-26T08:02:46.269932",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-26.md#03:02 cron backup": {
+      "score": 4,
+      "reason": "general",
+      "scoredAt": "2026-02-26T08:02:46.269964",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-26.md#03:05 heartbeat": {
+      "score": 4,
+      "reason": "general",
+      "scoredAt": "2026-02-26T08:02:46.269991",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-26.md#03:37 heartbeat": {
+      "score": 2,
+      "reason": "routine",
+      "scoredAt": "2026-02-26T08:02:46.270029",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-26.md#04:05 heartbeat": {
+      "score": 4,
+      "reason": "general",
+      "scoredAt": "2026-02-26T08:02:46.270056",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-26.md#04:35 heartbeat": {
+      "score": 4,
+      "reason": "general",
+      "scoredAt": "2026-02-26T08:02:46.270096",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-26.md#05:07 heartbeat": {
+      "score": 2,
+      "reason": "routine",
+      "scoredAt": "2026-02-26T08:02:46.270139",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-26.md#05:35 heartbeat": {
+      "score": 3,
+      "reason": "routine",
+      "scoredAt": "2026-02-26T08:02:46.270181",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-26.md#06:05 heartbeat": {
+      "score": 5,
+      "reason": "mentions people, routine",
+      "scoredAt": "2026-02-26T08:02:46.270252",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-26.md#06:37 heartbeat": {
+      "score": 5,
+      "reason": "general",
+      "scoredAt": "2026-02-26T08:02:46.270336",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-26.md#07:05 heartbeat": {
+      "score": 4,
+      "reason": "general",
+      "scoredAt": "2026-02-26T08:02:46.270361",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-26.md#07:35 heartbeat": {
+      "score": 5,
+      "reason": "mentions people, routine",
+      "scoredAt": "2026-02-26T08:02:46.270423",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-26.md#08:02 heartbeat": {
+      "score": 4,
+      "reason": "general",
+      "scoredAt": "2026-02-26T14:02:43.651200",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-26.md#08:35 heartbeat": {
+      "score": 5,
+      "reason": "mentions people, routine",
+      "scoredAt": "2026-02-26T14:02:43.651297",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-26.md#09:05 heartbeat": {
+      "score": 3,
+      "reason": "routine",
+      "scoredAt": "2026-02-26T14:02:43.651364",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-26.md#09:35 status check": {
+      "score": 4,
+      "reason": "general",
+      "scoredAt": "2026-02-26T14:02:43.651404",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-26.md#09:55 manual prefetch test": {
+      "score": 9,
+      "reason": "decision/lesson, action items",
+      "scoredAt": "2026-02-26T14:02:43.651472",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-26.md#10:07 heartbeat": {
+      "score": 4,
+      "reason": "general",
+      "scoredAt": "2026-02-26T14:02:43.651515",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-26.md#09:55 troubleshooting": {
+      "score": 6,
+      "reason": "action items",
+      "scoredAt": "2026-02-26T14:02:43.651576",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-26.md#10:10 prefetch fix": {
+      "score": 5,
+      "reason": "action items",
+      "scoredAt": "2026-02-26T14:02:43.651627",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-26.md#10:35 prefetch retest attempts": {
+      "score": 6,
+      "reason": "action items",
+      "scoredAt": "2026-02-26T14:02:43.651694",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-26.md#10:39 heartbeat": {
+      "score": 6,
+      "reason": "action items",
+      "scoredAt": "2026-02-26T14:02:43.651746",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-26.md#11:09 heartbeat": {
+      "score": 2,
+      "reason": "routine",
+      "scoredAt": "2026-02-26T14:02:43.651773",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-26.md#11:29 manual prefetch test": {
+      "score": 5,
+      "reason": "general",
+      "scoredAt": "2026-02-26T14:02:43.651843",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-26.md#12:19 heartbeat": {
+      "score": 2,
+      "reason": "routine",
+      "scoredAt": "2026-02-26T14:02:43.651870",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-26.md#12:49 heartbeat": {
+      "score": 4,
+      "reason": "mentions people, routine",
+      "scoredAt": "2026-02-26T14:02:43.651924",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-26.md#13:19 heartbeat": {
+      "score": 4,
+      "reason": "general",
+      "scoredAt": "2026-02-26T14:02:43.651952",
+      "accessCount": 0,
+      "lastAccessed": null
     }
   },
-  "updatedAt": "2026-02-26T02:02:39.902216"
+  "updatedAt": "2026-02-26T14:02:43.651952"
 }

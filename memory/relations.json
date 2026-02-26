@@ -108,19 +108,14 @@
       "ticker": "NOVO-B.CO",
       "aliases": []
     },
-    "coor": {
+    "sampo": {
       "type": "stock",
-      "ticker": "COOR.ST",
+      "ticker": "SAMPO.HE",
       "aliases": []
     },
     "wwi": {
       "type": "stock",
       "ticker": "WWI.OL",
-      "aliases": []
-    },
-    "sampo": {
-      "type": "stock",
-      "ticker": "SAMPO.HE",
       "aliases": []
     },
     "bravida": {
@@ -131,6 +126,11 @@
     "protector": {
       "type": "stock",
       "ticker": "PROT.OL",
+      "aliases": []
+    },
+    "coor": {
+      "type": "stock",
+      "ticker": "COOR.ST",
       "aliases": []
     },
     "peg": {
@@ -211,7 +211,7 @@
       "relation": "interested_in"
     }
   ],
-  "updatedAt": "2026-02-26T02:02:39.898869",
+  "updatedAt": "2026-02-26T14:02:43.650543",
   "stats": {
     "entity_count": 26,
     "edge_count": 14,
