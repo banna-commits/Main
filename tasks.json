@@ -209,6 +209,69 @@
       ],
       "created": "2026-02-24",
       "completed": "2026-02-24"
+    },
+    {
+      "id": "t19",
+      "title": "Morning prefetch watchdog",
+      "description": "Build watchdog that checks briefing-data.txt freshness + script exit status after cron, alerts via Telegram if stale or failed.",
+      "status": "in-progress",
+      "assignee": "anna",
+      "priority": "high",
+      "tags": [
+        "infra",
+        "automation"
+      ],
+      "created": "2026-02-26"
+    },
+    {
+      "id": "t20",
+      "title": "Daily memory digest automation",
+      "description": "Finish memory-digest pipeline (stream-safe parser + fallback) and schedule nightly cron to write digests + lessons.",
+      "status": "in-progress",
+      "assignee": "anna",
+      "priority": "high",
+      "tags": [
+        "memory"
+      ],
+      "created": "2026-02-26"
+    },
+    {
+      "id": "t21",
+      "title": "Cron log consolidation",
+      "description": "Centralize cron stdout/stderr into logs/ with timestamps + add quick viewer in mission control dashboard.",
+      "status": "backlog",
+      "assignee": "anna",
+      "priority": "medium",
+      "tags": [
+        "infra"
+      ],
+      "created": "2026-02-26"
+    },
+    {
+      "id": "t22",
+      "title": "Disposable sandbox workspace",
+      "description": "Set up isolated workspace for risky experiments (gitignored dir + helper script to rsync artifacts back).",
+      "status": "backlog",
+      "assignee": "anna",
+      "priority": "medium",
+      "tags": [
+        "infra",
+        "dev"
+      ],
+      "created": "2026-02-26"
+    },
+    {
+      "id": "t23",
+      "title": "State snapshot file",
+      "description": "Implement state.json capturing last commands/results/next steps for quick context after compaction.",
+      "status": "backlog",
+      "assignee": "anna",
+      "priority": "medium",
+      "tags": [
+        "memory",
+        "automation"
+      ],
+      "created": "2026-02-26"
     }
   ]
 }

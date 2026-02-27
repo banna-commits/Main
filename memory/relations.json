@@ -113,24 +113,24 @@
       "ticker": "SAMPO.HE",
       "aliases": []
     },
-    "wwi": {
-      "type": "stock",
-      "ticker": "WWI.OL",
-      "aliases": []
-    },
-    "bravida": {
-      "type": "stock",
-      "ticker": "BRAV.ST",
-      "aliases": []
-    },
     "protector": {
       "type": "stock",
       "ticker": "PROT.OL",
       "aliases": []
     },
+    "wwi": {
+      "type": "stock",
+      "ticker": "WWI.OL",
+      "aliases": []
+    },
     "coor": {
       "type": "stock",
       "ticker": "COOR.ST",
+      "aliases": []
+    },
+    "bravida": {
+      "type": "stock",
+      "ticker": "BRAV.ST",
       "aliases": []
     },
     "peg": {
@@ -211,7 +211,7 @@
       "relation": "interested_in"
     }
   ],
-  "updatedAt": "2026-02-26T14:02:43.650543",
+  "updatedAt": "2026-02-27T02:02:51.794068",
   "stats": {
     "entity_count": 26,
     "edge_count": 14,
