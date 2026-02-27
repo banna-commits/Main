@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-24T07:32:00.000Z",
+  "lastUpdated": "2026-02-27T13:08:42.000Z",
   "columns": [
     "backlog",
     "in-progress",
@@ -214,14 +214,15 @@
       "id": "t19",
       "title": "Morning prefetch watchdog",
       "description": "Build watchdog that checks briefing-data.txt freshness + script exit status after cron, alerts via Telegram if stale or failed.",
-      "status": "in-progress",
+      "status": "done",
       "assignee": "anna",
       "priority": "high",
       "tags": [
         "infra",
         "automation"
       ],
-      "created": "2026-02-26"
+      "created": "2026-02-26",
+      "completed": "2026-02-27"
     },
     {
       "id": "t20",

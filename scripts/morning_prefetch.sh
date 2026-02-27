@@ -6,10 +6,16 @@ set -uo pipefail
 
 WORKDIR="/Users/knut/.openclaw/workspace"
 OUTFILE="${WORKDIR}/briefing-data.txt"
+STATE_DIR="${WORKDIR}/state"
+STATE_FILE="${STATE_DIR}/morning_prefetch.json"
 ISO_NOW=$(date -u +%Y-%m-%dT%H:%M:%S)
 ISO_PLUS48=$(date -u -v+48H +%Y-%m-%dT%H:%M:%S)
 PAGER_CMD="cat"
 FAIL=0
+ERROR_COUNT=0
+START_TIME=$(date -u +%Y-%m-%dT%H:%M:%SZ)
+
+mkdir -p "$STATE_DIR"
 
 export PAGER="$PAGER_CMD"
 export GOG_PAGER="$PAGER_CMD"
@@ -24,6 +30,46 @@ write_error() {
   local msg="$1"
   echo "ERROR: ${msg}"
   FAIL=1
+  ERROR_COUNT=$((ERROR_COUNT + 1))
+}
+
+write_state() {
+  local exit_code="$1"
+  local end_time="$2"
+  local file_exists="false"
+  local file_size=0
+  local file_mtime_iso=""
+  local file_mtime_epoch=""
+
+  if [ -f "$OUTFILE" ]; then
+    file_exists="true"
+    file_size=$(stat -f %z "$OUTFILE" 2>/dev/null || echo 0)
+    file_mtime_epoch=$(stat -f %m "$OUTFILE" 2>/dev/null || echo 0)
+    if [ -n "$file_mtime_epoch" ] && [ "$file_mtime_epoch" -ne 0 ]; then
+      file_mtime_iso=$(python3 - <<'PY'
+import datetime
+epoch = int("${file_mtime_epoch}")
+dt = datetime.datetime.fromtimestamp(epoch, datetime.timezone.utc)
+print(dt.strftime('%Y-%m-%dT%H:%M:%SZ'))
+PY
+)
+    fi
+  fi
+
+  cat <<JSON > "$STATE_FILE"
+{
+  "startTime": "${START_TIME}",
+  "endTime": "${end_time}",
+  "exitCode": ${exit_code},
+  "errorCount": ${ERROR_COUNT},
+  "output": {
+    "path": "${OUTFILE}",
+    "exists": ${file_exists},
+    "size": ${file_size},
+    "mtime": "${file_mtime_iso}"
+  }
+}
+JSON
 }
 
 {
@@ -99,5 +145,8 @@ PYCODE
 } >"$TMPFILE"
 
 mv "$TMPFILE" "$OUTFILE"
+
+END_TIME=$(date -u +%Y-%m-%dT%H:%M:%SZ)
+write_state "$FAIL" "$END_TIME"
 
 exit $FAIL

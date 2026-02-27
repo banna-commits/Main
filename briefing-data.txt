@@ -1,32 +1,32 @@
 === INVESTMENTS ===
 {
-  "lastUpdated": "2026-02-26T14:02:55.232548",
+  "lastUpdated": "2026-02-27T02:03:14.616930",
   "sentiment": {
-    "current": 11,
+    "current": 13,
     "previous": 11,
     "label": "Extreme Fear"
   },
   "globalData": {
     "btcDominance": 56.1,
-    "totalMarketCap": 2428056858651.007,
-    "totalVolume": 146930691894.58337,
-    "marketCapChange24h": 3.08
+    "totalMarketCap": 2394888689191.691,
+    "totalVolume": 110940400580.23584,
+    "marketCapChange24h": -1.49
   },
   "assets": [
     {
       "symbol": "ZEC-USD",
       "name": "Zcash",
       "category": "crypto",
-      "price": 243.96,
+      "price": 238.64,
       "currency": "USD",
       "pe": null,
-      "marketCap": 4038357504,
-      "macd": -19.1124,
-      "signal": -20.7522,
-      "histogram": 1.6398,
-      "rsi": 52.9,
-      "change7d": -6.2,
-      "change30d": 19.7,
+      "marketCap": 3950529280,
+      "macd": -19.5205,
+      "signal": -20.8154,
+      "histogram": 1.295,
+      "rsi": 51.5,
+      "change7d": -8.2,
+      "change30d": 17.1,
       "status": "converging",
       "high52w": 736.51373,
       "low52w": 27.720472
@@ -35,16 +35,16 @@
       "symbol": "BTC-USD",
       "name": "Bitcoin",
       "category": "crypto",
-      "price": 68177.05,
+      "price": 67213.48,
       "currency": "USD",
       "pe": null,
-      "marketCap": 1363205029888,
-      "macd": -3181.0221,
-      "signal": -3888.6471,
-      "histogram": 707.6249,
-      "rsi": 55.9,
-      "change7d": 0.3,
-      "change30d": 8.7,
+      "marketCap": 1343952125952,
+      "macd": -3256.5948,
+      "signal": -3902.47,
+      "histogram": 645.8752,
+      "rsi": 52.9,
+      "change7d": -1.2,
+      "change30d": 7.2,
       "status": "recovering",
       "high52w": 126198.07,
       "low52w": 60074.203
@@ -56,13 +56,13 @@
       "price": 0.03,
       "currency": "USD",
       "pe": null,
-      "marketCap": 21904434,
+      "marketCap": 22081072,
       "macd": -0.0007,
-      "signal": -0.0012,
-      "histogram": 0.0004,
-      "rsi": 61.1,
-      "change7d": 2.4,
-      "change30d": -2.4,
+      "signal": -0.0011,
+      "histogram": 0.0005,
+      "rsi": 62.5,
+      "change7d": 3.2,
+      "change30d": -1.6,
       "status": "recovering",
       "high52w": 0.070137,
       "low52w": 0.022135
@@ -71,16 +71,16 @@
       "symbol": "ATOM-USD",
       "name": "Cosmos",
       "category": "crypto",
-      "price": 1.92,
+      "price": 1.89,
       "currency": "USD",
       "pe": null,
-      "marketCap": 950269504,
-      "macd": -0.0248,
-      "signal": 0.0004,
-      "histogram": -0.0252,
-      "rsi": 47.9,
-      "change7d": -17.0,
-      "change30d": 5.8,
+      "marketCap": 935101568,
+      "macd": -0.0273,
+      "signal": -0.0001,
+      "histogram": -0.0272,
+      "rsi": 46.7,
+      "change7d": -18.3,
+      "change30d": 4.1,
       "status": "bearish",
       "high52w": 5.476834,
       "low52w": 1.689766
@@ -92,13 +92,13 @@
       "price": 0.01,
       "currency": "USD",
       "pe": null,
-      "marketCap": 32258282,
+      "marketCap": 31551772,
       "macd": -0.001,
       "signal": -0.0013,
-      "histogram": 0.0003,
-      "rsi": 50.6,
-      "change7d": 0.1,
-      "change30d": 3.9,
+      "histogram": 0.0002,
+      "rsi": 48.2,
+      "change7d": -2.2,
+      "change30d": 1.6,
       "status": "recovering",
       "high52w": 0.095078,
       "low52w": 0.010633
@@ -107,16 +107,16 @@
       "symbol": "XMR-USD",
       "name": "Monero",
       "category": "crypto",
-      "price": 340.69,
+      "price": 342.57,
       "currency": "USD",
       "pe": null,
-      "marketCap": 6284652544,
-      "macd": -22.6342,
-      "signal": -29.098,
-      "histogram": 6.4638,
-      "rsi": 51.8,
-      "change7d": 4.3,
-      "change30d": 16.5,
+      "marketCap": 6319232512,
+      "macd": -22.4822,
+      "signal": -29.0663,
+      "histogram": 6.5841,
+      "rsi": 52.5,
+      "change7d": 4.9,
+      "change30d": 17.1,
       "status": "recovering",
       "high52w": 798.91486,
       "low52w": 185.37512
@@ -125,34 +125,34 @@
       "symbol": "NOVO-B.CO",
       "name": "Novo Nordisk",
       "category": "stocks",
-      "price": 238.85,
+      "price": 238.6,
       "currency": "DKK",
-      "pe": 10.371255,
-      "marketCap": 1061893767168,
-      "macd": -26.473,
-      "signal": -18.8448,
-      "histogram": -7.6281,
-      "rsi": 24.7,
-      "change7d": -22.3,
+      "pe": 10.360399,
+      "marketCap": 1060782276608,
+      "macd": -26.4927,
+      "signal": -18.8488,
+      "histogram": -7.644,
+      "rsi": 24.5,
+      "change7d": -22.4,
       "change30d": -37.4,
       "status": "bearish",
       "high52w": 651.2,
-      "low52w": 238.0
+      "low52w": 236.45
     },
     {
       "symbol": "SAMPO.HE",
       "name": "Sampo",
       "category": "stocks",
-      "price": 9.17,
+      "price": 9.22,
       "currency": "EUR",
-      "pe": 12.397297,
-      "marketCap": 24363161600,
-      "macd": -0.1156,
-      "signal": -0.1568,
-      "histogram": 0.0412,
-      "rsi": 41.3,
-      "change7d": 0.2,
-      "change30d": -2.1,
+      "pe": 12.456758,
+      "marketCap": 24480012288,
+      "macd": -0.1121,
+      "signal": -0.1561,
+      "histogram": 0.044,
+      "rsi": 43.4,
+      "change7d": 0.7,
+      "change30d": -1.7,
       "status": "recovering",
       "high52w": 10.39,
       "low52w": 7.92
@@ -161,16 +161,16 @@
       "symbol": "BETS-B.ST",
       "name": "Betsson",
       "category": "stocks",
-      "price": 92.45,
+      "price": 93.95,
       "currency": "SEK",
-      "pe": 6.723636,
-      "marketCap": 12725970944,
-      "macd": -5.7447,
-      "signal": -7.0157,
-      "histogram": 1.271,
-      "rsi": 38.5,
-      "change7d": -0.2,
-      "change30d": -13.4,
+      "pe": 6.832727,
+      "marketCap": 12932450304,
+      "macd": -5.626,
+      "signal": -6.9919,
+      "histogram": 1.3659,
+      "rsi": 42.5,
+      "change7d": 1.4,
+      "change30d": -12.0,
       "status": "recovering",
       "high52w": 203.8,
       "low52w": 88.4
@@ -179,16 +179,16 @@
       "symbol": "HILB-B.ST",
       "name": "Hilbert Group",
       "category": "stocks",
-      "price": 6.2,
+      "price": 6.16,
       "currency": "SEK",
       "pe": null,
-      "marketCap": 646524864,
-      "macd": -0.3341,
-      "signal": -0.3656,
-      "histogram": 0.0315,
-      "rsi": 40.8,
-      "change7d": -0.6,
-      "change30d": -18.4,
+      "marketCap": 642353728,
+      "macd": -0.3373,
+      "signal": -0.3663,
+      "histogram": 0.0289,
+      "rsi": 39.8,
+      "change7d": -1.3,
+      "change30d": -18.9,
       "status": "converging",
       "high52w": 16.0,
       "low52w": 3.5
@@ -197,16 +197,16 @@
       "symbol": "OKEA.OL",
       "name": "OKEA",
       "category": "stocks",
-      "price": 27.5,
+      "price": 28.15,
       "currency": "NOK",
       "pe": null,
-      "marketCap": 2857534720,
-      "macd": 0.9855,
-      "signal": 0.9579,
-      "histogram": 0.0276,
-      "rsi": 57.9,
-      "change7d": 0.2,
-      "change30d": 20.6,
+      "marketCap": 2925076480,
+      "macd": 1.037,
+      "signal": 0.9682,
+      "histogram": 0.0687,
+      "rsi": 62.6,
+      "change7d": 2.6,
+      "change30d": 23.5,
       "status": "converging",
       "high52w": 28.1,
       "low52w": 14.66
@@ -215,16 +215,16 @@
       "symbol": "EVO.ST",
       "name": "Evolution",
       "category": "stocks",
-      "price": 549.2,
+      "price": 555.8,
       "currency": "SEK",
-      "pe": 9.851121,
-      "marketCap": 109415251968,
-      "macd": -14.7746,
-      "signal": -16.714,
-      "histogram": 1.9394,
-      "rsi": 46.4,
-      "change7d": 2.0,
-      "change30d": -6.8,
+      "pe": 9.969506,
+      "marketCap": 110730149888,
+      "macd": -14.2526,
+      "signal": -16.6096,
+      "histogram": 2.357,
+      "rsi": 48.8,
+      "change7d": 3.3,
+      "change30d": -5.7,
       "status": "recovering",
       "high52w": 887.6,
       "low52w": 515.4
@@ -233,16 +233,16 @@
       "symbol": "IDEX.OL",
       "name": "IDEX Biometrics",
       "category": "stocks",
-      "price": 6.03,
+      "price": 6.2,
       "currency": "NOK",
-      "pe": 0.39469546,
-      "marketCap": 391827104,
-      "macd": -0.02,
-      "signal": -0.0452,
-      "histogram": 0.0252,
-      "rsi": 50.7,
-      "change7d": 9.2,
-      "change30d": 2.5,
+      "pe": 0.40602487,
+      "marketCap": 403074176,
+      "macd": -0.0063,
+      "signal": -0.0425,
+      "histogram": 0.0361,
+      "rsi": 54.4,
+      "change7d": 12.3,
+      "change30d": 5.5,
       "status": "crossover",
       "high52w": 9.8,
       "low52w": 2.46
@@ -251,17 +251,17 @@
       "symbol": "URNM",
       "name": "URNM ETF",
       "category": "stocks",
-      "price": 73.49,
+      "price": 72.31,
       "currency": "USD",
-      "pe": 15.07137,
+      "pe": 14.829375,
       "marketCap": null,
-      "macd": 1.1865,
-      "signal": 1.2908,
-      "histogram": -0.1042,
-      "rsi": 56.2,
-      "change7d": 3.1,
-      "change30d": -0.3,
-      "status": "converging",
+      "macd": 1.0973,
+      "signal": 1.2379,
+      "histogram": -0.1406,
+      "rsi": 63.4,
+      "change7d": -0.4,
+      "change30d": -6.6,
+      "status": "bearish",
       "high52w": 84.95,
       "low52w": 27.6
     },
@@ -269,17 +269,17 @@
       "symbol": "VEND.OL",
       "name": "Vend",
       "category": "stocks",
-      "price": 226.2,
+      "price": 233.2,
       "currency": "NOK",
       "pe": null,
-      "marketCap": 48582455296,
-      "macd": -11.5352,
-      "signal": -10.3235,
-      "histogram": -1.2116,
-      "rsi": 25.3,
-      "change7d": -3.0,
-      "change30d": -17.3,
-      "status": "bearish",
+      "marketCap": 50085892096,
+      "macd": -10.9812,
+      "signal": -10.2127,
+      "histogram": -0.7684,
+      "rsi": 32.0,
+      "change7d": null,
+      "change30d": -14.8,
+      "status": "converging",
       "high52w": 397.2,
       "low52w": 223.2
     },
@@ -287,16 +287,16 @@
       "symbol": "WKL.AS",
       "name": "Wolters Kluwer",
       "category": "stocks",
-      "price": 63.6,
+      "price": 66.1,
       "currency": "EUR",
-      "pe": 13.361343,
-      "marketCap": 14344340480,
-      "macd": -4.8086,
-      "signal": -5.4479,
-      "histogram": 0.6393,
-      "rsi": 40.4,
-      "change7d": 2.1,
-      "change30d": -21.8,
+      "pe": 13.886554,
+      "marketCap": 14908190720,
+      "macd": -4.6105,
+      "signal": -5.4083,
+      "histogram": 0.7978,
+      "rsi": 46.6,
+      "change7d": 6.1,
+      "change30d": -18.7,
       "status": "recovering",
       "high52w": 163.65,
       "low52w": 59.0
@@ -305,16 +305,16 @@
       "symbol": "WISE.L",
       "name": "Wise",
       "category": "stocks",
-      "price": 837.0,
+      "price": 849.0,
       "currency": "GBp",
-      "pe": 22.62162,
-      "marketCap": 8376463360,
-      "macd": -17.2769,
-      "signal": -11.3108,
-      "histogram": -5.9661,
-      "rsi": 30.5,
-      "change7d": -2.3,
-      "change30d": -12.1,
+      "pe": 22.945946,
+      "marketCap": 8496556032,
+      "macd": -16.3261,
+      "signal": -11.1206,
+      "histogram": -5.2055,
+      "rsi": 35.4,
+      "change7d": -0.9,
+      "change30d": -10.8,
       "status": "bearish",
       "high52w": 1225.0,
       "low52w": 793.0
@@ -323,19 +323,61 @@
 }
 === EMAIL ===
 ID	DATE	FROM	SUBJECT	LABELS	THREAD
+19c9bfbb355e9bb0	2026-02-26 23:04	"News Alert (BLOOMBERG)" <nlrt@bloomberg.net>	Treasury’s 4-, 8-Week Bill Sales More Appealing Amid Haven Bid	UNREAD,CATEGORY_UPDATES,INBOX	-
+19c9bd42682c2683	2026-02-26 22:21	"News Alert (BLOOMBERG)" <nlrt@bloomberg.net>	US Money-Market Fund Assets Rise to $7.797 Trillion at ICI	UNREAD,CATEGORY_UPDATES,INBOX	-
 19c9a53d50057731	2026-02-26 15:21	"News Alert (BLOOMBERG)" <nlrt@bloomberg.net>	Overnight Repo Climbs Above 3.70% Amid T-Bill Settlements	UNREAD,CATEGORY_UPDATES,INBOX	-
-19c96b7c7f6ba148	2026-02-25 22:32	"News Alert (BLOOMBERG)" <nlrt@bloomberg.net>	Shifting Fed Expectations Sap Demand for Treasury’s 2-Year FRN	UNREAD,IMPORTANT,CATEGORY_UPDATES,INBOX	-
-19c96a8700f221c9	2026-02-25 22:15	OpenAI <noreply@email.openai.com>	Add credits to continue testing	UNREAD,IMPORTANT,CATEGORY_UPDATES,INBOX	-
-19c969cf75d46d83	2026-02-25 22:03	"News Alert (BLOOMBERG)" <nlrt@bloomberg.net>	Fed Has Two Paths to Reduce Banks’ Demand for Reserves, TD Says	UNREAD,IMPORTANT,CATEGORY_UPDATES,INBOX	-
-19c963890fbea047	2026-02-25 20:13	noreply@tm.openai.com	Your OpenAI API account has been funded	UNREAD,IMPORTANT,CATEGORY_UPDATES,INBOX	-
-19c9633cf65a95fb	2026-02-25 20:08	OpenAI <noreply@tm1.openai.com>	Your API usage limits have increased	UNREAD,IMPORTANT,CATEGORY_UPDATES,INBOX	-
-19c9633c55bff48c	2026-02-25 20:08	OpenAI <billing@tm1.openai.com>	Your OpenAI API account has been funded	UNREAD,IMPORTANT,CATEGORY_UPDATES,INBOX	-
 
 === RESEARCH MAIL ===
 ID	DATE	FROM	SUBJECT	LABELS	THREAD
+19c9bfbb355e9bb0	2026-02-26 23:04	"News Alert (BLOOMBERG)" <nlrt@bloomberg.net>	Treasury’s 4-, 8-Week Bill Sales More Appealing Amid Haven Bid	UNREAD,CATEGORY_UPDATES,INBOX	-
+19c9bd42682c2683	2026-02-26 22:21	"News Alert (BLOOMBERG)" <nlrt@bloomberg.net>	US Money-Market Fund Assets Rise to $7.797 Trillion at ICI	UNREAD,CATEGORY_UPDATES,INBOX	-
 19c9a53d50057731	2026-02-26 15:21	"News Alert (BLOOMBERG)" <nlrt@bloomberg.net>	Overnight Repo Climbs Above 3.70% Amid T-Bill Settlements	UNREAD,CATEGORY_UPDATES,INBOX	-
-19c96b7c7f6ba148	2026-02-25 22:32	"News Alert (BLOOMBERG)" <nlrt@bloomberg.net>	Shifting Fed Expectations Sap Demand for Treasury’s 2-Year FRN	UNREAD,IMPORTANT,CATEGORY_UPDATES,INBOX	-
-19c969cf75d46d83	2026-02-25 22:03	"News Alert (BLOOMBERG)" <nlrt@bloomberg.net>	Fed Has Two Paths to Reduce Banks’ Demand for Reserves, TD Says	UNREAD,IMPORTANT,CATEGORY_UPDATES,INBOX	-
+
+--- RESEARCH MESSAGE 19c9bfbb355e9bb0 ---
+Thread contains 1 message(s)
+
+=== Message 1/1: 19c9bfbb355e9bb0 ===
+From: "News Alert (BLOOMBERG)" <nlrt@bloomberg.net>
+To: undisclosed-recipients:;
+Subject: Treasury’s 4-, 8-Week Bill Sales More Appealing Amid Haven Bid
+Date: Thu, 26 Feb 2026 22:04:49 -0000
+
+{NSN TB308PT96OSH <GO>}
+Treasury’s 4-, 8-Week Bill Sales More Appealing Amid Haven Bid
+
+           
+        
+                        
+                                                 
+                                                                                                                          
+                                                                                                                                                                                                 ... [truncated]
+
+Attachments:
+attachment	x-rimdevice-bloomberg-news-nlrt.blp	32 B	application/x-rimdevice-bloomberg-news-nlrt	ANGjdJ-KPYlIz0cVXGUCiSBYbUrrE6NDxJTLZyv-vMjNszGQzvXxNyhh90jbJMKEaPZqAHDBcxRXe3o46PtRA6TvIUwMFMngNLg7rqnMsPj_iNMvYy2XWzraFktxkj3y8kipbdaVcffkxK1EAUQm7PTVneZyT_UczsxeYuc2ADbADxsR43xhtzv2bpcrKtjEMoYAlSG_qJLlnBeZCClJePKKtOkSgNLS2Y906EjFZVf-Z2aVxwSEGqXbEW42MIfh0H6vu-6vPzL7IGxURvuqHDplWygXXTJpuDU8UL1Klqaq7G6qntqY58eKFxvwLLknVGaJAlbKguYdFhIZG9eX0LF5yc1hkCa85KKRwvcl2SDgBHVIS0iQaV6eN2mEhl1P8o6-iLC8c204zRGYCnWZ
+
+
+--- RESEARCH MESSAGE 19c9bd42682c2683 ---
+Thread contains 1 message(s)
+
+=== Message 1/1: 19c9bd42682c2683 ===
+From: "News Alert (BLOOMBERG)" <nlrt@bloomberg.net>
+To: undisclosed-recipients:;
+Subject: US Money-Market Fund Assets Rise to $7.797 Trillion at ICI
+Date: Thu, 26 Feb 2026 21:21:37 -0000
+
+{NSN TB349SKGCTLA <GO>}
+US Money-Market Fund Assets Rise to $7.797 Trillion at ICI
+
+           
+        
+                        
+                                                 
+                                                                                                                          
+                                                                                                                                                                                                     ... [truncated]
+
+Attachments:
+attachment	x-rimdevice-bloomberg-news-nlrt.blp	32 B	application/x-rimdevice-bloomberg-news-nlrt	ANGjdJ9bwqzBiLHPnSZLsRhsDlN7Ld2it7UZFbvcxbNctwDWWdhqUlkasSdbvbAgO5qEmVaWKyPWVDKZXAi3SP-jHtcYtn7ChQ7kLXNmFkyA07vvkbJlorEU6HqN1B15GAV8wHPQABEaCw3z51Noa1uRqENABg8w_uN8kqSUSUdemolrTH39EPY3iORmYL-EYzpCbyV3ymG6NjZCI2a-8BH3QqmH5bE0qi8TANp-NJ9k9yO8brkFTJMUxCwxcZSHhi66q0f6WS-AJ5O9GLiYBROT7YhCRbjx1GNT9PFAlBzDY1GJpLU1O_FFStvLYxClEwHeYScvI4Hs09_IOc_Ct18S1wIoyEvyrBOIfTFgG_fc9nItedHa_jleZUVYJ27S0Axs1OPRsbES3a-s4104
+
 
 --- RESEARCH MESSAGE 19c9a53d50057731 ---
 Thread contains 1 message(s)
@@ -357,63 +399,15 @@ Overnight Repo Climbs Above 3.70% Amid T-Bill Settlements
                                                                                                                                                                                                       ... [truncated]
 
 Attachments:
-attachment	x-rimdevice-bloomberg-news-nlrt.blp	32 B	application/x-rimdevice-bloomberg-news-nlrt	ANGjdJ80DYFppf1YFgeZcWxejJ6vtkXzZcjjdunN_QQKRDFBAiQkNb1HEHl31XORw3aNGrkNhBZdljwrcGtpGV1dRvU-3k5L-inObbcEeUWdM8_QtphFzrQiNaDWNpw0duszjG1hARLRVxuDeGwxhHc88Yd7aDjEzCBOZxMWaj-sUK62xrh2dla83K_hS6nlKLFb0qKPOj6K6XkV8Ze26uWouGuabZooqtglhm4MvuIurxrDyWtenyZpfc9Pt95XRBD6GDAVcOZ8udc2WhyrVZTTRkkqLbla-rI8EI7iCRsJA7BNmu7PWWQJvips4n5Nfmd6nJw5VKqf_q_IZqaBKuA5EK5aFnsFXer7iZAS3Yd0YkECVsJLKNAgmPbpvnyKu7AFOgVgG86gkJ6NF-DG
-
-
---- RESEARCH MESSAGE 19c96b7c7f6ba148 ---
-Thread contains 1 message(s)
-
-=== Message 1/1: 19c96b7c7f6ba148 ===
-From: "News Alert (BLOOMBERG)" <nlrt@bloomberg.net>
-To: undisclosed-recipients:;
-Subject: Shifting Fed Expectations Sap Demand for Treasury’s 2-Year FRN
-Date: Wed, 25 Feb 2026 21:32:31 -0000
-
-{NSN TB11SVKJH6V4 <GO>}
-Shifting Fed Expectations Sap Demand for Treasury’s 2-Year FRN
-
-           
-        
-                        
-                                                 
-                                                                                                                          
-                                                                                                                                                                                                 ... [truncated]
-
-Attachments:
-attachment	x-rimdevice-bloomberg-news-nlrt.blp	32 B	application/x-rimdevice-bloomberg-news-nlrt	ANGjdJ9KUJgrIa6ZtZSCz6SAHn6r5DDHPmQs3c1FJ39UNb4XiWRYppKTycqd7fWAQkR91ZGCkXBy6cIx5jhr7eMgEtVIzo-2NYx-PmJkUn25juHqMbahTJUqBNHCKx_96vso5UljDkHp0iOv6bZFirYvywXfSisUjVR1NDsz-6PFHKkqmTB1moDZpzygurQCWSu26AT21FqpM2lf7WW3EVdiPWfVTIoz1-Lvqeeg8K9rh7Vy3eK2xFQFWajwh8w_iyIQVjgWswpyyrJQ_mqKszpjwM5_oZs6bmiJh2k-dL-Xog0TqeDRg1xznkfzFUs8xo4Iy38k9TXv3jyy3D234gcKP-iUnuHkwgY3VwF7iSssbOOmrHI-qxdEqXHeEjIM10Ukr0wTDY_oaoNMzhS_
-
-
---- RESEARCH MESSAGE 19c969cf75d46d83 ---
-Thread contains 1 message(s)
-
-=== Message 1/1: 19c969cf75d46d83 ===
-From: "News Alert (BLOOMBERG)" <nlrt@bloomberg.net>
-To: undisclosed-recipients:;
-Subject: Fed Has Two Paths to Reduce Banks’ Demand for Reserves, TD Says
-Date: Wed, 25 Feb 2026 21:03:14 -0000
-
-{NSN TB16PEKIJHYB <GO>}
-Fed Has Two Paths to Reduce Banks’ Demand for Reserves, TD Says
-
-           
-        
-                        
-                                                 
-                                                                                                                          
-                                                                                                                                                                                                ... [truncated]
-
-Attachments:
-attachment	x-rimdevice-bloomberg-news-nlrt.blp	32 B	application/x-rimdevice-bloomberg-news-nlrt	ANGjdJ_XYCtaPtSFNBqRT5LLQOOYYWhxvVYdweK0KxmvDSQ0pvj8oPOfrhr5pcUFMr_KIQSSKWuSDptPni7J4X9OwdZmwJvEMrDdFl-zyGS35tMw72lk9f9H_JRkcMFJUGjhSFXjII6dbdDCC68fDJgsqZLmVw89X2WiZlVya7guHT92GIiHUsbChONPZ25S4jIySvMNeWR-KsVKC7u1QyP0XfSdi4es1tiqSIRldbbdK5oe61m2FQbMv278E5FsyCNW6T0izyT2G_iCvY7OJ4C28ZdZyzTWFrNAlCxITuYBxvyk209UWxx4RO9AhIZCk_5aO7RNbsmmWmh1mKcVZl_4RFkcfrgmwGMsqFHNgiw4miYU22MBPuRrKCEZPCTP-V110URvnmjvefsegdqt
+attachment	x-rimdevice-bloomberg-news-nlrt.blp	32 B	application/x-rimdevice-bloomberg-news-nlrt	ANGjdJ-_6nruPHLAJzjaguefj103uZ9ZHWXNPDLUBMeBYC7x5_aICekZNX22WdkUJlEDitM3gqloFCKOxWmEiZoXkA3qIbaWfDOkWaRL2P3hydQaDbancjKkVIQ3okxw2F4cUkNeEt0sTipklDAblDJJTyPleQzsdiN2Ioy-R7t3Kjmb-VBJJxWUar-BYPaLbCzuTdM7UsPciwaZpkk0NdcIZc4Ge_ERQIRgEKB9xMvf6jo5zwMj8xiOLYS-zDGjgN0L4add52yuX_CyLHneByEMtpLj6MZ3DC8yidE5HVPQpyL0p9Tgnm_GIw9GmlVPTc51i4NYPlS0mJuHnpp4_f5TDlOnuYiOi9FBOGplczb64peC3ZJyvWfGbEZGIGaXVsrMatADVloJZVWDX6Wj
 
 
 === CALENDAR PRIMARY ===
 
 === CALENDAR AUTO ===
 ID	START	END	SUMMARY
-6orjacpn64q6abb370o34b9k75i38bb1c4o30b9pccsm2p9i64r38e1n6k	2026-02-26	2026-02-27	Karneval bhgen Emilia og Eloise
-bivj1sjrteod2kbi2lkgneq5vo	2026-02-26T00:00:00+01:00	2026-02-27T00:00:00+01:00	🎭 Karneval i barnehagen
-n4q0ei9euhcs0do6rnmom8jktk	2026-02-26	2026-02-27	Eloise Lavvo
 8un16ei3hdkvjo5gmceu1921jg	2026-02-27	2026-02-28	Eloise Lavvo
+c6nf62vrm7f0h586g2o63v2am4_20260227	2026-02-27	2026-02-28	Ha med dag eloise
 
 === WEATHER ===
-ERROR: Weather data parse failed
+Weather data unavailable

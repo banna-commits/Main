@@ -4,6 +4,7 @@
 
 # Transient
 memory/heartbeat-state.json
+state/
 
 # Node
 node_modules/
