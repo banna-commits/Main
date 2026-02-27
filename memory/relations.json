@@ -108,9 +108,9 @@
       "ticker": "NOVO-B.CO",
       "aliases": []
     },
-    "wwi": {
+    "coor": {
       "type": "stock",
-      "ticker": "WWI.OL",
+      "ticker": "COOR.ST",
       "aliases": []
     },
     "protector": {
@@ -128,9 +128,9 @@
       "ticker": "SAMPO.HE",
       "aliases": []
     },
-    "coor": {
+    "wwi": {
       "type": "stock",
-      "ticker": "COOR.ST",
+      "ticker": "WWI.OL",
       "aliases": []
     },
     "peg": {
@@ -211,7 +211,7 @@
       "relation": "interested_in"
     }
   ],
-  "updatedAt": "2026-02-27T14:02:41.833725",
+  "updatedAt": "2026-02-27T21:27:12.133895",
   "stats": {
     "entity_count": 26,
     "edge_count": 14,

@@ -60,9 +60,17 @@
       "size": 149,
       "hash": "f8a23e259a450ec13513c6303e591fdc"
     },
+    "memory/2026-02-26.md": {
+      "size": 10419,
+      "hash": "f2fe21987b7b48555d4c78f1ae141856"
+    },
     "memory/2026-02-19-1206.md": {
       "size": 149,
       "hash": "85de7782714187c4c9da5fc4a2490cf9"
+    },
+    "memory/2026-02-27.md": {
+      "size": 9021,
+      "hash": "f4a4cb2bf1b170fcd86ab59a7e3fa341"
     },
     "memory/infra.md": {
       "size": 4724,
@@ -85,8 +93,12 @@
       "hash": "285e811b6e3c1098ab235e569a2311a3"
     },
     "memory/lessons.md": {
-      "size": 6295,
-      "hash": "4d28f08ec3c8d993e610bffc97bb4239"
+      "size": 7292,
+      "hash": "790831929c71eb2431e90f179f4ca2ab"
+    },
+    "memory/2026-02-24.md": {
+      "size": 843,
+      "hash": "bd0c6189b2d5698003b38ccb99e560c0"
     },
     "memory/2026-02-19-1117.md": {
       "size": 149,
@@ -112,6 +124,10 @@
       "size": 3040,
       "hash": "107b80f8caf3fd4bb3b7a8713bfe9880"
     },
+    "memory/2026-02-24-mem0-plugin.md": {
+      "size": 2787,
+      "hash": "933dc7279beefb733f4bebeaf547215a"
+    },
     "memory/2026-02-16-context-optimization.md": {
       "size": 4503,
       "hash": "a755550f81a60fd50e9f7ae801071d15"
@@ -123,6 +139,14 @@
     "memory/research-local-llm-routing.md": {
       "size": 3631,
       "hash": "b596744c3ff39f6c50a236cf0c83de10"
+    },
+    "memory/2026-02-24-2156.md": {
+      "size": 148,
+      "hash": "28250e7edc0f5ae385c6ca14a7e31c01"
+    },
+    "memory/2026-02-25.md": {
+      "size": 793,
+      "hash": "fcfb71684573d6d866492a0bda89d3ea"
     },
     "memory/preferences.md": {
       "size": 1989,
@@ -193,11 +217,11 @@
       "hash": "caf468c1a06b521bef0cdef274ad0b9a"
     },
     "AGENTS.md": {
-      "size": 11784,
-      "hash": "d6d78b9b539e433e84a3cc8c7acef4a9"
+      "size": 11847,
+      "hash": "ee36dd5a7b60a6b65795eea40d25892c"
     }
   },
-  "lastCheck": "2026-02-24T05:01:44.084293",
-  "totalSize": 143147,
-  "fileCount": 49
+  "lastCheck": "2026-02-27T21:51:34.469652",
+  "totalSize": 168218,
+  "fileCount": 55
 }

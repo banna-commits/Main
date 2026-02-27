@@ -1280,7 +1280,175 @@
       "scoredAt": "2026-02-27T14:02:41.837974",
       "accessCount": 0,
       "lastAccessed": null
+    },
+    "2026-02-27.md#14:15 automation": {
+      "score": 4,
+      "reason": "general",
+      "scoredAt": "2026-02-27T21:27:17.137933",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-27.md#15:10 heartbeat": {
+      "score": 4,
+      "reason": "mentions people, routine",
+      "scoredAt": "2026-02-27T21:27:17.137984",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-27.md#15:12 heartbeat": {
+      "score": 2,
+      "reason": "routine",
+      "scoredAt": "2026-02-27T21:27:17.138020",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-27.md#15:42 heartbeat": {
+      "score": 2,
+      "reason": "routine",
+      "scoredAt": "2026-02-27T21:27:17.138064",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-27.md#16:05 memory maintenance": {
+      "score": 2,
+      "reason": "routine",
+      "scoredAt": "2026-02-27T21:27:17.138096",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-27.md#16:06 heartbeat": {
+      "score": 4,
+      "reason": "mentions people, routine",
+      "scoredAt": "2026-02-27T21:27:17.138142",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-27.md#16:30 automation": {
+      "score": 4,
+      "reason": "general",
+      "scoredAt": "2026-02-27T21:27:17.138176",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-27.md#16:45 automation": {
+      "score": 3,
+      "reason": "routine",
+      "scoredAt": "2026-02-27T21:27:17.138299",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-27.md#17:00 mission control": {
+      "score": 5,
+      "reason": "action items",
+      "scoredAt": "2026-02-27T21:27:17.138350",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-27.md#17:35 cron log consolidation": {
+      "score": 4,
+      "reason": "general",
+      "scoredAt": "2026-02-27T21:27:17.138393",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-27.md#18:05 sandbox workspace": {
+      "score": 4,
+      "reason": "general",
+      "scoredAt": "2026-02-27T21:27:17.138442",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-27.md#18:20 state snapshot": {
+      "score": 4,
+      "reason": "general",
+      "scoredAt": "2026-02-27T21:27:17.138491",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-27.md#18:30 state snapshot automation": {
+      "score": 4,
+      "reason": "general",
+      "scoredAt": "2026-02-27T21:27:17.138539",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-27.md#18:40 task cleanup": {
+      "score": 6,
+      "reason": "mentions people",
+      "scoredAt": "2026-02-27T21:27:17.138567",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-27.md#18:50 new tasks": {
+      "score": 2,
+      "reason": "routine",
+      "scoredAt": "2026-02-27T21:27:17.138599",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-27.md#18:55 cron watchdog": {
+      "score": 5,
+      "reason": "general",
+      "scoredAt": "2026-02-27T21:27:17.138692",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-27.md#19:00 sandbox auto-runner": {
+      "score": 4,
+      "reason": "general",
+      "scoredAt": "2026-02-27T21:27:17.138748",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-27.md#19:20 mission control tabs": {
+      "score": 4,
+      "reason": "general",
+      "scoredAt": "2026-02-27T21:27:17.138780",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-27.md#19:16 heartbeat": {
+      "score": 6,
+      "reason": "mentions people",
+      "scoredAt": "2026-02-27T21:27:17.138840",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-27.md#19:22 heartbeat": {
+      "score": 5,
+      "reason": "mentions people, routine",
+      "scoredAt": "2026-02-27T21:27:17.138952",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-27.md#19:45 t26 complete": {
+      "score": 2,
+      "reason": "routine",
+      "scoredAt": "2026-02-27T21:27:17.139009",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-27.md#20:07 tasks": {
+      "score": 4,
+      "reason": "general",
+      "scoredAt": "2026-02-27T21:27:17.139061",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-27.md#20:41 heartbeat": {
+      "score": 5,
+      "reason": "mentions people, routine",
+      "scoredAt": "2026-02-27T21:27:17.139157",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-27.md#21:26 cron fixes": {
+      "score": 4,
+      "reason": "general",
+      "scoredAt": "2026-02-27T21:27:17.139230",
+      "accessCount": 0,
+      "lastAccessed": null
     }
   },
-  "updatedAt": "2026-02-27T14:02:41.837975"
+  "updatedAt": "2026-02-27T21:27:17.139231"
 }
