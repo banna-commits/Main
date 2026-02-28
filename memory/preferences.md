@@ -28,6 +28,7 @@ Systematisk log over Knuts preferanser — oppdateres når han korrigerer meg.
 - Cost-conscious: use free models for grunt work, paid for analysis
 - Prefer action over asking permission for internal tasks
 - Ask before external actions (emails, public posts)
+- If a task fails mid-way (cron crash, timeout, etc.), fix it and continue immediately — no pausing to ask for direction
 
 ## Format
 - Discord/WhatsApp: no markdown tables, use bullet lists
@@ -40,3 +41,4 @@ Systematisk log over Knuts preferanser — oppdateres når han korrigerer meg.
 - 2026-02-22: "del oppgavene fint opp" — don't try to do everything in one massive turn
 - 2026-02-21: Prefetch pattern — don't waste paid tokens on CLI work
 - 2026-02-20: Read back saved content as confirmation
+- 2026-02-28: Don't stop after disturbances — stay autonomous and resume approved tasks without waiting

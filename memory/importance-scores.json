@@ -1448,7 +1448,210 @@
       "scoredAt": "2026-02-27T21:27:17.139230",
       "accessCount": 0,
       "lastAccessed": null
+    },
+    "2026-02-27.md#21:32 heartbeat": {
+      "score": 4,
+      "reason": "mentions people, routine",
+      "scoredAt": "2026-02-28T05:02:49.876441",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-27.md#23:10 cron failure": {
+      "score": 5,
+      "reason": "general",
+      "scoredAt": "2026-02-28T05:02:49.876510",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-27.md#23:31 heartbeat": {
+      "score": 2,
+      "reason": "routine",
+      "scoredAt": "2026-02-28T05:02:49.876557",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-27.md#00:04 heartbeat": {
+      "score": 5,
+      "reason": "mentions people, routine",
+      "scoredAt": "2026-02-28T05:02:49.876607",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-27.md#01:31 heartbeat": {
+      "score": 5,
+      "reason": "mentions people, routine",
+      "scoredAt": "2026-02-28T05:02:49.876666",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-28.md#00:34 heartbeat": {
+      "score": 3,
+      "reason": "routine",
+      "scoredAt": "2026-02-28T05:02:49.876768",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-28.md#01:01 heartbeat": {
+      "score": 2,
+      "reason": "routine",
+      "scoredAt": "2026-02-28T05:02:49.876803",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-28.md#01:34 heartbeat": {
+      "score": 3,
+      "reason": "routine",
+      "scoredAt": "2026-02-28T05:02:49.876869",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-28.md#01:37 heartbeat": {
+      "score": 2,
+      "reason": "routine",
+      "scoredAt": "2026-02-28T05:02:49.876904",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-28.md#02:07 heartbeat": {
+      "score": 3,
+      "reason": "routine",
+      "scoredAt": "2026-02-28T05:02:49.876975",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-28.md#02:12 heartbeat": {
+      "score": 2,
+      "reason": "routine",
+      "scoredAt": "2026-02-28T05:02:49.877014",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-28.md#02:41 memory maintenance": {
+      "score": 3,
+      "reason": "routine",
+      "scoredAt": "2026-02-28T05:02:49.877105",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-28.md#03:13 heartbeat": {
+      "score": 3,
+      "reason": "routine",
+      "scoredAt": "2026-02-28T05:02:49.877175",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-28.md#03:41 heartbeat": {
+      "score": 2,
+      "reason": "routine",
+      "scoredAt": "2026-02-28T05:02:49.877212",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-28.md#04:11 heartbeat": {
+      "score": 2,
+      "reason": "routine",
+      "scoredAt": "2026-02-28T05:02:49.877272",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-28.md#04:32 heartbeat": {
+      "score": 2,
+      "reason": "routine",
+      "scoredAt": "2026-02-28T05:02:49.877309",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-28.md#05:02 heartbeat": {
+      "score": 2,
+      "reason": "routine",
+      "scoredAt": "2026-02-28T10:01:54.904147",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-28.md#05:05 heartbeat": {
+      "score": 2,
+      "reason": "routine",
+      "scoredAt": "2026-02-28T10:01:54.904209",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-28.md#05:34 heartbeat": {
+      "score": 3,
+      "reason": "routine",
+      "scoredAt": "2026-02-28T10:01:54.904346",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-28.md#05:37 heartbeat": {
+      "score": 2,
+      "reason": "routine",
+      "scoredAt": "2026-02-28T10:01:54.904404",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-28.md#06:07 heartbeat": {
+      "score": 2,
+      "reason": "routine",
+      "scoredAt": "2026-02-28T10:01:54.904460",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-28.md#06:37 heartbeat": {
+      "score": 2,
+      "reason": "routine",
+      "scoredAt": "2026-02-28T10:01:54.904555",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-28.md#06:54 cron status update": {
+      "score": 9,
+      "reason": "mentions people, financial",
+      "scoredAt": "2026-02-28T10:01:54.904673",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-28.md#06:59 heartbeat": {
+      "score": 4,
+      "reason": "general",
+      "scoredAt": "2026-02-28T10:01:54.904741",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-28.md#07:02 heartbeat": {
+      "score": 2,
+      "reason": "routine",
+      "scoredAt": "2026-02-28T10:01:54.904799",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-28.md#07:28 heartbeat": {
+      "score": 2,
+      "reason": "routine",
+      "scoredAt": "2026-02-28T10:01:54.904837",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-28.md#07:58 heartbeat": {
+      "score": 2,
+      "reason": "routine",
+      "scoredAt": "2026-02-28T10:01:54.904919",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-28.md#08:27 heartbeat": {
+      "score": 2,
+      "reason": "routine",
+      "scoredAt": "2026-02-28T10:01:54.904976",
+      "accessCount": 0,
+      "lastAccessed": null
+    },
+    "2026-02-28.md#09:28 heartbeat": {
+      "score": 3,
+      "reason": "routine",
+      "scoredAt": "2026-02-28T10:01:54.905103",
+      "accessCount": 0,
+      "lastAccessed": null
     }
   },
-  "updatedAt": "2026-02-27T21:27:17.139231"
+  "updatedAt": "2026-02-28T10:28:31.110251"
 }

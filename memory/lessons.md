@@ -34,6 +34,7 @@ Every time you complete an action that changes state — a port, a URL, a config
 - Gmail hook mapping needs `messageTemplate` or you get 400 errors
 - python3 http.server dies between sessions — use launchd for persistence
 - gog account is banna@bottenanna.no — bottenanna26 is alias, Google rejects it
+- gog commands are interactive by default — export `PAGER=cat`/`GOG_PAGER=cat` + `--plain --no-input` to keep cron scripts non-blocking
 
 ## Architecture
 - Heartbeats every 30m in main session block conversations — use cron jobs in isolated sessions

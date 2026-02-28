@@ -31,3 +31,10 @@
 - Top picks: Protector Forsikring (PROT), Bravida (BRAV), Coor (COOR), Securitas (SECU B), Sampo (SAMPO)
 - Thesis: 50% admin cut → 40-300% bunnlinje-økning depending on margin profile
 - Low-margin service companies see biggest relative gains
+
+## Mission Control #internal
+- Next.js 16 app running via launchd on port 3001 (Node v22). Tailnet URL: https://knut-sin-mac-mini.tail74a1a0.ts.net:3001
+- Tabs: Tasks, Activity, Schedule, System, Calendar, Investments, Trenger Knut, Memory, Cron
+- Recent upgrades: interactive Trenger Knut tab (modal edit + "⚡ Jobbe med"), context strip widget (state.json + heartbeat), Cron tab + log API in progress, tab width/wrap fixes
+- Supporting scripts: sync-mission-control.sh keeps mirror fresh; Infra Sync cron regenerates JSON data every 6h
+- Outstanding: finish Cron tab wiring + lint fixes, continue UI polish
