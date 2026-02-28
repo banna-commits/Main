@@ -96,3 +96,33 @@ Add whatever helps you do your job. This is your cheat sheet.
 - AutoCalendar ID: `5d31d8d99ae65410e7af8b6edeb48c7803c576e5efe3c83a5f8f1ccd687e6e21@group.calendar.google.com`
 - Shared between bottenanna26@gmail.com and knutgreiner@gmail.com (both owners)
 - Account: bottenanna26@gmail.com
+
+### Sandbox workspace
+- Root: `/Users/knut/.openclaw/workspace/sandbox` (gitignored)
+- Helper: `scripts/sandbox-sync.sh [--dry-run] <sandbox-path> <workspace-dest>`
+  - Example: `scripts/sandbox-sync.sh build/output dist/sandbox-build`
+  - Set `SANDBOX_DIR` env var to override root if needed
+
+### State snapshot
+- File: `state.json` (workspace root) — quick resume summary
+- Update helper: `scripts/state_snapshot.py`
+  - Example: `scripts/state_snapshot.py --task t99 --summary "Working on X" --command 'npm run lint::clean' --next-step 'Deploy' --show`
+  - Flags: `--clear-commands`, `--clear-next`, `--note`
+- Read on boot (see AGENTS.md) for last commands + next steps
+
+### Cron watchdog
+- Script: `scripts/cron_watchdog.py [--dry-run] [--output path]`
+- Reads `/Users/knut/.openclaw/cron/jobs.json` + `runs/*.jsonl`, writes `logs/cron/watchdog.json`
+- Auto-updates `state.json` with summary whenever issues detected
+- Use `--dry-run` to inspect without touching state snapshot
+
+### Sandbox auto-runner
+- Script: `scripts/sandbox-run.sh [options] -- <command>`
+- Copies workspace -> `sandbox/<name>`, runs command, optional sync back
+- Options:
+  - `-n/--name NAME` custom sandbox folder
+  - `-s/--sync SRC:DST` → calls sandbox-sync to pull artifacts
+  - `-k/--keep` leave sandbox behind; default deletes on success
+  - `--dry-run` preview without running command
+- Example:
+  `scripts/sandbox-run.sh -n yf-trends -s dist:dist/yf -- codex exec --full-auto 'Finish trends'`

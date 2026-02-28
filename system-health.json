@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-02-27T13:02:44+0000",
+  "lastUpdated": "2026-02-27T20:50:53+0000",
   "gateway": {
     "status": "ok",
     "version": "2026.2.23",
-    "pid": 15452,
-    "memoryMB": 0
+    "pid": 19915,
+    "memoryMB": 242
   },
   "channels": {},
   "cron": {
@@ -13,13 +13,13 @@
     "error": 0
   },
   "workspace": {
-    "sizeMB": 904,
+    "sizeMB": 1089,
     "memoryFiles": 41,
-    "lastCommit": "2026-02-27T03:02:16+01:00"
+    "lastCommit": "2026-02-27T15:00:03+01:00"
   },
   "system": {
-    "cpuPercent": 7.5,
-    "memoryPercent": 15.0,
+    "cpuPercent": 14.7,
+    "memoryPercent": 8.3,
     "diskPercent": 2
   }
 }

@@ -8,10 +8,10 @@ export async function POST(req: NextRequest) {
     const { taskId, title } = await req.json();
     if (!taskId) return NextResponse.json({ error: 'Missing taskId' }, { status: 400 });
 
-    let queue: any[] = [];
+    let queue: { taskId: string; title?: string; timestamp: string }[] = [];
     try {
       const existing = await readFile(QUEUE_PATH, 'utf-8');
-      queue = JSON.parse(existing);
+      queue = JSON.parse(existing) as typeof queue;
     } catch { /* file doesn't exist yet */ }
 
     queue.push({ taskId, title, timestamp: new Date().toISOString() });

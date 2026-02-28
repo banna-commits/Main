@@ -12,3 +12,6 @@ node_modules/
 *.png
 .mc-token
 .openclaw/
+
+# Sandbox workspace
+sandbox/

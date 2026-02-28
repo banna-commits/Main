@@ -108,3 +108,47 @@ export interface ActivityData {
   lastUpdated: string;
   events: ActivityEvent[];
 }
+
+
+export interface CronRun {
+  time: string;
+  status: string;
+  durationMs?: number;
+  summary?: string;
+  error?: string;
+  sessionId?: string;
+  sessionKey?: string;
+  deliveryStatus?: string;
+}
+
+export interface CronJobLog {
+  id: string;
+  name: string;
+  schedule: string;
+  timezone?: string;
+  model?: string;
+  nextRun?: string | null;
+  consecutiveErrors?: number;
+  lastStatus?: string;
+  lastError?: string;
+  runs: CronRun[];
+}
+
+export interface CronLogsData {
+  lastUpdated: string;
+  jobs: CronJobLog[];
+}
+
+export interface StateSnapshot {
+  lastUpdated: string | null;
+  summary: string;
+  activeTask?: { id: string; title?: string; status?: string; assignee?: string } | null;
+  recentCommands: { time?: string; command: string; result?: string }[];
+  nextSteps: string[];
+  notes?: string;
+}
+
+export interface HeartbeatState {
+  lastChecks: Record<string, number | null>;
+  notifiedEvents: Record<string, string[]>;
+}

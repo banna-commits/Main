@@ -1,0 +1,831 @@
+{
+  "generatedAt": "2026-02-27T17:47:25.363408+00:00",
+  "issues": [
+    {
+      "jobId": "ad11caa3-86c8-4623-8a7e-795fe6c2f416",
+      "name": "Email & Calendar Check",
+      "issues": [
+        "6 consecutive errors",
+        "last run failed"
+      ]
+    },
+    {
+      "jobId": "be194bc8-96c7-4568-b798-439d0f69d6ac",
+      "name": "Log rotation",
+      "issues": [
+        "last run failed"
+      ]
+    },
+    {
+      "jobId": "e58dbf72-b243-47a1-a764-9e502ae8a928",
+      "name": "Morning Data Fetch",
+      "issues": [
+        "4 consecutive errors",
+        "last run failed"
+      ]
+    },
+    {
+      "jobId": "4115dbe3-2683-408d-940c-98853deadaad",
+      "name": "Citadel Backup",
+      "issues": [
+        "4 consecutive errors",
+        "last run failed"
+      ]
+    },
+    {
+      "jobId": "34e79a5b-9502-4229-ab9a-a3674cd72343",
+      "name": "Weekly Investment Summary",
+      "issues": [
+        "last run failed"
+      ]
+    },
+    {
+      "jobId": "c6fc586d-fc52-48bd-942e-32a2b5a8496a",
+      "name": "Earnings Calendar Check",
+      "issues": [
+        "last run failed"
+      ]
+    },
+    {
+      "jobId": "d91f5eab-566c-4af4-ac48-29672ad0bbc2",
+      "name": "Daily Health Check",
+      "issues": [
+        "4 consecutive errors",
+        "last run failed"
+      ]
+    },
+    {
+      "jobId": "df31f4e8-a276-40ae-86bb-e8dd95440eea",
+      "name": "Infra Sync",
+      "issues": [
+        "9 consecutive errors",
+        "last run failed"
+      ]
+    },
+    {
+      "jobId": "5c635fca-00a4-4c9f-8fac-5c0cfa1baa56",
+      "name": "End-of-Day Data Gather",
+      "issues": [
+        "last run failed"
+      ]
+    },
+    {
+      "jobId": "f252145f-b161-4f88-980e-59548ebcbc83",
+      "name": "End-of-Day Report",
+      "issues": [
+        "3 consecutive errors",
+        "last run failed"
+      ]
+    },
+    {
+      "jobId": "39c2aeec-45e8-42a6-a4e3-dca6a5e4e75c",
+      "name": "Weekly Memory Consolidation",
+      "issues": [
+        "last run failed"
+      ]
+    },
+    {
+      "jobId": "7f285de1-ec1f-4b14-b13c-2fdea0fc4089",
+      "name": "Cron Health Monitor",
+      "issues": [
+        "8 consecutive errors",
+        "last run failed"
+      ]
+    },
+    {
+      "jobId": "78311feb-cd83-4ed7-b08f-e4f6d3a4416a",
+      "name": "Daily Self-Test",
+      "issues": [
+        "4 consecutive errors",
+        "last run failed"
+      ]
+    }
+  ],
+  "jobs": {
+    "ad11caa3-86c8-4623-8a7e-795fe6c2f416": {
+      "name": "Email & Calendar Check",
+      "lastRun": "2026-02-27T15:00:00.014000+00:00",
+      "nextRun": null,
+      "lastStatus": "error",
+      "consecutiveErrors": 6,
+      "recentRuns": [
+        {
+          "time": "2026-02-27T15:02:00.358000+00:00",
+          "status": "error",
+          "summary": null,
+          "error": "model not allowed: anthropic/claude-sonnet-4-20250514",
+          "durationMs": 20
+        },
+        {
+          "time": "2026-02-27T11:00:00.046000+00:00",
+          "status": "error",
+          "summary": null,
+          "error": "model not allowed: anthropic/claude-sonnet-4-20250514",
+          "durationMs": 21
+        },
+        {
+          "time": "2026-02-26T19:03:00.067000+00:00",
+          "status": "error",
+          "summary": null,
+          "error": "model not allowed: anthropic/claude-sonnet-4-20250514",
+          "durationMs": 14
+        },
+        {
+          "time": "2026-02-26T15:00:00.043000+00:00",
+          "status": "error",
+          "summary": null,
+          "error": "model not allowed: anthropic/claude-sonnet-4-20250514",
+          "durationMs": 19
+        },
+        {
+          "time": "2026-02-26T11:00:00.043000+00:00",
+          "status": "error",
+          "summary": null,
+          "error": "model not allowed: anthropic/claude-sonnet-4-20250514",
+          "durationMs": 19
+        }
+      ]
+    },
+    "9bf4642a-0919-44c6-b364-51a1c1ec5be2": {
+      "name": "Morning Briefing",
+      "lastRun": "2026-02-27T06:00:00.016000+00:00",
+      "nextRun": "2026-02-28T06:00:00+00:00",
+      "lastStatus": "ok",
+      "consecutiveErrors": 0,
+      "recentRuns": [
+        {
+          "time": "2026-02-27T06:00:58.981000+00:00",
+          "status": "ok",
+          "summary": "**Morning Briefing \u2014 Fre 27. feb kl. 07:00**\n\n1. **Research Digest**\nUS front-end funding keeps tightening: haven demand is pulling investors into the 4- and 8-week Treasury bill auctions, overnight repo pushed above 3.70% as T-bill settlements drained cash, and US money-market fund balances climbed to $7.8tn. Net: liquidity is getting scarcer at the short end, and the bid for safety keeps strengthening.\n\n2. **Portfolio**\n- \ud83d\udfe2 Bullish/crossover (price + 7d): IDEX.OL NOK\u202f6.20 (+12.3%) \u2014 MACD crossover confirmed (chart above).\n- \ud83d\udfe1 Recovering/converging (price): BTC-USD $67,213 \u00b7 NYM-USD $0.03 \u00b7 COTI-USD $0.01 \u00b7 XMR-USD $342.57 \u00b7 SAMPO.HE \u20ac9.22 \u00b7 BETS-B.ST SEK\u202f93.95 \u00b7 EVO.ST SEK\u202f555.8 \u00b7 WKL.AS \u20ac66.10 \u00b7 ZEC-USD $238.64 \u00b7 HILB-B.ST SEK\u202f6.16 \u00b7 OKEA.OL NOK\u202f28.15 \u00b7 VEND.OL NOK\u202f233.2.\n- \ud83d\udd34 Bearish (price + 7d): ATOM-USD $1.89 (\u221218.3%) \u00b7 NOVO-B.CO DKK\u202f238.6 (\u221222.4%) \u00b7 URNM $72.31 (\u22120.4%) \u00b7 WISE.L 849p (\u22120.9%).\n- Sentiment: Fear & Greed = 13 (Extreme Fear, up from 11). BTC dominance 56.1% (crypto mkt cap \u22121.5% d/d).\n\n3. **Emails (unread)**\nBloomberg alerts only: overnight repo >3.70% (15:21), money-market funds at $7.797tn (22:21), T-bill demand rising amid haven bid (23:04).\n\n4. **Calendar**\n- Fre 27 \u2013 L\u00f8r 28: Eloise Lavvo (AutoCalendar, all-day)\n- Fre 27 \u2013 L\u00f8r 28: Ha med dag Eloise (AutoCalendar, all-day)\n\n5. **Weather**\nWeather feed unavailable at prefetch; no fresh data to report yet.",
+          "error": null,
+          "durationMs": 58961
+        },
+        {
+          "time": "2026-02-26T06:00:00.039000+00:00",
+          "status": "error",
+          "summary": null,
+          "error": "model not allowed: anthropic/claude-sonnet-4-20250514",
+          "durationMs": 19
+        },
+        {
+          "time": "2026-02-24T07:03:55.357000+00:00",
+          "status": "ok",
+          "summary": "\ud83c\udf05 **MORNING BRIEFING** - Tirsdag 25. feb, 08:00\n\n\ud83d\udcca **PORTFOLIO**\n\ud83d\udfe2 **Bullish/Crossover:**\n\u2022 ATOM-USD: $2.30 (+2.7% 7d) - bullish momentum\n\u2022 HILB-B.ST: 6.18 SEK (-6.6% 7d) - **MACD crossover** \u26a1\n\n\ud83d\udfe1 **Recovering/Converging:**\n\u2022 BTC-USD: $68,055 \u2022 ZEC-USD: $254.63 \u2022 SAMPO.HE: \u20ac9.26\n\u2022 BETS-B.ST: 93.1 SEK \u2022 OKEA.OL: 26.9 NOK \u2022 EVO.ST: 532.2 SEK\n\n\ud83d\udd34 **Bearish:**\n\u2022 NOVO-B.CO: 301 DKK (-3.1% 7d) \u2022 VEND.OL: 235.4 NOK (-2.5% 7d)\n\u2022 IDEX.OL: 5.5 NOK (-4.8% 7d) \u2022 URNM: $73.49 (+6.0% 7d)\n\n\ud83d\udcc8 **Market:** Fear & Greed 9/100 (Extreme Fear) | BTC Dom: 56.6%\n\n\u2709\ufe0f **EMAIL** (4 unread)\n\u2022 3x 1881 API emails: subscription approved, nearing call limits\n\u2022 All from API portal, requires attention\n\n\ud83d\udcc5 **CALENDAR**\n\u2022 I dag: Dronningen bursdag \ud83c\udf82\n\u2022 I dag-i morgen: Eloise Lavvo\n\n\ud83c\udf21\ufe0f **WEATHER**\n\u2022 I dag: -1/-15\u00b0C (n\u00e5 -14\u00b0C, t\u00e5ke)\n\u2022 I morgen: -0/-7\u00b0C, lett sn\u00f8 \u2744\ufe0f",
+          "error": null,
+          "durationMs": 55317
+        },
+        {
+          "time": "2026-02-23T07:03:37.029000+00:00",
+          "status": "ok",
+          "summary": "\ud83c\udf05 **Morning Briefing** \u2014 Monday 23. Feb 08:00\n\n**\ud83d\udcc8 Portfolio**\n\ud83d\udfe2 **Bullish/Crossover:**\n\u2022 ATOM $2.30 (+2.7% 7d) \u2014 bullish momentum\n\u2022 HILB-B.ST 6.18 SEK (-6.6% 7d) \u2014 MACD crossover \u2b06\ufe0f\n\n\ud83d\udfe1 **Recovering/Converging:**  \n\u2022 BTC $68,055 \u2022 ZEC $255 \u2022 XMR $321 \u2022 NYM $0.03 \u2022 COTI $0.01\n\u2022 SAMPO \u20ac9.26 \u2022 BETS-B 93.1 SEK \u2022 OKEA 26.9 NOK \u2022 EVO 532 SEK \u2022 WKL \u20ac62.36\n\n\ud83d\udd34 **Bearish:**\n\u2022 NOVO-B 301 DKK (-3.1% 7d) \u2022 IDEX 5.5 NOK (-4.8% 7d) \u2022 URNM $73.49 (+6.0% 7d)\n\u2022 VEND 235 NOK (-2.5% 7d) \u2022 WISE 863 GBp (+0.1% 7d)\n\n\ud83d\udcca **Sentiment:** Fear & Greed Index 9 (Extreme Fear)  \n\u20bf **BTC Dominance:** 56.6%\n\n**\ud83d\udce7 Emails (4 unread):**\n\u2022 1881 API: Subscription request approved + call limit warnings (3 msgs)\n\n**\ud83d\udcc5 Calendar:**\n\u2022 **I dag:** Dronningen bursdag, Eloise Lavvo\n\u2022 **I morgen:** Eloise Lavvo (continues)\n\n**\ud83c\udf28\ufe0f Weather:**  \n\u2022 **I dag:** -1/-15\u00b0C (very cold!)\n\u2022 **I morgen:** -0/-7\u00b0C, light snow",
+          "error": null,
+          "durationMs": 37000
+        },
+        {
+          "time": "2026-02-22T07:01:02.338000+00:00",
+          "status": "ok",
+          "summary": null,
+          "error": null,
+          "durationMs": 38219
+        }
+      ]
+    },
+    "be194bc8-96c7-4568-b798-439d0f69d6ac": {
+      "name": "Log rotation",
+      "lastRun": "2026-02-27T03:00:00.018000+00:00",
+      "nextRun": "2026-02-28T03:00:00+00:00",
+      "lastStatus": "error",
+      "consecutiveErrors": 2,
+      "recentRuns": [
+        {
+          "time": "2026-02-27T03:02:00.072000+00:00",
+          "status": "error",
+          "summary": null,
+          "error": "cron: job execution timed out",
+          "durationMs": 120037
+        },
+        {
+          "time": "2026-02-26T03:02:00.066000+00:00",
+          "status": "error",
+          "summary": null,
+          "error": "cron: job execution timed out",
+          "durationMs": 120037
+        },
+        {
+          "time": "2026-02-24T03:01:51.826000+00:00",
+          "status": "ok",
+          "summary": "The command executed without producing visible output. This could indicate either:\n1. The script completed successfully without generating output\n2. There was an error that didn't produce visible output\n\nWould you like me to:\n1. Check the script's contents to diagnose issues?\n2. Verify the script's output destination (e.g., log file)?\n3. Try running it with debug output enabled?",
+          "error": null,
+          "durationMs": 111807
+        },
+        {
+          "time": "2026-02-23T03:01:00.056000+00:00",
+          "status": "error",
+          "summary": null,
+          "error": "Error: cron: job execution timed out",
+          "durationMs": 60027
+        },
+        {
+          "time": "2026-02-22T03:00:05.513000+00:00",
+          "status": "ok",
+          "summary": "The script ran successfully with no output.",
+          "error": null,
+          "durationMs": 5499
+        }
+      ]
+    },
+    "c82b1f6c-1cbb-49ca-89f5-2e1c79898948": {
+      "name": "Crypto MACD Monitor",
+      "lastRun": "2026-02-27T16:00:00.020000+00:00",
+      "nextRun": "2026-03-02T08:00:00+00:00",
+      "lastStatus": "ok",
+      "consecutiveErrors": 0,
+      "recentRuns": [
+        {
+          "time": "2026-02-27T16:00:24.728000+00:00",
+          "status": "ok",
+          "summary": null,
+          "error": null,
+          "durationMs": 24702
+        },
+        {
+          "time": "2026-02-27T08:00:00.043000+00:00",
+          "status": "error",
+          "summary": null,
+          "error": "model not allowed: anthropic/claude-sonnet-4-20250514",
+          "durationMs": 17
+        },
+        {
+          "time": "2026-02-26T16:00:00.043000+00:00",
+          "status": "error",
+          "summary": null,
+          "error": "model not allowed: anthropic/claude-sonnet-4-20250514",
+          "durationMs": 20
+        },
+        {
+          "time": "2026-02-26T08:00:00.008000+00:00",
+          "status": "error",
+          "summary": null,
+          "error": "model not allowed: anthropic/claude-sonnet-4-20250514",
+          "durationMs": 1
+        },
+        {
+          "time": "2026-02-24T16:00:23.518000+00:00",
+          "status": "ok",
+          "summary": "I'll check for crypto MACD alerts in your investments data.",
+          "error": null,
+          "durationMs": 23502
+        }
+      ]
+    },
+    "94cb29c2-cb3f-4886-a839-2ad08451061d": {
+      "name": "Stock MACD Monitor",
+      "lastRun": "2026-02-27T16:30:00.014000+00:00",
+      "nextRun": "2026-03-02T08:30:00+00:00",
+      "lastStatus": "ok",
+      "consecutiveErrors": 0,
+      "recentRuns": [
+        {
+          "time": "2026-02-27T16:30:39.126000+00:00",
+          "status": "ok",
+          "summary": "Vend (VEND.OL) was the only stock with an active signal (converging). Generated the MACD chart (3\u202fmo window) and sent it to Knut on Telegram with the formatted alert.",
+          "error": null,
+          "durationMs": 39107
+        },
+        {
+          "time": "2026-02-27T08:30:00.043000+00:00",
+          "status": "error",
+          "summary": null,
+          "error": "model not allowed: anthropic/claude-sonnet-4-20250514",
+          "durationMs": 17
+        },
+        {
+          "time": "2026-02-26T16:30:00.040000+00:00",
+          "status": "error",
+          "summary": null,
+          "error": "model not allowed: anthropic/claude-sonnet-4-20250514",
+          "durationMs": 20
+        },
+        {
+          "time": "2026-02-26T08:30:00.043000+00:00",
+          "status": "error",
+          "summary": null,
+          "error": "model not allowed: anthropic/claude-sonnet-4-20250514",
+          "durationMs": 2
+        },
+        {
+          "time": "2026-02-24T16:30:57.803000+00:00",
+          "status": "ok",
+          "summary": "\ud83d\udfe1 3 MACD CONVERGING signals detected and sent to Telegram:\n\n\u2022 Hilbert Group (HILB-B.ST) 6.1 SEK \u2014 RSI: 39.2, 7d: -1.3%\n\u2022 OKEA (OKEA.OL) 27.25 NOK \u2014 RSI: 68.9, 7d: 6.0% \n\u2022 Wolters Kluwer (WKL.AS) 59.68 EUR \u2014 RSI: 26.9, 7d: -3.5%\n\nCharts generated and delivered. No crossover signals today.",
+          "error": null,
+          "durationMs": 57782
+        }
+      ]
+    },
+    "e58dbf72-b243-47a1-a764-9e502ae8a928": {
+      "name": "Morning Data Fetch",
+      "lastRun": "2026-02-27T06:50:00.020000+00:00",
+      "nextRun": "2026-02-28T06:50:00+00:00",
+      "lastStatus": "error",
+      "consecutiveErrors": 4,
+      "recentRuns": [
+        {
+          "time": "2026-02-27T06:52:00.072000+00:00",
+          "status": "error",
+          "summary": null,
+          "error": "cron: job execution timed out",
+          "durationMs": 120037
+        },
+        {
+          "time": "2026-02-26T06:52:00.031000+00:00",
+          "status": "error",
+          "summary": null,
+          "error": "cron: job execution timed out",
+          "durationMs": 120014
+        },
+        {
+          "time": "2026-02-24T06:52:00.053000+00:00",
+          "status": "error",
+          "summary": null,
+          "error": "cron: job execution timed out",
+          "durationMs": 120026
+        },
+        {
+          "time": "2026-02-23T06:52:00.051000+00:00",
+          "status": "error",
+          "summary": null,
+          "error": "Error: cron: job execution timed out",
+          "durationMs": 120018
+        },
+        {
+          "time": "2026-02-22T06:50:16.769000+00:00",
+          "status": "ok",
+          "summary": "Updated 17 assets",
+          "error": null,
+          "durationMs": 16756
+        }
+      ]
+    },
+    "4115dbe3-2683-408d-940c-98853deadaad": {
+      "name": "Citadel Backup",
+      "lastRun": "2026-02-27T02:00:00.018000+00:00",
+      "nextRun": null,
+      "lastStatus": "error",
+      "consecutiveErrors": 4,
+      "recentRuns": [
+        {
+          "time": "2026-02-27T02:02:23.310000+00:00",
+          "status": "error",
+          "summary": null,
+          "error": "cron: job execution timed out",
+          "durationMs": 120040
+        },
+        {
+          "time": "2026-02-26T02:02:18.964000+00:00",
+          "status": "error",
+          "summary": null,
+          "error": "cron: job execution timed out",
+          "durationMs": 120037
+        },
+        {
+          "time": "2026-02-24T02:02:07.945000+00:00",
+          "status": "error",
+          "summary": null,
+          "error": "cron: job execution timed out",
+          "durationMs": 120050
+        },
+        {
+          "time": "2026-02-23T02:01:06.499000+00:00",
+          "status": "error",
+          "summary": null,
+          "error": "Error: cron: job execution timed out",
+          "durationMs": 60020
+        },
+        {
+          "time": "2026-02-22T02:00:06.464000+00:00",
+          "status": "ok",
+          "summary": "Backup: /Users/knut/citadel-backups/citadel-backup-20260222-030002.tar.gz.age (36K) \u2014 Done. 4 backup(s), retention: 7.",
+          "error": null,
+          "durationMs": 6451
+        }
+      ]
+    },
+    "34e79a5b-9502-4229-ab9a-a3674cd72343": {
+      "name": "Weekly Investment Summary",
+      "lastRun": "2026-02-27T15:00:00.034000+00:00",
+      "nextRun": "2026-03-06T15:00:00+00:00",
+      "lastStatus": "error",
+      "consecutiveErrors": 2,
+      "recentRuns": [
+        {
+          "time": "2026-02-27T15:02:00.359000+00:00",
+          "status": "error",
+          "summary": null,
+          "error": "Error: All models failed (2): anthropic/claude-sonnet-4-6: HTTP 401 authentication_error: invalid x-api-key (request_id: req_011CYYmnvj89scEgPWK3Q36B) (auth) | openai/gpt-5.1-codex: LLM request timed out. (unknown)",
+          "durationMs": 120315
+        },
+        {
+          "time": "2026-02-20T15:01:41.968000+00:00",
+          "status": "error",
+          "summary": "\u26a0\ufe0f \ud83d\udee0\ufe0f Exec: `cd ~/.openclaw/skills/stock-market-pro && python3 scripts/news.py ATOM-USD --max 3` failed: Traceback (most recent call last):",
+          "error": "cron announce delivery failed",
+          "durationMs": 77967
+        }
+      ]
+    },
+    "c6fc586d-fc52-48bd-942e-32a2b5a8496a": {
+      "name": "Earnings Calendar Check",
+      "lastRun": "2026-02-23T07:30:00.015000+00:00",
+      "nextRun": "2026-03-02T07:30:00+00:00",
+      "lastStatus": "error",
+      "consecutiveErrors": 1,
+      "recentRuns": [
+        {
+          "time": "2026-02-23T07:30:34.928000+00:00",
+          "status": "error",
+          "summary": "**Earnings Calendar Update (Feb 23, 2026)**\n\nNo upcoming earnings dates found for any of the monitored Nordic stocks this week or next week:\n- PROT.OL, BRAV.ST, COOR.ST, SECU-B.ST, SAMPO.HE, NOVO-B.CO all show no scheduled earnings dates\n\nThe calendar is clear for the next two weeks.",
+          "error": "cron announce delivery failed",
+          "durationMs": 34909
+        }
+      ]
+    },
+    "d91f5eab-566c-4af4-ac48-29672ad0bbc2": {
+      "name": "Daily Health Check",
+      "lastRun": "2026-02-27T03:30:00.019000+00:00",
+      "nextRun": "2026-02-28T03:30:00+00:00",
+      "lastStatus": "error",
+      "consecutiveErrors": 4,
+      "recentRuns": [
+        {
+          "time": "2026-02-27T03:32:00.069000+00:00",
+          "status": "error",
+          "summary": null,
+          "error": "cron: job execution timed out",
+          "durationMs": 120034
+        },
+        {
+          "time": "2026-02-26T03:32:00.075000+00:00",
+          "status": "error",
+          "summary": null,
+          "error": "cron: job execution timed out",
+          "durationMs": 120042
+        },
+        {
+          "time": "2026-02-24T03:32:00.058000+00:00",
+          "status": "error",
+          "summary": null,
+          "error": "cron: job execution timed out",
+          "durationMs": 120030
+        },
+        {
+          "time": "2026-02-23T03:31:00.054000+00:00",
+          "status": "error",
+          "summary": null,
+          "error": "Error: cron: job execution timed out",
+          "durationMs": 60021
+        },
+        {
+          "time": "2026-02-22T03:30:05.636000+00:00",
+          "status": "ok",
+          "summary": null,
+          "error": null,
+          "durationMs": 5619
+        }
+      ]
+    },
+    "df31f4e8-a276-40ae-86bb-e8dd95440eea": {
+      "name": "Infra Sync",
+      "lastRun": "2026-02-27T13:00:00.016000+00:00",
+      "nextRun": null,
+      "lastStatus": "error",
+      "consecutiveErrors": 9,
+      "recentRuns": [
+        {
+          "time": "2026-02-27T13:03:00.068000+00:00",
+          "status": "error",
+          "summary": null,
+          "error": "cron: job execution timed out",
+          "durationMs": 180037
+        },
+        {
+          "time": "2026-02-27T07:03:00.070000+00:00",
+          "status": "error",
+          "summary": null,
+          "error": "cron: job execution timed out",
+          "durationMs": 180033
+        },
+        {
+          "time": "2026-02-27T01:03:00.055000+00:00",
+          "status": "error",
+          "summary": null,
+          "error": "cron: job execution timed out",
+          "durationMs": 180029
+        },
+        {
+          "time": "2026-02-26T19:03:00.068000+00:00",
+          "status": "error",
+          "summary": null,
+          "error": "cron: job execution timed out",
+          "durationMs": 180021
+        },
+        {
+          "time": "2026-02-26T13:03:00.075000+00:00",
+          "status": "error",
+          "summary": null,
+          "error": "cron: job execution timed out",
+          "durationMs": 180040
+        }
+      ]
+    },
+    "011c2f76-64f6-4d50-b7e0-0e65e7513817": {
+      "name": "Morning Briefing Prefetch",
+      "lastRun": "2026-02-27T05:55:00.018000+00:00",
+      "nextRun": "2026-02-28T05:55:00+00:00",
+      "lastStatus": "ok",
+      "consecutiveErrors": 0,
+      "recentRuns": [
+        {
+          "time": "2026-02-27T05:57:15.727000+00:00",
+          "status": "ok",
+          "summary": "The morning prefetch script has been initiated in the background (session `mellow-rook`, PID 10492). Would you like me to check its status or monitor for completion?",
+          "error": null,
+          "durationMs": 135701
+        },
+        {
+          "time": "2026-02-26T05:57:00.052000+00:00",
+          "status": "error",
+          "summary": null,
+          "error": "cron: job execution timed out",
+          "durationMs": 120028
+        },
+        {
+          "time": "2026-02-24T06:57:00.051000+00:00",
+          "status": "error",
+          "summary": null,
+          "error": "cron: job execution timed out",
+          "durationMs": 120028
+        },
+        {
+          "time": "2026-02-23T06:57:00.046000+00:00",
+          "status": "error",
+          "summary": null,
+          "error": "Error: cron: job execution timed out",
+          "durationMs": 120015
+        },
+        {
+          "time": "2026-02-22T06:55:23.452000+00:00",
+          "status": "ok",
+          "summary": "Prefetch done",
+          "error": null,
+          "durationMs": 23439
+        }
+      ]
+    },
+    "5c635fca-00a4-4c9f-8fac-5c0cfa1baa56": {
+      "name": "End-of-Day Data Gather",
+      "lastRun": "2026-02-26T21:50:00.024000+00:00",
+      "nextRun": "2026-02-27T21:50:00+00:00",
+      "lastStatus": "error",
+      "consecutiveErrors": 2,
+      "recentRuns": [
+        {
+          "time": "2026-02-26T21:52:00.078000+00:00",
+          "status": "error",
+          "summary": null,
+          "error": "cron: job execution timed out",
+          "durationMs": 120039
+        },
+        {
+          "time": "2026-02-25T21:52:00.074000+00:00",
+          "status": "error",
+          "summary": null,
+          "error": "cron: job execution timed out",
+          "durationMs": 120036
+        },
+        {
+          "time": "2026-02-23T21:51:47.328000+00:00",
+          "status": "ok",
+          "summary": "EOD data gathered for 2026-02-23",
+          "error": null,
+          "durationMs": 107309
+        },
+        {
+          "time": "2026-02-22T21:51:00.061000+00:00",
+          "status": "error",
+          "summary": null,
+          "error": "Error: cron: job execution timed out",
+          "durationMs": 60026
+        }
+      ]
+    },
+    "f252145f-b161-4f88-980e-59548ebcbc83": {
+      "name": "End-of-Day Report",
+      "lastRun": "2026-02-26T21:55:00.018000+00:00",
+      "nextRun": null,
+      "lastStatus": "error",
+      "consecutiveErrors": 3,
+      "recentRuns": [
+        {
+          "time": "2026-02-26T21:55:00.041000+00:00",
+          "status": "error",
+          "summary": null,
+          "error": "model not allowed: anthropic/claude-sonnet-4-20250514",
+          "durationMs": 17
+        },
+        {
+          "time": "2026-02-25T21:55:00.044000+00:00",
+          "status": "error",
+          "summary": null,
+          "error": "model not allowed: anthropic/claude-sonnet-4-20250514",
+          "durationMs": 17
+        },
+        {
+          "time": "2026-02-24T21:55:00.053000+00:00",
+          "status": "error",
+          "summary": null,
+          "error": "model not allowed: anthropic/claude-sonnet-4-20250514",
+          "durationMs": 25
+        },
+        {
+          "time": "2026-02-23T21:55:52.404000+00:00",
+          "status": "ok",
+          "summary": null,
+          "error": null,
+          "durationMs": 52387
+        },
+        {
+          "time": "2026-02-22T21:55:57.669000+00:00",
+          "status": "ok",
+          "summary": null,
+          "error": null,
+          "durationMs": 57649
+        }
+      ]
+    },
+    "39c2aeec-45e8-42a6-a4e3-dca6a5e4e75c": {
+      "name": "Weekly Memory Consolidation",
+      "lastRun": "2026-02-22T20:00:00.015000+00:00",
+      "nextRun": "2026-03-01T20:00:00+00:00",
+      "lastStatus": "error",
+      "consecutiveErrors": 1,
+      "recentRuns": [
+        {
+          "time": "2026-02-22T20:03:00.058000+00:00",
+          "status": "error",
+          "summary": null,
+          "error": "Error: cron: job execution timed out",
+          "durationMs": 180024
+        }
+      ]
+    },
+    "7f285de1-ec1f-4b14-b13c-2fdea0fc4089": {
+      "name": "Cron Health Monitor",
+      "lastRun": "2026-02-27T17:00:00.016000+00:00",
+      "nextRun": null,
+      "lastStatus": "error",
+      "consecutiveErrors": 8,
+      "recentRuns": [
+        {
+          "time": "2026-02-27T17:01:00.040000+00:00",
+          "status": "error",
+          "summary": null,
+          "error": "cron: job execution timed out",
+          "durationMs": 60022
+        },
+        {
+          "time": "2026-02-27T11:00:00.046000+00:00",
+          "status": "error",
+          "summary": null,
+          "error": "model not allowed: anthropic/claude-sonnet-4-20250514",
+          "durationMs": 1
+        },
+        {
+          "time": "2026-02-27T05:00:00.042000+00:00",
+          "status": "error",
+          "summary": null,
+          "error": "model not allowed: anthropic/claude-sonnet-4-20250514",
+          "durationMs": 18
+        },
+        {
+          "time": "2026-02-26T17:00:00.044000+00:00",
+          "status": "error",
+          "summary": null,
+          "error": "model not allowed: anthropic/claude-sonnet-4-20250514",
+          "durationMs": 22
+        },
+        {
+          "time": "2026-02-26T11:00:00.044000+00:00",
+          "status": "error",
+          "summary": null,
+          "error": "model not allowed: anthropic/claude-sonnet-4-20250514",
+          "durationMs": 1
+        }
+      ]
+    },
+    "78311feb-cd83-4ed7-b08f-e4f6d3a4416a": {
+      "name": "Daily Self-Test",
+      "lastRun": "2026-02-27T04:00:00.018000+00:00",
+      "nextRun": "2026-02-28T04:00:00+00:00",
+      "lastStatus": "error",
+      "consecutiveErrors": 4,
+      "recentRuns": [
+        {
+          "time": "2026-02-27T04:02:00.067000+00:00",
+          "status": "error",
+          "summary": null,
+          "error": "cron: job execution timed out",
+          "durationMs": 120035
+        },
+        {
+          "time": "2026-02-26T04:02:00.074000+00:00",
+          "status": "error",
+          "summary": null,
+          "error": "cron: job execution timed out",
+          "durationMs": 120037
+        },
+        {
+          "time": "2026-02-24T04:02:00.054000+00:00",
+          "status": "error",
+          "summary": null,
+          "error": "cron: job execution timed out",
+          "durationMs": 120028
+        },
+        {
+          "time": "2026-02-23T04:01:00.051000+00:00",
+          "status": "error",
+          "summary": null,
+          "error": "Error: cron: job execution timed out",
+          "durationMs": 60025
+        }
+      ]
+    },
+    "5ae1e59e-c5b5-44e3-b404-2cb98ba8db01": {
+      "name": "Git Backup Push",
+      "lastRun": "2026-02-27T14:00:00.020000+00:00",
+      "nextRun": "2026-02-28T02:00:00+00:00",
+      "lastStatus": "ok",
+      "consecutiveErrors": 0,
+      "recentRuns": [
+        {
+          "time": "2026-02-27T14:00:06.224000+00:00",
+          "status": "ok",
+          "summary": "Backup committed as \u201cdaily backup 2026-02-27\u201d and pushed to main.",
+          "error": null,
+          "durationMs": 6198
+        },
+        {
+          "time": "2026-02-27T02:02:23.310000+00:00",
+          "status": "ok",
+          "summary": "Backup ran cleanly: committed \u201cdaily backup 2026-02-27\u201d and pushed to banna-commits/Main (main \u2192 main).",
+          "error": null,
+          "durationMs": 23246
+        },
+        {
+          "time": "2026-02-26T14:00:08.711000+00:00",
+          "status": "ok",
+          "summary": "daily backup 2026-02-26 committed (65e6219) and pushed to main successfully.",
+          "error": null,
+          "durationMs": 8691
+        },
+        {
+          "time": "2026-02-26T02:02:18.964000+00:00",
+          "status": "ok",
+          "summary": "Cron backup succeeded: committed \u201cdaily backup 2026-02-26\u201d (19 files updated) and pushed to banna-commits/Main.",
+          "error": null,
+          "durationMs": 18907
+        },
+        {
+          "time": "2026-02-24T14:00:08.677000+00:00",
+          "status": "ok",
+          "summary": "Daily backup pushed. 9 files changed, commit `474fa7f`.",
+          "error": null,
+          "durationMs": 8659
+        }
+      ]
+    },
+    "7e2c1ffa-e475-4faa-ab6c-e67946453657": {
+      "name": "PR #24783 status check",
+      "lastRun": null,
+      "nextRun": "2026-03-02T11:00:00+00:00",
+      "lastStatus": null,
+      "consecutiveErrors": 0,
+      "recentRuns": []
+    },
+    "23c99cc2-48df-4349-8797-254984035f60": {
+      "name": "Morning Prefetch Watchdog",
+      "lastRun": null,
+      "nextRun": "2026-02-28T06:35:00+00:00",
+      "lastStatus": null,
+      "consecutiveErrors": 0,
+      "recentRuns": []
+    },
+    "445d392a-e2b5-4479-8ad7-e448c18b432a": {
+      "name": "Daily Memory Digest",
+      "lastRun": null,
+      "nextRun": "2026-02-27T22:10:00+00:00",
+      "lastStatus": null,
+      "consecutiveErrors": 0,
+      "recentRuns": []
+    }
+  }
+}

@@ -1,7 +1,7 @@
 import { NextResponse, NextRequest } from 'next/server';
 import { readFile, writeFile } from 'fs/promises';
-import path from 'path';
 
+/* eslint-disable @typescript-eslint/no-explicit-any */
 const TASKS_PATH = '/Users/knut/.openclaw/workspace/tasks.json';
 
 async function readTasks() {

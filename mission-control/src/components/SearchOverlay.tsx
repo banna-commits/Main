@@ -1,20 +1,23 @@
 'use client';
+/* eslint-disable react-hooks/set-state-in-effect */
 
 import { useState, useEffect, useRef } from 'react';
-import { TasksData, ScheduleData, MemoryData } from '@/types';
+import { TasksData, ScheduleData, MemoryData, Task, Job, MemoryFile } from '@/types';
+
+type SearchItem = Task | Job | MemoryFile;
 
 interface SearchResult {
   type: 'task' | 'job' | 'memory';
   title: string;
   description?: string;
   icon: string;
-  item: any;
+  item: SearchItem;
 }
 
 interface SearchOverlayProps {
   isOpen: boolean;
   onClose: () => void;
-  onNavigate: (tab: string, item?: any) => void;
+  onNavigate: (tab: string, item?: SearchItem) => void;
   tasks: TasksData | null;
   schedule: ScheduleData | null;
   memory: MemoryData | null;

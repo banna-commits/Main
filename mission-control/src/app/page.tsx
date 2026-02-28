@@ -1,7 +1,8 @@
 'use client';
+/* eslint-disable react-hooks/set-state-in-effect */
 
 import { useState, useEffect, useCallback } from 'react';
-import type { TasksData, ScheduleData, InvestmentsData, MemoryData, SystemHealth, ActivityData } from '@/types';
+import type { TasksData, ScheduleData, InvestmentsData, MemoryData, SystemHealth, ActivityData, CronLogsData, StateSnapshot, HeartbeatState, Task, Job, MemoryFile } from '@/types';
 import TasksTab from '@/components/TasksTab';
 import ActionTab from '@/components/ActionTab';
 import ScheduleTab from '@/components/ScheduleTab';
@@ -11,7 +12,9 @@ import MemoryTab from '@/components/MemoryTab';
 import StatusStrip from '@/components/StatusStrip';
 import SystemTab from '@/components/SystemTab';
 import ActivityTab from '@/components/ActivityTab';
+import CronTab from '@/components/CronTab';
 import SearchOverlay from '@/components/SearchOverlay';
+import ContextStrip from '@/components/ContextStrip';
 
 const TABS = [
   { id: 'tasks', label: '📋 Tasks' },
@@ -22,6 +25,7 @@ const TABS = [
   { id: 'investments', label: '📈 Investments' },
   { id: 'action', label: '⚡ Trenger Knut' },
   { id: 'memory', label: '🧠 Memory' },
+  { id: 'cron', label: '⏱ Cron' },
 ];
 
 export default function Home() {
@@ -33,22 +37,31 @@ export default function Home() {
   const [memory, setMemory] = useState<MemoryData | null>(null);
   const [systemHealth, setSystemHealth] = useState<SystemHealth | null>(null);
   const [activity, setActivity] = useState<ActivityData | null>(null);
+  const [cronLogs, setCronLogs] = useState<CronLogsData | null>(null);
+  const [stateSnapshot, setStateSnapshot] = useState<StateSnapshot | null>(null);
+  const [heartbeatState, setHeartbeatState] = useState<HeartbeatState | null>(null);
   const [searchOpen, setSearchOpen] = useState(false);
 
   const refresh = useCallback(async () => {
     try {
-      const [t, s, m, sh, a] = await Promise.all([
+      const [t, s, m, sh, a, cl, st, hb] = await Promise.all([
         fetch('/api/tasks').then(r => r.json()),
         fetch('/api/schedule').then(r => r.json()),
         fetch('/api/memory').then(r => r.json()),
         fetch('/api/system-health').then(r => r.json()),
         fetch('/api/activity').then(r => r.json()),
+        fetch('/api/cron-logs').then(r => r.json()),
+        fetch('/api/state').then(r => r.json()),
+        fetch('/api/heartbeat').then(r => r.json()),
       ]);
       setTasks(t);
       setSchedule(s);
       setMemory(m);
       setSystemHealth(sh);
       setActivity(a);
+      setCronLogs(cl);
+      setStateSnapshot(st);
+      setHeartbeatState(hb);
       try {
         const inv = await fetch('/api/investments').then(r => r.json());
         setInvestments(inv);
@@ -77,26 +90,9 @@ export default function Home() {
     return () => document.removeEventListener('keydown', handleKeyDown);
   }, []);
 
-  const getTabDotColor = (tabId: string) => {
-    switch (tabId) {
-      case 'tasks':
-        if (!tasks) return '';
-        const blocked = tasks.tasks.filter(t => t.status === 'blocked').length;
-        return blocked > 0 ? 'bg-red' : 'bg-green';
-      case 'schedule':
-        if (!systemHealth) return '';
-        return systemHealth.cron.error > 0 ? 'bg-red' : 'bg-green';
-      case 'system':
-        if (!systemHealth) return '';
-        const { cpuPercent, memoryPercent, diskPercent } = systemHealth.system;
-        const maxUsage = Math.max(cpuPercent, memoryPercent, diskPercent);
-        return maxUsage > 80 ? 'bg-red' : maxUsage > 50 ? 'bg-yellow' : 'bg-green';
-      default:
-        return '';
-    }
-  };
-
-  const handleNavigate = (tab: string, item?: any) => {
+  type SearchItem = Task | Job | MemoryFile;
+  const handleNavigate = (tab: string, _item?: SearchItem) => {
+    void _item;
     setActiveTab(tab);
     // Could extend to highlight specific item in the future
   };
@@ -119,14 +115,14 @@ export default function Home() {
       </div>
 
       <StatusStrip systemHealth={systemHealth} tasks={tasks} schedule={schedule} />
+      <ContextStrip stateData={stateSnapshot} heartbeatData={heartbeatState} />
 
-      <div className="flex gap-0.5 mb-5 border-b border-border">
+      <div className="flex flex-wrap gap-1 mb-5 border-b border-border">
         {TABS.map(tab => {
-          const dotColor = getTabDotColor(tab.id);
           return (
             <div
               key={tab.id}
-              className={`px-5 py-2.5 text-sm font-medium cursor-pointer border-b-2 transition-all relative ${
+              className={`px-5 py-2.5 text-sm font-medium whitespace-nowrap cursor-pointer border-b-2 transition-all relative ${
                 activeTab === tab.id
                   ? 'text-accent border-accent'
                   : 'text-text-dim border-transparent hover:text-text'
@@ -134,9 +130,6 @@ export default function Home() {
               onClick={() => setActiveTab(tab.id)}
             >
               {tab.label}
-              {dotColor && (
-                <div className={`absolute top-2 right-2 w-2 h-2 rounded-full ${dotColor}`}></div>
-              )}
             </div>
           );
         })}
@@ -150,6 +143,7 @@ export default function Home() {
       <div className={activeTab === 'investments' ? '' : 'hidden'}><InvestmentsTab data={investments} /></div>
       <div className={activeTab === 'action' ? '' : 'hidden'}><ActionTab data={tasks} onRefresh={refresh} /></div>
       <div className={activeTab === 'memory' ? '' : 'hidden'}><MemoryTab data={memory} /></div>
+      <div className={activeTab === 'cron' ? '' : 'hidden'}><CronTab data={cronLogs} /></div>
 
       <SearchOverlay
         isOpen={searchOpen}

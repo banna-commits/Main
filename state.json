@@ -1,0 +1,44 @@
+{
+  "lastUpdated": "2026-02-27T20:51:07.975999+00:00",
+  "summary": "t26 shipped \u2014 Mission Control shows state + heartbeat strip",
+  "activeTask": {
+    "id": "t26",
+    "title": "State+heartbeat Mission Control widget",
+    "status": "done",
+    "assignee": "anna"
+  },
+  "recentCommands": [
+    {
+      "time": "2026-02-27T17:28:36.561105+00:00",
+      "command": "npm run lint",
+      "result": "previous task (t21) clean"
+    },
+    {
+      "time": "2026-02-27T17:47:25.392996+00:00",
+      "command": "cron_watchdog",
+      "result": "Email & Calendar Check: 6 consecutive errors; last run failed, Log rotation: last run failed, Morning Data Fetch: 4 consecutive errors; last run failed, Citadel Backup: 4 consecutive errors; last run failed, Weekly Investment Summary: last run failed, Earnings Calendar Check: last run failed, Daily Health Check: 4 consecutive errors; last run failed, Infra Sync: 9 consecutive errors; last run failed, End-of-Day Data Gather: last run failed, End-of-Day Report: 3 consecutive errors; last run failed, Weekly Memory Consolidation: last run failed, Cron Health Monitor: 8 consecutive errors; last run failed, Daily Self-Test: 4 consecutive errors; last run failed"
+    },
+    {
+      "time": "2026-02-27T18:00:19.860354+00:00",
+      "command": "sandbox-run",
+      "result": "dry run ok"
+    },
+    {
+      "time": "2026-02-27T18:00:19.860502+00:00",
+      "command": "cron_watchdog",
+      "result": "issues logged"
+    },
+    {
+      "time": "2026-02-27T18:44:44.871566+00:00",
+      "command": "mission-control:t26",
+      "result": "Context strip live"
+    },
+    {
+      "time": "2026-02-27T20:51:07.975882+00:00",
+      "command": "manual timing run",
+      "result": ""
+    }
+  ],
+  "nextSteps": [],
+  "notes": "t1 cron timeout + t2 model fix queued"
+}

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-24T07:32:00.000Z",
+  "lastUpdated": "2026-02-27T15:26:22.000Z",
   "columns": [
     "backlog",
     "in-progress",
@@ -7,18 +7,6 @@
     "done"
   ],
   "tasks": [
-    {
-      "id": "t2",
-      "title": "yf CLI: finish trends command",
-      "description": "Historical financials view \u2014 revenue, margins, EPS over ~4 years via yfinance .financials/.balance_sheet/.cashflow",
-      "status": "in-progress",
-      "assignee": "anna",
-      "priority": "medium",
-      "tags": [
-        "tooling"
-      ],
-      "created": "2026-02-18"
-    },
     {
       "id": "t3",
       "title": "Analyze more screener hits",
@@ -43,18 +31,6 @@
       ],
       "created": "2026-02-18",
       "completed": "2026-02-20"
-    },
-    {
-      "id": "t6",
-      "title": "TakstHjem: wait for Dag/Andre response",
-      "description": "Minimum viable moat discussion \u2014 awaiting reply on devil's advocate critique",
-      "status": "blocked",
-      "assignee": "knut",
-      "priority": "high",
-      "tags": [
-        "taksthjem"
-      ],
-      "blockedReason": "Waiting on email reply"
     },
     {
       "id": "t7",
@@ -148,18 +124,6 @@
       "completed": "2026-02-20"
     },
     {
-      "id": "t11",
-      "title": "Facilities mgmt sector analysis",
-      "description": "Coor.ST, ISS.CO \u2014 low-margin FM companies, AI cost-cut candidates",
-      "status": "backlog",
-      "assignee": "anna",
-      "priority": "medium",
-      "tags": [
-        "investing"
-      ],
-      "created": "2026-02-18"
-    },
-    {
       "id": "t15",
       "title": "gog auth for banna@bottenanna.no",
       "description": "Terminal: gog auth add banna@bottenanna.no --services gmail,calendar,drive,contacts,docs,sheets\n\u00c5pner browser for OAuth-samtykke. Ping Anna etterp\u00e5.",
@@ -214,64 +178,138 @@
       "id": "t19",
       "title": "Morning prefetch watchdog",
       "description": "Build watchdog that checks briefing-data.txt freshness + script exit status after cron, alerts via Telegram if stale or failed.",
-      "status": "in-progress",
+      "status": "done",
       "assignee": "anna",
       "priority": "high",
       "tags": [
         "infra",
         "automation"
       ],
-      "created": "2026-02-26"
+      "created": "2026-02-26",
+      "completed": "2026-02-27"
     },
     {
       "id": "t20",
       "title": "Daily memory digest automation",
       "description": "Finish memory-digest pipeline (stream-safe parser + fallback) and schedule nightly cron to write digests + lessons.",
-      "status": "in-progress",
+      "status": "done",
       "assignee": "anna",
       "priority": "high",
       "tags": [
         "memory"
       ],
-      "created": "2026-02-26"
+      "created": "2026-02-26",
+      "completed": "2026-02-27"
     },
     {
       "id": "t21",
       "title": "Cron log consolidation",
       "description": "Centralize cron stdout/stderr into logs/ with timestamps + add quick viewer in mission control dashboard.",
-      "status": "backlog",
+      "status": "done",
       "assignee": "anna",
       "priority": "medium",
       "tags": [
         "infra"
       ],
-      "created": "2026-02-26"
+      "created": "2026-02-26",
+      "updated": "2026-02-27T16:52:06.212852Z",
+      "completed": "2026-02-27T17:09:46.254140+00:00"
     },
     {
       "id": "t22",
       "title": "Disposable sandbox workspace",
       "description": "Set up isolated workspace for risky experiments (gitignored dir + helper script to rsync artifacts back).",
-      "status": "backlog",
+      "status": "done",
       "assignee": "anna",
       "priority": "medium",
       "tags": [
         "infra",
         "dev"
       ],
-      "created": "2026-02-26"
+      "created": "2026-02-26",
+      "completed": "2026-02-27T17:09:46.254140+00:00"
     },
     {
       "id": "t23",
       "title": "State snapshot file",
       "description": "Implement state.json capturing last commands/results/next steps for quick context after compaction.",
-      "status": "backlog",
+      "status": "done",
       "assignee": "anna",
       "priority": "medium",
       "tags": [
         "memory",
         "automation"
       ],
-      "created": "2026-02-26"
+      "created": "2026-02-26",
+      "completed": "2026-02-27T17:28:33.040289+00:00"
+    },
+    {
+      "id": "t24",
+      "title": "Cron watchdog",
+      "description": "Monitor cron run history for consecutive failures, alert/auto-tune jobs when thresholds hit.",
+      "status": "done",
+      "assignee": "anna",
+      "priority": "medium",
+      "tags": [
+        "infra",
+        "automation"
+      ],
+      "created": "2026-02-27",
+      "completed": "2026-02-27T17:47:37.065489+00:00"
+    },
+    {
+      "id": "t25",
+      "title": "Sandbox auto-runner",
+      "description": "Helper command to spin disposable worktree, run coding agent, and sync artifacts back.",
+      "status": "done",
+      "assignee": "anna",
+      "priority": "medium",
+      "tags": [
+        "dev",
+        "infra"
+      ],
+      "created": "2026-02-27",
+      "completed": "2026-02-27T18:00:15.437393+00:00"
+    },
+    {
+      "id": "t26",
+      "title": "State+heartbeat Mission Control widget",
+      "description": "Expose last state snapshot + heartbeat summaries on dashboard for quick recovery.",
+      "status": "done",
+      "assignee": "anna",
+      "priority": "medium",
+      "tags": [
+        "mission-control",
+        "memory"
+      ],
+      "created": "2026-02-27",
+      "completed": "2026-02-27T18:44:39.392437+00:00"
+    },
+    {
+      "id": "t1",
+      "title": "Fix cron timeout epidemic",
+      "description": "Add Ollama warmup cron, run failing scripts manually to isolate bottlenecks, split heavy jobs (Infra Sync etc.) and tune timeoutSeconds",
+      "status": "in-progress",
+      "assignee": "anna",
+      "priority": "high",
+      "tags": [
+        "cron",
+        "infra"
+      ],
+      "created": "2026-02-27T20:08:52"
+    },
+    {
+      "id": "t2",
+      "title": "Fix model-not-allowed cron errors",
+      "description": "Update cron jobs referencing anthropic/claude-sonnet-4-20250514 to allowed models (qwen3-fast or gpt-5.1-codex)",
+      "status": "in-progress",
+      "assignee": "anna",
+      "priority": "medium",
+      "tags": [
+        "cron",
+        "models"
+      ],
+      "created": "2026-02-27T20:08:52"
     }
   ]
 }
