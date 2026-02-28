@@ -29,6 +29,7 @@ Systematisk log over Knuts preferanser — oppdateres når han korrigerer meg.
 - Prefer action over asking permission for internal tasks
 - Ask before external actions (emails, public posts)
 - If a task fails mid-way (cron crash, timeout, etc.), fix it and continue immediately — no pausing to ask for direction
+- "Push push push" = full-go mode. When Knut says it (or all systems green), give it everything until task done.
 
 ## Format
 - Discord/WhatsApp: no markdown tables, use bullet lists

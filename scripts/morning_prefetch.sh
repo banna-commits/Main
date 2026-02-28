@@ -118,7 +118,7 @@ JSON
   echo '=== WEATHER ==='
   WEATHER_JSON=$(curl -s --connect-timeout 5 --max-time 15 'wttr.in/Oslo?format=j1')
   if [[ -n "$WEATHER_JSON" ]]; then
-    if printf '%s' "$WEATHER_JSON" | python3 - <<'PYCODE'
+    if ! printf '%s' "$WEATHER_JSON" | python3 - <<'PYCODE'
 import json, sys
 
 data = json.loads(sys.stdin.read())
@@ -131,16 +131,12 @@ try:
     print(f"Tomorrow: {tomorrow['maxtempC']}/{tomorrow['mintempC']}C {tomorrow['hourly'][4]['weatherDesc'][0]['value']}")
 except (KeyError, IndexError, ValueError) as exc:
     print(f"Weather data unavailable (parse error: {exc})")
-    sys.exit(1)
 PYCODE
     then
-      : # weather parsed fine
-    else
-      write_error "Weather data parse failed"
+      : # python already printed a friendly message
     fi
   else
-    echo 'Weather data unavailable'
-    FAIL=1
+    echo 'Weather data unavailable (empty response)'
   fi
 } >"$TMPFILE"
 

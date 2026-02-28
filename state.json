@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-27T20:51:07.975999+00:00",
+  "lastUpdated": "2026-02-28T10:42:03.504667+00:00",
   "summary": "t26 shipped \u2014 Mission Control shows state + heartbeat strip",
   "activeTask": {
     "id": "t26",
@@ -36,6 +36,16 @@
     {
       "time": "2026-02-27T20:51:07.975882+00:00",
       "command": "manual timing run",
+      "result": ""
+    },
+    {
+      "time": "2026-02-28T09:28:49.944715+00:00",
+      "command": "cron triage: data fetch/ollama/health/self-test fixes complete; next earnings + weekly summary",
+      "result": ""
+    },
+    {
+      "time": "2026-02-28T10:42:03.504452+00:00",
+      "command": "Raised default agent timeout to 600s; next up weekly memory + investment summary + earnings cron reruns",
       "result": ""
     }
   ],
