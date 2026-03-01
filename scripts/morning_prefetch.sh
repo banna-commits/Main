@@ -46,7 +46,7 @@ write_state() {
     file_size=$(stat -f %z "$OUTFILE" 2>/dev/null || echo 0)
     file_mtime_epoch=$(stat -f %m "$OUTFILE" 2>/dev/null || echo 0)
     if [ -n "$file_mtime_epoch" ] && [ "$file_mtime_epoch" -ne 0 ]; then
-      file_mtime_iso=$(python3 - <<'PY'
+      file_mtime_iso=$(python3 - <<PY
 import datetime
 epoch = int("${file_mtime_epoch}")
 dt = datetime.datetime.fromtimestamp(epoch, datetime.timezone.utc)
@@ -118,21 +118,30 @@ JSON
   echo '=== WEATHER ==='
   WEATHER_JSON=$(curl -s --connect-timeout 5 --max-time 15 'wttr.in/Oslo?format=j1')
   if [[ -n "$WEATHER_JSON" ]]; then
-    if ! printf '%s' "$WEATHER_JSON" | python3 - <<'PYCODE'
+    if ! python3 -c '
 import json, sys
-
-data = json.loads(sys.stdin.read())
 try:
-    curr = data['current_condition'][0]
-    today = data['weather'][0]
-    tomorrow = data['weather'][1]
-    print(f"Now: {curr['temp_C']}C {curr['weatherDesc'][0]['value']}")
-    print(f"Today: {today['maxtempC']}/{today['mintempC']}C")
-    print(f"Tomorrow: {tomorrow['maxtempC']}/{tomorrow['mintempC']}C {tomorrow['hourly'][4]['weatherDesc'][0]['value']}")
-except (KeyError, IndexError, ValueError) as exc:
+    data = json.loads(sys.argv[1])
+    curr = data["current_condition"][0]
+    today = data["weather"][0]
+    tomorrow = data["weather"][1]
+    
+    t1 = curr.get("temp_C")
+    w1 = curr["weatherDesc"][0]["value"]
+    
+    maxt = today.get("maxtempC")
+    mint = today.get("mintempC")
+    
+    n_maxt = tomorrow.get("maxtempC")
+    n_mint = tomorrow.get("mintempC")
+    w2 = tomorrow["hourly"][4]["weatherDesc"][0]["value"]
+    
+    print(f"Now: {t1}C {w1}")
+    print(f"Today: {maxt}/{mint}C")
+    print(f"Tomorrow: {n_maxt}/{n_mint}C {w2}")
+except Exception as exc:
     print(f"Weather data unavailable (parse error: {exc})")
-PYCODE
-    then
+' "$WEATHER_JSON"; then
       : # python already printed a friendly message
     fi
   else

@@ -1,163 +1,87 @@
 === DATE ===
-2026-02-27
+2026-02-28
 === DAILY LOG ===
-# 2026-02-27 (Friday)
+# 2026-02-28 (Saturday)
 
-## 00:10 heartbeat
-- Email sweep (`newer_than:2h is:unread`, --max 5) still just the Bloomberg alerts from 22:21 and 23:04; logged timestamp in heartbeat-state, nothing urgent to escalate.
+## 00:34 heartbeat
+- Post-compaction restart; re-read workflow + memory files and ran calendar sweep (primary + AutoCalendar) for the 48h window starting 00:34. Both calendars empty, nothing within 2h so just logged the checks.
+## 01:01 heartbeat
+- Email sweep (`newer_than:2h is:unread`, --max 5) came back empty; updated heartbeat-state and staying quiet for overnight hours.
+## 01:34 heartbeat
+- Calendar sweep (`gog calendar events primary/AutoCalendar --from 2026-02-28T01:37:13+0100 --to 2026-03-01T01:37:13+0100`) ran after compaction; both calendars still empty except the existing all-day repeats, nothing within 2h so no alert.
+## 01:37 heartbeat
+- Email sweep (`newer_than:2h is:unread`, --max 5) returned no messages; logged timestamp in heartbeat-state and staying quiet overnight.
+## 02:07 heartbeat
+- Weather check (wttr.in/Nesøya): freezing fog, 6°C feels like 6°C, light NW wind ~5 km/h, humidity ~60%. Forecast stays below freezing overnight, creeping to ~2°C mid-afternoon with 0% rain chance. Logged weather timestamp in heartbeat-state.
+## 02:12 heartbeat
+- Email sweep (`newer_than:2h is:unread`, --max 5) returned no results; updated heartbeat-state, nothing actionable during quiet hours.
+# 2026-02-28 (Saturday)
 
-## 00:42 heartbeat
-- Calendar sweep (primary empty; AutoCalendar only shows the ongoing Eloise Lavvo + Ha med dag all-day blocks). Logged timestamp in heartbeat-state, no alert sent due to quiet hours.
-
-## 01:10 heartbeat
-- Email sweep (`newer_than:2h is:unread`, --max 5) returned no messages; updated heartbeat-state, nothing actionable and staying quiet hours.
-
-## 01:42 heartbeat
-- Calendar sweep window 2026-02-27T01:42:20+01:00 → 2026-03-01T01:42:20+01:00 (primary empty; AutoCalendar still just Eloise Lavvo + Ha med dag all-day blocks). Logged timestamp, no alerts during quiet hours.
-
-## 02:10 heartbeat
-- Email sweep (`newer_than:2h is:unread`, --max 5) came back empty; updated heartbeat-state and stayed quiet due to overnight hours.
-
-## 02:38 heartbeat
-- Calendar sweep (primary empty; AutoCalendar still just Eloise Lavvo + Ha med dag all-day blocks spanning Feb 27–28). Logged heartbeat-state, nothing within 2h so no alert.
-
-## 03:02 cron backup
-- Ran scheduled git backup job (add/commit/push); committed "daily backup 2026-02-27" and pushed to banna-commits/Main.
-
-## 03:05 heartbeat
-- Email sweep (`newer_than:2h is:unread`, --max 5) returned empty; logged timestamp in heartbeat-state, no outreach during quiet hours.
-
-## 03:37 heartbeat
-- Ran calendar sweep (primary + AutoCalendar) for the 48h window starting 03:37; primary still empty, AutoCalendar only lists Eloise Lavvo + Ha med dag all-day blocks, nothing within 2h so no alert.
-
-## 04:05 heartbeat
-- Email sweep (`newer_than:2h is:unread`, --max 5) returned no messages; logged timestamp in heartbeat-state and stayed quiet due to overnight hours.
-
-## 04:37 heartbeat
-- Calendar sweep (primary still empty; AutoCalendar only shows the all-day Eloise Lavvo + Ha med dag blocks spanning Feb 27–28). Nothing within 2h so just logged the check.
-
+## 02:41 memory maintenance
+- Reviewed Feb 26–27 daily logs for long-term-worthy updates; nothing new to move into MEMORY.md yet, but confirmed the Feb 27 entries capture the memory-digest cron failure context. Logged heartbeat-state memoryMaintenance timestamp.
+## 03:13 heartbeat
+- Calendar sweep (primary + AutoCalendar) covering 2026-02-28T03:13+01:00 → 2026-03-02T03:13+01:00; both calendars empty beyond ongoing all-day blocks, nothing within 2h. Logged timestamp in heartbeat-state.
+## 03:41 heartbeat
+- Email sweep (`newer_than:2h is:unread`, --max 5) returned zero results; updated heartbeat-state timestamp and staying quiet due to overnight hours.
+## 04:11 heartbeat
+- Calendar sweep (primary + AutoCalendar) covering 2026-02-28T04:11+01:00 → 2026-03-01T04:11+01:00; both commands returned "No events" so nothing within 2h to report.
+## 04:32 heartbeat
+- Email sweep (`newer_than:2h is:unread`, --max 5) returned no results; logged timestamp in heartbeat-state and staying quiet during overnight hours.
+## 05:02 heartbeat
+- Email sweep (`newer_than:2h is:unread`, --max 5) returned "No results"; updated heartbeat-state timestamp and keeping quiet during overnight hours.
 ## 05:05 heartbeat
-- Calendar sweep (primary empty; AutoCalendar still just the all-day Eloise Lavvo + Ha med dag entries running Feb 27–28). Logged timestamp in heartbeat-state, nothing starting within 2h.
+- Email sweep (`newer_than:2h is:unread`, --max 5) returned "No results"; updated heartbeat-state timestamp and keeping quiet during overnight hours.
+## 05:34 heartbeat
+- Weather check (wttr.in/Nesøya): about 2°C but feels like -5°C with SW gusts ~50 km/h and light rain. Forecast shows sleet/rain mix all day, temps staying 3–5°C with persistent high winds. Logged timestamp in heartbeat-state.
+## 05:37 heartbeat
+- Email sweep (`newer_than:2h is:unread`, --max 5) returned "No results"; updated heartbeat-state timestamp, still nothing actionable before quiet hours lift.
+## 06:07 heartbeat
+- Email sweep (`newer_than:2h is:unread`, --max 5) returned "No results"; updated heartbeat-state timestamp, still nothing actionable before quiet hours lift.
+## 06:37 heartbeat
+- Calendar sweep (primary + AutoCalendar) for 2026-02-28T06:37+01:00 → 2026-03-01T06:37+01:00 returned "No events" on both; nothing within 2h, logged timestamp in heartbeat-state.
+## 06:54 cron status update
+- Ran `openclaw cron list` plus per-job run logs to answer Knut's "How are we doing on the cron jobs?" question; still ~7 jobs in error (Morning Data Fetch, Ollama Warmup, Daily Health Check, Daily Self-Test, Weekly Memory Consolidation, Earnings Calendar Check, Weekly Investment Summary) from timeouts/model/auth issues.
+## 06:59 heartbeat
+- Email sweep (`gog gmail search 'newer_than:2h is:unread' --max 5 --account banna@bottenanna.no`) returned "No results"; quiet hours until 08:00 so no outreach.
+## 07:02 heartbeat
+- Email sweep (`newer_than:2h is:unread`, --max 5) returned no results; logged timestamp in heartbeat-state and staying quiet pending cron fix work.
+## 07:28 heartbeat
+- Email sweep (`newer_than:2h is:unread`, --max 5) returned "No results"; updated heartbeat-state.
+## 07:58 heartbeat
+- Calendar sweep (primary + AutoCalendar) covering 2026-02-28T07:58+01:00 → 2026-03-01T07:58+01:00; both returned "No events", so still nothing within 2h.
+## 08:27 heartbeat
+- Email sweep (`newer_than:2h is:unread`, max 5) returned "No results"; logged timestamp in heartbeat-state and no outreach since inbox is clear.
+## 09:28 heartbeat
+- Post-compaction audit reminder triggered; re-read WORKFLOW_AUTO.md plus Feb 27–28 logs to re-anchor.
+- Ran calendar sweeps (primary + AutoCalendar) for 48h window starting 2026-02-28T09:27:58+01:00; both returned "No events" so nothing within 2h.
+## 10:12 cron fixes
+- Morning Data Fetch: bumped cron timeout to 300s + switched to GPT-5.1; manual cron run succeeded ("Updated 17 assets") after calling `openclaw cron run --timeout 180000 e58dbf72-...`.
+- Ollama Warmup: added curl `--connect-timeout 5 --max-time 25`, bumped cron timeout to 300s, verified manual run works via `openclaw cron run 4cf7bfaa-...`.
+- Daily Health Check: switched to GPT-5.1, timeout 600s, manual run succeeded and sent workspace-size warning to Telegram.
+- Daily Self-Test: timeout raised to 900s, prompt updated to remind `message` action=send; manual rerun succeeded and cleared consecutive errors.
+- Morning Prefetch: weather parsing no longer flips FAIL when wttr.in empties; manual script run + watchdog confirm healthy.
+## 11:06 heartbeat
+- Email sweep (`gog gmail search 'newer_than:2h is:unread' --max 5 --account banna@bottenanna.no`) returned no results; updated heartbeat-state and keeping quiet.
+## 11:36 heartbeat
+- Calendar sweeps (primary + AutoCalendar) covering 2026-02-28T11:36+01:00 → 2026-03-02T11:36+01:00 both returned "No events"; updated heartbeat-state timestamp, nothing within 2h to report.
+## 11:45 gateway config
+- Raised agents.defaults.timeoutSeconds from 120s to 600s via `openclaw gateway config.patch` so cron jobs inherit longer default timeout without manual overrides; gateway auto-restarted (SIGUSR1).
 
-## 05:40 heartbeat
-- Calendar sweep window 2026-02-27T05:40+01:00 → 2026-03-01T05:40+01:00 (primary empty; AutoCalendar only Eloise Lavvo + Ha med dag all-day blocks). Nothing within 2h so no alert.
+## 13:28 instruction
+- Knut: stop pausing after setbacks (cron crash etc.); stay autonomous and resume immediately so progress stays high. Also capture that I should self-drive on approved tasks without waiting.
 
-## 05:42 heartbeat
-- Email sweep (`newer_than:2h is:unread`, --max 5) returned no messages; logged heartbeat-state timestamp, still quiet hours.
+## 14:25 weekly memory consolidation
+- Ran scripts/memory-consolidate.sh → memory-decay auto flow; summarized 14 files into weekly digest 2026-W08.md and archived Feb 16–21 dailies.
+- Reviewed Feb 22–28 logs; updated memory/infra (Mission Control, cron watchdogs, Gmail OAuth status), memory/projects (Mission Control summary), memory/preferences (autonomy rule), memory/lessons (gog pager fix), and saved new sandbox-runner pattern.
+- Finished with scripts/memory-commit.sh (auto-commit 2026-02-28).
 
-## 06:12 heartbeat
-- Calendar sweep (primary empty; AutoCalendar only Eloise Lavvo + Ha med dag all-day blocks through Feb 28). Logged timestamp; nothing within 2h.
+## 16:25 weekly investment summary
+- Cron ping: ran build-investments.sh, pulled latest investments.json, and scripted yf history (5d) per ticker to get weekly ## 16:25 weekly investment summary
+- Cron ping: ran build-investments.sh, pulled latest investments.json, and scripted `yf history` (5d) per ticker to capture weekly % moves before drafting the Telegram summary (price action, MACD notes, fresh news).
 
-## 06:16 heartbeat
-- Email sweep (`newer_than:2h is:unread`, --max 5) still empty; logged heartbeat-state timestamp, no outreach needed.
-
-## 06:46 heartbeat
-- Calendar sweep (primary empty; AutoCalendar still only Eloise Lavvo + Ha med dag all-day blocks) using current 48h window. Logged timestamp, nothing within 2h to flag.
-
-## 06:49 heartbeat
-- Email sweep (`newer_than:2h is:unread`, --max 5) still empty; logged timestamp in heartbeat-state. No outreach needed.
-
-## 08:37 heartbeat
-- Email sweep (`newer_than:2h is:unread`, --max 5) shows two Bloomberg macro alerts; logged heartbeat-state timestamp, nothing actionable to escalate.
-
-## 07:40 heartbeat
-- Email sweep (`newer_than:2h is:unread`, --max 5) returned no results; updated heartbeat-state and stayed quiet pending daytime hours.
-
-## 07:07 heartbeat
-- Email sweep (`newer_than:2h is:unread`, --max 5) returned no messages; updated heartbeat-state and staying quiet until next check.
-
-## 06:57 memory maintenance
-- Reviewed Feb 26–27 daily logs for potential long-term additions; nothing new to move into MEMORY.md yet.
-
-## 12:41 heartbeat
-- Email sweep (`newer_than:2h is:unread`, --max 5) came back empty; logged timestamp in heartbeat-state, nothing to flag.
-
-## 13:41 heartbeat
-- Email sweep (`newer_than:2h is:unread`, --max 5) returned one Bloomberg FSA alert; logged timestamp in heartbeat-state, nothing urgent.
-
-## 14:15 automation
-- Finished t19: morning prefetch script now writes state JSON + new morning_watchdog.py with window/age thresholds
-- Added cron job at 07:35 to alert via Telegram on failures; state dir now gitignored
-
-## 15:10 heartbeat
-- Calendar sweep (primary + AutoCalendar) for 48h window starting 15:09; only Eloise Lavvo/Ha med dag all-day blocks, nothing <2h
-
-## 15:12 heartbeat
-- Email sweep (newer_than:2h, max 5) still just Bloomberg alert; logged heartbeat-state, nothing actionable
-
-## 15:42 heartbeat
-- Email sweep (`newer_than:2h is:unread`, --max 5) found one Bloomberg repo alert; logged timestamp in heartbeat-state, nothing urgent
-
-## 16:05 memory maintenance
-- Reviewed Feb 26-27 logs for long-term updates; nothing new for MEMORY.md yet
-
-## 16:06 heartbeat
-- Calendar sweep (primary empty; AutoCalendar lists Eloise Lavvo + Ha med dag all-day blocks only) for 48h window starting 16:04; nothing <2h
-
-## 16:30 automation
-- Scheduled nightly memory digest cron (23:10) with Telegram alert on failure; t20 now closed
-
-## 16:45 automation
-- Swapped all Claude/GPT-5.2 cron jobs to gpt-5.1-codex + bumped timeouts on the heavy qwen3-fast runners (Infra Sync, EOD, backups, health/self-tests)
-- Cron health monitor stays enabled but now points at a supported model; will watch consecutive error counts next run before re-tuning thresholds
-- Recorded Bloomberg-only heartbeats in heartbeat-state; nothing actionable to escalate
-
-## 17:00 mission control
-- Ran sync-mission-control.sh so the pitch mirror has latest tasks/schedule data; task board now shows 1 in-progress, 1 blocked, 6 backlog
-
-## 17:35 cron log consolidation
-- Started t21: added cron log API + Cron tab scaffolding in Mission Control; wiring in-progress while lint fixes pending
-
-## 18:05 sandbox workspace
-- Finished t22: added sandbox/ (gitignored) + scripts/sandbox-sync.sh helper so risky experiments can live outside git and rsync artifacts back via CLI
-
-## 18:20 state snapshot
-- Finished t23: added state.json + scripts/state_snapshot.py helper, documented workflow (AGENTS/WORKFLOW_AUTO/TOOLS) so compaction recovery pulls latest commands/next steps
-
-## 18:30 state snapshot automation
-- Updated Infra Sync cron to append scripts/state_snapshot.py command so each run logs a fresh command entry in state.json automatically
-
-## 18:40 task cleanup
-- Removed stale tasks t2/t6/t11 from tasks.json per Knut's request
-
-## 18:50 new tasks
-- Added t24 Cron watchdog, t25 sandbox auto-runner, t26 state/heartbeat widget per robustness plan
-
-## 18:55 cron watchdog
-- Built scripts/cron_watchdog.py (reads cron jobs + run logs, flags consecutive errors >3 or failed last run)
-- Outputs logs/cron/watchdog.json and auto-appends summary to state.json (via state_snapshot)
-- Initial run highlights all the Claude misconfigured jobs + Infra Sync timeouts for follow-up
-
-## 19:00 sandbox auto-runner
-- Added scripts/sandbox-run.sh: rsync workspace -> sandbox/<name>, run command, optional sync back via sandbox-sync, auto-clean unless --keep
-- Documented usage in TOOLS.md
-
-## 19:20 mission control tabs
-- Increased Mission Control tab buttons (min-width + padding + wrapping) so labels stop overlapping
-
-## 19:16 heartbeat
-- Calendar sweep (primary empty; AutoCalendar only Eloise Lavvo + Ha med dag all-day). Logged timestamp, no events within 2h.
-- Bumped tab min-width to 180px + removed status dots per request
-
-## 19:22 heartbeat
-- Calendar sweep (primary empty; AutoCalendar only Eloise Lavvo + Ha med dag all-day). Nothing within 2h, logged heartbeat-state.
-- Widened Mission Control tabs to 220px + uppercase labels to reduce overlap
-- Reverted Mission Control tabs to normal casing (text-base) while keeping 220px width after UI issues
-- Reworked Mission Control tabs: reverted classic styling, added flex-wrap + nowrap so text stops overlapping without blowing up layout
-## 19:45 t26 complete
-- Built Context Strip widget in Mission Control showing state.json summary + last heartbeat check times; wired /api/state + /api/heartbeat fetch into refresh loop and verified via dev server
-
-## 20:07 tasks
-- Logged t1 (Fix cron timeout epidemic) and t2 (Fix model-not-allowed cron errors), both in-progress with anna as assignee; starting with t1 focus.
-
-## 20:41 heartbeat
-- Calendar sweep (primary empty; AutoCalendar only the all-day Eloise Lavvo + Ha med dag entries for Feb 27–28) using the 48h window starting 20:41. Logged timestamp in heartbeat-state; nothing begins within 2h so no alert sent.
-
-## 21:26 cron fixes
-- Added new 'Ollama Warmup' cron (55 1,7,13,19 * * *) hitting localhost:11434 to keep qwen3-fast hot 5 min before each Infra Sync window; delivery disabled so it just runs the curl and logs failures.
-
-## 21:32 heartbeat
-- Calendar sweep (primary empty; AutoCalendar shows Eloise Lavvo + Ha med dag all-day through Feb 28). Logged timestamp in heartbeat-state.
+- Changed all non-local cron jobs to use gemini-2.5-flash-lite due to GPT cooldown.
+## 22:49 mission control
+- Force-killed stray next-server processes that were causing port 3001 EADDRINUSE collisions, and restarted the launchd service to restore Mission Control availability.
 === TASKS ===
 {
   "lastUpdated": "2026-02-27T15:26:22.000Z",
@@ -475,6 +399,9 @@
   ]
 }=== GIT LOG ===
 === CRON RUNS ===
-[main b07d382] memory: auto-commit 2026-02-27
- 5 files changed, 2073 insertions(+), 1521 deletions(-)
-Memory committed: 2026-02-27
+[main ed2fc01] memory: auto-commit 2026-02-28
+ 4 files changed, 159 insertions(+)
+ create mode 100644 memory/2026-02-28-1822.md
+ create mode 100644 memory/2026-02-28-1828.md
+ create mode 100644 memory/2026-02-28-1838.md
+Memory committed: 2026-02-28

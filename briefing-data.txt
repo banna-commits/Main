@@ -1,32 +1,32 @@
 === INVESTMENTS ===
 {
-  "lastUpdated": "2026-02-28T09:44:46.962490",
+  "lastUpdated": "2026-02-28T16:25:41.157354",
   "sentiment": {
     "current": 11,
     "previous": 13,
     "label": "Extreme Fear"
   },
   "globalData": {
-    "btcDominance": 55.9,
-    "totalMarketCap": 2277896629450.7866,
-    "totalVolume": 118872186849.97351,
-    "marketCapChange24h": -5.82
+    "btcDominance": 56.0,
+    "totalMarketCap": 2300734867611.8994,
+    "totalVolume": 107232406528.42879,
+    "marketCapChange24h": -2.36
   },
   "assets": [
     {
       "symbol": "ZEC-USD",
       "name": "Zcash",
       "category": "crypto",
-      "price": 206.9,
+      "price": 208.91,
       "currency": "USD",
       "pe": null,
-      "marketCap": 3425466624,
-      "macd": -22.6279,
-      "signal": -21.1739,
-      "histogram": -1.454,
-      "rsi": 7.5,
-      "change7d": -12.9,
-      "change30d": -14.0,
+      "marketCap": 3458977280,
+      "macd": -22.467,
+      "signal": -21.1417,
+      "histogram": -1.3253,
+      "rsi": 7.6,
+      "change7d": -12.1,
+      "change30d": -13.2,
       "status": "bearish",
       "high52w": 736.51373,
       "low52w": 27.720472
@@ -35,16 +35,16 @@
       "symbol": "BTC-USD",
       "name": "Bitcoin",
       "category": "crypto",
-      "price": 63724.65,
+      "price": 64459.3,
       "currency": "USD",
       "pe": null,
-      "marketCap": 1274230210560,
-      "macd": -3166.7531,
-      "signal": -3626.6831,
-      "histogram": 459.93,
-      "rsi": 32.3,
-      "change7d": -1.4,
-      "change30d": -8.0,
+      "marketCap": 1288928493568,
+      "macd": -3108.1911,
+      "signal": -3614.9707,
+      "histogram": 506.7796,
+      "rsi": 33.8,
+      "change7d": -0.2,
+      "change30d": -7.0,
       "status": "recovering",
       "high52w": 126198.07,
       "low52w": 60074.203
@@ -56,13 +56,13 @@
       "price": 0.03,
       "currency": "USD",
       "pe": null,
-      "marketCap": 21526358,
-      "macd": -0.0006,
+      "marketCap": 21964172,
+      "macd": -0.0005,
       "signal": -0.0009,
       "histogram": 0.0004,
-      "rsi": 56.3,
-      "change7d": -1.0,
-      "change30d": 7.7,
+      "rsi": 60.4,
+      "change7d": 1.0,
+      "change30d": 9.9,
       "status": "recovering",
       "high52w": 0.070137,
       "low52w": 0.022135
@@ -74,7 +74,7 @@
       "price": 1.79,
       "currency": "USD",
       "pe": null,
-      "marketCap": 887476800,
+      "marketCap": 887355200,
       "macd": -0.0635,
       "signal": -0.0201,
       "histogram": -0.0434,
@@ -92,13 +92,13 @@
       "price": 0.01,
       "currency": "USD",
       "pe": null,
-      "marketCap": 29617996,
+      "marketCap": 29890734,
       "macd": -0.001,
       "signal": -0.0012,
       "histogram": 0.0002,
-      "rsi": 34.2,
-      "change7d": -7.5,
-      "change30d": -12.2,
+      "rsi": 34.8,
+      "change7d": -6.7,
+      "change30d": -11.5,
       "status": "recovering",
       "high52w": 0.095078,
       "low52w": 0.010633
@@ -107,16 +107,16 @@
       "symbol": "XMR-USD",
       "name": "Monero",
       "category": "crypto",
-      "price": 335.28,
+      "price": 328.13,
       "currency": "USD",
       "pe": null,
-      "marketCap": 6184813568,
-      "macd": -19.0374,
-      "signal": -25.6984,
-      "histogram": 6.661,
-      "rsi": 41.3,
-      "change7d": 9.1,
-      "change30d": 1.7,
+      "marketCap": 6052928512,
+      "macd": -19.6073,
+      "signal": -25.8123,
+      "histogram": 6.2051,
+      "rsi": 39.1,
+      "change7d": 6.8,
+      "change30d": -0.5,
       "status": "recovering",
       "high52w": 798.91486,
       "low52w": 185.37512
@@ -322,165 +322,14 @@
   ]
 }
 === EMAIL ===
-ID	DATE	FROM	SUBJECT	LABELS	THREAD
-19ca0f812890ae0c	2026-02-27 22:18	"News Alert (BLOOMBERG)" <nlrt@bloomberg.net>	Repo Will Be More of the Same Next Week With More Settlements	UNREAD,CATEGORY_UPDATES,INBOX	-
-19ca0b1bf025d13f	2026-02-27 21:02	Google Payments <payments-noreply@google.com>	Google Workspace: Vi har mottatt betalingen din for bottenanna.no	UNREAD,CATEGORY_UPDATES,INBOX	[2 msgs]
-19ca043131f04bb7	2026-02-27 19:01	noreply@tm.openai.com	Your OpenAI API account has been funded	UNREAD,CATEGORY_UPDATES,INBOX	-
-19c9fc5bbf5e9394	2026-02-27 16:44	"News Alert (BLOOMBERG)" <nlrt@bloomberg.net>	Stablecoins Risk Transmitting Liquidity Shocks: NY Fed Report	UNREAD,CATEGORY_UPDATES,INBOX	-
-19c9fb39f752130b	2026-02-27 16:24	"News Alert (BLOOMBERG)" <nlrt@bloomberg.net>	Deposit Shift Shows Banks Trying to Lower Regulatory Burden: DB	UNREAD,CATEGORY_UPDATES,INBOX	-
-19c9facc4a4962f6	2026-02-27 16:17	"News Alert (BLOOMBERG)" <nlrt@bloomberg.net>	Canadian Funding to Remain Strained Without BoC Aid, BofA Says	UNREAD,CATEGORY_UPDATES,INBOX	-
-19c9f75ea580c4c6	2026-02-27 15:17	"News Alert (BLOOMBERG)" <nlrt@bloomberg.net>	Overnight Repo Rises Amid Month-End, Treasury Settlements	UNREAD,CATEGORY_UPDATES,INBOX	-
-19c9f1d859a7e8b4	2026-02-27 13:40	"News Alert (BLOOMBERG)" <nlrt@bloomberg.net>	Norway FSA Flags Concerns About Consumer Protection in Deposits	UNREAD,CATEGORY_UPDATES,INBOX	-
 
 === RESEARCH MAIL ===
-ID	DATE	FROM	SUBJECT	LABELS	THREAD
-19ca0f812890ae0c	2026-02-27 22:18	"News Alert (BLOOMBERG)" <nlrt@bloomberg.net>	Repo Will Be More of the Same Next Week With More Settlements	UNREAD,CATEGORY_UPDATES,INBOX	-
-19c9fc5bbf5e9394	2026-02-27 16:44	"News Alert (BLOOMBERG)" <nlrt@bloomberg.net>	Stablecoins Risk Transmitting Liquidity Shocks: NY Fed Report	UNREAD,CATEGORY_UPDATES,INBOX	-
-19c9fb39f752130b	2026-02-27 16:24	"News Alert (BLOOMBERG)" <nlrt@bloomberg.net>	Deposit Shift Shows Banks Trying to Lower Regulatory Burden: DB	UNREAD,CATEGORY_UPDATES,INBOX	-
-19c9facc4a4962f6	2026-02-27 16:17	"News Alert (BLOOMBERG)" <nlrt@bloomberg.net>	Canadian Funding to Remain Strained Without BoC Aid, BofA Says	UNREAD,CATEGORY_UPDATES,INBOX	-
-19c9f75ea580c4c6	2026-02-27 15:17	"News Alert (BLOOMBERG)" <nlrt@bloomberg.net>	Overnight Repo Rises Amid Month-End, Treasury Settlements	UNREAD,CATEGORY_UPDATES,INBOX	-
-19c9f1d859a7e8b4	2026-02-27 13:40	"News Alert (BLOOMBERG)" <nlrt@bloomberg.net>	Norway FSA Flags Concerns About Consumer Protection in Deposits	UNREAD,CATEGORY_UPDATES,INBOX	-
-
---- RESEARCH MESSAGE 19ca0f812890ae0c ---
-Thread contains 1 message(s)
-
-=== Message 1/1: 19ca0f812890ae0c ===
-From: "News Alert (BLOOMBERG)" <nlrt@bloomberg.net>
-To: undisclosed-recipients:;
-Subject: Repo Will Be More of the Same Next Week With More Settlements
-Date: Fri, 27 Feb 2026 21:18:57 -0000
-
-{NSN TB4VSBKIUPTX <GO>}
-Repo Will Be More of the Same Next Week With More Settlements
-
-           
-        
-                        
-                                                 
-                                                                                                                          
-                                                                                                                                                                                                  ... [truncated]
-
-Attachments:
-attachment	x-rimdevice-bloomberg-news-nlrt.blp	32 B	application/x-rimdevice-bloomberg-news-nlrt	ANGjdJ-V4WWhgA2fV_Wal5EmJZBoYmHwz6YTtOUGPjQoTn4xMPMvnCymmTjRlex_O1kth25KJAgFILQppI8ckMI0nJJqnetFjyOC8KJCd5QGKJXyv01X2hopjflNsE43-FsW3yN-TcZ81WqNQa8AKAdzyh1wLy9Ld340C2T4gnt4n1wTQdHUPvO8HAzZCw-ZBBHrjhqLGhjvndNi5SipttrEZcokwTUEb545yuHQnLBx7KAHzXLIe5k6Lc_uS6BUrSCOuaGujLdDS8HsRNDGAI7Uu6fDYqZw8AG1OrywS8dJQ6fItr0xifNozdaN9UAd7yH68gC7YGYrO6I7bjCBDC-LMYrr1YTQepbB3fCT585MHHIpSRrDRPB8NjG8xDFFfdtGcCOLQAOuycq_Gzu2
-
-
---- RESEARCH MESSAGE 19c9fc5bbf5e9394 ---
-Thread contains 1 message(s)
-
-=== Message 1/1: 19c9fc5bbf5e9394 ===
-From: "News Alert (BLOOMBERG)" <nlrt@bloomberg.net>
-To: undisclosed-recipients:;
-Subject: Stablecoins Risk Transmitting Liquidity Shocks: NY Fed Report
-Date: Fri, 27 Feb 2026 15:44:21 -0000
-
-{NSN TB4IALKIJHA1 <GO>}
-Stablecoins Risk Transmitting Liquidity Shocks: NY Fed Report
-
-           
-        
-                        
-                                                 
-                                                                                                                          
-                                                                                                                                                                                                  ... [truncated]
-
-Attachments:
-attachment	x-rimdevice-bloomberg-news-nlrt.blp	32 B	application/x-rimdevice-bloomberg-news-nlrt	ANGjdJ-Lip2-j8lE3nTCkydFXNMeDp7r37UC0EtJt_sQEhd8FtuB56FVKP5rWzFQzz7AcN01OFLdcTPKOXYtxJSzJLRrLUJe07segrFxBPOk5qmGDtt3tI0btkJwtNziRCX89DtBK35wmXRVnQwuTQz-Zl_iwkroTYYi5b588Ns_jtQkf7qiRQGaaKtueD3-mfsCXNpLDwK5HrQm9_DUdmklh5pvVo-ahji3HJOpo6PFoGFYrUwAA8gL0PeBFXdLf1d19W1aIIo0QWSJVH6yOtlRlfts-76-atCc6ygDPpnoQjC8iDXHbgymDLod2H_2wi7pJ8LxEFuvjQ_jJg0QaXkT_zTX2jrvhPlh-_cYw5I_iCd-69inXyvWRVC4VhRV29MNWQTBPAdJTVP3pDFa
-
-
---- RESEARCH MESSAGE 19c9fb39f752130b ---
-Thread contains 1 message(s)
-
-=== Message 1/1: 19c9fb39f752130b ===
-From: "News Alert (BLOOMBERG)" <nlrt@bloomberg.net>
-To: undisclosed-recipients:;
-Subject: Deposit Shift Shows Banks Trying to Lower Regulatory Burden: DB
-Date: Fri, 27 Feb 2026 15:24:34 -0000
-
-{NSN TB4GU5KGCTGG <GO>}
-Deposit Shift Shows Banks Trying to Lower Regulatory Burden: DB
-
-           
-        
-                        
-                                                 
-                                                                                                                          
-                                                                                                                                                                                                ... [truncated]
-
-Attachments:
-attachment	x-rimdevice-bloomberg-news-nlrt.blp	32 B	application/x-rimdevice-bloomberg-news-nlrt	ANGjdJ9QWvKJIsyDcngghp3AYt_Qzyp4qkmK47hp_ET1RkZ5kWVoJMeJ5jz4kGf_eVEmK1RAEz939UXqW25I8gMcPWipBmaQIypMYCcm34QhTos1gZFmAlhUqvwqgtoUoV3NQoXiho4-yCzn6UsiiHUZcxrWR-b1P7TsRLPpqUN-yMFvxrB9uhuwyXilw9RsPDDVkRtvNMZXDIjwoOiXdosnP3Ew8V2dOKyJ9TSSj8imvNB-hlsY6BdV9AOJ2S9ASEJANLRaaQ49eze55B2cqflyHbFDzUYNpUhBLpSfvAdvn1wwjYS81mvoNvkJwjXMwHoGA2GHgc9iPxNC2fo-6Tl51kGZpZO1qVvHnOGuS8pipeXPlx3x5EfOEbYXljwySIvja7GBv77dVH57Zzl_
-
-
---- RESEARCH MESSAGE 19c9facc4a4962f6 ---
-Thread contains 1 message(s)
-
-=== Message 1/1: 19c9facc4a4962f6 ===
-From: "News Alert (BLOOMBERG)" <nlrt@bloomberg.net>
-To: undisclosed-recipients:;
-Subject: Canadian Funding to Remain Strained Without BoC Aid, BofA Says
-Date: Fri, 27 Feb 2026 15:17:05 -0000
-
-{NSN TB4F45KIUPUU <GO>}
-Canadian Funding to Remain Strained Without BoC Aid, BofA Says
-
-           
-        
-                        
-                                                 
-                                                                                                                          
-                                                                                                                                                                                                 ... [truncated]
-
-Attachments:
-attachment	x-rimdevice-bloomberg-news-nlrt.blp	32 B	application/x-rimdevice-bloomberg-news-nlrt	ANGjdJ_xbiwadWfLZ2x3DJHwGglWPams6Y_XwzWHc53-Gi4Q7q9lYo8H_xcisHyveA7dpkylzzgGZzEsFshp7H_PvD4pm7hQ5caF-Bj0OP_STuVZgeER122yQILI_VmTrNrimv65Lt_BoYtWRxZsA9p-kn2wqvZuZEbQV6F5LEltNOqKcMLMbpIz1r2t9wpVSntK3VBBqHGtxFajxX9E2F7W0NXvQh7-1pjSY5y4DbFvOhBv36GOtyC5QobF7sNAWnjscf701dnnxPVhjjbYF6MSjFSnhbMyYzEHGki88vPRZCOIQ0vX_G2AUsOeNnkgRBcTgc9pQDwLZwwzTHcwws-crlOkaR_JkTb9FC2OCZ2u_3Li8p7UGYkBTjfv7_VoD1Bs9VxdSX8dbGmaxsYV
-
-
---- RESEARCH MESSAGE 19c9f75ea580c4c6 ---
-Thread contains 1 message(s)
-
-=== Message 1/1: 19c9f75ea580c4c6 ===
-From: "News Alert (BLOOMBERG)" <nlrt@bloomberg.net>
-To: undisclosed-recipients:;
-Subject: Overnight Repo Rises Amid Month-End, Treasury Settlements
-Date: Fri, 27 Feb 2026 14:17:10 -0000
-
-{NSN TB4F5JKIUPZ0 <GO>}
-Overnight Repo Rises Amid Month-End, Treasury Settlements
-
-           
-        
-                        
-                                                 
-                                                                                                                          
-                                                                                                                                                                                                      ... [truncated]
-
-Attachments:
-attachment	x-rimdevice-bloomberg-news-nlrt.blp	32 B	application/x-rimdevice-bloomberg-news-nlrt	ANGjdJ8eB770RVYwuQZfR4vdySVQXfdwlCEhuaN7XgkO1vcH4B6LpLKZW-Vb2FG6i2XgnTJG5_E_Kon-X0ZDCm-J9gNxOxPdXZYWad3EcB67o2fzEHvPtyblZSKbztHsDi7nVqnqK7NIWpGl-7vs8ceo8p9x9kHfjtv3V7bn64PSsJDSciCRx6KYqG6HeynylaRgGA3XuzV1KNpLvewFNg87BDYcyuTXzpnpiC0RS-jTMyHkg6cNTvpX8oZgU2WyRk7X9RMFZPKuXUEWKMyPlMP4uJVnU5nxvfG-NgphcE_6kHAciDoFIpHvuFqM6WVnVUBbsHqlKNDQoGA4Uym9uKSehHflh2V-LHm_lSkVxRn4rgUMyC12TlWZ2ybHZ7Dbd-uKLdVqAz_PscaoJjqK
-
-
---- RESEARCH MESSAGE 19c9f1d859a7e8b4 ---
-Thread contains 1 message(s)
-
-=== Message 1/1: 19c9f1d859a7e8b4 ===
-From: "News Alert (BLOOMBERG)" <nlrt@bloomberg.net>
-To: undisclosed-recipients:;
-Subject: Norway FSA Flags Concerns About Consumer Protection in Deposits
-Date: Fri, 27 Feb 2026 12:40:37 -0000
-
-{NSN TB4AOGKJH6V4 <GO>}
-Norway FSA Flags Concerns About Consumer Protection in Deposits
-
-           
-        
-                        
-                                                 
-                                                                                                                          
-                                                                                                                                                                                                ... [truncated]
-
-Attachments:
-attachment	x-rimdevice-bloomberg-news-nlrt.blp	90 B	application/x-rimdevice-bloomberg-news-nlrt	ANGjdJ8rDsz6s-VAZcT4ISUr4k6-2iKr226ijfdEqKvHAOAZicRpReJHI-N4AStplureHLU65AeJ85pShIJMPtAflNtgf0VEptUBbCYG_7-3jXtMWA60HcD-fFhXqZ7BC_ITfUIrJXbInguKcfK_XGikWNAUZA8oiO66Hiat9fxLtweHyzDsN1IolcUS-YG7SqTolTI8AGMq0tNUEe2WoczCw3z793ty9jEl2PPQErwC59H3fXMthAyT5ZpyYOeFx4xzmJp28Kiiid9_NCu560MdTQufSylgCe6wXQPskZoI9VYuJBlarocxNJqExMrYdV-gZw27ESqT3ekSYXQOqV_-IfvfM8s3YM-yJ7iA022iIz4crEGgnCjYRMLP7J8DNavs1RMQmcJh5GFk-C72
-
 
 === CALENDAR PRIMARY ===
 
 === CALENDAR AUTO ===
 
 === WEATHER ===
+Now: 0C Light snow
+Today: 2/-4C
+Tomorrow: 2/-9C Fog
